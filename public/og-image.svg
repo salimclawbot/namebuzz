@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0e14"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="barGrad1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00FF88"/>
+      <stop offset="100%" stop-color="#00CC6A"/>
+    </linearGradient>
+    <linearGradient id="barGrad2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00D4FF"/>
+      <stop offset="100%" stop-color="#0099CC"/>
+    </linearGradient>
+    <linearGradient id="barGrad3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00FF88" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#00D4FF" stop-opacity="0.7"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00FF88"/>
+      <stop offset="50%" stop-color="#00D4FF"/>
+      <stop offset="100%" stop-color="#00FF88"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+
+  <!-- Subtle grid lines (terminal aesthetic) -->
+  <g stroke="#1a2332" stroke-width="0.5" opacity="0.6">
+    <line x1="0" y1="150" x2="1200" y2="150"/>
+    <line x1="0" y1="250" x2="1200" y2="250"/>
+    <line x1="0" y1="350" x2="1200" y2="350"/>
+    <line x1="0" y1="450" x2="1200" y2="450"/>
+    <line x1="0" y1="550" x2="1200" y2="550"/>
+    <line x1="200" y1="0" x2="200" y2="630"/>
+    <line x1="400" y1="0" x2="400" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="800" y1="0" x2="800" y2="630"/>
+    <line x1="1000" y1="0" x2="1000" y2="630"/>
+  </g>
+
+  <!-- Scanline overlay -->
+  <g opacity="0.03">
+    <pattern id="scanlines" patternUnits="userSpaceOnUse" width="1200" height="4">
+      <rect width="1200" height="2" fill="#ffffff"/>
+    </pattern>
+    <rect width="1200" height="630" fill="url(#scanlines)"/>
+  </g>
+
+  <!-- Top bar - terminal header -->
+  <rect x="0" y="0" width="1200" height="44" fill="#0f1923" opacity="0.9"/>
+  <rect x="0" y="44" width="1200" height="1" fill="#1a2332"/>
+  <circle cx="24" cy="22" r="6" fill="#ff5f57"/>
+  <circle cx="46" cy="22" r="6" fill="#ffbd2e"/>
+  <circle cx="68" cy="22" r="6" fill="#28c840"/>
+  <text x="110" y="28" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#4a5568" letter-spacing="1">DOMAIN MARKET TERMINAL</text>
+  <text x="1070" y="28" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="13" fill="#00FF88" opacity="0.6">● LIVE</text>
+
+  <!-- Main title -->
+  <text x="600" y="110" text-anchor="middle" font-family="'Inter', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif" font-size="58" font-weight="800" fill="url(#titleGrad)" filter="url(#glow)" letter-spacing="-1">.ai Domain Sales</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="148" text-anchor="middle" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="16" fill="#4a5568" letter-spacing="2">VERIFIED AFTERMARKET TRANSACTIONS</text>
+
+  <!-- Divider line -->
+  <rect x="80" y="168" width="1040" height="1" fill="#1a2332"/>
+  <rect x="80" y="168" width="200" height="1" fill="#00FF88" opacity="0.4"/>
+
+  <!-- Bar chart area -->
+  <!-- Y-axis labels -->
+  <text x="115" y="215" text-anchor="end" font-family="'SF Mono', monospace" font-size="11" fill="#4a5568">$1.2M</text>
+  <text x="115" y="290" text-anchor="end" font-family="'SF Mono', monospace" font-size="11" fill="#4a5568">$800K</text>
+  <text x="115" y="365" text-anchor="end" font-family="'SF Mono', monospace" font-size="11" fill="#4a5568">$400K</text>
+  <text x="115" y="440" text-anchor="end" font-family="'SF Mono', monospace" font-size="11" fill="#4a5568">$0</text>
+
+  <!-- Y-axis gridlines -->
+  <line x1="130" y1="210" x2="750" y2="210" stroke="#1a2332" stroke-width="0.5" stroke-dasharray="4,4"/>
+  <line x1="130" y1="285" x2="750" y2="285" stroke="#1a2332" stroke-width="0.5" stroke-dasharray="4,4"/>
+  <line x1="130" y1="360" x2="750" y2="360" stroke="#1a2332" stroke-width="0.5" stroke-dasharray="4,4"/>
+  <line x1="130" y1="435" x2="750" y2="435" stroke="#1a2332" stroke-width="0.5"/>
+
+  <!-- Bar 1: Bot.ai $1,200,000 -->
+  <rect x="180" y="210" width="120" height="225" rx="3" fill="url(#barGrad1)" opacity="0.9"/>
+  <rect x="180" y="210" width="120" height="4" rx="2" fill="#00FF88" filter="url(#softGlow)"/>
+  <text x="240" y="200" text-anchor="middle" font-family="'SF Mono', monospace" font-size="18" font-weight="700" fill="#00FF88" filter="url(#glow)">$1.2M</text>
+  <text x="240" y="465" text-anchor="middle" font-family="'Inter', 'Helvetica Neue', sans-serif" font-size="18" font-weight="700" fill="#e2e8f0">Bot.ai</text>
+
+  <!-- Bar 2: Lotus.ai $400,000 -->
+  <rect x="380" y="360" width="120" height="75" rx="3" fill="url(#barGrad2)" opacity="0.9"/>
+  <rect x="380" y="360" width="120" height="4" rx="2" fill="#00D4FF" filter="url(#softGlow)"/>
+  <text x="440" y="350" text-anchor="middle" font-family="'SF Mono', monospace" font-size="18" font-weight="700" fill="#00D4FF" filter="url(#glow)">$400K</text>
+  <text x="440" y="465" text-anchor="middle" font-family="'Inter', 'Helvetica Neue', sans-serif" font-size="18" font-weight="700" fill="#e2e8f0">Lotus.ai</text>
+
+  <!-- Bar 3: Speed.ai $165,000 -->
+  <rect x="580" y="404" width="120" height="31" rx="3" fill="url(#barGrad3)" opacity="0.9"/>
+  <rect x="580" y="404" width="120" height="4" rx="2" fill="#00FF88" opacity="0.7" filter="url(#softGlow)"/>
+  <text x="640" y="396" text-anchor="middle" font-family="'SF Mono', monospace" font-size="18" font-weight="700" fill="#00D4FF" opacity="0.8" filter="url(#glow)">$165K</text>
+  <text x="640" y="465" text-anchor="middle" font-family="'Inter', 'Helvetica Neue', sans-serif" font-size="18" font-weight="700" fill="#e2e8f0">Speed.ai</text>
+
+  <!-- Right side data panel -->
+  <rect x="790" y="190" width="340" height="290" rx="6" fill="#0f1923" stroke="#1a2332" stroke-width="1"/>
+  <rect x="790" y="190" width="340" height="36" rx="6" fill="#131d2a"/>
+  <text x="810" y="214" font-family="'SF Mono', monospace" font-size="12" fill="#00FF88" letter-spacing="1.5">▸ TOP .AI SALES</text>
+  <text x="1110" y="214" text-anchor="end" font-family="'SF Mono', monospace" font-size="11" fill="#4a5568">2024</text>
+
+  <!-- Table rows -->
+  <line x1="805" y1="245" x2="1115" y2="245" stroke="#1a2332" stroke-width="0.5"/>
+  <text x="810" y="262" font-family="'SF Mono', monospace" font-size="14" fill="#e2e8f0">Bot.ai</text>
+  <text x="1110" y="262" text-anchor="end" font-family="'SF Mono', monospace" font-size="14" fill="#00FF88" font-weight="700">$1,200,000</text>
+
+  <line x1="805" y1="278" x2="1115" y2="278" stroke="#1a2332" stroke-width="0.5"/>
+  <text x="810" y="296" font-family="'SF Mono', monospace" font-size="14" fill="#e2e8f0">Lotus.ai</text>
+  <text x="1110" y="296" text-anchor="end" font-family="'SF Mono', monospace" font-size="14" fill="#00D4FF" font-weight="700">$400,000</text>
+
+  <line x1="805" y1="312" x2="1115" y2="312" stroke="#1a2332" stroke-width="0.5"/>
+  <text x="810" y="330" font-family="'SF Mono', monospace" font-size="14" fill="#e2e8f0">Speed.ai</text>
+  <text x="1110" y="330" text-anchor="end" font-family="'SF Mono', monospace" font-size="14" fill="#00FF88" opacity="0.8" font-weight="700">$165,000</text>
+
+  <line x1="805" y1="346" x2="1115" y2="346" stroke="#1a2332" stroke-width="0.5"/>
+  <text x="810" y="364" font-family="'SF Mono', monospace" font-size="14" fill="#e2e8f0">Nerd.ai</text>
+  <text x="1110" y="364" text-anchor="end" font-family="'SF Mono', monospace" font-size="14" fill="#4a5568" font-weight="700">$120,000</text>
+
+  <line x1="805" y1="380" x2="1115" y2="380" stroke="#1a2332" stroke-width="0.5"/>
+  <text x="810" y="398" font-family="'SF Mono', monospace" font-size="14" fill="#e2e8f0">Bind.ai</text>
+  <text x="1110" y="398" text-anchor="end" font-family="'SF Mono', monospace" font-size="14" fill="#4a5568" font-weight="700">$100,000</text>
+
+  <line x1="805" y1="414" x2="1115" y2="414" stroke="#1a2332" stroke-width="0.5"/>
+  <text x="810" y="432" font-family="'SF Mono', monospace" font-size="14" fill="#e2e8f0">Heal.ai</text>
+  <text x="1110" y="432" text-anchor="end" font-family="'SF Mono', monospace" font-size="14" fill="#4a5568" font-weight="700">$85,000</text>
+
+  <!-- Avg line indicator -->
+  <text x="810" y="465" font-family="'SF Mono', monospace" font-size="11" fill="#4a5568">AVG SALE</text>
+  <text x="1110" y="465" text-anchor="end" font-family="'SF Mono', monospace" font-size="11" fill="#00FF88" opacity="0.6">$345,000 ▲</text>
+
+  <!-- Bottom section -->
+  <rect x="0" y="500" width="1200" height="130" fill="#0a0e14" opacity="0.8"/>
+  <rect x="0" y="500" width="1200" height="1" fill="#1a2332"/>
+
+  <!-- Ticker tape -->
+  <text x="80" y="528" font-family="'SF Mono', monospace" font-size="12" fill="#4a5568" letter-spacing="1">
+    <tspan fill="#00FF88">▲ BOT.AI +12%</tspan>
+    <tspan dx="20" fill="#00D4FF">▲ LOTUS.AI +8%</tspan>
+    <tspan dx="20" fill="#00FF88" opacity="0.7">▲ SPEED.AI +22%</tspan>
+    <tspan dx="20" fill="#4a5568">▲ NERD.AI +5%</tspan>
+    <tspan dx="20" fill="#4a5568">▲ BIND.AI +3%</tspan>
+  </text>
+
+  <!-- CTA text -->
+  <text x="600" y="572" text-anchor="middle" font-family="'Inter', 'Helvetica Neue', sans-serif" font-size="20" fill="#8892a0" letter-spacing="0.5">Track .ai domain prices, trends &amp; opportunities</text>
+
+  <!-- Brand -->
+  <rect x="470" y="588" width="260" height="36" rx="18" fill="none" stroke="#00FF88" stroke-width="2" opacity="0.8"/>
+  <text x="600" y="612" text-anchor="middle" font-family="'Inter', 'SF Pro Display', 'Helvetica Neue', sans-serif" font-size="22" font-weight="800" fill="#00FF88" filter="url(#glow)" letter-spacing="1">namebuzz.co</text>
+
+  <!-- Corner accents -->
+  <path d="M0,0 L40,0 L40,3 L3,3 L3,40 L0,40 Z" fill="#00FF88" opacity="0.3"/>
+  <path d="M1200,0 L1160,0 L1160,3 L1197,3 L1197,40 L1200,40 Z" fill="#00FF88" opacity="0.3"/>
+  <path d="M0,630 L40,630 L40,627 L3,627 L3,590 L0,590 Z" fill="#00D4FF" opacity="0.3"/>
+  <path d="M1200,630 L1160,630 L1160,627 L1197,627 L1197,590 L1200,590 Z" fill="#00D4FF" opacity="0.3"/>
+</svg>
