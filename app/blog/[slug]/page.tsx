@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { blogPosts } from "@/lib/blog-posts";
+import { ArticleImage } from "@/components/ArticleImage";
 
 export function generateStaticParams() {
   return blogPosts.map((post) => ({ slug: post.slug }));
@@ -85,7 +86,7 @@ function renderMarkdown(content: string) {
       if (srcMatch) {
         elements.push(
           <figure key={key++} className="my-6">
-            <img src={srcMatch[1]} alt={caption} className="w-full rounded-lg" />
+            <ArticleImage src={srcMatch[1]} alt={caption} className="w-full rounded-lg" />
             <figcaption className="mt-2 text-xs text-[#555] italic">{caption}</figcaption>
           </figure>
         );
