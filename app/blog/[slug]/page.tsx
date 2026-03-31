@@ -103,6 +103,18 @@ function renderMarkdown(content: string) {
       continue;
     }
 
+    // ── VIDEO comment → skip silently ──
+    if (line.trim().startsWith("<!-- VIDEO:") || line.trim().startsWith("<!-- VIDEO ")) {
+      i++;
+      continue;
+    }
+
+    // ── Any other HTML comment → skip silently ──
+    if (line.trim().startsWith("<!--")) {
+      i++;
+      continue;
+    }
+
     // ── Raw HTML passthrough (video, div, style blocks) ──
     if (line.trim().startsWith("<video") || line.trim().startsWith("<div") || line.trim().startsWith("<style")) {
       const htmlLines: string[] = [];
