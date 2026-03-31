@@ -4996,13 +4996,13 @@ The data is all there. 534+ sales. $100 million+ in volume. Bot.ai at $1.2 milli
 `,
     readTime: "15 min read",
     author: "NameBuzz Research Team",
-  },,
+  },
   {
     slug: "how-to-flip-ai-domain-names-for-profit-2026",
     title: "How to Flip .ai Domain Names for Profit in 2026 — Complete Guide",
     date: "2026-03-31",
     description: "Learn how to flip .ai domain names for profit in 2026. Covers sourcing undervalued domains, pricing strategy, best selling platforms, real sales data, and tax tips.",
-    content: \`*This post contains affiliate links to domain platforms. We may earn a commission at no extra cost to you.*
+    content: `*This post contains affiliate links to domain platforms. We may earn a commission at no extra cost to you.*
 
 **Maya Chen, Domain Investment Analyst** · Last updated March 2026
 
@@ -5508,7 +5508,7 @@ All sales figures cited are from publicly reported transactions or verified thro
 
 ---
 
-*Maya Chen is a domain investment analyst at NameBuzz covering the .ai TLD market. She has tracked over 5,000 .ai domain sales since 2023 and helps investors identify undervalued digital assets through data-driven analysis and market research.*\`,
+*Maya Chen is a domain investment analyst at NameBuzz covering the .ai TLD market. She has tracked over 5,000 .ai domain sales since 2023 and helps investors identify undervalued digital assets through data-driven analysis and market research.*`,
     readTime: "18 min read",
     author: "Maya Chen, NameBuzz",
   },
@@ -5517,7 +5517,7 @@ All sales figures cited are from publicly reported transactions or verified thro
     title: "Best Platforms to Buy and Sell .ai Domains in 2026 (Sedo vs GoDaddy vs Afternic Compared)",
     date: "2026-03-31",
     description: "Compare the best platforms to buy and sell .ai domains in 2026. Detailed breakdown of Sedo, GoDaddy Auctions, Afternic, Namecheap, Dan.com, and Squadhelp fees, features, and buyer pools.",
-    content: \`*This post contains affiliate links to domain platforms. We may earn a commission at no extra cost to you.*
+    content: `*This post contains affiliate links to domain platforms. We may earn a commission at no extra cost to you.*
 
 **Maya Chen, Domain Investment Analyst** · Last updated March 2026
 
@@ -6138,7 +6138,7 @@ All commission rates and platform features were verified as of March 2026. Platf
 
 ---
 
-*Maya Chen is a domain investment analyst at NameBuzz covering the .ai TLD market. She has tracked over 5,000 .ai domain sales since 2023 and helps investors identify undervalued digital assets through data-driven analysis and market research.*\`,
+*Maya Chen is a domain investment analyst at NameBuzz covering the .ai TLD market. She has tracked over 5,000 .ai domain sales since 2023 and helps investors identify undervalued digital assets through data-driven analysis and market research.*`,
     readTime: "20 min read",
     author: "Maya Chen, NameBuzz",
   },
