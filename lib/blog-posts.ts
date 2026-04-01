@@ -6,6 +6,7 @@ export interface BlogPost {
   content: string;
   readTime: string;
   author: string;
+  jsonLd?: string;
 }
 
 export const blogPosts: BlogPost[] = [
@@ -6099,13 +6100,14 @@ All commission rates and platform features were verified as of March 2026. Platf
 *Maya Chen is a domain investment analyst at NameBuzz covering the .ai TLD market. She has tracked over 5,000 .ai domain sales since 2023 and helps investors identify undervalued digital assets through data-driven analysis and market research.*`,
     readTime: "20 min read",
     author: "Maya Chen, NameBuzz",
+    jsonLd: '{"@context":"https://schema.org","@type":"Article","headline":"Are .ai Domains Worth Buying in 2026? Honest Investment Analysis","author":{"@type":"Person","name":"Maya Chen"},"publisher":{"@type":"Organization","name":"NameBuzz"}}',
   },
 
   {
       slug: "are-ai-domains-worth-buying-2026",
       title: "Are .ai Domains Worth Buying in 2026? Honest Investment Analysis",
       date: "2026-04-01",
-      description: "Are .ai domains worth buying in 2026? Get an honest investment analysis with real sales data, ROI scenarios, risk factors, holding costs, and liquidity challenges before you invest.",
+      description: "Are .ai domains worth buying in 2026? Get an honest investment analysis with real sales data, ROI scenarios, risk factors, and holding costs.",
       content: `# Are .ai Domains Worth Buying in 2026? Honest Investment Analysis
   
   **The .ai domain extension has produced blockbuster sales like AI.com at $70 million and Data.ai at $1.8 million, but does that mean buying .ai domains in 2026 is a smart investment? This honest analysis examines real ROI scenarios, holding costs, liquidity risks, and market data so you can make an informed decision rather than chasing hype.**
@@ -6397,12 +6399,13 @@ All commission rates and platform features were verified as of March 2026. Platf
   `,
       readTime: "18 min read",
       author: "Maya Chen, NameBuzz",
+      jsonLd: '{"@context":"https://schema.org","@type":"Article","headline":"How to Value a .ai Domain Name (Step-by-Step)","author":{"@type":"Person","name":"Maya Chen"},"publisher":{"@type":"Organization","name":"NameBuzz"}}',
   },
   {
       slug: "how-to-value-ai-domain-name",
       title: "How to Value a .ai Domain Name (Step-by-Step)",
       date: "2026-04-01",
-      description: "Learn how to value a .ai domain name step by step using comparable sales analysis, keyword metrics, brandability scoring, and length premiums. A complete DIY valuation framework.",
+      description: "Learn how to value a .ai domain name step by step using comparable sales analysis, keyword metrics, brandability scoring, and length premiums.",
       content: `# How to Value a .ai Domain Name (Step-by-Step)
   
   **Valuing a .ai domain name accurately is critical whether you are buying, selling, or simply managing a portfolio. This step-by-step framework combines comparable sales analysis from NameBio, keyword search metrics, brandability scoring, and length-based premiums to help you arrive at a defensible valuation for any .ai domain.**
@@ -6840,12 +6843,13 @@ All commission rates and platform features were verified as of March 2026. Platf
   `,
       readTime: "17 min read",
       author: "Maya Chen, NameBuzz",
+      jsonLd: '{"@context":"https://schema.org","@type":"Article","headline":"Sedo vs GoDaddy vs Afternic for .ai Domain Sales: Which Platform Wins?","author":{"@type":"Person","name":"Maya Chen"},"publisher":{"@type":"Organization","name":"NameBuzz"}}',
   },
   {
       slug: "sedo-vs-godaddy-vs-afternic-ai-domains",
       title: "Sedo vs GoDaddy vs Afternic for .ai Domain Sales: Which Platform Wins?",
       date: "2026-04-01",
-      description: "Compare Sedo, GoDaddy Auctions, Afternic, and Dan.com for selling .ai domains. Commission rates, buyer demographics, escrow, listing features, and a decision matrix to pick the best platform for your portfolio.",
+      description: "Compare Sedo, GoDaddy Auctions, Afternic, and Dan.com for selling .ai domains. Commission rates, buyer demographics, escrow, and listing features.",
       content: `# Sedo vs GoDaddy vs Afternic for .ai Domain Sales: Which Platform Wins?
   
   **Choosing the right marketplace to sell your .ai domain can mean the difference between a quick five-figure sale and months of silence. This head-to-head comparison breaks down Sedo, GoDaddy Auctions, Afternic, and Dan.com on commission rates, buyer demographics, listing features, escrow services, and success rates — so you can match your portfolio to the platform that actually delivers buyers.**
@@ -7322,16 +7326,17 @@ All commission rates and platform features were verified as of March 2026. Platf
   - Afternic.com — Distribution network and Fast Transfer program, https://www.afternic.com
   - Dan.com — Commission structure and installment payment features, https://dan.com
   - Escrow.com — Domain escrow services and buyer protection, https://www.escrow.com
-  
+
   `,
       readTime: "14 min read",
       author: "Maya Chen, NameBuzz",
+      jsonLd: '{"@context":"https://schema.org","@type":"Article","headline":"Two-Letter .ai Domains: Why They Command Premium Prices","author":{"@type":"Person","name":"Maya Chen"},"publisher":{"@type":"Organization","name":"NameBuzz"}}',
   },
   {
       slug: "two-letter-ai-domains",
       title: "Two-Letter .ai Domains: Why They Command Premium Prices",
       date: "2026-04-01",
-      description: "Explore why two-letter .ai domains command premium prices. With only 676 possible combinations, scarcity drives valuations into six and seven figures. Learn which letter pairs are most valuable and how AI companies compete for ultra-short domains.",
+      description: "Explore why two-letter .ai domains command premium prices. With only 676 possible combinations, scarcity drives valuations into six and seven figures.",
       content: `# Two-Letter .ai Domains: Why They Command Premium Prices
   
   **Only 676 two-letter .ai domains can ever exist — 26 letters times 26 letters, and that is it. This absolute scarcity, combined with surging demand from AI startups desperate for short, memorable branding, has turned two-letter .ai domains into some of the most coveted digital assets on the planet. Here is why they command premium prices and which combinations are worth the most.**
@@ -7726,16 +7731,17 @@ All commission rates and platform features were verified as of March 2026. Platf
   - Sedo.com — Marketplace data and domain valuation tools, https://sedo.com
   - GoDaddy Blog — Domain industry insights and aftermarket trends, https://www.godaddy.com/garage
   - IANA — .ai domain delegation and registry information, https://www.iana.org/domains/root/db/ai.html
-  
+
   `,
       readTime: "13 min read",
       author: "Maya Chen, NameBuzz",
+      jsonLd: '{"@context":"https://schema.org","@type":"Article","headline":"Best .ai Domain Names to Buy in 2026 (Investment Guide)","author":{"@type":"Person","name":"Maya Chen"},"publisher":{"@type":"Organization","name":"NameBuzz"}}',
   },
   {
       slug: "best-ai-domain-names-to-buy-2026",
       title: "Best .ai Domain Names to Buy in 2026 (Investment Guide)",
       date: "2026-04-01",
-      description: "Discover the best .ai domain names to buy in 2026. Expert analysis of investment-grade categories, naming patterns, pricing tiers, and emerging AI niches with strong ROI potential.",
+      description: "Discover the best .ai domain names to buy in 2026. Expert analysis of investment-grade categories, naming patterns, pricing tiers, and emerging AI niches.",
       content: `# Best .ai Domain Names to Buy in 2026 (Investment Guide)
   
   **The .ai domain extension has become the premium digital real estate of the artificial intelligence era. With landmark sales like AI.com at $70 million and Data.ai at $1.8 million, investors who identify the right naming patterns and categories today stand to capture extraordinary returns as the AI industry scales toward a projected $1.8 trillion market by 2030.**
@@ -8013,12 +8019,13 @@ All commission rates and platform features were verified as of March 2026. Platf
   `,
       readTime: "14 min read",
       author: "Maya Chen, NameBuzz",
+      jsonLd: '{"@context":"https://schema.org","@type":"Article","headline":"How to List Your .ai Domain for Sale: Complete Seller\'s Guide","author":{"@type":"Person","name":"Maya Chen"},"publisher":{"@type":"Organization","name":"NameBuzz"}}',
   },
   {
       slug: "how-to-list-ai-domain-for-sale",
       title: "How to List Your .ai Domain for Sale: Complete Seller's Guide",
       date: "2026-04-01",
-      description: "Step-by-step guide to listing your .ai domain for sale. Covers landing pages, pricing strategy, marketplace selection, writing listings, escrow, and .ai domain transfer mechanics.",
+      description: "Step-by-step guide to listing your .ai domain for sale. Covers landing pages, pricing strategy, marketplace selection, writing listings, and escrow.",
       content: `# How to List Your .ai Domain for Sale: Complete Seller's Guide
   
   **Selling a .ai domain successfully requires more than simply posting a price — it demands a strategic approach to presentation, pricing, marketplace selection, and buyer management. This comprehensive guide walks you through every step of the process, from creating a high-converting landing page to completing a secure .ai domain transfer through escrow.**
@@ -8328,13 +8335,14 @@ All commission rates and platform features were verified as of March 2026. Platf
   `,
       readTime: "13 min read",
       author: "Maya Chen, NameBuzz",
+      jsonLd: '{"@context":"https://schema.org","@type":"Article","headline":".ai Domain Market Trends Mid-2026 Report","author":{"@type":"Person","name":"Maya Chen"},"publisher":{"@type":"Organization","name":"NameBuzz"}}',
   },
   {
       slug: "ai-domain-market-trends-mid-2026",
       title: ".ai Domain Market Trends Mid-2026 Report",
       date: "2026-04-01",
-      description: "Comprehensive .ai domain market trends mid-2026 report covering sales volume, average prices, top sales, registration trends, category performance, and H2 2026 forward indicators.",
-      content: `# .ai Domain Market Trends 2026
+      description: "Comprehensive .ai domain market trends mid-2026 report covering sales volume, average prices, top sales, registration trends, and category performance.",
+      content: `# .ai Domain Market Trends Mid-2026 Report
   
   **The .ai domain market has surged past all expectations in the first half of 2026, with total reported sales volume exceeding $45 million, average transaction prices climbing 38% year-over-year, and new registrations accelerating at a pace that suggests the extension is entering mainstream adoption. Here is the definitive mid-2026 market report.**
   
@@ -8564,13 +8572,14 @@ All commission rates and platform features were verified as of March 2026. Platf
   `,
       readTime: "14 min read",
       author: "Maya Chen, NameBuzz",
+      jsonLd: '{"@context":"https://schema.org","@type":"Article","headline":"Single-Word .ai Domains: The Rarest and Most Valuable in the Market","author":{"@type":"Person","name":"Maya Chen"},"publisher":{"@type":"Organization","name":"NameBuzz"}}',
   },
   {
       slug: "single-word-ai-domains",
       title: "Single-Word .ai Domains: The Rarest and Most Valuable in the Market",
       date: "2026-04-01",
-      description: "Discover why single-word .ai domains are the blue-chip assets of the domain market. Notable sales, tier rankings, industry premiums, and shrinking supply analysis.",
-      content: `# Single Word .ai Domains
+      description: "Discover why single-word .ai domains are the blue-chip assets of the domain market. Notable sales, tier rankings, and industry premiums.",
+      content: `# Single-Word .ai Domains: The Rarest and Most Valuable in the Market
   
   **Single-word .ai domains represent the absolute pinnacle of domain investing in the artificial intelligence era. With fewer than 170,000 English dictionary words in existence and virtually every meaningful one already registered, these domains are finite, irreplaceable digital assets that have produced some of the largest domain sales in history — and the supply is only getting tighter.**
   
@@ -8887,12 +8896,13 @@ All commission rates and platform features were verified as of March 2026. Platf
   `,
       readTime: "12 min read",
       author: "Maya Chen, NameBuzz",
+      jsonLd: '{"@context":"https://schema.org","@type":"Article","headline":"How Long Does It Take to Sell a .ai Domain? Realistic Timelines","author":{"@type":"Person","name":"Maya Chen"},"publisher":{"@type":"Organization","name":"NameBuzz"}}',
   },
   {
       slug: "how-long-to-sell-ai-domain",
       title: "How Long Does It Take to Sell a .ai Domain? Realistic Timelines",
       date: "2026-04-01",
-      description: "Discover realistic timelines for selling .ai domains by quality tier and price point. Learn what accelerates or slows a sale, inbound vs outbound strategies, and how patience impacts your final price.",
+      description: "Discover realistic timelines for selling .ai domains by quality tier and price point. Learn what accelerates or slows a sale.",
       content: `# How Long Does It Take to Sell a .ai Domain? Realistic Timelines
   
 <!-- IMAGE: src="/images/articles/how-long-sell-ai-domain-hero-2026.jpg", alt="Understanding realistic sale timelines is the key to maximizing your .ai domain investment returns." -->
@@ -9178,12 +9188,13 @@ All commission rates and platform features were verified as of March 2026. Platf
   `,
       readTime: "14 min read",
       author: "Maya Chen, NameBuzz",
+      jsonLd: '{"@context":"https://schema.org","@type":"Article","headline":"Domain Brokers for .ai Domains: Who to Use and When It\'s Worth It","author":{"@type":"Person","name":"Maya Chen"},"publisher":{"@type":"Organization","name":"NameBuzz"}}',
   },
   {
       slug: "domain-brokers-ai-domains",
       title: "Domain Brokers for .ai Domains: Who to Use and When It's Worth It",
       date: "2026-04-01",
-      description: "Discover the top domain brokers for .ai domains, understand commission structures, learn when brokerage is worth the cost, and use our DIY vs broker decision framework to maximize your sale price.",
+      description: "Discover the top domain brokers for .ai domains, understand commission structures, and learn when brokerage is worth the cost.",
       content: `# Domain Brokers for .ai Domains: Who to Use and When It's Worth It
   
 <!-- IMAGE: src="/images/articles/domain-brokers-ai-hero-2026.jpg", alt="The right broker can transform a stalled .ai domain into a six-figure sale — but only if the domain justifies the commission." -->
