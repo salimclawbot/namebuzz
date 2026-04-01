@@ -5010,10 +5010,7 @@ The data is all there. 534+ sales. $100 million+ in volume. Bot.ai at $1.2 milli
 
 **Flipping .ai domain names means buying undervalued .ai domains and reselling them at a profit. In 2026, the AI industry's continued growth makes .ai one of the most lucrative TLDs for domain investors, with profitable flips ranging from 3x to 50x returns when you source smart, price strategically, and list on the right platforms.**
 
-<figure>
-<img src="/images/articles/flip-ai-domain-names-hero-2026.webp" alt="Illustration of .ai domain names being traded for profit with upward trending charts" width="1200" height="630" loading="eager" />
-<figcaption>The .ai domain market continues to offer strong flip opportunities for informed investors in 2026.</figcaption>
-</figure>
+<!-- IMAGE: src="/images/articles/flip-ai-domain-names-hero-2026.webp", alt="The .ai domain market continues to offer strong flip opportunities for informed investors in 2026." -->
 
 ---
 
@@ -5053,10 +5050,7 @@ Startups prefer .ai over .com for three practical reasons. First, the relevant .
 
 This preference translates directly into buyer demand for domain flippers. When a well-funded startup wants "analyze.ai" and it's listed for $15,000, they'll pay it rather than settle for "analyzedata.com" or "getanalyze.com."
 
-<figure>
-<img src="/images/articles/ai-domain-market-growth-2026.webp" alt="Chart showing .ai domain registration and sales growth from 2022 to 2026" width="800" height="450" loading="lazy" />
-<figcaption>The .ai domain market has grown consistently since the AI boom began, with no signs of slowing in 2026.</figcaption>
-</figure>
+<!-- IMAGE: src="/images/articles/ai-domain-market-growth-2026.webp", alt="The .ai domain market has grown consistently since the AI boom began, with no signs of slowing in 2026." -->
 
 If you're wondering what your current .ai domains might be worth, you can get a free instant estimate using our [.ai domain appraisal tool](https://namebuzz.co/value).
 
@@ -5098,10 +5092,7 @@ Based on sales data from [NameBuzz sales tracking](https://namebuzz.co/blog/how-
 - **Data and analytics**: chart.ai, metric.ai, query.ai — data is the foundation of AI
 - **Generic positive verbs**: grow.ai, boost.ai, solve.ai — broad appeal across industries
 
-<figure>
-<img src="/images/articles/flippable-ai-domain-characteristics-2026.webp" alt="Infographic showing characteristics of high-value flippable .ai domains including length, word type, and industry relevance" width="800" height="500" loading="lazy" />
-<figcaption>The most profitable .ai domains for flipping share these key characteristics: short length, real words, and tech relevance.</figcaption>
-</figure>
+<!-- IMAGE: src="/images/articles/flippable-ai-domain-characteristics-2026.webp", alt="The most profitable .ai domains for flipping share these key characteristics: short length, real words, and tech relevance." -->
 
 ---
 
@@ -5139,10 +5130,7 @@ Use WHOIS lookups to find registrant contact information. Services like Afternic
 
 Occasionally, domain investors liquidate entire portfolios. These bulk sales — sometimes 50–200 .ai domains at once — offer the deepest discounts. Monitor domain investor forums like NamePros and DNForum for portfolio liquidation threads. Building relationships with active domain investors who focus on .ai is worth the networking effort.
 
-<figure>
-<img src="/images/articles/ai-domain-sourcing-channels-2026.webp" alt="Diagram showing four channels for sourcing undervalued .ai domains: direct registration, expired auctions, private acquisitions, and wholesale" width="800" height="450" loading="lazy" />
-<figcaption>Diversify your sourcing across all four channels to find the best deals on .ai domains.</figcaption>
-</figure>
+<!-- IMAGE: src="/images/articles/ai-domain-sourcing-channels-2026.webp", alt="Diversify your sourcing across all four channels to find the best deals on .ai domains." -->
 
 ---
 
@@ -5186,10 +5174,7 @@ Rather than listing a fixed price, many successful flippers use "Make Offer" lis
 
 The downside: casual browsers who offer $50 for premium names. Filter these out by setting a minimum offer threshold ($500 or $1,000 depending on the domain).
 
-<figure>
-<img src="/images/articles/ai-domain-pricing-strategy-2026.webp" alt="Pricing tier chart for .ai domains showing ultra premium, premium, mid-range, and entry level categories with example price ranges" width="800" height="500" loading="lazy" />
-<figcaption>Use this tiered pricing framework to position your .ai domains competitively while maximizing returns.</figcaption>
-</figure>
+<!-- IMAGE: src="/images/articles/ai-domain-pricing-strategy-2026.webp", alt="Use this tiered pricing framework to position your .ai domains competitively while maximizing returns." -->
 
 ---
 
@@ -5320,10 +5305,7 @@ Not every .ai domain sells. Understanding why helps you avoid costly mistakes:
 
 The pattern is clear: short, real words with broad tech appeal win. Everything else is a gamble.
 
-<figure>
-<img src="/images/articles/ai-domain-sales-data-chart-2026.webp" alt="Bar chart comparing real .ai domain sale prices across different domain types and lengths" width="800" height="450" loading="lazy" />
-<figcaption>Real sales data confirms: shorter .ai domains with common English words consistently command the highest prices.</figcaption>
-</figure>
+<!-- IMAGE: src="/images/articles/ai-domain-sales-data-chart-2026.webp", alt="Real sales data confirms: shorter .ai domains with common English words consistently command the highest prices." -->
 
 ---
 
@@ -5397,10 +5379,7 @@ Domain demand closely tracks venture capital funding into AI startups. When VC a
 
 Monitor sources like Crunchbase, PitchBook, and the AI Index Report for funding trend data. If AI startup funding is accelerating quarter over quarter, it's a seller's market. If funding is flat or declining, focus on acquiring rather than selling.
 
-<figure>
-<img src="/images/articles/ai-domain-market-timing-2026.webp" alt="Calendar-style infographic showing optimal buy and sell periods for .ai domains throughout the year" width="800" height="450" loading="lazy" />
-<figcaption>Timing your buys for Q4 and sales for Q1 can significantly improve your flip margins.</figcaption>
-</figure>
+<!-- IMAGE: src="/images/articles/ai-domain-market-timing-2026.webp", alt="Timing your buys for Q4 and sales for Q1 can significantly improve your flip margins." -->
 
 ---
 
@@ -5453,10 +5432,7 @@ Use the platform's escrow service for every transaction. Never transfer a domain
   <source src="/videos/flip-ai-domain-names-process-2026.mp4" type="video/mp4">
 </video>
 
-<figure>
-<img src="/images/articles/ai-domain-flipping-process-infographic-2026.webp" alt="Step-by-step infographic showing the five stages of flipping .ai domains: research, acquire, set up, list, and close" width="800" height="600" loading="lazy" />
-<figcaption>Follow this five-step process to systematically flip .ai domains for consistent profit.</figcaption>
-</figure>
+<!-- IMAGE: src="/images/articles/ai-domain-flipping-process-infographic-2026.webp", alt="Follow this five-step process to systematically flip .ai domains for consistent profit." -->
 
 ---
 
@@ -5525,10 +5501,7 @@ All sales figures cited are from publicly reported transactions or verified thro
 
 **Choosing the right platform to buy and sell .ai domains directly impacts your profit margins, sale speed, and buyer quality. In 2026, the six leading platforms — Sedo, GoDaddy Auctions, Afternic, Namecheap, Dan.com, and Squadhelp — each serve different types of domain investors, with commissions ranging from 0% to 30% and buyer pools varying dramatically in size and purchasing intent.**
 
-<figure>
-<img src="/images/articles/best-platforms-buy-sell-ai-domains-hero-2026.webp" alt="Side-by-side comparison of the top platforms for buying and selling .ai domains in 2026" width="1200" height="630" loading="eager" />
-<figcaption>The six leading platforms for .ai domain trading in 2026, each with distinct strengths for different investor strategies.</figcaption>
-</figure>
+<!-- IMAGE: src="/images/articles/best-platforms-buy-sell-ai-domains-hero-2026.webp", alt="The six leading platforms for .ai domain trading in 2026, each with distinct strengths for different investor strategies." -->
 
 ---
 
@@ -5572,10 +5545,7 @@ Some platforms offer installment plans (Dan.com), letting startup founders sprea
 
 If you're new to the .ai flipping space, start with our complete guide on [how to flip .ai domain names for profit](https://namebuzz.co/blog/how-to-flip-ai-domain-names) before diving into platform selection. Understanding what makes a domain valuable will help you choose the right platform for each listing.
 
-<figure>
-<img src="/images/articles/ai-domain-platform-factors-2026.webp" alt="Three key factors for choosing an .ai domain platform: commission rates, buyer pool size, and platform features" width="800" height="450" loading="lazy" />
-<figcaption>Commission, buyer pool, and features are the three pillars of platform selection for .ai domain investors.</figcaption>
-</figure>
+<!-- IMAGE: src="/images/articles/ai-domain-platform-factors-2026.webp", alt="Commission, buyer pool, and features are the three pillars of platform selection for .ai domain investors." -->
 
 ---
 
@@ -5749,10 +5719,7 @@ GoDaddy's buyer pool is the largest in the industry by a wide margin. Their 20+ 
 
 The diversity is a double-edged sword. You get massive exposure, but most of GoDaddy's customer base consists of small business owners who aren't looking to spend five figures on a domain. For .ai domains specifically, the buyer quality is moderate — you'll attract serious tech buyers alongside people who submit $50 offers on premium names.
 
-<figure>
-<img src="/images/articles/godaddy-buyer-pool-comparison-2026.webp" alt="Chart comparing buyer pool sizes across domain platforms with GoDaddy leading at 20 million plus users" width="800" height="450" loading="lazy" />
-<figcaption>GoDaddy's buyer pool dwarfs all competitors, but buyer intent and budget vary widely.</figcaption>
-</figure>
+<!-- IMAGE: src="/images/articles/godaddy-buyer-pool-comparison-2026.webp", alt="GoDaddy's buyer pool dwarfs all competitors, but buyer intent and budget vary widely." -->
 
 ### Pros and Cons for .ai Sellers
 
@@ -5880,10 +5847,7 @@ Before listing, check what your domain might be worth using the [NameBuzz .ai do
 
 Dan.com is the best choice for .ai domains priced $3,000–$30,000 targeting startup buyers. The installment plan feature converts browsers into buyers at these price points. Single-word and short brandable .ai domains perform exceptionally well here.
 
-<figure>
-<img src="/images/articles/dan-com-installment-feature-2026.webp" alt="Screenshot of Dan.com installment payment calculator showing monthly payment options for .ai domain purchase" width="800" height="450" loading="lazy" />
-<figcaption>Dan.com's installment plan feature lets startup buyers spread payments over months, dramatically increasing sale conversion rates.</figcaption>
-</figure>
+<!-- IMAGE: src="/images/articles/dan-com-installment-feature-2026.webp", alt="Dan.com's installment plan feature lets startup buyers spread payments over months, dramatically increasing sale conversion rates." -->
 
 ---
 
@@ -5988,10 +5952,7 @@ The platform also offers naming contests and consulting services, which drive ad
 
 Squadhelp is the right choice for truly premium, highly brandable .ai domains that you're willing to hold for maximum price. Short dictionary words, creative invented names, and domains that pass every brandability test belong here. If your domain can command $10,000+ and you're patient, Squadhelp's curated environment will find the right buyer.
 
-<figure>
-<img src="/images/articles/ai-domain-platform-comparison-infographic-2026.webp" alt="Infographic comparing all six domain platforms on commission, buyer pool, speed, and best use case for .ai domains" width="800" height="600" loading="lazy" />
-<figcaption>Each platform serves a different segment of the .ai domain market — choose based on your domain's value and your selling goals.</figcaption>
-</figure>
+<!-- IMAGE: src="/images/articles/ai-domain-platform-comparison-infographic-2026.webp", alt="Each platform serves a different segment of the .ai domain market — choose based on your domain's value and your selling goals." -->
 
 ---
 
@@ -6087,10 +6048,7 @@ When listing on multiple platforms:
   <source src="/videos/ai-domain-multi-platform-listing-2026.mp4" type="video/mp4">
 </video>
 
-<figure>
-<img src="/images/articles/ai-domain-selling-process-infographic-2026.webp" alt="Step-by-step infographic showing the optimal multi-platform listing process for .ai domains across Dan.com, Afternic, and Sedo" width="800" height="500" loading="lazy" />
-<figcaption>The three-platform stack — Dan.com, Afternic, and Sedo — covers the widest buyer pool at the most efficient combined commission rate.</figcaption>
-</figure>
+<!-- IMAGE: src="/images/articles/ai-domain-selling-process-infographic-2026.webp", alt="The three-platform stack — Dan.com, Afternic, and Sedo — covers the widest buyer pool at the most efficient combined commission rate." -->
 
 ---
 
@@ -6170,10 +6128,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   ---
   
-  <figure>
-  <img src="/images/articles/ai-domains-worth-buying-hero-2026.jpg" alt="Are .ai domains worth buying in 2026 — investment analysis with charts and data" width="1200" height="630" loading="eager" />
-  <figcaption>The .ai domain market has generated enormous returns for some investors — but is 2026 too late to get in?</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/ai-domains-worth-buying-hero-2026.jpg", alt="The .ai domain market has generated enormous returns for some investors — but is 2026 too late to get in?" -->
   
   ## The Current State of the .ai Domain Market
   
@@ -6219,10 +6174,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   There are a finite number of dictionary words, common brand-friendly terms, and short letter combinations available as .ai domains. The best names — single words, two-letter combinations, and industry-specific keywords — are already registered. This scarcity provides a floor for valuations of the highest-quality names.
   
-  <figure>
-  <img src="/images/articles/ai-domain-roi-scenarios-2026.jpg" alt="ROI scenarios for .ai domain investments showing different outcome tiers" width="800" height="450" loading="lazy" />
-  <figcaption>ROI scenarios for .ai domain investments vary wildly depending on the quality of the name acquired.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/ai-domain-roi-scenarios-2026.jpg", alt="ROI scenarios for .ai domain investments vary wildly depending on the quality of the name acquired." -->
   
   Our guide to [two-letter .ai domain values](/blog/two-letter-ai-domains-value) documents how these ultra-premium short domains have steadily appreciated over time, with virtually no two-letter .ai combinations remaining unregistered.
   
@@ -6246,10 +6198,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   ### High Registration and Renewal Costs
   
-  <figure>
-  <img src="/images/articles/ai-domain-holding-costs-2026.jpg" alt="Breakdown of .ai domain holding costs including registration and renewal fees" width="800" height="450" loading="lazy" />
-  <figcaption>Annual renewal costs for .ai domains are significantly higher than .com, creating ongoing drag on investment returns.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/ai-domain-holding-costs-2026.jpg", alt="Annual renewal costs for .ai domains are significantly higher than .com, creating ongoing drag on investment returns." -->
   
   The annual registration and renewal cost for .ai domains is substantially higher than .com domains. While a .com renewal typically costs between $10 and $15 per year, .ai renewals generally run between $50 and $100 per year depending on the registrar. For investors holding a portfolio of dozens or hundreds of .ai domains, these renewal fees compound into a significant carrying cost.
   
@@ -6323,10 +6272,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   ## Liquidity Challenges: Can You Actually Sell Your .ai Domains?
   
-  <figure>
-  <img src="/images/articles/ai-domain-liquidity-analysis-2026.jpg" alt="Liquidity analysis of .ai domain aftermarket showing sell-through rates" width="800" height="450" loading="lazy" />
-  <figcaption>Liquidity in the .ai domain aftermarket is improving but remains a significant challenge for most sellers.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/ai-domain-liquidity-analysis-2026.jpg", alt="Liquidity in the .ai domain aftermarket is improving but remains a significant challenge for most sellers." -->
   
   Liquidity — the ability to convert an asset to cash quickly and at a fair price — is one of the most important and least discussed aspects of domain investing. The .ai domain market has meaningful liquidity challenges that every investor should understand.
   
@@ -6402,10 +6348,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   Data-driven investors consistently outperform those who rely on gut instinct or wishful thinking about what a domain "should" be worth.
   
-  <figure>
-  <img src="/images/articles/ai-domain-risk-factors-2026.jpg" alt="Key risk factors to evaluate before buying .ai domains in 2026" width="800" height="450" loading="lazy" />
-  <figcaption>Understanding and mitigating risk factors is essential for any .ai domain investment strategy.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/ai-domain-risk-factors-2026.jpg", alt="Understanding and mitigating risk factors is essential for any .ai domain investment strategy." -->
   
   ### Diversify Across Name Types
   
@@ -6425,10 +6368,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   ---
   
-  <figure>
-  <img src="/images/articles/ai-domain-investment-analysis-infographic-2026.jpg" alt="Infographic summarizing the pros, cons, and key metrics for .ai domain investing in 2026" width="800" height="450" loading="lazy" />
-  <figcaption>A balanced view of the key factors to weigh when deciding whether to invest in .ai domains in 2026.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/ai-domain-investment-analysis-infographic-2026.jpg", alt="A balanced view of the key factors to weigh when deciding whether to invest in .ai domains in 2026." -->
   
   ## The Bottom Line: Are .ai Domains Worth Buying in 2026?
   
@@ -6486,10 +6426,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   ---
   
-  <figure>
-  <img src="/images/articles/value-ai-domain-hero-2026.jpg" alt="How to value a .ai domain name — step-by-step valuation framework" width="1200" height="630" loading="eager" />
-  <figcaption>A systematic approach to .ai domain valuation helps you avoid overpaying as a buyer and underpricing as a seller.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/value-ai-domain-hero-2026.jpg", alt="A systematic approach to .ai domain valuation helps you avoid overpaying as a buyer and underpricing as a seller." -->
   
   ## Why .ai Domain Valuation Is Different
   
@@ -6527,10 +6464,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   - **DNJournal** (dnjournal.com) — Publishes weekly domain sales reports that include notable .ai transactions.
   - **Afternic** (afternic.com) — GoDaddy's aftermarket platform reports sales data that feeds into NameBio.
   
-  <figure>
-  <img src="/images/articles/ai-domain-comparable-sales-2026.jpg" alt="Comparable sales analysis for .ai domains using NameBio data" width="800" height="450" loading="lazy" />
-  <figcaption>NameBio provides the most comprehensive database of reported .ai domain sales for comparable analysis.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/ai-domain-comparable-sales-2026.jpg", alt="NameBio provides the most comprehensive database of reported .ai domain sales for comparable analysis." -->
   
   ### How to Select Relevant Comparables
   
@@ -6574,10 +6508,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   - **Ahrefs or SEMrush** — Paid tools that provide more granular search volume data, keyword difficulty scores, and trend analysis.
   - **Google Trends** — Free tool that shows relative search interest over time, useful for identifying whether demand for a keyword is growing, stable, or declining.
   
-  <figure>
-  <img src="/images/articles/ai-domain-keyword-metrics-2026.jpg" alt="Keyword metrics and search volume analysis for .ai domain valuation" width="800" height="450" loading="lazy" />
-  <figcaption>Keyword search volume and trend data provide objective demand signals for .ai domain valuation.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/ai-domain-keyword-metrics-2026.jpg", alt="Keyword search volume and trend data provide objective demand signals for .ai domain valuation." -->
   
   ### How to Interpret Search Data for .ai Domains
   
@@ -6611,10 +6542,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   Brandability is somewhat subjective, but there are measurable characteristics that consistently predict whether a domain will appeal to end-user buyers:
   
-  <figure>
-  <img src="/images/articles/ai-domain-brandability-scoring-2026.jpg" alt="Brandability scoring factors for .ai domain names" width="800" height="450" loading="lazy" />
-  <figcaption>Brandability combines pronounceability, memorability, and emotional resonance to drive end-user demand.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/ai-domain-brandability-scoring-2026.jpg", alt="Brandability combines pronounceability, memorability, and emotional resonance to drive end-user demand." -->
   
   **Pronounceability.** Can someone hear the domain name spoken aloud and immediately know how to spell it? Domains that pass the "radio test" — where you could say the name on the radio and listeners could type it correctly — score highest. Lotus.ai ($400,000) is perfectly pronounceable. A domain like Xynth.ai would score lower.
   
@@ -6648,10 +6576,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   ### The Length-Value Relationship
   
-  <figure>
-  <img src="/images/articles/ai-domain-length-premiums-2026.jpg" alt="Length premium analysis showing how .ai domain values decrease with character count" width="800" height="450" loading="lazy" />
-  <figcaption>Shorter .ai domains command exponentially higher prices — each additional character reduces value significantly.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/ai-domain-length-premiums-2026.jpg", alt="Shorter .ai domains command exponentially higher prices — each additional character reduces value significantly." -->
   
   Based on reported .ai domain sales, here is how length correlates with value:
   
@@ -6743,10 +6668,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   Now let us combine all six steps into a practical valuation framework you can apply to any .ai domain.
   
-  <figure>
-  <img src="/images/articles/ai-domain-valuation-framework-infographic-2026.jpg" alt="Complete .ai domain valuation framework infographic combining all steps" width="800" height="450" loading="lazy" />
-  <figcaption>The complete valuation framework combines quantitative data with qualitative assessment for a defensible .ai domain value.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/ai-domain-valuation-framework-infographic-2026.jpg", alt="The complete valuation framework combines quantitative data with qualitative assessment for a defensible .ai domain value." -->
   
   ### Step-by-Step Valuation Walkthrough
   
@@ -6950,10 +6872,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   ---
   
-  <figure>
-  <img src="/images/articles/sedo-vs-godaddy-vs-afternic-hero-2026.jpg" alt="Side-by-side comparison of Sedo, GoDaddy, Afternic, and Dan.com platforms for selling .ai domains" width="1200" height="630" loading="eager" />
-  <figcaption>The four major platforms where .ai domain investors list and sell their assets in 2026.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/sedo-vs-godaddy-vs-afternic-hero-2026.jpg", alt="The four major platforms where .ai domain investors list and sell their assets in 2026." -->
   
   ## Why Platform Choice Matters for .ai Domain Sales
   
@@ -6996,10 +6915,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   The newest major player, Dan.com (now part of GoDaddy) has disrupted the market with its low 9% commission rate and innovative installment payment feature that lets buyers pay for domains over time. Dan.com has attracted a younger, more tech-savvy seller base and is particularly popular with startup founders selling directly.
   
-  <figure>
-  <img src="/images/articles/platform-commission-comparison-2026.jpg" alt="Bar chart comparing commission rates across Sedo, GoDaddy Auctions, Afternic, and Dan.com" width="800" height="450" loading="lazy" />
-  <figcaption>Commission rates vary significantly across platforms, from Dan.com's 9% to GoDaddy's 20%.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/platform-commission-comparison-2026.jpg", alt="Commission rates vary significantly across platforms, from Dan.com's 9% to GoDaddy's 20%." -->
   
   ---
   
@@ -7046,10 +6962,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   A low commission rate means nothing if the platform does not have the right buyers. Here is how each platform's audience breaks down for .ai domain sellers.
   
-  <figure>
-  <img src="/images/articles/platform-buyer-demographics-2026.jpg" alt="Infographic showing buyer demographics across Sedo, GoDaddy, Afternic, and Dan.com for AI domains" width="800" height="450" loading="lazy" />
-  <figcaption>Each platform attracts different buyer segments, from enterprise acquirers to bootstrapped startups.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/platform-buyer-demographics-2026.jpg", alt="Each platform attracts different buyer segments, from enterprise acquirers to bootstrapped startups." -->
   
   ### Sedo: International and Enterprise-Heavy
   
@@ -7105,10 +7018,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   The listing experience varies dramatically across platforms. Here is what each offers to help you sell your .ai domains.
   
-  <figure>
-  <img src="/images/articles/platform-listing-features-2026.jpg" alt="Comparison table of listing features across major domain sales platforms" width="800" height="450" loading="lazy" />
-  <figcaption>Feature availability varies across platforms, from basic fixed-price listings to advanced analytics.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/platform-listing-features-2026.jpg", alt="Feature availability varies across platforms, from basic fixed-price listings to advanced analytics." -->
   
   ### Sedo Listing Features
   
@@ -7174,10 +7084,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   Trust and security are paramount in domain transactions, especially at the price points that premium .ai domains command.
   
-  <figure>
-  <img src="/images/articles/platform-escrow-comparison-2026.jpg" alt="Escrow and payment processing comparison across domain sales platforms" width="800" height="450" loading="lazy" />
-  <figcaption>Escrow protection varies from built-in services to third-party integrations.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/platform-escrow-comparison-2026.jpg", alt="Escrow protection varies from built-in services to third-party integrations." -->
   
   ### Sedo Escrow Services
   
@@ -7238,10 +7145,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   ## Decision Matrix: Which Platform Fits Your Portfolio
   
-  <figure>
-  <img src="/images/articles/platform-decision-matrix-infographic-2026.jpg" alt="Decision matrix infographic showing which platform to choose based on portfolio size and price range" width="800" height="450" loading="lazy" />
-  <figcaption>Use this decision matrix to match your .ai domain portfolio to the right platform.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/platform-decision-matrix-infographic-2026.jpg", alt="Use this decision matrix to match your .ai domain portfolio to the right platform." -->
   
   ### Small Portfolio (1-10 .ai Domains), Price Range Under $5,000
   
@@ -7453,10 +7357,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   ---
   
-  <figure>
-  <img src="/images/articles/two-letter-ai-domains-hero-2026.jpg" alt="Grid visualization of all 676 possible two-letter .ai domain combinations with highlighted premium names" width="1200" height="630" loading="eager" />
-  <figcaption>With only 676 possible two-letter .ai domains, absolute scarcity drives premium valuations in the AI era.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/two-letter-ai-domains-hero-2026.jpg", alt="With only 676 possible two-letter .ai domains, absolute scarcity drives premium valuations in the AI era." -->
   
   ## The Mathematics of Scarcity
   
@@ -7479,10 +7380,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   This creates a classic economic situation: fixed supply meeting rising demand. The inevitable result is rising prices, which is exactly what the market has delivered. As we have documented in our analysis of [AI domain market trends in 2026](/blog/ai-domain-market-trends-2026), short .ai domains have appreciated at a pace that outstrips nearly every other domain category.
   
-  <figure>
-  <img src="/images/articles/two-letter-scarcity-chart-2026.jpg" alt="Chart comparing the total supply of two-letter domains across .ai, .com, and other TLDs" width="800" height="450" loading="lazy" />
-  <figcaption>The total supply of two-letter .ai domains is fixed at 676, making them among the scarcest digital assets available.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/two-letter-scarcity-chart-2026.jpg", alt="The total supply of two-letter .ai domains is fixed at 676, making them among the scarcest digital assets available." -->
   
   ### Not All 676 Are Equal
   
@@ -7528,10 +7426,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   ## Notable Two-Letter .ai Domain Sales
   
-  <figure>
-  <img src="/images/articles/two-letter-notable-sales-2026.jpg" alt="Timeline of notable two-letter .ai domain sales with prices and buyers" width="800" height="450" loading="lazy" />
-  <figcaption>Two-letter .ai domain sales have reached into the millions, led by X.ai's landmark $5 million transaction.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/two-letter-notable-sales-2026.jpg", alt="Two-letter .ai domain sales have reached into the millions, led by X.ai's landmark $5 million transaction." -->
   
   ### The X.ai Landmark Sale
   
@@ -7562,10 +7457,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   Not all 676 two-letter .ai domains are equally valuable. Several factors determine which combinations command the highest premiums.
   
-  <figure>
-  <img src="/images/articles/two-letter-combinations-grid-2026.jpg" alt="Color-coded grid of all 676 two-letter .ai domain combinations showing relative value tiers" width="800" height="450" loading="lazy" />
-  <figcaption>A color-coded grid showing the relative value tiers of all 676 two-letter .ai domain combinations.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/two-letter-combinations-grid-2026.jpg", alt="A color-coded grid showing the relative value tiers of all 676 two-letter .ai domain combinations." -->
   
   ### Tier 1: Meaningful Abbreviations ($500,000+)
   
@@ -7626,10 +7518,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   ## Registration Status: How Many Are Left
   
-  <figure>
-  <img src="/images/articles/two-letter-registration-status-2026.jpg" alt="Pie chart showing registration status of all 676 two-letter .ai domains" width="800" height="450" loading="lazy" />
-  <figcaption>The vast majority of two-letter .ai domains are already registered, with very few available for standard registration.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/two-letter-registration-status-2026.jpg", alt="The vast majority of two-letter .ai domains are already registered, with very few available for standard registration." -->
   
   ### Current Registration Landscape
   
@@ -7716,10 +7605,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   ## Investment Potential and Market Outlook
   
-  <figure>
-  <img src="/images/articles/two-letter-ai-domains-infographic-2026.jpg" alt="Infographic showing investment potential and market trends for two-letter .ai domains" width="800" height="450" loading="lazy" />
-  <figcaption>Market indicators suggest continued appreciation for two-letter .ai domains through the decade.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/two-letter-ai-domains-infographic-2026.jpg", alt="Market indicators suggest continued appreciation for two-letter .ai domains through the decade." -->
   
   ### Historical Appreciation
   
@@ -7873,10 +7759,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   ---
   
-  <figure>
-  <img src="/images/articles/best-ai-domains-buy-hero-2026.jpg" alt="Best .ai domain names to buy in 2026 with investment potential analysis" width="1200" height="630" loading="eager" />
-  <figcaption>The .ai domain market continues to mature in 2026, with clear investment categories emerging for savvy buyers.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/best-ai-domains-buy-hero-2026.jpg", alt="The .ai domain market continues to mature in 2026, with clear investment categories emerging for savvy buyers." -->
   
   ## Why .ai Domains Are the Top Investment in 2026
   
@@ -7898,10 +7781,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   Single-word generic .ai domains represent the apex of the .ai domain market. These are the digital equivalents of prime commercial real estate — universally understood, inherently brandable, and permanently scarce.
   
-  <figure>
-  <img src="/images/articles/ai-domain-categories-2026.jpg" alt="Categories of valuable .ai domain names including single-word generics and industry verticals" width="800" height="450" loading="lazy" />
-  <figcaption>Single-word generic .ai domains consistently command the highest prices in the aftermarket.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/ai-domain-categories-2026.jpg", alt="Single-word generic .ai domains consistently command the highest prices in the aftermarket." -->
   
   ### Why Single-Word Generics Command Premium Prices
   
@@ -7943,10 +7823,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   The legal technology sector is experiencing rapid AI adoption, from contract analysis to regulatory compliance. The sale of Law.ai for $350K demonstrates clear market demand for legal-vertical .ai domains. As AI-powered legal tools become mainstream, domains in this vertical will appreciate significantly.
   
-  <figure>
-  <img src="/images/articles/ai-domain-vertical-opportunities-2026.jpg" alt="AI domain investment opportunities across industry verticals including healthcare, finance, and legal" width="800" height="450" loading="lazy" />
-  <figcaption>Industry-specific .ai domains offer strong investment potential as AI adoption accelerates across every sector.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/ai-domain-vertical-opportunities-2026.jpg", alt="Industry-specific .ai domains offer strong investment potential as AI adoption accelerates across every sector." -->
   
   ### Education and Training AI Domains
   
@@ -7982,10 +7859,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   The AI industry is continuously spawning new sub-categories and specializations. Investors who can identify emerging niches before they become mainstream stand to acquire relevant .ai domains at a fraction of their future value.
   
-  <figure>
-  <img src="/images/articles/ai-domain-naming-patterns-2026.jpg" alt="Emerging AI domain naming patterns and niche categories for 2026 investment" width="800" height="450" loading="lazy" />
-  <figcaption>Understanding emerging naming patterns helps investors identify undervalued .ai domains before demand spikes.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/ai-domain-naming-patterns-2026.jpg", alt="Understanding emerging naming patterns helps investors identify undervalued .ai domains before demand spikes." -->
   
   ### AI Agent and Autonomous System Domains
   
@@ -8013,10 +7887,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   Understanding how .ai domains are priced in the current market is essential for making informed investment decisions. Based on analysis of hundreds of recorded .ai domain sales, a clear tiering structure has emerged.
   
-  <figure>
-  <img src="/images/articles/ai-domain-pricing-tiers-guide-2026.jpg" alt="AI domain pricing tiers from registration to seven figures with examples" width="800" height="450" loading="lazy" />
-  <figcaption>A structured framework for understanding .ai domain valuations across different quality tiers.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/ai-domain-pricing-tiers-guide-2026.jpg", alt="A structured framework for understanding .ai domain valuations across different quality tiers." -->
   
   ### Ultra-Premium Tier ($1 Million+)
   
@@ -8110,10 +7981,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   Our comprehensive review of [the best platforms to buy and sell .ai domains in 2026](/blog/best-platforms-to-buy-sell-ai-domains-2026) covers all of these channels in detail.
   
-  <figure>
-  <img src="/images/articles/ai-domain-buying-guide-infographic-2026.jpg" alt="Complete guide to buying .ai domain names in 2026 with step-by-step process" width="800" height="450" loading="lazy" />
-  <figcaption>A structured approach to identifying, evaluating, and acquiring investment-grade .ai domains.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/ai-domain-buying-guide-infographic-2026.jpg", alt="A structured approach to identifying, evaluating, and acquiring investment-grade .ai domains." -->
   
   ### Building a Diversified .ai Domain Portfolio
   
@@ -8174,10 +8042,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   ---
   
-  <figure>
-  <img src="/images/articles/list-ai-domain-for-sale-hero-2026.jpg" alt="Complete guide to listing .ai domains for sale in 2026" width="1200" height="630" loading="eager" />
-  <figcaption>A strategic approach to listing your .ai domain can dramatically increase your chances of a successful sale at the right price.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/list-ai-domain-for-sale-hero-2026.jpg", alt="A strategic approach to listing your .ai domain can dramatically increase your chances of a successful sale at the right price." -->
   
   ## Why .ai Domains Are in High Demand Right Now
   
@@ -8201,10 +8066,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   The first thing a potential buyer sees when they type your domain into a browser is your landing page. This single page can make or break a sale. A professional, well-designed landing page signals that the domain is owned by a serious seller and encourages legitimate inquiries.
   
-  <figure>
-  <img src="/images/articles/ai-domain-landing-page-2026.jpg" alt="Professional .ai domain landing page design for maximizing buyer inquiries" width="800" height="450" loading="lazy" />
-  <figcaption>A clean, professional landing page communicates credibility and encourages serious buyer inquiries.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/ai-domain-landing-page-2026.jpg", alt="A clean, professional landing page communicates credibility and encourages serious buyer inquiries." -->
   
   ### Essential Landing Page Elements
   
@@ -8240,10 +8102,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   Pricing is perhaps the most critical — and most challenging — aspect of listing a .ai domain for sale. Price too high, and you will deter qualified buyers. Price too low, and you leave money on the table.
   
-  <figure>
-  <img src="/images/articles/ai-domain-pricing-strategy-listing-2026.jpg" alt="AI domain pricing strategy framework with comparable sales data" width="800" height="450" loading="lazy" />
-  <figcaption>A data-driven pricing strategy based on comparable sales produces the best outcomes for .ai domain sellers.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/ai-domain-pricing-strategy-listing-2026.jpg", alt="A data-driven pricing strategy based on comparable sales produces the best outcomes for .ai domain sellers." -->
   
   ### Research Comparable Sales
   
@@ -8361,10 +8220,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   Using an escrow service is non-negotiable for domain transactions above trivial amounts. Escrow protects both buyer and seller by holding the buyer's payment in trust until the domain transfer is verified as complete.
   
-  <figure>
-  <img src="/images/articles/ai-domain-escrow-process-2026.jpg" alt="Escrow process flow for .ai domain sales showing buyer and seller protection steps" width="800" height="450" loading="lazy" />
-  <figcaption>A properly managed escrow process protects both parties and ensures smooth .ai domain transactions.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/ai-domain-escrow-process-2026.jpg", alt="A properly managed escrow process protects both parties and ensures smooth .ai domain transactions." -->
   
   ### How Domain Escrow Works
   
@@ -8398,10 +8254,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   The .ai TLD has specific transfer characteristics that sellers should understand before listing their domains. Unlike .com transfers, which follow a standardized ICANN process, .ai domains are managed by the government of Anguilla, and the transfer process has some unique requirements.
   
-  <figure>
-  <img src="/images/articles/ai-domain-transfer-mechanics-2026.jpg" alt="Technical process for transferring .ai domains between registrars" width="800" height="450" loading="lazy" />
-  <figcaption>Understanding the .ai domain transfer process helps sellers avoid delays and ensure smooth transactions.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/ai-domain-transfer-mechanics-2026.jpg", alt="Understanding the .ai domain transfer process helps sellers avoid delays and ensure smooth transactions." -->
   
   ### Registrar-to-Registrar Transfers
   
@@ -8451,10 +8304,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   Maintain detailed records of all domain transactions, including purchase price, sale price, dates, platform used, buyer information, and any correspondence. This is important for tax purposes, portfolio tracking, and establishing your track record as a domain seller.
   
-  <figure>
-  <img src="/images/articles/ai-domain-seller-guide-infographic-2026.jpg" alt="Complete infographic guide for selling .ai domains from listing to transfer" width="800" height="450" loading="lazy" />
-  <figcaption>The complete seller's workflow from initial listing through successful domain transfer and payment.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/ai-domain-seller-guide-infographic-2026.jpg", alt="The complete seller's workflow from initial listing through successful domain transfer and payment." -->
   
   ### When to Hold Instead of Sell
   
@@ -8490,10 +8340,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   *Maya Chen, Domain Investment Analyst · Last updated April 2026*
   
-  <figure>
-  <img src="/images/articles/ai-domain-market-mid-2026-hero.jpg" alt=".ai domain market trends mid-2026 report overview" width="1200" height="630" loading="eager" />
-  <figcaption>The .ai domain market continues its rapid expansion through mid-2026.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/ai-domain-market-mid-2026-hero.jpg", alt="The .ai domain market continues its rapid expansion through mid-2026." -->
   
   ## Table of Contents
   
@@ -8528,10 +8375,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   ## Sales Volume and Transaction Data
   
-  <figure>
-  <img src="/images/articles/ai-domain-sales-volume-mid-2026.jpg" alt=".ai domain sales volume chart for mid-2026" width="800" height="450" loading="lazy" />
-  <figcaption>Reported .ai domain sales volume has grown dramatically through mid-2026.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/ai-domain-sales-volume-mid-2026.jpg", alt="Reported .ai domain sales volume has grown dramatically through mid-2026." -->
   
   ### Aggregate Sales Figures
   
@@ -8575,10 +8419,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   ## Year-Over-Year Price Comparisons
   
-  <figure>
-  <img src="/images/articles/ai-domain-yoy-comparison-2026.jpg" alt=".ai domain year-over-year price comparison 2024-2026" width="800" height="450" loading="lazy" />
-  <figcaption>Year-over-year price comparisons show consistent appreciation across all .ai domain tiers.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/ai-domain-yoy-comparison-2026.jpg", alt="Year-over-year price comparisons show consistent appreciation across all .ai domain tiers." -->
   
   ### Premium Tier Appreciation (Six Figures and Above)
   
@@ -8618,10 +8459,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   ## Category Performance Breakdown
   
-  <figure>
-  <img src="/images/articles/ai-domain-category-performance-2026.jpg" alt=".ai domain category performance breakdown for 2026" width="800" height="450" loading="lazy" />
-  <figcaption>Category performance varies significantly, with enterprise and vertical AI domains leading the market.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/ai-domain-category-performance-2026.jpg", alt="Category performance varies significantly, with enterprise and vertical AI domains leading the market." -->
   
   ### Enterprise and Business AI
   
@@ -8671,10 +8509,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   ## Forward Indicators for H2 2026
   
-  <figure>
-  <img src="/images/articles/ai-domain-forward-indicators-2026.jpg" alt=".ai domain forward indicators for H2 2026" width="800" height="450" loading="lazy" />
-  <figcaption>Forward indicators point to continued growth in the .ai domain market through H2 2026.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/ai-domain-forward-indicators-2026.jpg", alt="Forward indicators point to continued growth in the .ai domain market through H2 2026." -->
   
   ### Positive Signals
   
@@ -8698,10 +8533,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   For investors looking to position for H2 2026, our [.ai domain investment strategy guide](/blog/ai-domain-investment-strategy-guide) provides detailed portfolio construction advice.
   
-  <figure>
-  <img src="/images/articles/ai-domain-market-report-infographic-2026.jpg" alt=".ai domain market mid-2026 report infographic summary" width="800" height="450" loading="lazy" />
-  <figcaption>Key statistics from the .ai domain market mid-2026 report.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/ai-domain-market-report-infographic-2026.jpg", alt="Key statistics from the .ai domain market mid-2026 report." -->
   
   ## Investment Implications and Strategy
   
@@ -8744,10 +8576,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   *Maya Chen, Domain Investment Analyst · Last updated April 2026*
   
-  <figure>
-  <img src="/images/articles/single-word-ai-domains-hero-2026.jpg" alt="Single-word .ai domains as blue-chip digital assets" width="1200" height="630" loading="eager" />
-  <figcaption>Single-word .ai domains are the blue chips of the domain investment world.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/single-word-ai-domains-hero-2026.jpg", alt="Single-word .ai domains are the blue chips of the domain investment world." -->
   
   ## Table of Contents
   
@@ -8772,10 +8601,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   This absolute scarcity distinguishes single-word .ai domains from virtually every other domain investment category. Two-word combinations, while valuable, number in the millions. Coined brandable names can be invented endlessly. But single-word dictionary terms are finite, and the commercially valuable subset is remarkably small.
   
-  <figure>
-  <img src="/images/articles/single-word-blue-chips-2026.jpg" alt="Single-word .ai domains compared to blue-chip investments" width="800" height="450" loading="lazy" />
-  <figcaption>Like blue-chip stocks, single-word .ai domains offer stability, prestige, and long-term appreciation.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/single-word-blue-chips-2026.jpg", alt="Like blue-chip stocks, single-word .ai domains offer stability, prestige, and long-term appreciation." -->
   
   ### The Brand Power Factor
   
@@ -8793,10 +8619,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   ## Notable Single-Word .ai Domain Sales
   
-  <figure>
-  <img src="/images/articles/single-word-notable-sales-2026.jpg" alt="Notable single-word .ai domain sales with prices" width="800" height="450" loading="lazy" />
-  <figcaption>Publicly reported single-word .ai domain sales demonstrate the value ceiling continues to rise.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/single-word-notable-sales-2026.jpg", alt="Publicly reported single-word .ai domain sales demonstrate the value ceiling continues to rise." -->
   
   The publicly reported sales history for single-word .ai domains tells a compelling story of escalating values. While many transactions occur privately and are never disclosed, the sales that have been reported provide valuable benchmarks for the broader market.
   
@@ -8868,10 +8691,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   ## Industry Premiums and Vertical Demand
   
-  <figure>
-  <img src="/images/articles/single-word-industry-premiums-2026.jpg" alt="Industry premiums for single-word .ai domains by vertical" width="800" height="450" loading="lazy" />
-  <figcaption>Different industry verticals show varying premium levels for single-word .ai domains.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/single-word-industry-premiums-2026.jpg", alt="Different industry verticals show varying premium levels for single-word .ai domains." -->
   
   The value of a single-word .ai domain is heavily influenced by the industry it naturally maps to. Some verticals consistently produce higher valuations due to market size, funding levels, competitive intensity, and the strategic importance of digital branding.
   
@@ -8907,10 +8727,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   ## The Shrinking Supply Problem
   
-  <figure>
-  <img src="/images/articles/single-word-supply-shrinking-2026.jpg" alt="Shrinking supply of available single-word .ai domains" width="800" height="450" loading="lazy" />
-  <figcaption>The supply of available single-word .ai domains continues to shrink as holders recognize their long-term value.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/single-word-supply-shrinking-2026.jpg", alt="The supply of available single-word .ai domains continues to shrink as holders recognize their long-term value." -->
   
   Perhaps the most important structural factor supporting single-word .ai domain values is the relentless contraction of available supply. This is not a cyclical phenomenon — it is a permanent, one-directional trend that has profound implications for future pricing.
   
@@ -8999,10 +8816,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   - May have spelling or pronunciation challenges
   - Value is primarily speculative based on scarcity alone
   
-  <figure>
-  <img src="/images/articles/single-word-tier-ranking-infographic-2026.jpg" alt="Single-word .ai domain tier ranking system infographic" width="800" height="450" loading="lazy" />
-  <figcaption>The tier ranking system helps investors evaluate single-word .ai domain value based on key characteristics.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/single-word-tier-ranking-infographic-2026.jpg", alt="The tier ranking system helps investors evaluate single-word .ai domain value based on key characteristics." -->
   
   ## Investment Strategy for Single-Word .ai Domains
   
@@ -9081,10 +8895,7 @@ All commission rates and platform features were verified as of March 2026. Platf
       description: "Discover realistic timelines for selling .ai domains by quality tier and price point. Learn what accelerates or slows a sale, inbound vs outbound strategies, and how patience impacts your final price.",
       content: `# How Long Does It Take to Sell a .ai Domain? Realistic Timelines
   
-  <figure>
-  <img src="/images/articles/how-long-sell-ai-domain-hero-2026.jpg" alt="Clock overlaid on .ai domain marketplace dashboard showing sale timeline progression" width="1200" height="630" loading="eager" />
-  <figcaption>Understanding realistic sale timelines is the key to maximizing your .ai domain investment returns.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/how-long-sell-ai-domain-hero-2026.jpg", alt="Understanding realistic sale timelines is the key to maximizing your .ai domain investment returns." -->
   
   **Selling a .ai domain typically takes anywhere from a few days to over two years, depending on the domain's quality tier, your asking price, and whether you pursue inbound or outbound sales strategies. Premium single-word .ai domains at market-rate prices often sell within 3 to 9 months, while mid-tier domains may require 12 to 24 months of active marketing to find the right buyer.**
   
@@ -9122,10 +8933,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   For premium .ai domains, the first phase may be extremely short — sometimes a domain attracts inquiries within hours of being listed. For lower-tier domains, the first phase can stretch for months or even years. Understanding which phase consumes the most time for your specific domain helps you set appropriate expectations and choose the right sales strategy.
   
-  <figure>
-  <img src="/images/articles/ai-domain-sale-timelines-2026.jpg" alt="Timeline chart showing typical .ai domain sale durations across different quality tiers" width="800" height="450" loading="lazy" />
-  <figcaption>Average .ai domain sale timelines vary dramatically based on domain quality and pricing strategy.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/ai-domain-sale-timelines-2026.jpg", alt="Average .ai domain sale timelines vary dramatically based on domain quality and pricing strategy." -->
   
   ---
   
@@ -9163,10 +8971,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   Typical timeline: **12 to 36+ months**, and many domains in this tier may never sell at meaningful prices.
   
-  <figure>
-  <img src="/images/articles/ai-domain-quality-tiers-timeline-2026.jpg" alt="Infographic showing four quality tiers of .ai domains with corresponding sale timeline ranges" width="800" height="450" loading="lazy" />
-  <figcaption>Quality tier is the strongest predictor of how quickly your .ai domain will sell.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/ai-domain-quality-tiers-timeline-2026.jpg", alt="Quality tier is the strongest predictor of how quickly your .ai domain will sell." -->
   
   ---
   
@@ -9198,10 +9003,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   The sales approach you choose has a massive impact on your timeline. Inbound strategies rely on buyers finding your domain, while outbound strategies involve proactively reaching potential buyers. Each has distinct timeline implications.
   
-  <figure>
-  <img src="/images/articles/ai-domain-inbound-outbound-2026.jpg" alt="Split comparison showing inbound versus outbound domain sales funnels and their typical timelines" width="800" height="450" loading="lazy" />
-  <figcaption>Inbound and outbound approaches create very different sale timelines and require different levels of effort.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/ai-domain-inbound-outbound-2026.jpg", alt="Inbound and outbound approaches create very different sale timelines and require different levels of effort." -->
   
   ### Inbound Sales: Waiting for the Right Buyer
   
@@ -9231,10 +9033,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   Several factors can dramatically shorten your sale timeline. Understanding and leveraging these accelerators can mean the difference between a sale in weeks versus a sale in years.
   
-  <figure>
-  <img src="/images/articles/ai-domain-sale-accelerators-2026.jpg" alt="Dashboard showing key factors that accelerate .ai domain sales with impact ratings" width="800" height="450" loading="lazy" />
-  <figcaption>Focusing on the right accelerators can cut your .ai domain sale timeline by 50% or more.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/ai-domain-sale-accelerators-2026.jpg", alt="Focusing on the right accelerators can cut your .ai domain sale timeline by 50% or more." -->
   
   ### Industry Momentum and Trending Categories
   
@@ -9318,10 +9117,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   A useful rule of thumb: if you have not received at least 2 to 3 inquiries within 6 months of active, multi-platform listing, reassess your pricing and marketing strategy. If you are receiving inquiries but they are all well below your asking price, your price may be out of line with market expectations.
   
-  <figure>
-  <img src="/images/articles/ai-domain-sale-timeline-infographic-2026.jpg" alt="Complete infographic showing .ai domain sale timeline expectations by tier, approach, and pricing strategy" width="800" height="450" loading="lazy" />
-  <figcaption>A comprehensive view of the factors that influence .ai domain sale timelines.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/ai-domain-sale-timeline-infographic-2026.jpg", alt="A comprehensive view of the factors that influence .ai domain sale timelines." -->
   
   ---
   
@@ -9390,10 +9186,7 @@ All commission rates and platform features were verified as of March 2026. Platf
       description: "Discover the top domain brokers for .ai domains, understand commission structures, learn when brokerage is worth the cost, and use our DIY vs broker decision framework to maximize your sale price.",
       content: `# Domain Brokers for .ai Domains: Who to Use and When It's Worth It
   
-  <figure>
-  <img src="/images/articles/domain-brokers-ai-hero-2026.jpg" alt="Professional domain broker reviewing .ai domain portfolio valuations on multiple screens" width="1200" height="630" loading="eager" />
-  <figcaption>The right broker can transform a stalled .ai domain into a six-figure sale — but only if the domain justifies the commission.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/domain-brokers-ai-hero-2026.jpg", alt="The right broker can transform a stalled .ai domain into a six-figure sale — but only if the domain justifies the commission." -->
   
   **A domain broker can significantly increase both the speed and final sale price of a premium .ai domain by leveraging industry connections, negotiation expertise, and established buyer networks. However, brokerage only makes financial sense for .ai domains valued above \$10,000 to \$15,000, where the broker's 10% to 20% commission is offset by a meaningfully higher sale price than you could achieve independently.**
   
@@ -9491,10 +9284,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   **JEIKS** and **Domain Holdings** also handle premium domain brokerage and may be appropriate depending on the domain's value and target market.
   
-  <figure>
-  <img src="/images/articles/broker-commission-structures-2026.jpg" alt="Comparison table showing commission structures across major domain brokers for .ai sales" width="800" height="450" loading="lazy" />
-  <figcaption>Commission structures vary significantly between brokers and are often negotiable for premium domains.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/broker-commission-structures-2026.jpg", alt="Commission structures vary significantly between brokers and are often negotiable for premium domains." -->
   
   ---
   
@@ -9536,10 +9326,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   Not every .ai domain warrants the expense and effort of engaging a professional broker. Understanding the minimum value threshold helps you make smart decisions about where to invest in professional help.
   
-  <figure>
-  <img src="/images/articles/broker-minimum-values-2026.jpg" alt="Chart showing the break-even analysis for broker engagement at different .ai domain value levels" width="800" height="450" loading="lazy" />
-  <figcaption>The financial case for brokerage strengthens significantly above the \$15,000 domain value mark.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/broker-minimum-values-2026.jpg", alt="The financial case for brokerage strengthens significantly above the \$15,000 domain value mark." -->
   
   ### The Break-Even Calculation
   
@@ -9574,10 +9361,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   The decision to sell independently or engage a broker is not always straightforward. This framework helps you evaluate the right approach for your specific situation.
   
-  <figure>
-  <img src="/images/articles/broker-vs-diy-comparison-2026.jpg" alt="Side-by-side comparison of DIY and broker approaches for selling .ai domains across multiple criteria" width="800" height="450" loading="lazy" />
-  <figcaption>The right approach depends on your domain's value, your sales experience, and your available time.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/broker-vs-diy-comparison-2026.jpg", alt="The right approach depends on your domain's value, your sales experience, and your available time." -->
   
   ### Factor 1: Domain Value
   
@@ -9636,10 +9420,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   Not all brokers are created equal, and choosing the wrong broker can result in wasted time, a lower sale price, or worse — a damaged reputation for your domain. Proper vetting is essential.
   
-  <figure>
-  <img src="/images/articles/broker-vetting-checklist-2026.jpg" alt="Checklist showing key criteria for evaluating domain brokers before engagement" width="800" height="450" loading="lazy" />
-  <figcaption>Thorough vetting protects your investment and ensures you partner with a broker who can deliver results.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/broker-vetting-checklist-2026.jpg", alt="Thorough vetting protects your investment and ensures you partner with a broker who can deliver results." -->
   
   ### Track Record and References
   
@@ -9751,10 +9532,7 @@ All commission rates and platform features were verified as of March 2026. Platf
   
   If the broker has generated zero interest after 6 months of active marketing, it may be time to reassess either the pricing, the broker, or the domain's true market value. This evaluation process mirrors the timeline strategies discussed in our [.ai domain market trends 2026](/blog/ai-domain-market-trends-2026) analysis.
   
-  <figure>
-  <img src="/images/articles/broker-decision-framework-infographic-2026.jpg" alt="Complete decision framework infographic for choosing between DIY selling and broker engagement for .ai domains" width="800" height="450" loading="lazy" />
-  <figcaption>Use this framework to guide your broker engagement decisions across your .ai domain portfolio.</figcaption>
-  </figure>
+<!-- IMAGE: src="/images/articles/broker-decision-framework-infographic-2026.jpg", alt="Use this framework to guide your broker engagement decisions across your .ai domain portfolio." -->
   
   ### The Long Game
   
