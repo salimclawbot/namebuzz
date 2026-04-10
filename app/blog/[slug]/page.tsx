@@ -1,267 +1,160 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { blogPosts } from "@/lib/blog-posts";
-import { ArticleImage } from "@/components/ArticleImage";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
+import rehypeRaw from "rehype-raw";
+import rehypeSlug from "rehype-slug";
+import rehypeAutolinkHeadings from "rehype-autolink-headings";
+import { blogPosts, getBlogPost } from "@/lib/blog-posts";
+
+function toSlug(text: string) {
+  return text
+    .toLowerCase()
+    .trim()
+    .replace(/[`~!@#$%^&*()_=+[{]}\\|;:'\",<.>/?]/g, "")
+    .replace(/\s+/g, "-");
+}
+
+function getH2Toc(markdown: string) {
+  const matches = markdown.match(/^##\s+(.+)$/gm) ?? [];
+  return matches.map((line) => {
+    const text = line.replace(/^##\s+/, "").trim();
+    return { text, id: toSlug(text) };
+  });
+}
+
+function tryParseSchema(value: unknown) {
+  if (!value) return null;
+  if (typeof value === "object") return value;
+  if (typeof value === "string") {
+    try {
+      return JSON.parse(value);
+    } catch {
+      return null;
+    }
+  }
+  return null;
+}
 
 export function generateStaticParams() {
   return blogPosts.map((post) => ({ slug: post.slug }));
 }
 
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ slug: string }>;
-}): Promise<Metadata> {
-  const { slug } = await params;
-  const post = blogPosts.find((p) => p.slug === slug);
-  if (!post) return {};
+export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
+  const post = getBlogPost(params.slug);
+
+  if (!post) {
+    return {};
+  }
+
+  const url = `https://namebuzz.co/blog/${post.slug}`;
+
   return {
     title: `${post.title} | NameBuzz`,
     description: post.description,
-    alternates: { canonical: `https://namebuzz.co/blog/${slug}` },
+    alternates: { canonical: url },
     openGraph: {
-      title: `${post.title} | NameBuzz`,
-      description: post.description,
-      url: `https://namebuzz.co/blog/${slug}`,
       type: "article",
+      title: post.title,
+      description: post.description,
+      url,
+      siteName: "NameBuzz",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.description,
     },
   };
 }
 
-/** Convert a heading string to a slug id e.g. "Hello World!" → "hello-world" */
-function slugify(text: string): string {
-  return text
-    .toLowerCase()
-    .replace(/[^\w\s-]/g, "")
-    .replace(/_/g, "-")
-    .replace(/ /g, "-");
-}
-
-function renderMarkdown(content: string) {
-  const lines = content.split("\n");
-  const elements: React.ReactNode[] = [];
-  let i = 0;
-  let key = 0;
-
-  function inlineFormat(text: string): React.ReactNode {
-    const parts: React.ReactNode[] = [];
-    let k = 0;
-    const regex = /\*\*(.+?)\*\*|\[([^\]]+)\]\(([^)]+)\)/g;
-    let lastIndex = 0;
-    let match;
-    while ((match = regex.exec(text)) !== null) {
-      if (match.index > lastIndex) parts.push(text.slice(lastIndex, match.index));
-      if (match[1]) {
-        parts.push(<strong key={k++} className="text-white font-semibold">{match[1]}</strong>);
-      } else if (match[2] && match[3]) {
-        parts.push(<a key={k++} href={match[3]} className="text-[#00D4FF] hover:underline">{match[2]}</a>);
-      }
-      lastIndex = match.index + match[0].length;
-    }
-    if (lastIndex < text.length) parts.push(text.slice(lastIndex));
-    return parts.length === 1 ? parts[0] : parts;
-  }
-
-  function isTableStart(idx: number): boolean {
-    return (
-      idx + 1 < lines.length &&
-      lines[idx].startsWith("|") &&
-      lines[idx + 1].startsWith("|") &&
-      lines[idx + 1].includes("---")
-    );
-  }
-
-  while (i < lines.length) {
-    const line = lines[i];
-
-    // Skip top-level H1 (rendered separately as post title)
-    if (line.startsWith("# ") && i < 3) { i++; continue; }
-
-    // ── IMAGE comment → real <img> if src="..." present, else placeholder ──
-    if (line.trim().startsWith("<!-- IMAGE:")) {
-      const commentMatch = line.match(/<!--\s*IMAGE:\s*(.*?)(?:,\s*alt="([^"]*)")?\s*-->/);
-      const srcMatch = line.match(/src="([^"]+)"/);
-      const caption = commentMatch?.[2] || commentMatch?.[1]?.replace(/,\s*(alt|src)=.*$/g, "").trim() || "Article image";
-      if (srcMatch) {
-        elements.push(
-          <figure key={key++} className="my-6">
-            <ArticleImage src={srcMatch[1]} alt={caption} className="w-full rounded-lg" />
-            <figcaption className="mt-2 text-xs text-[#555] italic">{caption}</figcaption>
-          </figure>
-        );
-      } else {
-        elements.push(
-          <figure key={key++} className="my-6 rounded-lg border border-[#1F1F1F] bg-[#111] p-4 text-center">
-            <div className="flex h-40 items-center justify-center rounded bg-[#1A1A1A] text-[#444] text-sm">
-              📷 {caption}
-            </div>
-            <figcaption className="mt-2 text-xs text-[#555] italic">{caption}</figcaption>
-          </figure>
-        );
-      }
-      i++;
-      continue;
-    }
-
-    // ── VIDEO comment → skip silently ──
-    if (line.trim().startsWith("<!-- VIDEO:") || line.trim().startsWith("<!-- VIDEO ")) {
-      i++;
-      continue;
-    }
-
-    // ── Any other HTML comment → skip silently ──
-    if (line.trim().startsWith("<!--")) {
-      i++;
-      continue;
-    }
-
-    // ── Raw HTML passthrough (video, div, style blocks) ──
-    if (line.trim().startsWith("<video") || line.trim().startsWith("<div") || line.trim().startsWith("<style")) {
-      const htmlLines: string[] = [];
-      // collect until we hit a blank line or a closing tag
-      while (i < lines.length && lines[i].trim() !== "") {
-        htmlLines.push(lines[i]);
-        i++;
-      }
-      elements.push(
-        <div
-          key={key++}
-          className="my-6"
-          dangerouslySetInnerHTML={{ __html: htmlLines.join("\n") }}
-        />
-      );
-      continue;
-    }
-
-    // ── Table ──
-    if (isTableStart(i)) {
-      const headers = line.split("|").filter(Boolean).map((h) => h.trim());
-      i += 2;
-      const rows: string[][] = [];
-      while (i < lines.length && lines[i].startsWith("|")) {
-        rows.push(lines[i].split("|").filter(Boolean).map((c) => c.trim()));
-        i++;
-      }
-      elements.push(
-        <div key={key++} className="my-6 overflow-x-auto rounded-lg border border-[#1F1F1F]">
-          <table className="w-full text-left text-sm">
-            <thead className="border-b border-[#1F1F1F] bg-[#1A1A1A]">
-              <tr>
-                {headers.map((h, hi) => (
-                  <th key={hi} className="px-4 py-2 font-medium text-[#888]">{h}</th>
-                ))}
-              </tr>
-            </thead>
-            <tbody>
-              {rows.map((row, ri) => (
-                <tr key={ri} className="border-b border-[#1F1F1F]">
-                  {row.map((cell, ci) => (
-                    <td key={ci} className={`px-4 py-2 ${ci === 1 ? "text-[#00FF88]" : ""}`}>
-                      {inlineFormat(cell)}
-                    </td>
-                  ))}
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-      );
-      continue;
-    }
-
-    // ── H2 — with id for TOC anchors ──
-    if (line.startsWith("## ")) {
-      const text = line.slice(3);
-      const id = slugify(text);
-      elements.push(
-        <h2 key={key++} id={id} className="mt-10 mb-4 text-2xl font-bold text-white scroll-mt-20">
-          <a href={`#${id}`} className="hover:text-[#00D4FF] transition-colors">{text}</a>
-        </h2>
-      );
-      i++; continue;
-    }
-
-    // ── H3 — with id for TOC anchors ──
-    if (line.startsWith("### ")) {
-      const text = line.slice(4);
-      const id = slugify(text);
-      elements.push(
-        <h3 key={key++} id={id} className="mt-8 mb-3 text-xl font-bold text-white scroll-mt-20">
-          <a href={`#${id}`} className="hover:text-[#00D4FF] transition-colors">{text}</a>
-        </h3>
-      );
-      i++; continue;
-    }
-
-    // ── Unordered list ──
-    if (line.startsWith("- ")) {
-      const items: React.ReactNode[] = [];
-      while (i < lines.length && lines[i].startsWith("- ")) {
-        items.push(<li key={items.length} className="ml-4">{inlineFormat(lines[i].slice(2))}</li>);
-        i++;
-      }
-      elements.push(<ul key={key++} className="my-4 list-disc pl-6 space-y-2">{items}</ul>);
-      continue;
-    }
-
-    // ── Horizontal rule ──
-    if (line.trim() === "---") {
-      elements.push(<hr key={key++} className="my-8 border-[#1F1F1F]" />);
-      i++; continue;
-    }
-
-    // ── Empty line ──
-    if (line.trim() === "") { i++; continue; }
-
-    // ── Paragraph ──
-    elements.push(<p key={key++} className="my-4 leading-relaxed">{inlineFormat(line)}</p>);
-    i++;
-  }
-
-  return elements;
-}
-
-export default async function BlogPostPage({
-  params,
-}: {
-  params: Promise<{ slug: string }>;
-}) {
-  const { slug } = await params;
-  const post = blogPosts.find((p) => p.slug === slug);
+export default function BlogPostPage({ params }: { params: { slug: string } }) {
+  const post = getBlogPost(params.slug);
   if (!post) notFound();
 
+  const toc = getH2Toc(post.content);
+  const faqSchema = tryParseSchema(post.schema_faq);
+  const articleSchema =
+    tryParseSchema(post.schema_article) ??
+    ({
+      "@context": "https://schema.org",
+      "@type": "Article",
+      headline: post.title,
+      description: post.description,
+      datePublished: post.date,
+      dateModified: post.date,
+      author: { "@type": "Person", name: post.author },
+      mainEntityOfPage: `https://namebuzz.co/blog/${post.slug}`,
+      publisher: {
+        "@type": "Organization",
+        name: "NameBuzz",
+        url: "https://namebuzz.co",
+      },
+    } as const);
+
   return (
-    <div className="min-h-screen bg-[#0A0A0A] text-[#D0D0D0]">
-      <div className="mx-auto max-w-3xl px-4 py-12">
-        <Link href="/blog" className="mb-8 inline-block text-sm text-[#00D4FF] hover:underline">
-          &larr; Back to Blog
-        </Link>
+    <main className="mx-auto w-full max-w-6xl px-4 pb-16 pt-10 md:px-6">
+      <div className="mb-6 text-sm text-zinc-400">
+        <Link href="/blog" className="hover:text-[#00FF88]">Blog</Link>
+        <span className="mx-2">/</span>
+        <span>{post.title}</span>
+      </div>
 
-        <article>
-          <h1 className="mb-4 text-3xl font-bold text-white md:text-4xl">{post.title}</h1>
-          <div className="mb-8 flex items-center gap-3 text-sm text-[#888]">
-            <span>{post.date}</span>
-            <span>&middot;</span>
-            <span>{post.readTime}</span>
-            <span>&middot;</span>
-            <span>{post.author}</span>
-          </div>
+      <header className="mb-8 border-b border-zinc-800 pb-6">
+        <h1 className="text-3xl font-bold leading-tight text-white md:text-5xl">{post.title}</h1>
+        <p className="mt-4 text-lg text-zinc-300">{post.description}</p>
+        <div className="mt-5 flex flex-wrap items-center gap-3 text-sm text-zinc-400">
+          <span>By {post.author}</span>
+          <span>•</span>
+          <span>{post.readTime}</span>
+          <span>•</span>
+          <span>Published {post.date}</span>
+          <span>•</span>
+          <span>Last updated {post.date}</span>
+        </div>
+      </header>
 
-          <div className="prose-dark">{renderMarkdown(post.content)}</div>
+      <div className="grid grid-cols-1 gap-8 lg:grid-cols-[1fr_260px]">
+        <article className="prose prose-invert max-w-none prose-headings:scroll-mt-24 prose-a:text-[#00FF88]">
+          <ReactMarkdown
+            remarkPlugins={[remarkGfm]}
+            rehypePlugins={[
+              rehypeRaw,
+              rehypeSlug,
+              [rehypeAutolinkHeadings, { behavior: "append" }],
+            ]}
+          >
+            {post.content}
+          </ReactMarkdown>
         </article>
 
-        {/* CTA */}
-        <div className="mt-10 rounded-xl border border-[#00FF88]/20 bg-[#111] p-6 text-center">
-          <h3 className="mb-2 text-lg font-bold text-white">Estimate your .ai domain value</h3>
-          <Link
-            href="/value"
-            className="mt-3 inline-block rounded-lg bg-[#00FF88] px-6 py-2.5 text-sm font-semibold text-[#0A0A0A] hover:bg-[#00CC6A]"
-          >
-            Estimate your .ai domain value &rarr;
-          </Link>
-        </div>
+        <aside className="lg:sticky lg:top-20 lg:h-fit">
+          <div className="rounded-xl border border-zinc-800 bg-zinc-900 p-4">
+            <p className="mb-3 text-xs font-semibold uppercase tracking-wide text-zinc-400">Table of contents</p>
+            <ul className="space-y-2 text-sm text-zinc-300">
+              {toc.map((item) => (
+                <li key={item.id}>
+                  <a href={`#${item.id}`} className="hover:text-[#00FF88]">
+                    {item.text}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </aside>
       </div>
-    </div>
+
+      {faqSchema ? (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      ) : null}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+    </main>
   );
 }

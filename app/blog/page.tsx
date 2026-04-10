@@ -3,48 +3,30 @@ import Link from "next/link";
 import { blogPosts } from "@/lib/blog-posts";
 
 export const metadata: Metadata = {
-  title: ".ai Domain Investment Blog | NameBuzz",
-  description:
-    "Market reports, investment guides, and sale breakdowns for .ai domain investors.",
-  openGraph: {
-    title: ".ai Domain Investment Blog | NameBuzz",
-    description:
-      "Market reports, investment guides, and sale breakdowns for .ai domain investors.",
-  },
+  title: "NameBuzz Blog",
+  description: "Latest analysis and data-backed guides on the .ai domain market.",
 };
 
-export default function BlogIndex() {
-  return (
-    <div className="min-h-screen bg-[#0A0A0A] text-[#F0F0F0]">
-      <div className="mx-auto max-w-4xl px-4 py-12">
-        <h1 className="mb-2 text-3xl font-bold">.ai Domain Blog</h1>
-        <p className="mb-10 text-[#888]">
-          Market reports, investment guides, and sale breakdowns.
-        </p>
+export default function BlogIndexPage() {
+  const posts = [...blogPosts].sort((a, b) => b.date.localeCompare(a.date));
 
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {blogPosts.map((post) => (
-            <Link
-              key={post.slug}
-              href={`/blog/${post.slug}`}
-              className="group rounded-xl border border-[#1F1F1F] bg-[#111] p-6 transition-colors hover:border-[#00FF88]/30"
-            >
-              <p className="mb-2 text-xs text-[#888]">
-                {post.date} &middot; {post.readTime}
-              </p>
-              <h2 className="mb-3 text-lg font-bold group-hover:text-[#00FF88]">
-                {post.title}
-              </h2>
-              <p className="mb-4 text-sm text-[#888] line-clamp-3">
-                {post.description}
-              </p>
-              <span className="text-sm font-medium text-[#00D4FF]">
-                Read Article &rarr;
-              </span>
+  return (
+    <main className="mx-auto w-full max-w-6xl px-4 pb-16 pt-10 md:px-6">
+      <h1 className="text-3xl font-bold text-white md:text-5xl">NameBuzz Articles</h1>
+      <p className="mt-3 text-zinc-300">Data-backed guides, sales breakdowns, and investor insights for .ai domains.</p>
+
+      <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {posts.map((post) => (
+          <article key={post.slug} className="rounded-xl border border-zinc-800 bg-zinc-900 p-5">
+            <h2 className="text-xl font-semibold text-white">{post.title}</h2>
+            <p className="mt-2 line-clamp-3 text-sm text-zinc-300">{post.description}</p>
+            <div className="mt-4 text-xs text-zinc-400">{post.date} • {post.readTime}</div>
+            <Link href={`/blog/${post.slug}`} className="mt-4 inline-block text-sm font-medium text-[#00FF88] hover:underline">
+              Read article →
             </Link>
-          ))}
-        </div>
+          </article>
+        ))}
       </div>
-    </div>
+    </main>
   );
 }

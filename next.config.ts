@@ -1,7 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  transpilePackages: [
+    "remark-gfm",
+    "rehype-raw",
+    "rehype-slug",
+    "rehype-autolink-headings",
+  ],
 };
 
 export default nextConfig;
