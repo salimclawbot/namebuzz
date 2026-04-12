@@ -181,7 +181,7 @@ From a messaging perspective, Terafab can be narrated as:
 
 Each line is commercially plausible. That is the core branding strength behind this sale.
 
-![AI hardware and chip design workstation representing fabrication and scale](https://images.unsplash.com/photo-1563770660941-10a636076a76?w=1400&q=80&auto=format&fit=crop)
+![AI infrastructure and data center circuits representing tera-scale computing](https://images.unsplash.com/photo-1518770660439-4636190af475?w=1400&q=80&auto=format&fit=crop)
 
 *Inline image: Visual anchor for semiconductor/fabrication interpretation of “fab.”*
 
