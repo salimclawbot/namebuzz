@@ -22,7 +22,7 @@ function getPriceTier(price: number): {
       label: "Strong Mid-Tier AI Domain",
       headline: "A strong .ai domain with real market value.",
       description:
-        "Domains in this range represent solid AI brands with meaningful market positioning. The $100K–$300K tier reflects domains that convey authority and innovation — ideal for startups, AI-focused companies, or established businesses launching an AI product line. These names are short, brandable, and carry clear utility signals.",
+        "Domains in this range represent solid AI brands with meaningful market positioning. The $100K-$300K tier reflects domains that convey authority and innovation — ideal for startups, AI-focused companies, or established businesses launching an AI product line. These names are short, brandable, and carry clear utility signals.",
     };
   }
   if (price >= 50_000) {
@@ -30,7 +30,7 @@ function getPriceTier(price: number): {
       label: "Solid AI Domain Investment",
       headline: "A solid .ai domain at a reasonable valuation.",
       description:
-        "The $50K–$100K range is where serious AI ventures and well-funded startups compete. These domains strike a balance between affordability and brand power — they are short enough to be memorable and specific enough to signal a clear AI focus. This tier consistently attracts buyers who understand the long-term value of a clean digital identity.",
+        "The $50K-$100K range is where serious AI ventures and well-funded startups compete. These domains strike a balance between affordability and brand power — they are short enough to be memorable and specific enough to signal a clear AI focus. This tier consistently attracts buyers who understand the long-term value of a clean digital identity.",
     };
   }
   return {
@@ -64,14 +64,14 @@ export async function generateMetadata({
   if (!sale) return {};
   const tier = getPriceTier(sale.price);
   return {
-    title: `${sale.domain}.ai Sold for ${sale.priceFormatted} — NameBuzz`,
-    description: `${sale.domain}.ai sold for ${sale.priceFormatted} on ${sale.date} via ${sale.venue}. ${tier.headline} See comparable .ai domain sales and estimate your domain's value on NameBuzz.`,
+    title: `${sale.domain} Sold for ${sale.priceFormatted} — NameBuzz`,
+    description: `${sale.domain} sold for ${sale.priceFormatted} on ${sale.date} via ${sale.venue}. ${tier.headline} See comparable .ai domain sales and estimate your domain's value on NameBuzz.`,
     alternates: {
       canonical: `https://namebuzz.co/sales/${slug}`,
     },
     openGraph: {
-      title: `${sale.domain}.ai Sold for ${sale.priceFormatted} — NameBuzz`,
-      description: `${sale.domain}.ai sold for ${sale.priceFormatted} on ${sale.date}. ${tier.headline}`,
+      title: `${sale.domain} Sold for ${sale.priceFormatted} — NameBuzz`,
+      description: `${sale.domain} sold for ${sale.priceFormatted} on ${sale.date}. ${tier.headline}`,
       url: `https://namebuzz.co/sales/${slug}`,
       type: "website",
     },
@@ -94,11 +94,11 @@ export default async function SalePage({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "ItemPage",
-    name: `${sale.domain}.ai Sold for ${sale.priceFormatted}`,
+    name: `${sale.domain} Sold for ${sale.priceFormatted}`,
     description: tier.description,
     mainEntity: {
       "@type": "Product",
-      name: sale.domain + ".ai",
+      name: sale.domain,
       description: `.ai domain name sold for ${sale.priceFormatted}`,
       offers: {
         "@type": "Offer",
