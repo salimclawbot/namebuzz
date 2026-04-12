@@ -1287,4 +1287,7 @@ sale("dealer.ai", 100000, "Spaceship.com​", "2026-04-04", "NamePros Forum", "U
   sale("1click.ai", 1000, "Dynadot​", "2024-11-04", "NamePros Forum", "Undisclosed", "Undisclosed", "NamePros/NameBio"),
   sale("onp.ai", 1000, "Namecheap​", "2026-02-07", "NamePros Forum", "Undisclosed", "Undisclosed", "NamePros/NameBio"),
   sale("getaway.ai", 1000, "Whois.ai​", "2023-07-03", "NamePros Forum", "Undisclosed", "Undisclosed", "NamePros/NameBio"),
-];
+  sale("blockchain.ai", 405000, "NamePros Forum", "2025-10-13", "NamePros Forum", "Undisclosed", "Undisclosed", "https://www.namepros.com/forums/daily-domain-sales.383/"),
+  sale("pioneer.ai", 111000, "NamePros Forum", "2026-04-01", "NamePros Forum", "Undisclosed", "Undisclosed", "https://www.namepros.com/forums/daily-domain-sales.383/"),
+  sale("tou.ai", 15000, "Sedo", "2026-04-01", "DN Journal", "Undisclosed", "Undisclosed", "https://dnjournal.com/ytd-sales-charts.htm"),
+  sale("sonik.ai", 8000, "Sedo", "2026-01-21", "DN Journal", "Undisclosed", "Undisclosed", "https://dnjournal.com/ytd-sales-charts.htm"),];
