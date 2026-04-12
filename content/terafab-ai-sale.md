@@ -80,7 +80,7 @@ The name does not trap the buyer in one use case. It can sit over software, hard
 
 The most expensive .ai sales are often dictionary words, but compound technical brands are increasingly attractive when they are clean and category-credible. Terafab belongs to that second wave.
 
-![Engineers discussing AI infrastructure and chip manufacturing strategy](https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?w=1400&q=80&auto=format&fit=crop)
+![Engineers discussing AI infrastructure and chip manufacturing strategy](https://images.unsplash.com/photo-1518770660439-e0d23cbdf1dc?w=1400&q=80&auto=format&fit=crop)
 
 *Inline image: Engineering context for why fabrication/fabric language resonates in AI infrastructure branding.*
 
@@ -122,7 +122,7 @@ Terafab.ai being sold on Spaceship supports the thesis that **premium .ai commer
 
 For founders watching from the outside, this is useful operationally. If you are pursuing a serious .ai acquisition, your search and broker outreach should now include Spaceship-level inventory flows, not just legacy marketplaces.
 
-![Server racks and high-bandwidth cabling symbolizing AI compute fabric](https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1400&q=80&auto=format&fit=crop)
+![Server racks and high-bandwidth cabling symbolizing AI compute fabric](https://images.unsplash.com/photo-1518770660439-ef010cbdcc31?w=1400&q=80&auto=format&fit=crop)
 
 *Inline image: Physical infrastructure metaphor for the “fabric” side of Terafab naming logic.*
 
@@ -402,7 +402,7 @@ Treat them as strategic brand infrastructure. If the domain materially improves 
   "image": [
     "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600&q=80&auto=format&fit=crop",
     "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1400&q=80&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1400&q=80&auto=format&fit=crop"
+    "https://images.unsplash.com/photo-1518770660439-ef010cbdcc31?w=1400&q=80&auto=format&fit=crop"
   ],
   "mainEntityOfPage": "https://namebuzz.co/blog/terafab-ai-sale"
 }
