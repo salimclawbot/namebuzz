@@ -104,6 +104,7 @@ export const seedSales: Sale[] = [
   sale("ace.ai", 205000, "Undisclosed", "2025-03-19", "DN Journal", "Undisclosed", "Undisclosed", "https://www.dnjournal.com/archive/domainsales/2025/2025-top-100-sales-charts.htm"),
   sale("rank.ai", 200000, "Undisclosed", "2025-06-25", "DN Journal", "Undisclosed", "Undisclosed", "https://www.dnjournal.com/archive/domainsales/2025/2025-top-100-sales-charts.htm"),
   sale("zip.ai", 200000, "Afternic", "2025-04-02", "DN Journal", "Undisclosed", "Undisclosed", "https://www.dnjournal.com/archive/domainsales/2025/2025-top-100-sales-charts.htm"),
+  sale("terafab.ai", 174257, "Spaceship", "2026-04-01", "DN Journal", "Undisclosed", "Undisclosed", "https://www.dnjournal.com/ytd-sales-charts.htm"),
   sale("speed.ai", 165000, "LegalBrandMarketing", "2026-01-22", "DN Journal", "Undisclosed", "Undisclosed", "https://www.dnjournal.com/ytd-sales-charts.htm"),
   sale("turbo.ai", 165000, "Undisclosed", "2025-04-02", "DN Journal", "Undisclosed", "Undisclosed", "https://www.dnjournal.com/archive/domainsales/2025/2025-top-100-sales-charts.htm"),
   sale("leo.ai", 150000, "Undisclosed", "2025-12-24", "DN Journal", "Undisclosed", "Undisclosed", "https://www.dnjournal.com/archive/domainsales/2025/2025-top-100-sales-charts.htm"),
