@@ -1297,4 +1297,6 @@ sale("dealer.ai", 100000, "Spaceship.com​", "2026-04-04", "NamePros Forum", "U
   sale("openpool.ai", 0, "NamePros Forum", "2026-04-01", "NamePros Forum", "Undisclosed", "Undisclosed", ""),
   sale("breez.ai", 0, "NamePros Forum", "2026-04-01", "NamePros Forum", "Undisclosed", "Undisclosed", ""),
   sale("outofoffice.ai", 0, "NamePros Forum", "2026-04-01", "NamePros Forum", "Undisclosed", "Undisclosed", ""),
+  sale("guthealth.ai", 23888, "Sedo", "2026-03-18", "DN Journal", "Undisclosed", "Undisclosed", "https://dnjournal.com/ytd-sales-charts.htm"),
+  sale("stopfake.ai", 4600, "Undisclosed", "2026-04-13", "DN Journal", "Undisclosed", "Undisclosed", "https://dnjournal.com/domainsales.htm"),
 ];
