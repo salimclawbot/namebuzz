@@ -109,11 +109,61 @@ export default async function SalePage({
     },
   };
 
+  const faqJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: `How much did ${sale.domain} sell for?`,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: `${sale.domain} sold for ${sale.priceFormatted} on ${sale.date} via ${sale.venue}.`,
+        },
+      },
+      {
+        "@type": "Question",
+        name: `What does a ${sale.domain} sale tell us about the .ai domain market?`,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: `The ${sale.priceFormatted} sale of ${sale.domain} reflects the ongoing demand for .ai domains. Short, memorable AI-focused domains continue to command premium prices as companies seek strong digital identities in the artificial intelligence space.`,
+        },
+      },
+      {
+        "@type": "Question",
+        name: `How is the ${sale.domain} domain price calculated?`,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: `${sale.domain} was valued at ${sale.priceFormatted} based on actual market transaction data reported from ${sale.venue} on ${sale.date}. Domain valuations are influenced by length, brandability, keyword value, and current AI market demand.`,
+        },
+      },
+      {
+        "@type": "Question",
+        name: `What is my .ai domain worth?`,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: `You can estimate your .ai domain's value based on comparable sales using our free valuation tool on NameBuzz. Factors include length, brandability, keyword strength, and recent market comparables.`,
+        },
+      },
+      {
+        "@type": "Question",
+        name: `Where can I find more .ai domain sales data?`,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: `NameBuzz tracks ${seedSales.length.toLocaleString()} verified .ai domain sales with real prices, dates, and venues. Browse the full database at https://namebuzz.co/sales.`,
+        },
+      },
+    ],
+  };
   return (
     <div className="min-h-screen bg-[#0A0A0A] text-[#F0F0F0]">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
 
       <div className="mx-auto max-w-4xl px-4 py-8">
@@ -266,6 +316,30 @@ export default async function SalePage({
         </div>
 
         {/* Back link */}
+
+        {/* FAQ Section */}
+        <div className="mb-10 rounded-xl border border-[#1F1F1F] bg-[#111] p-8">
+          <h2 className="mb-6 text-xl font-bold text-[#F0F0F0]">Frequently Asked Questions</h2>
+          <div className="space-y-4">
+            <div>
+              <h3 className="text-sm font-semibold text-[#D0D0D0]">How much did {sale.domain} sell for?</h3>
+              <p className="mt-1 text-sm text-[#888]">{sale.domain} sold for {sale.priceFormatted} on {sale.date} via {sale.venue}.</p>
+            </div>
+            <div>
+              <h3 className="text-sm font-semibold text-[#D0D0D0]">What does this sale tell us about the .ai domain market?</h3>
+              <p className="mt-1 text-sm text-[#888]">The {sale.priceFormatted} sale of {sale.domain} reflects strong demand for .ai domains. Short, memorable AI-focused domains continue to command premium prices as companies compete for digital identity in the artificial intelligence space.</p>
+            </div>
+            <div>
+              <h3 className="text-sm font-semibold text-[#D0D0D0]">How is domain price calculated?</h3>
+              <p className="mt-1 text-sm text-[#888]">{sale.domain} was valued at {sale.priceFormatted} based on actual market transaction data from {sale.venue}. Domain values are driven by length, brandability, keyword strength, and current AI market demand.</p>
+            </div>
+            <div>
+              <h3 className="text-sm font-semibold text-[#D0D0D0]">What is my .ai domain worth?</h3>
+              <p className="mt-1 text-sm text-[#888]">Use our free valuation tool at <a href="/value" className="text-[#00D4FF] hover:underline">NameBuzz/Value</a> to estimate your domain based on comparable sales data.</p>
+            </div>
+          </div>
+        </div>
+
         <Link href="/sales" className="text-sm text-[#00D4FF] hover:underline">
           ← View all .ai sales
         </Link>
