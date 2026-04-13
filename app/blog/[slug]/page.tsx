@@ -45,6 +45,18 @@ const BLOG_SALE_MAP: Record<string, { saleSlug: string; relatedPosts: string[] }
   },
 };
 
+// Second individual sale link per blog article
+const SECOND_SALE_SLUGS: Record<string, string> = {
+  "ai-com-sold-70-million": "x-ai",
+  "x-ai-sold-5-million": "data-ai",
+  "data-ai-sold-1-8-million": "voice-ai",
+  "voice-ai-sold-1-5-million": "x-ai",
+  "cloud-ai-sold-600000": "lotus-ai",
+  "genesis-ai-sold-400000": "lotus-ai",
+  "wisdom-ai-sold-750000": "cloud-ai",
+  "lotus-ai-sold-400000": "genesis-ai",
+};
+
 function toSlug(text: string) {
   return text
     .toLowerCase()
@@ -133,6 +145,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     } as const);
 
   const mapping = BLOG_SALE_MAP[slug];
+  const secondSaleSlug = SECOND_SALE_SLUGS[slug];
   const relatedBlogPosts = mapping
     ? blogPosts.filter((p) => mapping.relatedPosts.includes(p.slug))
     : [];
@@ -189,7 +202,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         </aside>
       </div>
 
-      {/* Internal links: related sale + related blog posts */}
+      {/* Internal links: two individual sale cards + browse all */}
       <div className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-2">
         {mapping && (
           <div className="rounded-xl border border-[#1F1F1F] bg-[#111] p-5">
@@ -203,16 +216,27 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             <p className="mt-1 text-sm text-zinc-400">See full price details, comparables, and market context.</p>
           </div>
         )}
-        <div className="rounded-xl border border-[#1F1F1F] bg-[#111] p-5">
-          <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-zinc-400">Browse all .ai sales</p>
-          <Link
-            href="/sales"
-            className="text-lg font-semibold text-[#00D4FF] hover:underline"
-          >
-            Explore the full database →
-          </Link>
-          <p className="mt-1 text-sm text-zinc-400">{seedSales.length.toLocaleString()} verified .ai domain sales with real prices.</p>
-        </div>
+        {secondSaleSlug && (
+          <div className="rounded-xl border border-[#1F1F1F] bg-[#111] p-5">
+            <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-zinc-400">Another notable sale</p>
+            <Link
+              href={`/sales/${secondSaleSlug}`}
+              className="text-lg font-semibold text-[#FFD700] hover:underline"
+            >
+              See another top .ai sale →
+            </Link>
+            <p className="mt-1 text-sm text-zinc-400">Compare prices across the NameBuzz database.</p>
+          </div>
+        )}
+      </div>
+
+      <div className="mt-4 rounded-xl border border-[#1F1F1F] bg-[#111] p-4 text-center">
+        <Link
+          href="/sales"
+          className="text-sm font-semibold text-[#00D4FF] hover:underline"
+        >
+          Browse all {seedSales.length.toLocaleString()} verified .ai domain sales →
+        </Link>
       </div>
 
       {relatedBlogPosts.length > 0 && (
