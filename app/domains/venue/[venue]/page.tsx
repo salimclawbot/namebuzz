@@ -83,11 +83,26 @@ export default async function VenuePage({
           &larr; Back to Home
         </Link>
         <h1 className="mb-2 text-3xl font-bold">
-          <span className="text-[#00FF88]">.ai</span> Sales — {venueLabel}
+          <span className="text-[#00FF88]">.ai</span> Domain Sales — {venueLabel}
         </h1>
         <p className="mb-8 text-[#888]">
           {sales.length.toLocaleString()} sales &bull; ${(totalVolume / 1_000_000).toFixed(1)}M total volume &bull; avg ${avgPrice.toLocaleString()}
         </p>
+
+        <div className="mb-8 grid grid-cols-3 gap-4">
+          <div className="rounded-xl border border-[#1F1F1F] bg-[#111] p-4 text-center">
+            <p className="text-2xl font-bold text-[#00FF88]">{sales.length.toLocaleString()}</p>
+            <p className="text-xs text-[#888]">Total Sales</p>
+          </div>
+          <div className="rounded-xl border border-[#1F1F1F] bg-[#111] p-4 text-center">
+            <p className="text-2xl font-bold text-[#00FF88]">${(totalVolume / 1_000_000).toFixed(1)}M</p>
+            <p className="text-xs text-[#888]">Total Volume</p>
+          </div>
+          <div className="rounded-xl border border-[#1F1F1F] bg-[#111] p-4 text-center">
+            <p className="text-2xl font-bold text-[#00FF88]">${avgPrice.toLocaleString()}</p>
+            <p className="text-xs text-[#888]">Avg Price</p>
+          </div>
+        </div>
 
         {sales.length === 0 ? (
           <p className="text-[#555]">No sales data for this venue.</p>
