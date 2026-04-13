@@ -102,6 +102,14 @@ export default async function YearPage({
             </table>
           </div>
         )}
+
+        <div className="mt-8 rounded-xl border border-[#1F1F1F] bg-[#111] p-5">
+          <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-zinc-400">Browse all categories</p>
+          <Link href="/domains/premium" className="mr-4 text-sm text-[#00FF88] hover:underline">Premium domains</Link>
+          <Link href="/domains/short" className="mr-4 text-sm text-[#00FF88] hover:underline">Short domains</Link>
+          <Link href="/domains/single-word" className="mr-4 text-sm text-[#00FF88] hover:underline">Single-word domains</Link>
+          <Link href="/sales" className="text-sm text-[#00D4FF] hover:underline">All .ai sales →</Link>
+        </div>
       </div>
     </div>
   );

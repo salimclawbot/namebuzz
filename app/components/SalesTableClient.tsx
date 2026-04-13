@@ -156,22 +156,22 @@ export default function SalesTableClient({ sales }: { sales: Sale[] }) {
       <RecentSales />
 
       {/* Tab Toggle */}
-      <div className="mt-8 flex gap-2 border-b border-[#1F1F1F] pb-0">
+      <div className="mt-6 sm:mt-8 no-scrollbar flex gap-1 sm:gap-2 overflow-x-auto border-b border-[#1F1F1F] pb-0">
         <button
           onClick={() => setActiveTab("all")}
-          className={`px-5 py-2 text-sm font-semibold border-b-2 transition-colors ${activeTab === "all" ? "border-[#00FF88] text-[#00FF88]" : "border-transparent text-[#888] hover:text-[#F0F0F0]"}`}
+          className={`px-3 sm:px-5 py-2 text-xs sm:text-sm font-semibold border-b-2 transition-colors whitespace-nowrap ${activeTab === "all" ? "border-[#00FF88] text-[#00FF88]" : "border-transparent text-[#888] hover:text-[#F0F0F0]"}`}
         >
           All Sales ({sales.length})
         </button>
         <button
           onClick={() => setActiveTab("recent")}
-          className={`px-5 py-2 text-sm font-semibold border-b-2 transition-colors ${activeTab === "recent" ? "border-[#00D4FF] text-[#00D4FF]" : "border-transparent text-[#888] hover:text-[#F0F0F0]"}`}
+          className={`px-3 sm:px-5 py-2 text-xs sm:text-sm font-semibold border-b-2 transition-colors whitespace-nowrap ${activeTab === "recent" ? "border-[#00D4FF] text-[#00D4FF]" : "border-transparent text-[#888] hover:text-[#F0F0F0]"}`}
         >
           🆕 Recent Sales ({recentSales.length})
         </button>
         <button
           onClick={() => setActiveTab("charts")}
-          className={`px-5 py-2 text-sm font-semibold border-b-2 transition-colors ${activeTab === "charts" ? "border-[#AA44FF] text-[#AA44FF]" : "border-transparent text-[#888] hover:text-[#F0F0F0]"}`}
+          className={`px-3 sm:px-5 py-2 text-xs sm:text-sm font-semibold border-b-2 transition-colors whitespace-nowrap ${activeTab === "charts" ? "border-[#AA44FF] text-[#AA44FF]" : "border-transparent text-[#888] hover:text-[#F0F0F0]"}`}
         >
           📊 Charts & Analytics
         </button>
@@ -237,7 +237,7 @@ export default function SalesTableClient({ sales }: { sales: Sale[] }) {
       {/* All Sales Tab */}
       {activeTab === "all" && (
         <>
-          <div className="mt-8 flex flex-wrap items-center gap-3">
+          <div className="mt-6 sm:mt-8 flex flex-col sm:flex-row flex-wrap items-stretch sm:items-center gap-2 sm:gap-3">
             <div className="flex flex-wrap gap-2">
               {filterButtons.map((b) => (
                 <button
@@ -253,11 +253,11 @@ export default function SalesTableClient({ sales }: { sales: Sale[] }) {
                 </button>
               ))}
             </div>
-            <div className="ml-auto flex flex-wrap items-center gap-3">
+            <div className="flex flex-wrap items-center gap-2 sm:gap-3">
               <select
                 value={yearFilter}
                 onChange={(e) => setYearFilter(e.target.value)}
-                className="rounded-lg border border-[#1F1F1F] bg-[#111111] px-3 py-1.5 text-sm text-[#F0F0F0] outline-none"
+                className="rounded-lg border border-[#1F1F1F] bg-[#111111] px-2 sm:px-3 py-1.5 text-xs sm:text-sm text-[#F0F0F0] outline-none w-full sm:w-auto"
               >
                 <option value="all">All Years</option>
                 {years.map((y) => (
@@ -269,7 +269,7 @@ export default function SalesTableClient({ sales }: { sales: Sale[] }) {
               <select
                 value={sort}
                 onChange={(e) => setSort(e.target.value as SortMode)}
-                className="rounded-lg border border-[#1F1F1F] bg-[#111111] px-3 py-1.5 text-sm text-[#F0F0F0] outline-none"
+                className="rounded-lg border border-[#1F1F1F] bg-[#111111] px-2 sm:px-3 py-1.5 text-xs sm:text-sm text-[#F0F0F0] outline-none w-full sm:w-auto"
               >
                 <option value="price">Highest Price</option>
                 <option value="recent">Most Recent</option>
@@ -279,7 +279,7 @@ export default function SalesTableClient({ sales }: { sales: Sale[] }) {
                 placeholder="Search domains, buyers..."
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
-                className="rounded-lg border border-[#1F1F1F] bg-[#111111] px-3 py-1.5 text-sm text-[#F0F0F0] placeholder-[#555] outline-none w-48"
+                className="rounded-lg border border-[#1F1F1F] bg-[#111111] px-3 py-1.5 text-sm text-[#F0F0F0] placeholder-[#555] outline-none w-full sm:w-48"
               />
             </div>
           </div>

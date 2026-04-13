@@ -71,10 +71,10 @@ export default function RecentSales() {
   return (
     <div className="mt-8">
       <div className="flex flex-wrap items-center gap-3">
-        <h2 className="text-xl font-bold text-[#F0F0F0]">
+        <h2 className="text-base sm:text-xl font-bold text-[#F0F0F0]">
           🔥 Recent Top Sales
         </h2>
-        <div className="ml-auto flex flex-wrap gap-2">
+        <div className="flex flex-wrap gap-2">
           {buttons.map((b) => (
             <button
               key={b.value}
@@ -98,7 +98,7 @@ export default function RecentSales() {
           {filtered.map((sale, i) => (
             <div
               key={sale.domain + sale.date}
-              className="relative w-[220px] min-w-[220px] overflow-visible rounded-xl border border-[#1F1F1F] bg-[#111111] p-3 hover:border-[#00FF88]/40 transition-colors"
+              className="relative w-[180px] min-w-[180px] sm:w-[220px] sm:min-w-[220px] overflow-visible rounded-xl border border-[#1F1F1F] bg-[#111111] p-3 hover:border-[#00FF88]/40 transition-colors"
             >
               {i < 3 && (
                 <span className="absolute -top-2 -right-2 z-10 flex h-5 w-5 items-center justify-center rounded-full bg-[#00FF88] text-[10px] font-bold text-black">
@@ -108,7 +108,7 @@ export default function RecentSales() {
               <button
                 type="button"
                 onClick={() => copyDomain(sale.domain)}
-                className="font-mono text-sm font-semibold text-[#F0F0F0] hover:text-[#00D4FF] transition-colors cursor-pointer truncate block w-full text-left"
+                className="font-mono text-xs sm:text-sm font-semibold text-[#F0F0F0] hover:text-[#00D4FF] transition-colors cursor-pointer truncate block w-full text-left"
                 title="Click to copy"
               >
                 {sale.domain}
@@ -116,7 +116,7 @@ export default function RecentSales() {
                   <span className="ml-1 text-xs text-[#00FF88]">✓</span>
                 )}
               </button>
-              <p className="mt-0.5 text-base font-bold text-[#00FF88]">
+              <p className="mt-0.5 text-sm sm:text-base font-bold text-[#00FF88]">
                 {sale.priceFormatted}
               </p>
               <div className="mt-1 flex items-center gap-2">

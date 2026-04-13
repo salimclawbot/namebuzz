@@ -20,7 +20,23 @@ export default function Navbar() {
               pathname === "/" ? "text-[#00FF88]" : "text-[#888] hover:text-[#F0F0F0]"
             }`}
           >
-            Sales Tracker
+            Home
+          </Link>
+          <Link
+            href="/sales"
+            className={`text-sm font-medium transition-colors ${
+              pathname === "/sales" ? "text-[#00FF88]" : "text-[#888] hover:text-[#F0F0F0]"
+            }`}
+          >
+            Recent Sales
+          </Link>
+          <Link
+            href="/charts"
+            className={`text-sm font-medium transition-colors ${
+              pathname === "/charts" ? "text-[#00FF88]" : "text-[#888] hover:text-[#F0F0F0]"
+            }`}
+          >
+            Charts
           </Link>
           <Link
             href="/value"

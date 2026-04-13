@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { seedSales, domainToSlug } from "@/lib/seed-sales";
+import { blogPosts } from "@/lib/blog-posts";
 
 // ── Helper: Price tier framing ──────────────────────────────────────────────
 function getPriceTier(price: number): {
@@ -296,6 +297,28 @@ export default async function SalePage({
                   {s.domain}
                 </Link>
               ))}
+          </div>
+        </div>
+
+        {/* Read market analysis: link blog posts related to this sale */}
+        <div className="mb-10 rounded-xl border border-[#1F1F1F] bg-[#111] p-6">
+          <h3 className="mb-3 text-lg font-bold">Read Market Analysis</h3>
+          <p className="mb-4 text-sm text-[#888]">
+            Go deeper on this transaction and the .ai domain market with NameBuzz research articles.
+          </p>
+          <div className="flex flex-col gap-2">
+            {blogPosts.slice(0, 4).map((post) => (
+              <Link
+                key={post.slug}
+                href={`/blog/${post.slug}`}
+                className="text-sm text-[#00FF88] hover:underline"
+              >
+                → {post.title}
+              </Link>
+            ))}
+            <Link href="/blog" className="mt-1 text-sm text-[#00D4FF] hover:underline">
+              View all articles →
+            </Link>
           </div>
         </div>
 

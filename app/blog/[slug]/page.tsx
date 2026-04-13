@@ -7,6 +7,43 @@ import rehypeRaw from "rehype-raw";
 import rehypeSlug from "rehype-slug";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import { blogPosts, getBlogPost } from "@/lib/blog-posts";
+import { seedSales, domainToSlug } from "@/lib/seed-sales";
+
+// Mapping: blog slug → { saleSlug, relatedPosts[] }
+const BLOG_SALE_MAP: Record<string, { saleSlug: string; relatedPosts: string[] }> = {
+  "ai-com-sold-70-million": {
+    saleSlug: "ai-com",
+    relatedPosts: ["x-ai-sold-5-million", "data-ai-sold-1-8-million", "voice-ai-sold-1-5-million"],
+  },
+  "x-ai-sold-5-million": {
+    saleSlug: "x-ai",
+    relatedPosts: ["ai-com-sold-70-million", "data-ai-sold-1-8-million", "voice-ai-sold-1-5-million"],
+  },
+  "data-ai-sold-1-8-million": {
+    saleSlug: "data-ai",
+    relatedPosts: ["ai-com-sold-70-million", "voice-ai-sold-1-5-million", "cloud-ai-sold-600000"],
+  },
+  "voice-ai-sold-1-5-million": {
+    saleSlug: "voice-ai",
+    relatedPosts: ["data-ai-sold-1-8-million", "x-ai-sold-5-million", "cloud-ai-sold-600000"],
+  },
+  "cloud-ai-sold-600000": {
+    saleSlug: "cloud-ai",
+    relatedPosts: ["wisdom-ai-sold-750000", "genesis-ai-sold-400000", "lotus-ai-sold-400000"],
+  },
+  "genesis-ai-sold-400000": {
+    saleSlug: "genesis-ai",
+    relatedPosts: ["cloud-ai-sold-600000", "wisdom-ai-sold-750000", "lotus-ai-sold-400000"],
+  },
+  "wisdom-ai-sold-750000": {
+    saleSlug: "wisdom-ai",
+    relatedPosts: ["cloud-ai-sold-600000", "genesis-ai-sold-400000", "lotus-ai-sold-400000"],
+  },
+  "lotus-ai-sold-400000": {
+    saleSlug: "lotus-ai",
+    relatedPosts: ["genesis-ai-sold-400000", "cloud-ai-sold-600000", "wisdom-ai-sold-750000"],
+  },
+};
 
 function toSlug(text: string) {
   return text
@@ -95,6 +132,11 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
       },
     } as const);
 
+  const mapping = BLOG_SALE_MAP[slug];
+  const relatedBlogPosts = mapping
+    ? blogPosts.filter((p) => mapping.relatedPosts.includes(p.slug))
+    : [];
+
   return (
     <main className="mx-auto w-full max-w-6xl px-4 pb-16 pt-10 md:px-6">
       <div className="mb-6 text-sm text-zinc-400">
@@ -146,6 +188,49 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           </div>
         </aside>
       </div>
+
+      {/* Internal links: related sale + related blog posts */}
+      <div className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-2">
+        {mapping && (
+          <div className="rounded-xl border border-[#1F1F1F] bg-[#111] p-5">
+            <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-zinc-400">Featured sale</p>
+            <Link
+              href={`/sales/${mapping.saleSlug}`}
+              className="text-lg font-semibold text-[#00FF88] hover:underline"
+            >
+              View this .ai domain sale →
+            </Link>
+            <p className="mt-1 text-sm text-zinc-400">See full price details, comparables, and market context.</p>
+          </div>
+        )}
+        <div className="rounded-xl border border-[#1F1F1F] bg-[#111] p-5">
+          <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-zinc-400">Browse all .ai sales</p>
+          <Link
+            href="/sales"
+            className="text-lg font-semibold text-[#00D4FF] hover:underline"
+          >
+            Explore the full database →
+          </Link>
+          <p className="mt-1 text-sm text-zinc-400">{seedSales.length.toLocaleString()} verified .ai domain sales with real prices.</p>
+        </div>
+      </div>
+
+      {relatedBlogPosts.length > 0 && (
+        <div className="mt-6 rounded-xl border border-[#1F1F1F] bg-[#111] p-5">
+          <p className="mb-3 text-xs font-semibold uppercase tracking-wide text-zinc-400">Related articles</p>
+          <div className="flex flex-col gap-2">
+            {relatedBlogPosts.map((rp) => (
+              <Link
+                key={rp.slug}
+                href={`/blog/${rp.slug}`}
+                className="text-sm text-[#00FF88] hover:underline"
+              >
+                → {rp.title}
+              </Link>
+            ))}
+          </div>
+        </div>
+      )}
 
       {faqSchema ? (
         <script
