@@ -1329,12 +1329,22 @@ sale("dealer.ai", 100000, "Spaceship.com​", "2026-04-04", "NamePros Forum", "U
   sale("h1.ai", 100000, "listing_page", "2026-04-13", "NamePros Forum", "Undisclosed", "Undisclosed", "page_9_listing"),
   sale("pump.ai", 94900, "listing_page", "2026-04-13", "NamePros Forum", "Undisclosed", "Undisclosed", "page_10_listing"),
   sale("conversion.ai", 35506, "listing_page", "2026-04-13", "NamePros Forum", "Undisclosed", "Undisclosed", "page_10_listing"),
-  sale("shipsy.ai", 22888, "listing_page", "2026-04-13", "NamePros Forum", "Undisclosed", "Undisclosed", "page_10_listing"),];
+  sale("shipsy.ai", 22888, "listing_page", "2026-04-13", "NamePros Forum", "Undisclosed", "Undisclosed", "page_10_listing"),
 
-]
 sale("predictive.ai", 30050, "NamePros Forum", "2026-04-13", "NamePros Forum", "Undisclosed", "Undisclosed", "https://www.namepros.com/threads/1238-com-sold-for-72-500-flipout-com-for-30-050.1280358/"),
   sale("wow.ai", 25050, "NamePros Forum", "2026-04-13", "NamePros Forum", "Undisclosed", "Undisclosed", "https://www.namepros.com/threads/1238-com-sold-for-72-500-flipout-com-for-30-050.1280358/"),
   sale("movie.ai", 14454, "NamePros Forum", "2026-04-13", "NamePros Forum", "Undisclosed", "Undisclosed", "https://www.namepros.com/threads/8499-com-sold-for-82-000-streamer-com-au-for-25-000.1251276/"),
   sale("factory.ai", 8256, "NamePros Forum", "2026-04-13", "NamePros Forum", "Undisclosed", "Undisclosed", "https://www.namepros.com/threads/8499-com-sold-for-82-000-streamer-com-au-for-25-000.1251276/"),
   sale("esta.ai", 160, "NamePros Forum", "2026-04-13", "NamePros Forum", "Undisclosed", "Undisclosed", "https://www.namepros.com/threads/agenticai-com-sold-for-120-000-jcl-ai-for-95-500.1354215/"),
-];
+
+  sale("techx.ai", 100000, "NamePros Forum", "2026-04-13", "NamePros Forum", "Undisclosed", "Undisclosed", "https://www.namepros.com/threads/amber-ai-sold-for-115-000-certify-ai-for-110-000.1375129/"),
+  sale("word.ai", 100000, "NamePros Forum", "2026-04-13", "NamePros Forum", "Undisclosed", "Undisclosed", "https://www.namepros.com/threads/amber-ai-sold-for-115-000-certify-ai-for-110-000.1375129/"),
+  sale("task.ai", 78777, "NamePros Forum", "2026-04-13", "NamePros Forum", "Undisclosed", "Undisclosed", "https://www.namepros.com/threads/cat-ai-sold-for-28-434-languagemonitor-com-for-20-250.1338612/"),
+  sale("banking.ai", 53055, "NamePros Forum", "2026-04-13", "NamePros Forum", "Undisclosed", "Undisclosed", "https://www.namepros.com/threads/cat-ai-sold-for-28-434-languagemonitor-com-for-20-250.1338612/"),
+  sale("simulation.ai", 50000, "NamePros Forum", "2026-04-13", "NamePros Forum", "Undisclosed", "Undisclosed", "https://www.namepros.com/threads/cat-ai-sold-for-28-434-languagemonitor-com-for-20-250.1338612/"),
+  sale("quran.ai", 37001, "NamePros Forum", "2026-04-13", "NamePros Forum", "Undisclosed", "Undisclosed", "https://www.namepros.com/threads/alsaud-com-sold-for-34-833-yield-xyz-for-29-746.1351263/"),
+  sale("audience.ai", 34833, "NamePros Forum", "2026-04-13", "NamePros Forum", "Undisclosed", "Undisclosed", "https://www.namepros.com/threads/alsaud-com-sold-for-34-833-yield-xyz-for-29-746.1351263/"),
+  sale("draft.ai", 32111, "NamePros Forum", "2026-04-13", "NamePros Forum", "Undisclosed", "Undisclosed", "https://www.namepros.com/threads/cat-ai-sold-for-28-434-languagemonitor-com-for-20-250.1338612/"),
+  sale("liquidity.ai", 12999, "NamePros Forum", "2026-04-13", "NamePros Forum", "Undisclosed", "Undisclosed", "https://www.namepros.com/threads/biota-com-sold-for-58-559-pure-now-for-12-999.1358129/"),
+  sale("sta.ai", 160, "NamePros Forum", "2026-04-13", "NamePros Forum", "Undisclosed", "Undisclosed", "https://www.namepros.com/threads/c1-ai-sold-for-65-000-fowlplay-com-for-13-500.1351090/"),
+  sale("csq.ai", 25, "NamePros Forum", "2026-04-13", "NamePros Forum", "Undisclosed", "Undisclosed", "https://www.namepros.com/threads/cloudx-ai-sold-for-100-000-reps-ai-for-20-000.1368613/"),];
