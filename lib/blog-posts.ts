@@ -10,7 +10,7 @@ export interface BlogPost {
   schema_article?: unknown | null;
 }
 
-export const blogPosts: BlogPost[] = [
+export const blogPosts = [
   {
     "slug": "ai-domain-investment-guide-2026",
     "title": ".ai Domain Investing 2026: Complete Beginner Guide",
