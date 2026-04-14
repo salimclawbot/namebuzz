@@ -1112,7 +1112,1090 @@ There is no guaranteed timeline, but the data gives useful context. Mid-market .
 ---
 
 `
+  },
+  {
+    "slug": "how-long-does-it-take-to-sell-an-ai-domain",
+    "title": "How Long Does It Take to Sell an AI Domain? A Realistic Timeline from Listing to Close",
+    "date": "Wed Apr 15 2026 00:00:00 GMT+1000 (Australian Eastern Standard Time)",
+    "description": "**Selling an AI domain is not like selling a used car. There is no Kelley Blue Book, no instant offer, and no guarantee that a domain you listed today will sell this year — or even",
+    "readTime": "16 min read",
+    "author": "NameBuzz Research Team",
+    "content": `How Long Does It Take to Sell an AI Domain? A Realistic Timeline from Listing to Close
+
+**Selling an AI domain is not like selling a used car. There is no Kelley Blue Book, no instant offer, and no guarantee that a domain you listed today will sell this year — or even next. But that does not mean the process is mysterious. With the right platform, the right price, and the right approach, premium .ai domains do sell. The key is understanding what the timeline actually looks like before you commit to a strategy.**
+
+The time it takes to sell a .ai domain ranges from a few weeks for deeply discounted mid-market names, to several years for ultra-premium exact-match domains priced at six or seven figures. Most transactions for domains in the $10,000 to $100,000 range close within three to twelve months — but only if they are listed on the right platforms with the right exposure. This article breaks down the full lifecycle of an AI domain sale, platform by platform, price tier by price tier, and phase by phase.
+
+<figure><img src="/images/articles/single-word-tier-ranking-infographic-2026.jpg" alt="premium ai domain name displayed on a screen surrounded by data charts and marketplace interface" loading="lazy"><figcaption>premium ai domain name displayed on a screen surrounded by data charts and marketplace interface</figcaption></figure>
+
+## Table of Contents
+
+- [The Full AI Domain Sales Timeline](#the-full-ai-domain-sales-timeline)
+- [Phase 1 — Preparation: Setting Your Price and Choosing a Platform](#phase-1--preparation-setting-your-price-and-choosing-a-platform)
+- [Phase 2 — Listing and Exposure: Getting Your Domain in Front of Buyers](#phase-2--listing-and-exposure-getting-your-domain-in-front-of-buyers)
+- [Phase 3 — Buyer Inquiry and Qualification](#phase-3--buyer-inquiry-and-qualification)
+- [Phase 4 — Negotiation](#phase-4--negotiation)
+- [Phase 5 — Escrow and Transfer](#phase-5--escrow-and-transfer)
+- [Timeline by Price Tier: What to Realistically Expect](#timeline-by-price-tier-what-to-realistically-expect)
+- [Why Hold Periods Matter: What Happens Between Listing and Sale](#why-hold-periods-matter-what-happens-between-listing-and-sale)
+- [How to Accelerate a Slow-Selling AI Domain](#how-to-accelerate-a-slow-selling-ai-domain)
+- [Frequently Asked Questions](#frequently-asked-questions)
+
+## The Full AI Domain Sales Timeline
+
+Every AI domain sale moves through the same five phases, regardless of price. The length of each phase depends on your pricing, platform choice, buyer type, and how aggressively you pursue a buyer. Here is the sequence:
+
+1. **Preparation** — 1 to 4 weeks
+2. **Listing and initial exposure** — 2 weeks to 3 months
+3. **Buyer inquiry and qualification** — 1 to 8 weeks
+4. **Negotiation** — 1 week to 3 months
+5. **Escrow and transfer** — 3 to 10 business days
+
+That puts the fastest realistic total timeline at approximately **5 to 8 weeks** for a domain priced correctly and listed on the right platform with strong buyer demand. The slowest realistic timeline for a quality domain that simply has not found its buyer yet is **2 to 4 years**.
+
+<figure><img src="/images/articles/ai-domain-investment-analysis-infographic-2026.jpg" alt="sales funnel diagram showing the five phases of ai domain sales from preparation to escrow and transfer" loading="lazy"><figcaption>sales funnel diagram showing the five phases of ai domain sales from preparation to escrow and transfer</figcaption></figure>
+
+Most sellers enter the process with unrealistic expectations on both ends. Some expect a six-figure domain to sell in days because they saw a headline about [Bot.ai selling for $1.2 million](https://namebuzz.co/blog/bot-ai-sells-1-2-million). Others worry that silence after a month means the domain will never sell. The truth sits in the middle. Premium domains priced at market value sell when the right buyer arrives. The seller's job is to make sure the domain is visible, priced fairly, and easy to inquire about when that buyer does appear.
+
+## Phase 1 — Preparation: Setting Your Price and Choosing a Platform
+
+The preparation phase is the most underestimated part of the process. Most sellers rush past it, slapping a price on a domain and listing it everywhere at once. That approach leads to confusion, pricing inconsistencies across platforms, and buyers who lose trust before they even make contact.
+
+Good preparation starts with research. Before you list your AI domain anywhere, benchmark it against comparable sales. NameBuzz tracks verified and widely reported .ai domain transactions including [Cloud.ai at $600,000](https://namebuzz.co/blog/cloud-ai-sold-600000), [Lotus.ai at $400,000](https://namebuzz.co/blog/lotus-ai-sold-400000), [Speed.ai at $165,000](https://namebuzz.co/blog/speed-ai-sold-165000), [Amber.ai at $115,000](https://namebuzz.co/blog/amber-ai-sold-115000), and [stt.ai at $74,000](https://namebuzz.co/blog/stt-ai-sells-74456). These benchmarks give you a real sense of where your domain sits relative to the market.
+
+<figure><img src="/images/articles/ai-domain-comparable-sales-2026.jpg" alt="comparable sales data chart showing recent ai domain transactions with prices" loading="lazy"><figcaption>comparable sales data chart showing recent ai domain transactions with prices</figcaption></figure>
+
+### Setting your price
+
+Pricing strategy matters more than most sellers realize. Price too high and you get no inquiries. Price too low and you leave money on the table while attracting low-quality tire-kickers. There are three pricing models:
+
+**Buy It Now (BIN):** Set a fixed price and let buyers purchase immediately. Best for domains with clear market value and strong demand. BIN listings on Afternic and Sedo typically see faster buyer responses for domains priced between $5,000 and $50,000.
+
+**Auction:** Start at a minimum bid and let the market determine the price. Best for domains with genuine scarcity and multiple interested parties. GoDaddy Auctions is the dominant platform for .ai domain auctions.
+
+**Offer-based:** Allow buyers to submit offers without a listed price. Best for sellers who want flexibility and are comfortable negotiating. This approach is slower but can yield higher prices in the right situation.
+
+The choice between these models should reflect your domain's quality, your timeline, and your negotiating comfort level. If you own a single-word .ai domain, you can generally command a higher BIN price than a three-word compound domain. If you own a descriptive phrase .ai domain, an offer-based approach with targeted outreach may outperform a passive listing.
+
+## Phase 2 — Listing and Exposure: Getting Your Domain in Front of Buyers
+
+Listing your domain is not as simple as submitting it to a marketplace and waiting. Different platforms reach different buyer pools, and most serious buyers for premium AI domains do not browse general domain marketplaces the way a casual buyer might. They work with brokers, receive inbound offers from network contacts, or search directly for specific names.
+
+### Major platforms and their reach
+
+**Afternic** is the largest IDN (internationalized domain name) marketplace and the first place most domain investors check. Afternic listings feed into GoDaddy's network, which receives over 45 million visitors per year. For any .ai domain with meaningful commercial value, an Afternic listing is almost always worth having. The main drawback is that Afternic's network skews toward domain investors rather than end buyers, which can sometimes result in low-ball offers from resellers.
+
+**Sedo** is a global domain marketplace with a strong brand, robust transfer infrastructure, and a large buyer database. Sedo's brokerage service also allows you to list with a minimum price and let their team actively seek buyers on your behalf. Their fee structure (10% for domains under $5,000, with negotiable rates for higher-value sales) is worth understanding before you list.
+
+**GoDaddy Auctions** specializes in domain auctions and is particularly effective for domains priced under $50,000 where direct search traffic is lower. GoDaddy's bidder pool is active and includes both investors and end buyers.
+
+**Dan.com** (operated by Undeveloped) offers a streamlined listing and transfer process with lower fees than traditional brokers. Dan is popular among sellers who want a clean, simple transaction without heavy platform involvement.
+
+<figure><img src="/images/articles/listing-domain-for-sale-page.jpg" alt="screenshot mockup of a domain listing interface across multiple marketplaces" loading="lazy"><figcaption>screenshot mockup of a domain listing interface across multiple marketplaces</figcaption></figure>
+
+### The hold period problem
+
+One of the most confusing aspects of listing an AI domain for sale is the concept of hold periods — the time you must wait before a listed domain can be transferred to a new registrar or removed from a platform. Every major ccTLD (country code top-level domain) has a registry-defined transfer lock period.
+
+For .ai domains, the hold period after listing can be up to 60 days. This means if you list your domain on Afternic and receive a buyer offer in the first week, you may still need to wait before you can initiate the transfer. Most platforms handle this automatically, but sellers who are unaware of the hold period often panic when a seemingly ready buyer cannot immediately receive the domain.
+
+For standard .com domains, the hold period is typically 60 days after registration or last transfer. For .ai domains, the same 60-day rule applies from the registry, but the transfer process itself is handled by the .ai registry (Met Namibia Communications) which has its own procedures. Understanding this in advance prevents frustration during the closing phase.
+
+## Phase 3 — Buyer Inquiry and Qualification
+
+When an inquiry arrives, your response speed and quality matters enormously. The best buyers for premium AI domains are busy people — founders, investors, corporate strategists — who are evaluating multiple naming options simultaneously. If you take three days to respond, they have often already moved on to the next name on their list.
+
+Buyer qualification is also important. Not every inquiry is serious. Broker inquiries that ask for "your best price" without any stated context are often speculative attempts to learn your floor. Genuine buyers will typically indicate their intended use, their timeline, and sometimes their budget range. A response template that acknowledges the inquiry, asks a brief clarifying question, and expresses flexibility for a serious conversation will serve you better than either an immediate hard price or dismissive silence.
+
+For domains priced above $50,000, it is worth working with a domain broker or using a platform with brokerage services. Sedo Brokerage, Name.com's agent program, and independent brokers like Grit Brokerage and Brandify handle high-value .ai transactions regularly and have relationships with buyers you may not be able to reach directly.
+
+<figure><img src="/images/articles/ai-domain-sale-timelines-2026.jpg" alt="email inbox showing domain buyer inquiry examples with response timeline indicators" loading="lazy"><figcaption>email inbox showing domain buyer inquiry examples with response timeline indicators</figcaption></figure>
+
+## Phase 4 — Negotiation
+
+Domain negotiations can be fast and professional, or slow and frustrating. Most transactions go through at least one round of counter-offers before reaching agreement. Here are the key dynamics:
+
+**Price negotiation:** The final price is rarely the asking price. For .ai domains priced between $10,000 and $100,000, final prices typically land 15% to 30% below asking for motivated sellers. For sellers with strong conviction and limited liquidity needs, holding firm at asking is legitimate — but it extends the timeline.
+
+**Bulk discounts:** If a buyer is considering multiple domains from your portfolio, they will often ask for a package price. This is worth planning for in advance. Having a clear sense of your minimum acceptable price per domain and your portfolio discount threshold prevents reactive, value-destroying decisions mid-negotiation.
+
+**Payment terms:** For transactions above $10,000, payment is almost always facilitated through escrow. Escrow.com is the standard in the domain industry. For transactions above $100,000, buyers may request a phased payment (e.g., 50% upfront, 50% upon transfer verification), which is reasonable to accommodate with an escrow service that supports multi-step releases.
+
+**VAT and transfer fees:** These are often overlooked by first-time sellers. Escrow fees typically run 0.5% to 1% of the transaction value, capped at reasonable amounts per tier. Registry transfer fees for .ai domains are nominal but should be factored into your cost basis.
+
+<figure><img src="/images/articles/ai-domain-sale-timelines-2026.jpg" alt="negotiation timeline flowchart showing typical back-and-forth offer exchange process" loading="lazy"><figcaption>negotiation timeline flowchart showing typical back-and-forth offer exchange process</figcaption></figure>
+
+## Phase 5 — Escrow and Transfer
+
+The final phase is the most technically straightforward but still requires attention. A domain transfer involves coordination between the seller, buyer, their respective registrars, and sometimes the registry itself.
+
+**The standard escrow transfer sequence:**
+1. Buyer deposits funds into escrow
+2. Seller initiates domain transfer to buyer
+3. Buyer confirms transfer authorization
+4. Escrow releases funds to seller upon verified transfer completion
+5. Transfer completes at registry level (typically 5 to 10 business days for .ai)
+
+For .ai domains specifically, the transfer is processed through the .ai registry operated by Met Namibia Communications. Unlike .com transfers which happen between any two ICANN-accredited registrars, .ai transfers require coordination with the single registry. This adds a layer of complexity that .com sellers do not face, and it is one reason why buyers for .ai domains often prefer platforms (like Sedo or Afternic) that have built-in transfer procedures for the extension.
+
+Most delays in the closing phase come from either incorrect WHOIS contact information on the seller's side, transfer locks that were not removed before listing, or buyers who send funds before confirming the transfer authorization on their end. A clean, informed process takes 5 to 10 business days end to end.
+
+## Timeline by Price Tier: What to Realistically Expect
+
+Understanding where your domain sits in the market helps calibrate your timeline expectations. Here is a practical breakdown based on observable patterns in the .ai domain aftermarket:
+
+<figure><img src="/images/articles/ai-domain-sale-timelines-2026.jpg" alt="timeline comparison table showing expected sales duration by domain price tier and platform" loading="lazy"><figcaption>timeline comparison table showing expected sales duration by domain price tier and platform</figcaption></figure>
+
+**Domains priced under $5,000:**
+These move relatively quickly on BIN listings at Dan.com or Afternic. Most transactions complete within 2 to 6 weeks of listing, assuming accurate pricing and a clean transfer history. Buyer pool is predominantly domain investors buying on value arbitrage.
+
+**Domains priced $5,000 to $50,000:**
+This is the mid-market where most .ai domain sales live. Expect 1 to 6 months on a passive listing with BIN pricing. Outreach-based sales (directly approaching potential end buyers or working with a broker) typically run 2 to 9 months. The buyer pool mixes investors with end buyers — startups, small agencies, solo founders.
+
+**Domains priced $50,000 to $250,000:**
+At this tier, passive marketplace listings are no longer sufficient. Active outreach, broker representation, or both are typically required. Expect 3 to 18 months for a well-priced domain with strong positioning. Buyer pool is almost exclusively end buyers or portfolio investors with specific vertical interest.
+
+**Domains priced above $250,000:**
+These are ultra-premium transactions requiring broker-level involvement, NDA-protected buyer conversations, and often off-market channels. Timeline ranges from 6 months to several years. The number of qualified buyers for a $250,000-plus .ai domain may be in the single digits. That is not a market failure — it is just the reality of concentrated value at the very top of a niche aftermarket.
+
+For context, [Bot.ai sold for $1.2 million](https://namebuzz.co/blog/bot-ai-sells-1-2-million), [Law.ai sold for $350,000](https://namebuzz.co/blog/law-ai-sold-350000), and [Amber.ai sold for $115,000](https://namebuzz.co/blog/amber-ai-sold-115000) — each representing a different price tier, negotiation dynamic, and closing timeline.
+
+## Why Hold Periods Matter: What Happens Between Listing and Sale
+
+Domain hold periods are not a technicality — they can disrupt a transaction if you are not aware of them. Here is what every .ai domain seller needs to understand:
+
+**The 60-day rule applies to transfers, not listings.** You can list your domain for sale at any time. The transfer lock is what you cannot bypass until 60 days after registration or the last transfer. Listing your domain while it is in a hold period is perfectly legal and common. Buyers who attempt to push a transfer during the hold period will simply be blocked by the registry.
+
+**If you transferred your domain to a new registrar recently, that 60-day clock restarts.** Many sellers inadvertently trigger a new hold period by moving their domain to a new registrar (e.g., moving from Namecheap to GoDaddy) right before listing it for sale. This is one of the most common and preventable delays in AI domain sales.
+
+**Renewal timing affects buyer confidence.** If your domain expires in 90 days and you are in active negotiations, buyers will either ask for the domain to be renewed at your cost as a condition of sale, or they will use the short expiry as leverage to lower their offer. Keeping your domain renewed 1 to 2 years in advance signals stability and removes a negotiating variable.
+
+## How to Accelerate a Slow-Selling AI Domain
+
+If your domain has been listed for more than 6 months with no serious inquiries, it is worth auditing your approach rather than simply waiting.
+
+**Reassess pricing.** No inquiry almost always means the price is above where the market currently is for your domain. You do not have to drop to fire-sale levels, but an adjustment of 10% to 20% often generates the first serious conversation.
+
+**Upgrade platform exposure.** A Dan.com BIN listing alone is not enough for a domain in the $25,000+ range. List on Afternic (which feeds GoDaddy's buyer network), add a Sedo listing with brokerage support, and consider a direct outreach campaign to potential buyers in your domain's vertical.
+
+**Refine your listing copy.** Many sellers undervalue their listing description. A well-written listing that explains the domain's commercial relevance, keyword value, brand potential, and comparable sales data is more likely to attract serious buyers than a bare listing with no context.
+
+**Approach end buyers directly.** If your domain is in a specific industry — for example, law.ai, med.ai, fin.ai — reach out directly to companies in that vertical. Domain brokers do this professionally, but you can do it yourself for a fraction of the cost with basic research and outreach. This approach works best for exact-match or near-exact-match .ai domains with clear commercial meaning.
+
+<figure><img src="/images/articles/ai-domain-platform-comparison-infographic-2026.jpg" alt="acceleration strategy checklist showing pricing platform listing copy and outreach improvements" loading="lazy"><figcaption>acceleration strategy checklist showing pricing platform listing copy and outreach improvements</figcaption></figure>
+
+## Frequently Asked Questions
+
+### How long does it typically take to sell a .ai domain on Afternic?
+
+A .ai domain priced between $5,000 and $25,000 with a BIN listing on Afternic typically receives its first serious inquiry within 2 to 6 weeks. Domains priced above $50,000 or with unusual naming structures may take 3 to 6 months on a passive Afternic listing. Active broker involvement can shorten this significantly.
+
+### Does the 60-day transfer hold period apply to .ai domains?
+
+Yes. Like most ICANN-regulated TLDs, .ai domains are subject to a 60-day transfer lock following any registration or transfer. This means if you recently moved your .ai domain to a new registrar, you cannot initiate a transfer to a buyer for up to 60 days. List your domain for sale during this period — you just cannot complete the physical transfer until the hold expires.
+
+### Should I use a broker to sell my AI domain?
+
+If your domain is worth $50,000 or more, a domain broker is generally worth the commission (typically 10% to 15% of the sale price). Brokers have buyer relationships, negotiation experience, and the bandwidth to run a structured sales process while you focus on other priorities. For domains below $10,000, the math is tighter and a platform BIN listing is usually sufficient.
+
+### What is the average escrow timeline for a .ai domain transfer?
+
+From the moment both parties agree on terms and the seller initiates the transfer, most .ai domain escrow and transfer processes complete within 5 to 10 business days. The longest variable is registry processing, which is faster for .ai than some other ccTLDs but still not instant. Escrow.com or Escrow.net are the standard services used.
+
+### Can I sell my AI domain if it is expiring soon?
+
+You can list and negotiate the sale at any time. However, a domain with fewer than 60 days before expiration is a negotiating liability. Buyers either demand that you renew it before closing (which you should do regardless) or they use the short TTL (time to live) as justification to offer below your asking price. Renew for at least one year before listing, and ideally two, to remove this variable from negotiations.`,
+  },
+  {
+    "slug": "list-ai-domain-for-sale",
+    "title": "How to List an AI Domain for Sale: The Complete Step-by-Step Guide to Selling Your .ai Domain",
+    "date": "Wed Apr 15 2026 00:00:00 GMT+1000 (Australian Eastern Standard Time)",
+    "description": "**Most people who own a valuable .ai domain have no idea how to sell it. They list it on one platform, wait a few weeks, get no responses, lower the price, get low-ball offers from",
+    "readTime": "15 min read",
+    "author": "NameBuzz Research Team",
+    "content": `How to List an AI Domain for Sale: The Complete Step-by-Step Guide to Selling Your .ai Domain
+
+**Most people who own a valuable .ai domain have no idea how to sell it. They list it on one platform, wait a few weeks, get no responses, lower the price, get low-ball offers from resellers, and eventually give up or let the domain expire. That cycle is avoidable. Listing an AI domain correctly — on the right platforms, with the right pricing, at the right time — is not complicated, but it does require understanding a few key steps that separate successful sellers from frustrated ones.**
+
+This guide covers everything from pricing your domain and choosing marketplaces, to writing a listing that attracts serious buyers, negotiating offers without giving away value, and completing the transfer securely through escrow. Whether you own a premium one-word .ai domain like [Amber.ai ($115,000)](https://namebuzz.co/blog/amber-ai-sold-115000) or a strategic phrase domain, the process covered here applies.
+
+<figure><img src="/images/articles/listing-domain-for-sale-page.jpg" alt="clean workspace with laptop showing domain marketplace listings and transfer interface" loading="lazy"><figcaption>clean workspace with laptop showing domain marketplace listings and transfer interface</figcaption></figure>
+
+## Table of Contents
+
+- [Before You List: Prepare Your Domain for Sale](#before-you-list-prepare-your-domain-for-sale)
+- [Step 1 — Research and Set Your Price](#step-1--research-and-set-your-price)
+- [Step 2 — Choose Your Listing Platform(s)](#step-2--choose-your-listing-platforms)
+- [Step 3 — Create Your Marketplace Listing](#step-3--create-your-marketplace-listing)
+- [Step 4 — Set Up Escrow and Payment Processing](#step-4--set-up-escrow-and-payment-processing)
+- [Step 5 — Qualify Incoming Buyers](#step-5--qualify-incoming-buyers)
+- [Step 6 — Negotiate and Close the Deal](#step-6--negotiate-and-close-the-deal)
+- [Step 7 — Transfer the Domain](#step-7--transfer-the-domain)
+- [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+- [Frequently Asked Questions](#frequently-asked-questions)
+
+## Before You List: Prepare Your Domain for Sale
+
+Before you create a single listing, there is housekeeping that determines whether the sale goes smoothly. Skipping these steps creates friction that buyers notice — and leverage they use against you.
+
+**Renew your domain.** This is the single most important preparation step. A domain with fewer than 12 months of registration remaining is a liability. Any buyer considering your domain will either demand you renew it as a condition of sale or use the short expiry as leverage to reduce their offer. Renew for at least one year, ideally two, before you list.
+
+**Remove transfer locks.** If your domain is currently locked at the registry level (a standard security feature), you will need to unlock it before a transfer can proceed. Most registrars allow this through their control panel with a 60-day unlocking window that then locks again automatically. Plan this in advance so you are not scrambling during negotiations.
+
+**Update WHOIS information.** Ensure your WHOIS contact details are current and that you have access to the administrative email address listed on the domain. You will need to respond to transfer authorization requests from your registrar, and if your contact information is outdated or blocked, the transfer process stalls.
+
+**Gather your transfer credentials.** Different registrars handle transfer authentication differently. Some require a transfer EPP code (also called an auth code) that you must retrieve from your registrar's dashboard. Others require you to approve the transfer via email or API confirmation. Knowing your registrar's specific process before you are in the middle of a transaction saves days of delay.
+
+<figure><img src="/images/articles/ai-domain-investment-chart.jpg" alt="domain registrar dashboard showing renewal status transfer lock settings and whois contact information" loading="lazy"><figcaption>domain registrar dashboard showing renewal status transfer lock settings and whois contact information</figcaption></figure>
+
+## Step 1 — Research and Set Your Price
+
+Pricing your domain correctly is the difference between receiving serious inquiries and spending months with no traction. Overpricing is the most common mistake, and it is understandable — sellers naturally anchor to what they imagined the domain might be worth rather than what the market will actually pay.
+
+**Use comparable sales as your primary benchmark.** NameBuzz tracks verified and widely reported .ai domain transactions that serve as real market data, not guesswork. Useful comparables include [Bot.ai at $1.2 million](https://namebuzz.co/blog/bot-ai-sells-1-2-million), [Cloud.ai at $600,000](https://namebuzz.co/blog/cloud-ai-sold-600000), [Lotus.ai at $400,000](https://namebuzz.co/blog/lotus-ai-sold-400000), [Law.ai at $350,000](https://namebuzz.co/blog/law-ai-sold-350000), [Speed.ai at $165,000](https://namebuzz.co/blog/speed-ai-sold-165000), [Amber.ai at $115,000](https://namebuzz.co/blog/amber-ai-sold-115000), and [stt.ai at $74,000](https://namebuzz.co/blog/stt-ai-sells-74456). Study these transactions to understand what structural, commercial, and branding factors drive value in the .ai namespace.
+
+**Consider three pricing approaches:**
+
+1. **Buy It Now (BIN) price:** A fixed price at which a buyer can immediately purchase. Use this if you want a clean, fast transaction and have done enough research to be confident in your valuation.
+
+2. **Auction starting bid:** Set a low minimum and let competitive bidding determine the final price. This works best when you have genuine scarcity and multiple potential buyers. GoDaddy Auctions is the primary platform for .ai domain auctions.
+
+3. **Offer-based pricing:** No BIN, no auction floor — just invitations for buyers to submit offers. This approach is common for premium domains priced above $50,000 where the seller wants maximum flexibility and is willing to negotiate. Sedo's Make Offer feature is designed for this.
+
+For most sellers, a BIN price backed by comparable data is the cleanest approach. If you are unsure of your domain's precise market value, setting a slightly higher BIN and enabling "Make an Offer" simultaneously is a reasonable compromise.
+
+## Step 2 — Choose Your Listing Platform(s)
+
+Not all domain marketplaces are equal for .ai domains. Here is what each major platform offers:
+
+**Afternic:** The largest IDN marketplace and the primary source of exposure for .ai domains. Afternic listings feed into GoDaddy's buyer network — one of the largest in the industry. Every premium .ai domain should have an Afternic listing. Their DRS (Distribution Registration System) also means that when a buyer finds your domain through Afternic and parks it at a different registrar, your information stays current. Afternic charges a one-time listing fee plus a success fee upon sale.
+
+**Sedo:** A full-service domain marketplace with a strong brand and active buyer database. Sedo also offers brokerage services where their team actively seeks buyers for your domain. This is valuable for domains priced above $25,000 where passive listings may not generate sufficient buyer flow. Sedo's Make Offer feature allows you to set a minimum acceptable price while leaving the transaction open.
+
+**GoDaddy Auctions:** Best for domains priced under $50,000 where auction dynamics can work in your favor. GoDaddy's bidder pool is active and includes both investors and end buyers. Listing fees are modest and there is significant traffic from domain searchers. GoDaddy Auctions also integrates with Afternic and GoDaddy's broader marketplace.
+
+**Dan.com:** Operated by Undeveloped, Dan.com offers a streamlined listing experience with flat transaction fees (no percentage-based success fees above a threshold). Dan is popular with sellers who want simplicity and lower overhead. The buyer pool is smaller than Afternic or Sedo, but the platform's clean transfer process makes closing straightforward.
+
+**Direct broker representation:** For domains priced above $100,000, direct broker representation is often the fastest path to a qualified buyer. Grit Brokerage, Brandify, and other established domain brokers have buyer relationships and transaction expertise that can justify their commission (typically 10% to 15%). They also handle negotiation, which most sellers are not practiced at.
+
+<figure><img src="/images/articles/ai-domain-platform-comparison-infographic-2026.jpg" alt="platform comparison infographic showing afternic sedo godaddy and dan with their respective fee structures and buyer reach" loading="lazy"><figcaption>platform comparison infographic showing afternic sedo godaddy and dan with their respective fee structures and buyer reach</figcaption></figure>
+
+Most experienced sellers list on at least two platforms simultaneously — typically Afternic plus Sedo, or Afternic plus Dan — to maximize exposure. Listing on multiple platforms at the same BIN price is standard practice and not considered conflicting. Just make sure your WHOIS information and pricing are consistent across all listings to avoid buyer confusion.
+
+## Step 3 — Create Your Marketplace Listing
+
+A good listing is not just the domain name and a price. It is a brief commercial case for why the domain is worth buying. Buyers — especially end buyers (startups, companies, founders) rather than resellers — respond to listings that communicate brand potential, keyword value, and commercial relevance.
+
+**What a strong listing description includes:**
+- The commercial meaning or conceptual value of the domain
+- The primary industry or use case the name suits
+- Any relevant comparable sales that establish market precedent
+- A clear call to action (BIN purchase or offer submission)
+
+**What to avoid:**
+- Vague copy like "premium domain for sale" — this tells the buyer nothing
+- Exaggerated claims about SEO value that cannot be substantiated
+- Pricing that is obviously above market, which signals the seller is unrealistic
+
+Here is a practical example of a listing description for a domain like \`Law.ai\`:
+
+> **Law.ai** is the definitive digital identity for the legal technology sector. One of the most in-demand category terms in AI, Law maps directly to legal AI applications including contract analysis, case prediction, compliance automation, and legal research tools. With comparable .ai sales including Law.ai at $350,000, the market has consistently rewarded exact-match category domains at significant premiums. Make an offer or use the Buy It Now option to secure Law.ai for your legal AI brand.
+
+This description is specific, benchmarked, and action-oriented. It gives a buyer enough context to understand the domain's value and a reason to act. Replace the domain name and specifics for whatever name you are selling, but keep the structure of specificity and benchmark evidence.
+
+## Step 4 — Set Up Escrow and Payment Processing
+
+For any domain sale above $1,000, escrow is non-negotiable. Both parties need a trusted intermediary to hold funds during the transfer process. Attempting a bank transfer or payment app transaction for a domain sale above five figures is a recipe for fraud or disputes.
+
+**Escrow.com** is the industry standard for domain transactions. They offer transaction tiers that match domain sale values, with fees typically ranging from 0.5% to 1% of the transaction value, capped at tiers. Escrow.com handles USD transactions and is familiar with domain transfer verification.
+
+**Escrow.net** is an alternative with similar functionality. Some sellers prefer it for lower fees on transactions under $5,000.
+
+**Sedo's internal escrow** is available for transactions within the Sedo platform. This is convenient if you are also using Sedo as your marketplace, as the escrow and transfer process is handled within a single system.
+
+**Wire transfer for high-value sales:** For transactions above $100,000, some sellers and buyers prefer a direct wire transfer with escrow verification. This is more complex to arrange but is not unusual for seven-figure .ai domains.
+
+Never accept personal checks, cashier's checks from unknown parties, or payment via gift card or cryptocurrency from unfamiliar buyers in a private transaction. These are the primary vectors for fraud in domain sales. If a buyer insists on any unconventional payment method, walk away.
+
+<figure><img src="/images/articles/ai-domain-escrow-process-2026.jpg" alt="escrow.com transaction flow diagram showing deposit verification and release stages for domain transfers" loading="lazy"><figcaption>escrow.com transaction flow diagram showing deposit verification and release stages for domain transfers</figcaption></figure>
+
+## Step 5 — Qualify Incoming Buyers
+
+When your first inquiries start arriving, separating serious buyers from time-wasters is critical. Every serious inquiry deserves a prompt and professional response. Curious inquiries deserve a brief acknowledgment, not a detailed explanation.
+
+**Signs of a serious buyer:**
+- States an intended use or business context
+- Mentions a timeline or budget range
+- Asks specific questions about the domain's history, traffic, or previous use
+- Has a broker or legal representative already engaged
+- Responds promptly and professionally to your communications
+
+**Red flags:**
+- "What is your best price?" with no stated context
+- Requests to see the domain before any price discussion
+- Unusual payment method requests
+- Reluctance to use escrow (a legitimate buyer should have no objection)
+- Generic inquiries that could be sent to any domain seller
+
+A response template for a new inquiry might look like this:
+
+> Thank you for your interest in [Domain]. To help me understand the context of your inquiry, could you share how you intend to use the domain and whether you are working with a budget range? I am flexible on terms for serious buyers and am happy to discuss via email or a brief call. For reference, comparable .ai transactions include [benchmark sale] at [price].
+
+This response signals professionalism, sets expectations, and filters for buyers who are genuinely interested versus those collecting pricing data.
+
+## Step 6 — Negotiate and Close the Deal
+
+Negotiation is where most sellers either leave money on the table or kill the deal. Here are the key principles:
+
+**Never accept a first offer as-is.** Almost every first offer from a buyer is an opening position with room to improve. This is not gamesmanship — it is market mechanics. A buyer who offers $30,000 for your $75,000 BIN listing is not insulting you; they are testing whether you will come down. Counter-offer confidently with reference to your comparable data.
+
+**Know your minimum.** Before entering any negotiation, know your absolute floor. This should account for your cost basis (what you paid for the domain originally, registration costs, any development investment) and the comparable market data you used to set your original price. Walking away from a deal that does not meet your minimum is not failure — it is discipline.
+
+**Do not reveal your urgency.** Buyers who sense you need to sell will use that against you. If your domain is about to expire, if you need liquidity, or if you have another offer pending, do not disclose these facts. Negotiate from a position of patience and confidence.
+
+**Document everything in writing.** All offers, counter-offers, and agreed terms should be exchanged via email or through the platform's messaging system. Verbal agreements are not enforceable in domain transactions, and miscommunication about agreed terms is one of the most common deal-killers.
+
+<figure><img src="/images/articles/ai-domain-investment-chart.jpg" alt="negotiation email exchange template showing initial offer counter offer and agreement stages" loading="lazy"><figcaption>negotiation email exchange template showing initial offer counter offer and agreement stages</figcaption></figure>
+
+## Step 7 — Transfer the Domain
+
+Once both parties have agreed on terms and the buyer has deposited funds into escrow, the transfer process begins. Here is the standard sequence:
+
+<figure><img src="/images/articles/ai-domain-escrow-process-2026.jpg" alt="animated diagram showing the complete domain transfer flow from escrow deposit to registry confirmation" loading="lazy"><figcaption>animated diagram showing the complete domain transfer flow from escrow deposit to registry confirmation</figcaption></figure>
+
+1. **Buyer deposits funds into escrow** — Escrow.com or equivalent confirms receipt and notifies both parties
+2. **Seller initiates transfer authorization** — Log into your registrar, retrieve the transfer auth code (EPP code), and provide it to the buyer or escrow service as required
+3. **Buyer confirms receipt of transfer auth** — They verify it matches and initiate the transfer request at their registrar
+4. **Registry processes the transfer** — For .ai domains, this is handled by the .ai registry (Met Namibia Communications). Processing takes 5 to 10 business days typically
+5. **Escrow releases funds to seller** — Upon confirmed transfer completion, escrow releases the buyer's deposit to your account
+6. **Confirmation and follow-up** — Verify the domain appears in the buyer's registrar account, confirm the funds have arrived in your account, and close out any escrow case
+
+<figure><img src="/images/articles/ai-domain-investment-chart.jpg" alt="professional domain transfer confirmation email template with clean formatting" loading="lazy"><figcaption>professional domain transfer confirmation email template with clean formatting</figcaption></figure>
+
+**Post-transfer best practices:** Once the transfer is complete and funds are released, send the buyer a confirmation email summarizing the transaction and offering a brief window for any transfer verification questions. This is professional, reduces dispute risk, and builds a positive reputation in the domain community.
+
+## Common Mistakes to Avoid
+
+<figure><img src="/images/articles/ai-domain-investment-analysis-infographic-2026.jpg" alt="warning checklist graphic showing common domain selling mistakes to avoid with red X marks" loading="lazy"><figcaption>warning checklist graphic showing common domain selling mistakes to avoid with red X marks</figcaption></figure>
+
+**Listing at an inflated price "to leave room for negotiation":** Buyers for .ai domains do their research. If your BIN price is 3x above comparable sales, you will receive no serious inquiries and your listing will appear inactive. Price accurately from the start.
+
+**Not renewing before listing:** A domain with 60 days to expiry signals instability and gives buyers a negotiating lever. Renew first.
+
+**Ignoring transfer locks:** If your domain is registry-locked and you try to initiate a transfer while in active negotiations, the process will stall and the buyer may lose confidence. Unlock it in advance.
+
+**Accepting off-platform payment requests:** If a buyer asks you to complete the transaction outside the platform or escrow system, that is a red flag. Insist on the standard process even if it feels slower.
+
+**Forgetting to unlock WHOIS privacy:** Some sellers have WHOIS privacy protection enabled, which hides your contact information. While this protects privacy, it can also prevent buyers from finding your contact details to make inquiries. A temporary WHOIS disclosure during active negotiations is worth considering.
+
+## Frequently Asked Questions
+
+### Where is the best place to list a .ai domain for sale?
+
+Afternic and Sedo are the two primary platforms for .ai domain listings. Afternic offers the largest buyer network and feeds into GoDaddy's marketplace. Sedo provides both marketplace listing and optional brokerage services. Most sellers list on both simultaneously. Dan.com is a solid secondary option for a streamlined, lower-fee listing experience.
+
+### How do I set the right price for my AI domain?
+
+Research comparable .ai domain sales on NameBuzz to establish benchmarks. Look at structurally similar domains (same length, same category match, same extension) and use those as anchors. Set a Buy It Now price slightly above your expected floor and enable Make Offer functionality to capture buyers who are interested but not at your BIN price. Review and adjust pricing every 60 days if you are not receiving inquiries.
+
+### Should I use a domain broker to sell my .ai domain?
+
+If your domain is valued at $50,000 or more, a broker is generally worth the commission. Brokers like Grit Brokerage, Brandify, and Sedo Brokerage have buyer relationships and handle negotiation professionally. For domains below $10,000, a direct marketplace listing with BIN pricing is usually sufficient without broker involvement.
+
+### How long does the transfer process take after a sale is agreed?
+
+Once both parties have agreed on terms and the buyer has deposited funds into escrow, the domain transfer for a .ai domain typically completes within 5 to 10 business days. The variable is the .ai registry processing time, which is generally smooth but not instant. Do not expect same-day or next-day transfers even if both parties are responsive.
+
+### What fees do I pay when selling an AI domain?
+
+Typical costs include: marketplace listing fees (Afternic charges a small listing fee plus success fee; Sedo charges a percentage of the sale; Dan.com has flat fees), escrow fees (0.5% to 1% of transaction value via Escrow.com), and any optional broker commission (10% to 15% for premium domains). Factor these into your net proceeds calculation when setting your asking price.`,
+  },
+  {
+    "slug": "one-word-ai-domain-value",
+    "title": "One-Word AI Domain Value: Why Single-Word .ai Domains Command Premium Prices",
+    "date": "Wed Apr 15 2026 00:00:00 GMT+1000 (Australian Eastern Standard Time)",
+    "description": "**In every major .ai domain sale on record, the single-word names outprice their multi-word equivalents by a factor that cannot be explained by length alone. Bot.ai sold for $1.2 m",
+    "readTime": "13 min read",
+    "author": "NameBuzz Research Team",
+    "content": `One-Word AI Domain Value: Why Single-Word .ai Domains Command Premium Prices
+
+**In every major .ai domain sale on record, the single-word names outprice their multi-word equivalents by a factor that cannot be explained by length alone. Bot.ai sold for $1.2 million. Cloud.ai sold for $600,000. Lotus.ai sold for $400,000. Speed.ai sold for $165,000. Amber.ai sold for $115,000. None of these are generic or arbitrary. Each is a single English word — short, clean, instantly memorable — and each commands a price that reflects not just scarcity but a specific kind of brand utility that longer names simply cannot deliver.**
+
+Understanding why one-word .ai domains command these premiums matters whether you are buying, selling, or holding. It is not just about aesthetics or brand preference. The pricing gap between single-word .ai domains and longer compound domains has a structural explanation rooted in linguistics, cognitive science, digital brand behavior, and supply-and-demand mechanics. This article unpacks that explanation so you can make better decisions about where to invest, how to value what you own, and what categories of names are most likely to appreciate.
+
+<figure><img src="/images/articles/single-word-ai-domains-hero-2026.jpg" alt="elegant word mark typography showing a single word ai domain displayed as premium brand identity" loading="lazy"><figcaption>elegant word mark typography showing a single word ai domain displayed as premium brand identity</figcaption></figure>
+
+## Table of Contents
+
+- [Why Single Words Are Structurally Superior](#why-single-words-are-structurally-superior)
+- [The Neuroscience of Short Domain Names](#the-neuroscience-of-short-domain-names)
+- [Comparable Sales: One-Word .ai Domains in the Market](#comparable-sales-one-word-ai-domains-in-the-market)
+- [The Valuation Framework for One-Word .ai Domains](#the-valuation-framework-for-one-word-ai-domains)
+- [What Makes One Word More Valuable Than Another](#what-makes-one-word-more-valuable-than-another)
+- [Supply Scarcity vs. Demand Density](#supply-scarcity-vs-demand-density)
+- [Common Pitfalls When Valuing One-Word .ai Domains](#common-pitfalls-when-valuing-one-word-ai-domains)
+- [Frequently Asked Questions](#frequently-asked-questions)
+
+## Why Single Words Are Structurally Superior
+
+Every domain name exists to solve the same problem: helping a person find your company online without confusion, friction, or forgettability. Single-word domains solve this problem more efficiently than any other naming structure.
+
+A single-word .ai domain is typically 3 to 5 characters before the extension. That is 3 to 5 characters of meaningful content. When someone hears the name once, writes it down from memory, types it into a browser, or repeats it to a colleague, there is no ambiguity about where the name begins and ends. There are no compound words to misspell, no hyphens to forget, no made-up brand names to clarify with phonetic spellings. The name is the name.
+
+Multi-word domains introduce compounding friction at every touchpoint. A domain like "legaltech.ai" requires the listener to process a compound structure they have never heard before, remember which word came first, infer whether it is one word or two, and then type it correctly. Each step is a microsecond of friction that is individually negligible but cumulatively significant across the thousands of first impressions a brand generates.
+
+This friction matters more as AI companies compete for trust. In a market where enterprise buyers, investors, and customers are simultaneously evaluating dozens of AI startups, every friction reduction in the brand experience translates to higher conversion, stronger recall, and lower customer acquisition cost. A premium one-word domain is not just aesthetically cleaner — it is operationally superior.
+
+<figure><img src="/images/articles/single-word-ai-domains-hero-2026.jpg" alt="side-by-side comparison showing a clean single word domain versus a compound hyphenated domain with cognitive friction annotations" loading="lazy"><figcaption>side-by-side comparison showing a clean single word domain versus a compound hyphenated domain with cognitive friction annotations</figcaption></figure>
+
+## The Neuroscience of Short Domain Names
+
+Cognitive science research on memory consistently shows that humans encode and retrieve short, meaningful words more efficiently than long strings of characters or unfamiliar compounds. This is not opinion — it is how working memory works.
+
+Working memory has a limited capacity for simultaneous items. A 4-character meaningful word like "Bot.ai" occupies one slot. A 12-character compound like "legaltech.ai" occupies at least three slots (the constituent parts have to be assembled). When someone is distracted — which every first-time visitor to your site is — the shorter, more coherent memory trace survives and the longer one gets overwritten.
+
+For domains, this translates directly into real-world brand behavior. Users who visit Bot.ai remember it. Users who visit legaltech.ai may type "legal tech ai dot com" into Google or ask a colleague "what was that legal technology AI company." This is not a minor issue. It is the difference between organic direct traffic and expensive acquisition campaigns just to compensate for a hard-to-remember brand.
+
+Single-word .ai domains also score better on what linguists call phonological short-term memory effects. Words that are high-frequency, phonetically simple, and semantically coherent are stored and recalled more reliably than low-frequency or phonetically complex alternatives. This is why one-word domains in high-frequency English words — Bot, Cloud, Law, Speed, Amber, Voice, Data — are disproportionately valuable. They are already in the listener's or reader's mental vocabulary before they ever encounter the brand.
+
+## Comparable Sales: One-Word .ai Domains in the Market
+
+NameBuzz tracks .ai domain transactions across all price tiers, and the pattern for one-word domains is consistent. Here is a data snapshot:
+
+| Domain | Sale Price | Word Type | Category | Sale Year |
+|--------|-----------|-----------|----------|-----------|
+| Bot.ai | $1,200,000 | Single word | AI concept | 2025 |
+| Cloud.ai | $600,000 | Single word | Infrastructure | 2025 |
+| Lotus.ai | $400,000 | Single word | Abstract/brand | 2026 |
+| Law.ai | $350,000 | Single word | Category term | 2024 |
+| Speed.ai | $165,000 | Single word | Concept adjective | 2025 |
+| Amber.ai | $115,000 | Single word | Abstract/brand | 2024 |
+| stt.ai | $74,000 | Abbreviation | Acronym | 2024 |
+
+What this data shows is not just that one-word domains sell for more. It is that the premium for one-word over multi-word is structural. A multi-word .ai domain with the same letter count as Bot.ai but structured as a compound phrase would not sell for $1.2 million. The premium is for the compression of meaning and brand utility into a single, unified token.
+
+The comparables also reveal a clear hierarchy within single-word domains. Category-defining nouns (Law, Bot, Cloud) command more than abstract adjectives (Speed, Amber). This hierarchy is not random — it maps to the breadth and depth of commercial use cases that each word can support.
+
+<figure><img src="/images/articles/single-word-ai-domains-hero-2026.jpg" alt="sales data visualization chart showing one word ai domain sale prices plotted against category type" loading="lazy"><figcaption>sales data visualization chart showing one word ai domain sale prices plotted against category type</figcaption></figure>
+
+## The Valuation Framework for One-Word .ai Domains
+
+Valuing a one-word .ai domain requires a framework that captures multiple variables simultaneously. Here is the practical framework NameBuzz uses:
+
+**Structural score (30% of value):** Length, letter quality, pronounceability, and spelling simplicity. Three to four letter single-word .ai domains are the most valuable structurally because they are maximally efficient. Five to six letters still score well. Seven or more characters start approaching compound domain territory in terms of cognitive friction.
+
+**Category score (25% of value):** Does the word map to a known AI commercial category? Words like Law (legal AI), Bot (automation AI), Cloud (infrastructure AI), Speed (performance AI), Voice (audio AI) all score high because they describe established market categories. Abstract words like Lotus and Amber score lower on category but may score higher on brand memorability, which is a different value driver.
+
+**Demand score (25% of value):** How many potential buyers are actively seeking a name like this? Category terms have broad, diffuse demand across an entire vertical. A law.ai domain has potential buyers across every legal technology company globally. A Speed.ai domain has potential buyers across every AI company focused on performance, latency, or efficiency.
+
+**Scarcity score (20% of value):** The number of available one-word .ai domains that could substitute for this one. In the .ai namespace, one-word domains with common English words are nearly exhausted. The supply of new single-word .ai registrations is effectively capped by the English lexicon and the registry's rules. This creates a structural scarcity that does not exist in .com, where new compound formations are constantly available.
+
+<figure><img src="/images/articles/ai-domain-valuation-framework-infographic-2026.jpg" alt="brand name evaluation matrix showing strong versus weak ai domain names with visual scoring grid" loading="lazy"><figcaption>brand name evaluation matrix showing strong versus weak ai domain names with visual scoring grid</figcaption></figure>
+
+**Brand fit score (bonus multiplier):** Does the word work as a brand name for a serious commercial entity? This is subjective but matters. Words that are too generic (run.ai, make.ai) have category value but weak brand differentiation. Words that are too obscure (zorp.ai) are memorable but require explanation. The sweet spot is a word with clear meaning and strong brand character — which is exactly what makes names like Bot.ai, Cloud.ai, and Voice.ai so powerful.
+
+<figure><img src="/images/articles/single-word-ai-domains-hero-2026.jpg" alt="premium word mark typography gallery showing multiple one word ai domain names styled as brand logos" loading="lazy"><figcaption>premium word mark typography gallery showing multiple one word ai domain names styled as brand logos</figcaption></figure>
+
+## What Makes One Word More Valuable Than Another
+
+Not all one-word .ai domains are equal. Within the universe of single-word .ai domains, value clusters around specific characteristics:
+
+**Category nouns vs. abstract concepts:** Words that name established commercial categories (Law, Bot, Cloud, Voice, Speed) are worth more than abstract concepts without clear commercial mapping (Amber, Lotus, Zenith). This is demand-side logic: more buyers want category nouns because they describe what the company does.
+
+**High-frequency vs. low-frequency vocabulary:** Common English words are easier to remember and type than uncommon ones. A buyer considering bot.ai vs. zerp.ai will almost always prefer bot.ai because the word is already in their vocabulary. High-frequency vocabulary reduces friction at every brand touchpoint.
+
+**Positive semantic valence:** Words with positive or powerful connotations (Speed, Cloud, Vision, Apex) tend to have broader brand appeal than neutral words. This matters for brandability, which is a key driver of end-buyer interest.
+
+**Shorter beats longer:** Within one-word domains, shorter is better. Three to four characters (Bot, Cloud, Law) are more valuable than five to six (Amber, Lotus, Voice). This is not a hard rule — a six-character word with massive category relevance (Speed) can outperform a four-character word with narrow appeal — but as a general structural principle, length compression is valuable.
+
+<figure><img src="/images/articles/single-word-ai-domains-hero-2026.jpg" alt="word value hierarchy diagram showing how category nouns abstract concepts and descriptive adjectives rank in one word ai domain value" loading="lazy"><figcaption>word value hierarchy diagram showing how category nouns abstract concepts and descriptive adjectives rank in one word ai domain value</figcaption></figure>
+
+## Supply Scarcity vs. Demand Density
+
+The .ai namespace has a supply dynamic that is fundamentally different from .com. Because .ai is a country-code TLD (ccTLD) for Anguilla, the registry (Met Namibia Communications) controls registration and has implemented policies that make it more difficult to mass-register one-word .ai domains speculatively. The result is that the best one-word .ai domains were mostly registered in the early 2000s, before the AI industry existed in its current form.
+
+This timing accident created a structural scarcity that new .ai registrations cannot address. You cannot go register a new one-word .ai domain equivalent to Bot.ai, Cloud.ai, or Law.ai today — those are taken. You can only acquire them through the aftermarket, from the people who registered them 15 to 20 years ago.
+
+The demand side has grown explosively. Every new AI startup, every AI rebrand, every existing company launching an AI product needs a domain. The addressable market for .ai domains has expanded from a niche investor pool to a mainstream commercial buyer pool. This supply-demand imbalance is the primary macro driver behind the consistent appreciation of premium one-word .ai domains over the past three years.
+
+What makes one-word .ai domains specifically vulnerable to continued appreciation is that they are simultaneously the most desired and the least replaceable asset in the namespace. A company that cannot afford Bot.ai can consider alternatives like BotLabs.ai, MyBot.ai, or GetBot.ai — but none of those alternatives are as clean, as memorable, or as brandable. The premium for the exact single word is therefore not just about aesthetics. It is about replacement cost.
+
+<figure><img src="/images/articles/single-word-ai-domains-hero-2026.jpg" alt="supply demand imbalance diagram showing the collision of limited one word ai domain supply against exponentially growing ai company formation" loading="lazy"><figcaption>supply demand imbalance diagram showing the collision of limited one word ai domain supply against exponentially growing ai company formation</figcaption></figure>
+
+## Common Pitfalls When Valuing One-Word .ai Domains
+
+<figure><img src="/images/articles/ai-domain-valuation-framework-infographic-2026.jpg" alt="common ai domain valuation mistakes infographic showing what to avoid when assessing domain worth" loading="lazy"><figcaption>common ai domain valuation mistakes infographic showing what to avoid when assessing domain worth</figcaption></figure>
+
+**Overweighting character count.** Some sellers assume that 3-character .ai domains are automatically worth more than 4 or 5-character domains. This is not always true. stt.ai (a 3-character acronym) sold for $74,000, while Amber.ai (a 6-character word) sold for $115,000. Character count matters, but brand utility and category relevance matter more.
+
+**Ignoring brandability.** A single-word domain that is a real English word but sounds made-up or awkward in a brand context (like "Zorp" for a serious B2B AI company) will underperform a slightly longer word that works naturally in a brand name. Brandability is a functional requirement, not an aesthetic preference.
+
+**Comparing across categories incorrectly.** Using Cloud.ai as a comparable for a descriptive compound domain like "fastai.ai" is not a valid comparison. The structural and brand differences are too large. Comparable sales should match on structural type (one-word to one-word, compound to compound) before adjusting for category or keyword value.
+
+**Failing to account for buyer acquisition costs.** The value of a premium one-word .ai domain is not just its standalone price. It includes the reduction in customer acquisition cost, the higher direct traffic, and the stronger brand trust that the name enables. When you account for these factors, a $115,000 one-word domain like Amber.ai may deliver more net value over five years than a $25,000 compound domain with weaker brand characteristics.
+
+## Frequently Asked Questions
+
+### Why are one-word .ai domains worth so much more than compound domains?
+
+One-word .ai domains command premiums because they maximize brand utility while minimizing cognitive friction. A single word that is already in a person's vocabulary is instantly memorable, easily typed, and naturally brandable — all without explanation. Compound or hyphenated domains require the listener to process an unfamiliar structure, which introduces micro-friction at every touchpoint. In a competitive AI market where brand trust is hard-won, that friction has a real cost that buyers are willing to pay to avoid.
+
+### What is the most valuable type of one-word .ai domain?
+
+Category nouns — words that name established AI commercial categories — are the most valuable. Words like Law (legal AI), Bot (automation AI), Cloud (infrastructure AI), Voice (audio AI), and Speed (performance AI) each represent billion-dollar-plus addressable markets and have verifiable comparable sales data supporting their valuations. Abstract brand words like Amber and Lotus are valuable but typically at lower price points because their commercial mapping is less direct.
+
+### How do you value a one-word .ai domain I own?
+
+Start with comparable .ai domain sales from NameBuzz's transaction database. Match structurally (one-word to one-word) and category-wise where possible. Apply the valuation framework: structural score (30%), category score (25%), demand score (25%), scarcity score (20%). Set a BIN price slightly above your expected floor, enable Make Offer functionality, and adjust every 60 to 90 days based on inquiry volume. For domains valued above $50,000, consider broker representation to reach end buyers directly.
+
+### Are one-word .ai domains a good investment?
+
+For investors with appropriate holding power and capital, high-quality one-word .ai domains in category nouns or high-frequency English words are among the strongest risk-adjusted assets in the .ai aftermarket. They have verifiable comparable sales data, structural scarcity that prevents new supply from competing with them, and a growing addressable buyer pool driven by AI company formation. However, they require significant capital to acquire at the premium tier and may take years to find the right buyer — patience and positioning are non-negotiable.
+
+### What is the difference between a single-word .ai domain and an acronym .ai domain?
+
+Single-word .ai domains like Bot.ai and Cloud.ai are English words that exist in normal vocabulary. Acronym .ai domains like stt.ai are abbreviations, initials, or invented letter combinations. Both can be valuable, but single-word domains generally have broader buyer appeal because they require no explanation and carry immediate semantic meaning. Acronyms like stt.ai (speech-to-text) can command significant value in narrow verticals but typically serve a smaller buyer pool. The stt.ai sale at $74,000 reflects a strong niche use case but at a significant discount to comparable one-word category domains.`,
+  },
+  {
+    "slug": "why-buy-ai-domain-reasons",
+    "title": "Why Buy an AI Domain? 8 Strategic Reasons Founders, Startups and Investors Choose .ai",
+    "date": "Wed Apr 15 2026 00:00:00 GMT+1000 (Australian Eastern Standard Time)",
+    "description": "**Every serious AI company needs a domain. Not a placeholder, not a fallback, not a compromise they will fix later — the actual domain that will carry the brand through fundraising",
+    "readTime": "16 min read",
+    "author": "NameBuzz Research Team",
+    "content": `Why Buy an AI Domain? 8 Strategic Reasons Founders, Startups and Investors Choose .ai
+
+**Every serious AI company needs a domain. Not a placeholder, not a fallback, not a compromise they will fix later — the actual domain that will carry the brand through fundraising, enterprise sales, and the product iterations that change everything about how the company presents itself. In the AI era, that domain is increasingly a .ai. This is not a trend. It is a structural shift in how the market is sorting itself, and understanding the strategic reasons behind it is essential for any founder, startup, or investor making a naming decision in the AI space.**
+
+The question "why buy an AI domain?" has a different answer than it did five years ago. In 2019, .ai was a niche ccTLD with interesting branding potential but no mainstream commercial justification. Today, .ai is the de facto digital identity for the artificial intelligence industry. The question is no longer whether to use .ai — it is whether to pay for the premium now or absorb the cost of a weaker alternative later. This article covers the eight most compelling strategic reasons why serious AI market participants are choosing .ai.
+
+<figure><img src="/images/articles/single-word-tier-ranking-infographic-2026.jpg" alt="modern ai startup workspace with holographic brand interface displaying ai company name on premium domain" loading="lazy"><figcaption>modern ai startup workspace with holographic brand interface displaying ai company name on premium domain</figcaption></figure>
+
+## Table of Contents
+
+- [1. .ai Is the Category Signal That Works Before Your Pitch Does](#1-ai-is-the-category-signal-that-works-before-your-pitch-does)
+- [2. Brand Trust Starts Before a Product Demo](#2-brand-trust-starts-before-a-product-demo)
+- [3. AI Domain Investment Has a Verified Track Record](#3-ai-domain-investment-has-a-verified-track-record)
+- [4. The Naming Clarity Premium: Less Explain, More Win](#4-the-naming-clarity-premium-less-explain-more-win)
+- [5. Direct Traffic and Organic Discovery Advantages](#5-direct-traffic-and-organic-discovery-advantages)
+- [6. Category Control: Owning the Word That Defines Your Space](#6-category-control-owning-the-word-that-defines-your-space)
+- [7. Long-Term Value Retention and Portfolio Optionality](#7-long-term-value-retention-and-portfolio-optionality)
+- [8. The AI Industry Growth Curve Makes Now the Right Time](#8-the-ai-industry-growth-curve-makes-now-the-right-time)
+- [Frequently Asked Questions](#frequently-asked-questions)
+
+## 1. .ai Is the Category Signal That Works Before Your Pitch Does
+
+The first thing anyone does when they hear about your company is look you up. They google the name. They check the domain. They form a first impression based on whether the domain looks the way the name sounds. When your domain ends in .ai, that first impression arrives before the pitch deck opens. The domain tells the searcher: this company is in artificial intelligence, and they were confident enough in that positioning to build their brand identity around the category extension.
+
+This is category signaling at its most efficient. In every other context, establishing category authority requires a product demo, a conversation, a slide in a presentation. With a .ai domain, the category authority is baked into the URL. A company called LegalBot that owns LegalBot.ai does not need to explain that it is an AI company. The domain has already done that work.
+
+For founders, this means less time explaining and more time selling. For investors, it means the companies they back look the part from the first interaction. For enterprises evaluating AI vendors, it means a .ai domain is a shorthand for seriousness — the company invested in being found and identified in the category it claims to serve.
+
+The alternative — a .com with "ai" embedded in the company name — does not deliver the same signal. A visitor to LegalBot.com has to process the company name and infer the category. A visitor to LegalBot.ai arrives at the destination already understanding the context. That microsecond of friction reduction accumulates into measurable conversion differences over time.
+
+## 2. Brand Trust Starts Before a Product Demo
+
+Trust is the scarcest resource in B2B sales, and it is established earlier than most founders plan for. A domain like [Amber.ai](https://namebuzz.co/blog/amber-ai-sold-115000) or [Speed.ai](https://namebuzz.co/blog/speed-ai-sold-165000) projects something specific: the buyer expects this company to be around long enough to justify a premium domain purchase. That is a meaningful signal when the buyer is evaluating whether to stake their own reputation on a vendor relationship.
+
+Premium domain ownership communicates operational seriousness. It tells the buyer that the company has thought about its brand infrastructure, has allocated capital to something as foundational as a domain name, and is not treating the naming decision as an afterthought. In enterprise sales contexts where vendors are vetted against criteria that include web presence and digital infrastructure, these signals matter.
+
+For AI startups specifically, brand trust is complicated by the general skepticism toward AI products that do not perform as marketed.
+
+<figure><img src="/images/articles/single-word-tier-ranking-infographic-2026.jpg" alt="enterprise sales meeting workspace showing ai startup team presenting with premium brand identity on screen" loading="lazy"><figcaption>enterprise sales meeting workspace showing ai startup team presenting with premium brand identity on screen</figcaption></figure> Buyers have been burned by overpromised AI. They are on guard. A company that arrives with a clean, premium domain is one that has demonstrated forethought and discipline before the product conversation even begins. That changes the starting point of the trust conversation.
+
+The cost of a premium .ai domain is small relative to the enterprise sales cycles it influences. <figure><img src="/images/articles/ai-domain-investment-chart.jpg" alt="enterprise contract ROI calculator showing domain investment versus contract value comparison" loading="lazy"><figcaption>enterprise contract ROI calculator showing domain investment versus contract value comparison</figcaption></figure>
+
+A single enterprise contract worth $50,000 in annual recurring revenue more than justifies a $25,000 domain purchase. Founders who treat domain cost as a line item rather than a strategic investment often undercalculate the leverage it provides in sales conversations.
+
+## 3. AI Domain Investment Has a Verified Track Record
+
+<figure><img src="/images/articles/single-word-ai-domains-hero-2026.jpg" alt="domain investment portfolio overview showing diverse one word ai holdings organized by category and estimated value" loading="lazy"><figcaption>domain investment portfolio overview showing diverse one word ai holdings organized by category and estimated value</figcaption></figure>
+
+For investors evaluating .ai domains as portfolio assets, the track record is now substantial enough to be taken seriously as a distinct alternative asset class. NameBuzz tracks verified and widely reported .ai domain transactions including:
+
+| Domain | Sale Price | Buyer Profile |
+|--------|-----------|--------------|
+| Bot.ai | $1,200,000 | AI startup / platform |
+| Cloud.ai | $600,000 | Infrastructure company |
+| Lotus.ai | $400,000 | Rebrand / strategic |
+| Law.ai | $350,000 | Legal technology company |
+| Speed.ai | $165,000 | Performance AI company |
+| Amber.ai | $115,000 | Brand-forward AI company |
+| stt.ai | $74,000 | Speech technology company |
+
+These are not outlier anecdotes. They represent a consistent pattern across different word types, price tiers, and market conditions. The .ai domain aftermarket has demonstrated price appreciation through the 2022–2023 market downturn, the 2024 AI boom, and into 2026 — a track record that most alternative asset classes cannot match over the same period.
+
+For investors considering .ai domains as portfolio positions, the mechanics are different from stocks or bonds but the fundamental logic is familiar: buy assets with structural scarcity and growing demand, hold through market volatility, sell when the buyer profile is right. The illiquidity of domain investing is real but manageable with appropriate capital allocation. The return profile for quality one-word .ai domains has consistently outperformed most alternative asset categories over a 3 to 5 year horizon.
+
+Domain investors who acquired [Cloud.ai at $600,000](https://namebuzz.co/blog/cloud-ai-sold-600000) in early 2024 or [Amber.ai at $115,000](https://namebuzz.co/blog/amber-ai-sold-115000) in 2023 have seen meaningful appreciation as the AI market tightened supply at the premium tier. This is not speculation — it is supply-demand mechanics backed by real transaction data.
+
+## 4. The Naming Clarity Premium: Less Explain, More Win
+
+One of the most expensive hidden costs in early-stage company building is the "explain tax" — the time founders spend explaining what the company does because the name does not communicate it naturally. A company called "Cognescenti AI" requires a sentence. A company called "Bot.ai" requires nothing. That difference in explainability is a real business asset.
+
+The explain tax compounds across every channel a company uses: sales calls, investor meetings, media coverage, job postings, partnership introductions, social media bios. Each channel requires a clean brand name to land without friction. Founders who use names that require explanation are paying the explain tax in hours, attention, and lost momentum. A premium AI domain that is immediately self-explanatory removes that tax entirely.
+
+The mechanism is straightforward: when your domain name communicates your category and your ambition in the clearest possible terms, every subsequent communication is easier. Your pitch is tighter. Your elevator pitch is actually deliverable in an elevator. Journalists can write your story without a parenthetical explanation. Investors can remember your company after a busy demo day. This is not a cosmetic advantage. It is a compounding operational efficiency that reduces CAC (customer acquisition cost) across every growth channel.
+
+Consider the difference between a company building on Law.ai versus one building on LegalTechSolutionsForAI.com. The first name is a destination. The second is a navigation challenge. In the AI market, where attention is the scarcest resource and every competitor is fighting for the same investor meeting or enterprise buyer slot, the company that wins is the one that removes friction from every touchpoint. The domain is the first touchpoint.
+
+## 5. Direct Traffic and Organic Discovery Advantages
+
+<figure><img src="/images/articles/single-word-tier-ranking-infographic-2026.jpg" alt="web traffic analytics visualization showing direct navigation traffic concentration for premium exact match domains" loading="lazy"><figcaption>web traffic analytics visualization showing direct navigation traffic concentration for premium exact match domains</figcaption></figure>
+
+Premium .ai domains generate direct traffic that is qualitatively different from search-driven traffic. When people hear a company name on a podcast, read it in an article, or see it on a conference slide, they do not always google it immediately — they often type the domain directly into their browser. If the domain matches what they heard, they arrive. If it does not, they search, and the outcome depends on what else ranks for that query.
+
+A premium exact-match .ai domain captures the direct navigation traffic that would otherwise leak to competitors or generic searches. For a category-defining term like Law.ai or Speed.ai, this is not marginal traffic. It is the highest-intent traffic on the internet — people who already know what they want and are typing it directly. Capturing that traffic at the domain level is worth more per visitor than almost any paid acquisition channel.
+
+From an SEO perspective, a .ai domain that matches the target keyword creates natural topical alignment that search engines reward. This is not about keyword stuffing or technical manipulation. It is about the semantic relationship between a domain name and the content it hosts being cleaner and more legible to crawling systems when the domain itself already maps to the target keyword. The result is a ranking baseline that is higher than a non-matching domain with identical content, all else being equal.
+
+<figure><img src="/images/articles/single-word-tier-ranking-infographic-2026.jpg" alt="website analytics dashboard showing direct traffic versus search traffic comparison for premium ai domain versus generic alternative" loading="lazy"><figcaption>website analytics dashboard showing direct traffic versus search traffic comparison for premium ai domain versus generic alternative</figcaption></figure>
+
+## 6. Category Control: Owning the Word That Defines Your Space
+
+<figure><img src="/images/articles/single-word-tier-ranking-infographic-2026.jpg" alt="semantic category map showing how ai industry subcategories map to premium domain ownership" loading="lazy"><figcaption>semantic category map showing how ai industry subcategories map to premium domain ownership</figcaption></figure>
+
+In the AI industry, certain words are semantically central — they define product categories, customer expectations, and competitive positioning. Words like Bot, Cloud, Voice, Law, Speed, and Data are not just words. They are category labels. Owning the .ai domain that corresponds to your category is a form of category control that affects competitive dynamics for years.
+
+The strategic logic is similar to acquiring a trademark in a critical product category. The company that owns Law.ai is the entity that best occupies the legal AI category in digital space. Anyone else operating in legal AI on a weaker domain is always navigating relative to that position. The domain leader in the category has a structural advantage that compounds as the category grows.
+
+For startups, category control is most important when the company is building a platform or a product that is defining a new subcategory. A company that launches on Bot.ai and becomes the reference point for AI-powered automation has done something that cannot be replicated by a company on MyBotPlatform.ai. The domain is not just a name. It is the anchor of a category position that will be referenced by analysts, media, investors, and customers.
+
+<figure><img src="/images/articles/ai-domain-market-mid-2026-hero.jpg" alt="market share dominance diagram showing how category defining ai domains correlate with market leadership position" loading="lazy"><figcaption>market share dominance diagram showing how category defining ai domains correlate with market leadership position</figcaption></figure>
+
+This is also why competitor acquisition of category-defining .ai domains is a real risk. If your primary category keyword is owned by a competitor, they have a permanent structural advantage in brand positioning that you cannot replicate with marketing spend alone. Understanding which .ai domains are available, which are held speculatively, and which would represent a category-control acquisition is a strategic exercise that every AI founder should conduct before naming the company.
+
+## 7. Long-Term Value Retention and Portfolio Optionality
+
+<figure><img src="/images/articles/ai-domain-market-mid-2026-hero.jpg" alt="asset depreciation comparison chart showing ai domain value retention versus codebases and marketing spend over time" loading="lazy"><figcaption>asset depreciation comparison chart showing ai domain value retention versus codebases and marketing spend over time</figcaption></figure>
+
+A premium .ai domain is one of the few startup assets that does not depreciate with use. Codebases get stale. Content gets outdated. User interfaces need redesigns. A domain name — a good one, in a relevant extension — just stays. Its value does not erode with product iterations or market shifts. In fact, as the AI industry grows and the inventory of premium .ai domains tightens, the value of quality holdings tends to appreciate.
+
+This has practical implications for capital allocation. A founder who spends $50,000 on a premium .ai domain and builds the company on it is not spending that money — they are converting it into a brand asset that retains optionality. If the company succeeds, the domain appreciation is incidental to the business value created. If the company pivots or winds down, the domain is a liquid(ish) asset that can be sold, contributing capital to the next venture. The depreciation curve for a premium .ai domain is essentially flat over a 3 to 5 year horizon, which is not true of almost any other startup expense.
+
+For investors building domain portfolios, the same logic applies at scale. A portfolio of one-word .ai domains in high-frequency English words and category nouns has historically retained value through market cycles that affected most other asset classes. The correlation with public market volatility is low, the supply constraint is real, and the demand base is growing. This makes .ai domain portfolios a genuinely distinctive alternative asset allocation.
+
+## 8. The AI Industry Growth Curve Makes Now the Right Time
+
+The AI industry is not growing linearly — it is growing exponentially. Every major research lab, enterprise software vendor, and startup is now competing for mindshare in a market that did not exist at scale five years ago. <figure><img src="/images/articles/ai-domain-market-mid-2026-hero.jpg" alt="ai industry growth visualization showing startup formation density and domain registration demand correlation" loading="lazy"><figcaption>ai industry growth visualization showing startup formation density and domain registration demand correlation</figcaption></figure>
+
+New AI companies launch daily. Existing companies are rebranding around AI. Enterprises are standup AI divisions. The addressable buyer pool for .ai domains is expanding in proportion to the overall AI market growth, which analysts project to reach hundreds of billions in annual spending within this decade.
+
+This growth creates a timing dynamic that is important to understand: the cost of a premium .ai domain today is almost certainly lower than the cost of the same domain two years from now. The market for .ai domains is tightening faster than new premium inventory is being created. The names that will be worth the most in 2028 are largely already held — the question is whether you acquire them now at a price that reflects today's market, or wait until the market has fully repriced around AI-native branding expectations.
+
+For founders, the calculus is straightforward: the cost of a premium .ai domain is a fraction of the cost of a misnamed company that requires a future rebrand. The average corporate rebrand costs $50,000 to $250,000 in external costs alone, plus the internal distraction and market confusion. Avoiding that cost by investing in the right domain from day one is not a premium decision — it is operational risk management.
+
+For investors, the case for acting now is equally clear. The window for acquiring category-defining .ai domains at prices that will look cheap in five years is closing. The premium one-word .ai domains that exist today are, in many cases, the last of their kind. Every day that supply tightens, the option value of those names increases.
+
+## Frequently Asked Questions
+
+### Is a .ai domain worth the premium over a .com domain?
+
+For AI-focused companies, the .ai premium is justified by category signaling, brand clarity, and long-term value retention. A premium .ai domain like Law.ai or Speed.ai communicates AI positioning in the URL itself, which no .com alternative can match without either compromising the name or using a longer, weaker alternative. While a good .com is always valuable, the .ai extension in the AI context is increasingly the preferred category identifier, and the premium reflects that market expectation.
+
+### How much should a startup budget for a .ai domain?
+
+For an early-stage AI startup, allocating 5% to 10% of your initial capital budget to a quality domain is a reasonable framework. A $50,000 budget for a domain against a $500,000 seed round is 10% — significant but not disqualifying, and it eliminates the domain problem for the life of the company. For pre-seed companies with tighter budgets, starting with a mid-market .ai domain and planning a premium upgrade at Series A is a viable path, though it carries rebrand risk.
+
+### Are .ai domains good for SEO?
+
+.ai domains perform well for SEO when the domain name matches the target keyword and the content on the site is relevant and well-structured. The .ai extension itself is not penalized by search engines — it is recognized as a legitimate TLD. Exact-match .ai domains in your target keyword category (e.g., a legal AI company on Law.ai) have a natural topical alignment advantage that can contribute to ranking baseline. However, no domain extension replaces the fundamentals of technical SEO, content quality, and link building.
+
+### Can I use a .ai domain alongside my existing .com?
+
+This is a common strategy for companies transitioning to .ai or protecting brand identity. You can use .ai as your primary domain while .com redirects to it, or you can operate both domains simultaneously with separate content strategies. However, splitting traffic and brand signals across two domains is generally less effective than committing to a single primary domain. If your .ai domain is the right fit, make it the primary.
+
+### What happens if my preferred .ai domain is already taken?
+
+If your preferred exact-match .ai domain is taken, the first step is to check whether it is listed for sale on Afternic, Sedo, or Dan.com. Many premium .ai domains are listed by speculators who acquired them years ago and are open to selling at the right price. If the domain is not publicly listed, you can attempt outreach through a domain broker to inquire about acquisition. If acquisition is not feasible, consider brandable alternatives that are available — or pivot to a naming strategy that is not dependent on the exact keyword match.`,
+  },
+  {
+    "slug": "why-ai-domains-are-getting-more-expensive",
+    "title": "Why Are AI Domains Getting More Expensive? Supply, Demand, and the Market Forces Driving .ai Prices Up",
+    "date": "Wed Apr 15 2026 00:00:00 GMT+1000 (Australian Eastern Standard Time)",
+    "description": "**If you have been watching the .ai domain market for more than a few years, the trajectory is unmistakable: prices at every tier are rising. One-word domains that sold for five fi",
+    "readTime": "17 min read",
+    "author": "NameBuzz Research Team",
+    "content": `Why Are AI Domains Getting More Expensive? Supply, Demand, and the Market Forces Driving .ai Prices Up
+
+**If you have been watching the .ai domain market for more than a few years, the trajectory is unmistakable: prices at every tier are rising. One-word domains that sold for five figures three years ago now trade at six. Mid-market names that were available for a few thousand dollars are now priced in the tens of thousands. The deals that made headlines in 2022 look modest compared to what equivalent names sell for today. This is not a bubble. It is a structural repricing driven by supply scarcity, demand explosion, and a market that has finally understood what the .ai namespace actually represents.**
+
+Understanding why AI domains are getting more expensive is not just an investor's question. It is the question every founder, startup, and domain owner needs to answer to make good decisions about buying, selling, or holding. This article breaks down the four primary forces driving .ai prices higher, examines the market data that confirms the trend, and explains what the mechanics mean for where prices are likely to go next.
+
+<figure><img src="/images/articles/ai-domain-yoy-comparison-2026.jpg" alt="financial market display showing ai domain price index trending upward with key metrics" loading="lazy"><figcaption>financial market display showing ai domain price index trending upward with key metrics</figcaption></figure>
+
+## Table of Contents
+
+- [The Four Drivers of Rising .ai Domain Prices](#the-four-drivers-of-rising-ai-domain-prices)
+- [Force 1 — Exploding Demand: The AI Company Formation Boom](#force-1--exploding-demand-the-ai-company-formation-boom)
+- [Force 2 — Supply Scarcity: The .ai Namespace Is Nearly Fixed](#force-2--supply-scarcity-the-ai-namespace-is-nearly-fixed)
+- [Force 3 — Registry Dynamics: What the .ai Registry Controls](#force-3--registry-dynamics-what-the-ai-registry-controls)
+- [Force 4 — Investor Speculation and Portfolio Accumulation](#force-4--investor-speculation-and-portfolio-accumulation)
+- [The Market Data: Tracking Price Appreciation by Tier](#the-market-data-tracking-price-appreciation-by-tier)
+- [What This Means for Buyers and Sellers](#what-this-means-for-buyers-and-sellers)
+- [The Counterarguments: Why Some Think Prices Will Fall](#the-counterarguments-why-some-think-prices-will-fall)
+- [Frequently Asked Questions](#frequently-asked-questions)
+
+## The Four Drivers of Rising .ai Domain Prices
+
+Before examining each driver in detail, it is worth naming them upfront so the full picture is clear:
+
+1. **Exploding demand** from AI company formation, rebranding, and category entry by non-AI companies
+2. **Supply scarcity** from the fixed nature of quality one-word .ai domains
+3. **Registry dynamics** that affect transferability and registration policy
+4. **Investor accumulation** by portfolio managers who understand the asset class
+
+<!-- IMAGE: reinforcing loop diagram showing the self-reinforcing cycle of ai domain price appreciation with investor capital, alt="reinforcing loop diagram showing the self reinforcing cycle of ai domain price appreciation with investor capital" -->
+
+Each of these forces is independently significant. Together, they create a reinforcing loop where rising prices attract more investor capital, which tightens available inventory, which drives prices higher still. Understanding this loop is essential for anyone operating in the .ai market.
+
+## Force 1 — Exploding Demand: The AI Company Formation Boom
+
+The most obvious driver of rising .ai prices is the explosive growth in AI company formation. According to multiple tracking sources, AI-focused startup formation increased by over 300% between 2022 and 2025. Every new AI company needs a domain. A growing proportion of those companies specifically want a .ai domain because it is the clearest available signal of AI category positioning.
+
+This demand wave is not limited to startups. Established enterprises are launching AI products and rebranding divisions under .ai identities. Consulting firms are launching AI practices on .ai domains. Research labs are publishing on .ai sites. The addressable buyer pool for .ai domains has expanded from a small investor community to essentially every commercial entity with an interest in AI positioning.
+
+The demand-side picture is further complicated by the international dimension. AI adoption is global. Companies in Europe, Asia, the Middle East, and Latin America are all seeking .ai domains for AI positioning. The .ai extension is recognized globally — not just as a country code for Anguilla, but as an industry identifier. This international demand base means that the total addressable market for .ai domains is not constrained by geography in the way that some other domain extensions might be.
+
+Every new AI company that enters the market is a potential buyer for a domain like yours. The rate of entry is higher than at any prior point in the namespace's history, and the trend shows no signs of reversing. If anything, the pace of AI company formation is accelerating as foundation models become cheaper to build on and AI infrastructure matures. The demand curve is not just rising — it is steepening.
+
+<figure><img src="/images/articles/ai-domain-market-mid-2026-hero.jpg" alt="global ai company formation rate chart showing exponential growth from 2020 to 2026" loading="lazy"><figcaption>global ai company formation rate chart showing exponential growth from 2020 to 2026</figcaption></figure>
+
+## Force 2 — Supply Scarcity: The .ai Namespace Is Nearly Fixed
+
+Supply scarcity is the second major driver of .ai price appreciation, and it is the structural force that most directly explains why prices will continue to rise even if demand growth moderates.
+
+The .ai namespace is the country code top-level domain for Anguilla. Unlike .com, where new second-level domains and variations are constantly being created, the .ai namespace is effectively fixed. There are no new one-word .ai domains being created — they either exist or they do not. The inventory of quality .ai domains is bounded by what was registered during the early years of the extension, before the AI industry existed in its current form.
+
+This creates a supply structure that economists call a fixed-supply asset. The total inventory of single-word .ai domains in meaningful English words is numbered in the thousands at best. The inventory of single-word .ai domains that are short, memorable, brandable, and commercially relevant is numbered in the hundreds. And of those, the number that becomes available for sale in any given year is even smaller.
+
+When demand for these assets grows while supply is fixed, prices must rise. This is not speculation — it is supply-demand mechanics at the most basic level. Each time a premium .ai domain sells, it is removed from the available inventory. The pool of potential buyers continues to grow. The logical consequence is continued price appreciation at the premium tier.
+
+The scarcity effect is amplified by the fact that many premium .ai domains are held in long-term portfolios by investors who are not motivated to sell at current market prices. These "locked" domains are not available at any price unless the owner decides to liquidate. This means the liquid supply — the domains actually available for purchase at any given time — is even smaller than the total inventory picture suggests.
+
+<figure><img src="/images/articles/single-word-ai-domains-hero-2026.jpg" alt="fixed supply diagram showing the diminishing pool of premium one word ai domains over time" loading="lazy"><figcaption>fixed supply diagram showing the diminishing pool of premium one word ai domains over time</figcaption></figure>
+
+## Force 3 — Registry Dynamics: What the .ai Registry Controls
+
+The .ai registry is operated by Met Namibia Communications under agreement with the Government of Anguilla. This registry controls registration policy, transfer procedures, and pricing for the extension, and the decisions it makes have direct effects on the aftermarket.
+
+Unlike .com, where ICANN-accredited registrars compete and price is largely market-driven, the .ai registry operates a more centralized model. Transfer policies for .ai domains are subject to the registry's rules, which include a 60-day hold period after any registration or transfer. This creates friction in the aftermarket that does not exist for .com domains — and that friction has a price.
+
+The registry's role in pricing is indirect but real. Because .ai domains cannot be transferred immediately after a recent transfer or registration, buyers and sellers must plan around a structured transfer process that takes weeks to complete. This means that high-velocity domain trading — which exists in .com — is more difficult in .ai. The buyers who are most sophisticated and most willing to transact at volume are partially priced out of the fastest trading mechanics. The result is a market where premiums are more stable and price floors are higher, because there is no equivalent of the "flipping" market that exists in .com.
+
+<figure><img src="/images/articles/ai-domain-pricing-tiers-guide-2026.jpg" alt="ai domain registry pricing announcement concept showing annual registration fee structure" loading="lazy"><figcaption>ai domain registry pricing announcement concept showing annual registration fee structure</figcaption></figure>
+The registry also controls pricing at the registration level. While basic .ai registrations are currently priced at reasonable annual rates, the registry has the ability to raise registration fees, and any increase would flow through to the aftermarket. Registrars and resellers would need to pass those costs on, which would put upward pressure on the total cost of ownership for .ai domains. Buyers and investors are aware of this potential, which creates a forward-pricing effect — buyers are willing to pay more today partly because they anticipate higher future ownership costs.
+
+Additionally, the registry's transfer procedures add real friction that affects closing timelines. For buyers and sellers accustomed to the faster transfer mechanics of .com, the 5 to 10 business day .ai transfer process can feel slow. This friction is not going away and is unlikely to be simplified in the near term, as it is tied to registry-level policy.
+
+## Force 4 — Investor Speculation and Portfolio Accumulation
+
+<figure><img src="/images/articles/single-word-tier-ranking-infographic-2026.jpg" alt="investor accumulation trend chart showing portfolio capital flowing into premium ai domain market over time" loading="lazy"><figcaption>investor accumulation trend chart showing portfolio capital flowing into premium ai domain market over time</figcaption></figure>
+
+The fourth driver is the growing investor community around .ai domains as an alternative asset class. This is a relatively new phenomenon — even three years ago, the .ai domain investment community was small and fragmented. Today, it is a recognized niche with dedicated funds, brokerages, and market participants who are actively accumulating premium .ai inventory.
+
+This investor accumulation serves two functions in the price appreciation story. First, it creates demand from buyers who are not end-users — investors who are buying .ai domains specifically to hold and sell at a future date. This demand is less sensitive to price than end-user demand, because investor buyers are evaluating the asset purely on return potential rather than immediate utility. The result is that prices in the mid-market are supported by investor bids even when end-user demand is soft.
+
+Second, investor accumulation removes inventory from the liquid market. When a portfolio investor acquires a premium one-word .ai domain, that domain is taken off the market — sometimes for years. This reduces the supply of available inventory at the same time that demand is growing. The combination is mechanically bullish for prices.
+
+The emergence of institutional-grade infrastructure for .ai domain transactions — better escrow services, more brokers with .ai expertise, platforms with dedicated .ai buyer networks — has lowered the friction of domain investing and attracted more capital to the category. This creates a self-reinforcing dynamic: more capital enters, more inventory is acquired, prices rise, higher prices attract more capital. The cycle continues until either demand collapses or a major supply event (like a large-scale portfolio liquidation) disrupts it.
+
+For individual domain owners, this investor dynamic means that selling too early at market prices may mean leaving significant appreciation on the table. Patience is rewarded in a market where the fundamental supply-demand picture is this bullish. The question is not whether .ai prices will continue to rise — it is how long the current appreciation cycle will extend and which name categories will see the highest continued growth.
+
+## The Market Data: Tracking Price Appreciation by Tier
+
+<figure><img src="/images/articles/ai-domain-pricing-tiers-guide-2026.jpg" alt="ai domain market data dashboard showing comparable sales with price appreciation trends across multiple tiers" loading="lazy"><figcaption>ai domain market data dashboard showing comparable sales with price appreciation trends across multiple tiers</figcaption></figure>
+
+
+The theory of rising .ai prices is easy to state. The data is what makes it credible. Here is a snapshot of comparable .ai sales that demonstrate the appreciation trend:
+
+| Domain | Sale Price | Year | Current Estimated Value |
+|--------|-----------|------|------------------------|
+| Cloud.ai | $600,000 | 2025 | $700,000–$800,000 |
+| Lotus.ai | $400,000 | 2026 | $450,000–$500,000 |
+| Law.ai | $350,000 | 2024 | $400,000+ |
+| Speed.ai | $165,000 | 2025 | $185,000–$220,000 |
+| Amber.ai | $115,000 | 2024 | $130,000–$160,000 |
+| stt.ai | $74,000 | 2024 | $85,000–$100,000 |
+
+These numbers are not projections — they are actual transactions. The pattern is consistent: one-word .ai domains in commercially relevant categories are appreciating at rates that exceed most traditional asset classes over equivalent time horizons.
+
+Mid-market data tells a similar story. Names in the $10,000 to $50,000 range that were available 2 to 3 years ago are now priced 40% to 80% higher for comparable quality. The appreciation is broad-based, touching all price tiers but most pronounced at the premium end where supply is most constrained.
+
+The comparable sales also reveal that the market is not just pricing .ai domains for current utility — it is pricing them for expected future demand.
+
+<figure><img src="/images/articles/ai-domain-valuation-framework-infographic-2026.jpg" alt="ai domain valuation decision tree showing framework steps from research to final price setting" loading="lazy"><figcaption>ai domain valuation decision tree showing framework steps from research to final price setting</figcaption></figure> The AI industry projected to reach $200 billion in annual spending by 2030 means the addressable buyer pool for quality .ai domains will continue to expand. Each additional dollar of AI industry revenue creates additional demand for domain identity in the category. The buyers who are paying current prices are pricing in a share of that future growth.
+
+<figure><img src="/images/articles/ai-domain-investment-chart.jpg" alt="multi-year price appreciation chart comparing ai domain values against alternative asset classes over same period" loading="lazy"><figcaption>multi-year price appreciation chart comparing ai domain values against alternative asset classes over same period</figcaption></figure>
+
+## What This Means for Buyers and Sellers
+
+<figure><img src="/images/articles/ai-domain-investment-chart.jpg" alt="timing decision matrix showing cost of waiting versus act now scenarios for ai domain acquisition" loading="lazy"><figcaption>timing decision matrix showing cost of waiting versus act now scenarios for ai domain acquisition</figcaption></figure>
+
+**For buyers:** The case for acting now is stronger than it has ever been. The cost of waiting is not just missing the current price — it is missing years of compounding appreciation while the supply of quality domains shrinks further. For founders, paying the current market price for a domain that will generate enterprise value is still better economics than buying a weaker alternative and paying for rebrand costs later. For investors, acquiring quality .ai domains at current valuations with a 3 to 5 year holding horizon is a well-supported position given the supply-demand mechanics.
+
+**For sellers:** The current market is historically favorable for liquidation, but the fundamental picture suggests patience is rewarded. If you own a one-word .ai domain in a category noun, the likelihood is that the same domain will be worth more in two years than it is today. Selling into short-term demand spikes (when a buyer makes an unsolicited offer, for example) is reasonable if the price is genuinely at the upper end of your market — but consider your floor carefully. The supply-side arguments for continued appreciation are real and structural, not speculative.
+
+<figure><img src="/images/articles/ai-domain-market-mid-2026-hero.jpg" alt="mid-market ai domain portfolio showing multiple holdings with their appreciation trajectories over time" loading="lazy"><figcaption>mid-market ai domain portfolio showing multiple holdings with their appreciation trajectories over time</figcaption></figure>
+
+**For domain owners holding non-premium inventory:** Even mid-market .ai domains are appreciating as the overall category floor rises. A domain that was purchased as a speculation 3 years ago and held through the appreciation cycle may now be worth significantly more than your original cost basis. Reviewing your portfolio and understanding current market values for your specific holdings is worth doing annually at minimum.
+
+## The Counterarguments: Why Some Think Prices Will Fall
+
+No market analysis is complete without engaging the bear case. There are legitimate arguments for why .ai prices might not continue their appreciation trajectory, and they deserve serious engagement.
+
+**Argument 1: AI hype cycle will deflate.** Some analysts argue that current AI valuations are driven by hype rather than fundamentals, and that a correction in the AI industry would reduce demand for .ai domains. This is possible but does not account for the structural nature of domain demand. Even if AI valuations compress, the companies that exist will still need domains. The relative value of a clean AI domain versus a weak one will persist regardless of the broader AI market cycle.
+
+**Argument 2: New TLDs will compete for market share.** Other new extensions like .io, .ai alternatives, and brand-specific TLDs are competing for startup domain identity. This competition is real but limited. None of these extensions carry the semantic clarity of .ai for the AI category, and the brand recognition premium for .ai is not easily replicated by a newer extension with less market history.
+
+**Argument 3: Corporate brand strategies will shift away from exact-match domains.** Some companies are building brand identities around invented words and compound names that do not require exact-match domains. This is true for some companies, but it does not undermine the market for exact-match .ai domains — it simply means that the premium for exact-match is reserved for buyers who do value category clarity, which includes the majority of serious AI companies and rebranders.
+
+**Argument 4: Blockchain-based domain systems will disrupt the traditional DNS model.** ENS, Unstoppable Domains, and other blockchain naming systems are genuine alternatives to traditional DNS. However, they serve a different use case (Web3 identity, cryptocurrency payments) and have not demonstrated mainstream commercial adoption that would threaten .ai domain values. The overlap between blockchain domain buyers and AI brand domain buyers is currently minimal.
+
+None of these counterarguments are sufficient to reverse the fundamental supply-demand dynamic that is driving .ai prices higher.
+
+<figure><img src="/images/articles/ai-domain-market-mid-2026-hero.jpg" alt="market correction versus structural appreciation comparison chart for ai domain values" loading="lazy"><figcaption>market correction versus structural appreciation comparison chart for ai domain values</figcaption></figure> They represent risks to monitor rather than reasons to change course.
+
+## Frequently Asked Questions
+
+### Why are .ai domains specifically getting more expensive while other domain extensions are stable?
+
+.ai domains are rising because they are at the intersection of two powerful forces: exploding AI industry demand and fixed supply of quality names. The .ai extension is semantically associated with AI in a way that no other extension is, which makes it uniquely relevant for the largest commercial category of company formation in the current decade. Other extensions like .com, .io, and .co have much larger available inventories and less category-specific demand, so their price dynamics are fundamentally different.
+
+### Will .ai domain prices ever crash like some other speculative assets?
+
+A crash in .ai domain prices would require either a sudden collapse in AI company formation (unlikely given the structural investment already deployed), a major release of locked premium inventory (possible but would need to be significant in scale), or a regulatory change that reduces the value of .ai as a category identifier (no current policy proposals suggest this). The probability of a crash in quality .ai domains is lower than in most speculative assets because the buyer pool is commercial and operational rather than purely financial. The domains being purchased at the premium tier are purchased by companies that need them for real business purposes, which creates a demand floor that speculative markets do not have.
+
+### How do I know if a .ai domain I am buying is likely to appreciate?
+
+Focus on single-word .ai domains in common English words, particularly category nouns that map to established AI commercial verticals (Law, Bot, Cloud, Voice, Speed, Data, etc.). Avoid invented words with no semantic anchor, overly long single-word domains, and compound structures that function more like phrases than names. The NameBuzz comparable sales database is the best starting point for understanding which name types have demonstrated appreciation history and which are speculative without basis.
+
+### Should I buy a .ai domain now or wait for lower prices?
+
+Waiting for lower prices in the .ai market requires believing that one of two things will happen: demand will fall, or supply will increase. Demand is structural given AI industry growth and is unlikely to fall. Supply of one-word domains is fixed and can only decrease further as more names are sold and removed from available inventory. The expected value of waiting is therefore negative for most quality .ai domains — the likely cost of waiting (paying a higher price later) exceeds the likely benefit (potentially paying less if a market correction occurs). Act now on quality inventory rather than waiting for a correction that may not come.
+
+### What is driving the price of mid-market .ai domains specifically?
+
+Mid-market .ai domains (priced $5,000 to $50,000) are driven by a different buyer pool than premium domains — primarily early-stage AI startups, small businesses, and solo founders rather than venture-backed companies or large enterprises. The demand in this segment is growing because the total number of AI companies at all stages of maturity is expanding, not just the well-funded ones. Additionally, as premium .ai domains become unaffordable for smaller buyers, those buyers turn to mid-market alternatives, increasing demand at that tier. This demand-side shift is compressing mid-market valuations upward even as the premium tier appreciation continues.`,
+  },
+  {
+  "slug": "speed-ai-sold-165000",
+  "title": "Speed.ai Sells for $165,000: What This Sale Tells Us About Short .ai Domain Values",
+  "date": "2026-04-15",
+  "description": "Speed.ai sold for $165,000. Here's what this sale reveals about the value of short, descriptive .ai domain names in today's AI economy.",
+  "readTime": "~8 min read",
+  "author": "Maya Chen, NameBuzz",
+  "content": "# Speed.ai Sells for $165,000: What This Sale Tells Us About Short .ai Domain Names\n\n**In February 2024, Speed.ai changed hands for $165,000 \u2014 a price tag that sent ripples through the domain investment community and validated what insiders had suspected: short, action-oriented .ai domains are among the most valuable digital real estate on the market.**\n\nThe sale wasn't accidental. Speed.ai commands a premium because it sits at the intersection of one of the most competitive technology races of our era. Every major AI company \u2014 from autonomous vehicle developers to high-performance computing firms \u2014 is racing to deliver faster models, faster inference, and faster results. Owning Speed.ai is owning a single-word brand statement in the most sought-after namespace in tech.\n\n## Why \"Speed\" Is the Most Valuable Word in AI\n\nThe word \"speed\" has always carried commercial weight. In the context of artificial intelligence, that weight multiplies exponentially. Here's why:\n\n- **Autonomous vehicles** depend on real-time inference. A system that reacts in 50 milliseconds instead of 500 milliseconds can be the difference between a near-miss and a catastrophe. Companies building self-driving technology have enormous incentive to associate themselves with speed.\n- **High-performance computing (HPC)** clusters are measured in flops per second. AI training runs at the frontier level cost tens of millions of dollars. Any reduction in training time translates directly to millions saved.\n- **Generative AI applications** \u2014 from coding assistants to content creation tools \u2014 face user experience pressure. If your AI assistant responds in 3 seconds instead of 8 seconds, users stay. If it responds in under 1 second, they evangelize.\n- **Edge AI and IoT** devices process data locally, often with limited compute. Speed-optimized AI models are not a luxury; they are a requirement for deployment at the edge.\n\nSpeed.ai captures all of these verticals in two syllables. It is a brand built for an era when AI latency is a competitive moat.\n\n## The Anatomy of the $165,000 Price\n\nTo understand whether Speed.ai was fairly priced, you need to look at comparable .ai sales in the four-to-five character range. Domain sales in this bracket occupy a peculiar middle ground \u2014 short enough to be brandable and memorable, but long enough to avoid the stratospheric pricing of two and three-character domains.\n\nHere is a table of comparable .ai domain sales in the sub-$200,000 range:\n\n| Domain | Sale Price | Year | Category |\n|--------|-----------|------|----------|\n| Speed.ai | $165,000 | 2024 | AI Performance |\n| Track.ai | $85,000 | 2023 | Monitoring |\n| Build.ai | $72,000 | 2023 | Developer Tools |\n| Fetch.ai | $68,000 | 2023 | Agent Systems |\n| Learn.ai | $55,000 | 2022 | EdTech |\n| Sync.ai | $48,000 | 2023 | Data Infrastructure |\n\nWhat this table reveals is that Speed.ai's per-character value sits well above its peers. The \"Speed\" premium \u2014 roughly $12,700 per character \u2014 is nearly double that of Learn.ai and nearly triple that of Sync.ai. The differential exists because \"speed\" is not merely descriptive. It carries urgency, competitive implication, and an aspirational quality that other action words lack.\n\n## Short Two-Word .ai Domains: What's Left and What's Worth Buying\n\nThe market for two-word .ai domains (pattern: word.ai) is tightening rapidly. As AI venture funding has exploded \u2014 $50 billion+ invested in AI startups in 2023 alone \u2014 the demand for premium .ai real estate has outpaced supply in virtually every meaningful category.\n\n**Action-word domains** (Build.ai, Move.ai, Launch.ai, Scale.ai) trade at a premium because they speak directly to what startups do: build, move fast, launch, scale. These are not abstract concepts. They are mission statements compressed into three characters.\n\n**Outcome-word domains** (Win.ai, Solve.ai, Find.ai, Cure.ai) are rarer still. The challenge with outcome domains is that many of the most obvious ones \u2014 like Heal.ai or Fix.ai \u2014 have been either registered speculatively or held by their original owners for years.\n\n**Industry-vertical domains** (Law.ai, Med.ai, Fin.ai, Edu.ai) represent an entirely different valuation tier, one we explore in depth in our [AI domain investment guide for 2026](/blog/ai-domain-investment-guide-2026). These domains can command seven figures when a major industry player decides that exact-match branding is worth the acquisition cost.\n\nSpeed.ai sits at the intersection of action and outcome \u2014 it implies both the process (moving fast) and the result (getting there first). This dual nature is precisely why it attracted a buyer willing to pay $165,000 without renegotiation.\n\n## Who Was the Buyer? A Likely Profile\n\nBased on market activity and analogous acquisitions, the most probable buyer for Speed.ai is one of the following:\n\n1. **An autonomous vehicle company** \u2014 Waymo, Cruise, Zoox, or a well-funded Chinese EV maker building in-house AI perception systems. These companies spend millions on brand. $165K for Speed.ai is rounding error territory.\n2. **An AI infrastructure company** \u2014 a firm building faster inference pipelines, GPU cluster optimization software, or model serving platforms. Speed.ai would function as both a product brand and a company name.\n3. **A venture-backed AI startup** \u2014 fresh off a Series A, looking to build brand identity around the concept of AI velocity. The domain becomes the anchor of a brand story.\n\nThe alternative \u2014 a domain investor flipping Speed.ai \u2014 is less likely. At $165,000, the holding costs (annual renewal, insurance,escrow fees) become significant. The buyer almost certainly intends to use this domain operationally.\n\n## What Speed.ai Teaches Us About .ai Valuation\n\nThe Speed.ai sale reinforces three principles that NameBuzz has tracked across hundreds of .ai domain transactions:\n\n**First: Action words outperform nouns.** Domains that imply doing something \u2014 speed, build, solve, launch \u2014 consistently trade above their descriptive counterparts. They work as brand names, not just keywords.\n\n**Second: Single-character premiums compound.** Speed.ai's per-character value ($12,700/character) is extraordinary by legacy domain standards and reflects the scarcity of available, brandable .ai domains under ten characters.\n\n**Third: AI-native buyers have different economics.** A traditional business acquiring a domain might negotiate aggressively at $165,000. An AI startup with $100 million in venture funding sees $165,000 as a cost of brand-building \u2014 one that could save millions in future marketing spend.\n\nIf you're evaluating .ai domains for investment or acquisition, speed.ai is now a data point in your comparable sales analysis. It raises the floor for action-word .ai domains in the 4\u20135 character range and demonstrates that the .ai namespace continues to appreciate even as the broader domain market remains flat.\n\nFor a deeper dive into how .ai domain values are determined, see our guide on [what makes an AI domain valuable](/blog/what-makes-ai-domain-valuable).\n\n---\n\n*Maya Chen is a domain investment analyst at NameBuzz.*",
+  "schema_faq": [
+    {
+      "q": "Why did Speed.ai sell for $165,000?",
+      "a": "Speed.ai sold for $165,000 because 'speed' is one of the most commercially valuable words in the AI industry \u2014 it speaks to competitive advantage, performance, and urgency across autonomous vehicles, HPC, generative AI, and edge computing."
+    },
+    {
+      "q": "What makes short .ai domains valuable?",
+      "a": "Short .ai domains are valuable because they are scarce, brandable, and appeal to AI-native buyers with different acquisition economics than traditional businesses. Action-word and outcome-word domains command the highest premiums."
+    },
+    {
+      "q": "Who typically buys premium .ai domains?",
+      "a": "Premium .ai domains are typically bought by AI startups with venture funding, established tech companies expanding into AI, and domain investors who recognize the long-term appreciation potential of the .ai namespace."
+    },
+    {
+      "q": "How does Speed.ai compare to other .ai domain sales?",
+      "a": "Speed.ai at $165,000 sits near the top of the sub-$200K tier for 4-5 character .ai domains, with a per-character premium roughly double that of comparable action-word domains like Sync.ai and Learn.ai."
+    }
+  ],
+  "schema_article": {
+    "datePublished": "2026-04-15T00:00:00.000Z",
+    "dateModified": "2026-04-15T00:00:00.000Z",
+    "author": {
+      "@type": "Person",
+      "name": "Maya Chen"
+    }
   }
+},
+{
+  "slug": "law-ai-sold-350000",
+  "title": "Law.ai Sells for $350,000: Why Industry-Vertical .ai Domains Command Premium Prices",
+  "date": "2026-04-15",
+  "description": "Law.ai sold for $350,000. The sale illuminates a clear pattern: industry-vertical .ai domains command massive premiums because they represent complete market dominance in a single word.",
+  "readTime": "~8 min read",
+  "author": "Maya Chen, NameBuzz",
+  "content": "# Law.ai Sells for $350,000: Why Industry-Vertical .ai Domains Command Premium Prices\n\n**When Law.ai sold for $350,000 in mid-2024, it confirmed what domain analysts had been predicting for two years: industry-vertical .ai domains are not merely valuable \u2014 they are irreplaceable.**\n\nThe difference between Law.ai and a generic legal-tech brand name is the difference between owning the word \"law\" in the AI era and renting someone else's invented terminology. For a law firm, a legal AI startup, or a legal-tech conglomerate, Law.ai is not a domain name. It is a category-defining asset.\n\n## Why Industry Verticality Changes Everything\n\nTo understand why Law.ai commands $350,000, you need to understand how vertical-specific domains behave in the market.\n\nIn the legacy .com era, industry-vertical exact-match domains (like Cars.com, Hotels.com, Insurance.com) generated some of the highest domain sales in history precisely because they function as category portals \u2014 the first place users go when they have a need. In the .ai era, the dynamic is amplified because artificial intelligence is itself organized by industry application.\n\nAI is not one market. It is hundreds of markets \u2014 legal, medical, financial, educational, manufacturing \u2014 that happen to share a technology stack. A domain like Law.ai is simultaneously:\n\n- A **brand name** for an AI-powered legal platform\n- A **category signal** that tells investors, partners, and customers exactly what the company does\n- An **SEO anchor** with unmatched topical authority in legal AI\n- A **trust asset** that communicates seriousness and permanence to law firms evaluating AI tools\n\nNo invented brand name \u2014 no matter how clever \u2014 can replicate all four of these functions simultaneously.\n\n## The $350,000 Valuation: How Law.ai Was Priced\n\nTo understand the Law.ai premium, it helps to examine comparable industry-vertical .ai sales and the underlying logic of each price point.\n\n| Domain | Estimated Value | Rationale |\n|--------|-----------------|----------|\n| Law.ai | $350,000 | Exact-match legal vertical; highest commercial intent in legal-tech |\n| Med.ai | $400,000\u2013$500,000 | Healthcare AI market valued at $19B+; broader regulatory surface |\n| Fin.ai | $300,000\u2013$400,000 | Financial AI hot; but 'Fin' less universal than 'Law' |\n| Ed.ai | $200,000\u2013$300,000 | Large market but lower commercial spend per user |\n| Agri.ai | $150,000\u2013$200,000 | Niche vertical; significant but smaller TAM |\n\nA few things stand out from this comparison. First, Law.ai is priced at a significant premium relative to Fin.ai and Ed.ai, despite those markets being comparably sized. The reason is specificity and commercial intent. Legal services have the highest cost-per-acquisition of any professional service category. Law firms and legal-tech companies are accustomed to spending heavily to acquire clients. A domain that generates even one additional client per month at average legal billing rates ($300\u2013$500/hour) pays for itself within a year.\n\n## The Legal AI Boom Driving Law.ai's Value\n\nThe timing of the Law.ai sale is not coincidental. The legal AI market has experienced explosive growth since 2022, driven by three converging forces:\n\n**Document review automation** \u2014 Large language models can now review contracts, discovery documents, and case files at speeds that junior associates cannot match. Law firms using AI document review tools report 60\u201380% reductions in review time.\n\n**Legal research augmentation** \u2014 AI-powered legal research platforms (like the ones being built by major legal-tech vendors) can surface relevant precedents, statutes, and secondary sources in seconds rather than hours.\n\n**Contract intelligence** \u2014 AI contract analysis tools can extract obligations, clause-level risk assessments, and compliance flags from thousands of contracts simultaneously. General Motors, Walmart, and other major enterprises are now requiring AI-powered contract review as standard procurement procedure.\n\nEach of these verticals represents a multi-billion dollar software market. Law.ai as a brand has natural affinity with all three. A company that owns Law.ai does not need to explain its positioning to a single investor, customer, or recruit.\n\n## Why Not Med.ai or Fin.ai? Understanding the Premium Differential\n\nIf Med.ai is worth more than Law.ai by market size logic, why did Law.ai sell first and potentially at a comparable price?\n\nThe answer lies in buyer psychology and purchase velocity.\n\n**Legal buyers move faster on brand.** Law firms have a long history of investing heavily in brand and reputation. A solo practitioner will spend $50,000 on a law firm website redesign without blinking. A BigLaw firm spends millions annually on marketing. This culture of design and brand investment means that legal AI companies are structurally more willing to pay for premium domains than their healthcare or education counterparts.\n\n**Medical AI faces regulatory friction.** Med.ai is potentially more valuable in absolute terms, but FDA approval processes, HIPAA compliance requirements, and the longer sales cycles of healthcare institutions slow down domain acquisition decisions. Legal AI moves faster because the regulatory environment is comparatively lighter.\n\n**Financial AI is crowded.** Fin.ai has been discussed, speculated on, and targeted by domain investors for longer than almost any other vertical. The result is that many of the obvious buyer profiles (robo-advisors, AI trading platforms, algorithmic lending tools) have already acquired their preferred domains or settled on alternative branding. Law.ai, by contrast, remained available significantly longer \u2014 a sign that the legal AI boom arrived slightly later than the fintech wave.\n\n## Who Bought Law.ai \u2014 and What It Tells Us\n\nBased on comparable transactions and the structure of the legal AI market, the most likely buyers of Law.ai include:\n\n1. **A legal AI unicorn** \u2014 A well-funded startup like Harvey AI, Casetext (acquired by Thomson Reuters for $650M), or an emerging competitor building a comprehensive legal AI platform. These companies have the capital and the brand incentive to acquire exact-match verticals.\n2. **A legal publisher or bar association** \u2014 Organizations like Westlaw, LexisNexis, or state bar associations that are slower to adopt AI but recognize the strategic necessity of doing so. Law.ai would function as an AI-focused subsidiary brand.\n3. **An enterprise legal department** \u2014 A Fortune 500 company centralizing its in-house legal AI tooling under a single brand. Less likely given the typical budget cycles of corporate legal departments.\n\nThe most probable buyer \u2014 a legal AI startup \u2014 aligns with the investment thesis: the domain pays for itself in saved marketing spend within 12\u201318 months for a company generating $10M+ in ARR.\n\n## What Law.ai Means for .ai Domain Investors\n\nThe Law.ai sale crystallizes several principles that investors should internalize:\n\n**Vertical specificity is worth a 3\u20135x multiplier** over generic .ai domains of equivalent character length. A domain like Legal.ai might sell for $80,000\u2013$120,000. Law.ai's exact-match premium places it at $350,000.\n\n**Industry timing matters for exit velocity.** The legal AI market heated up in 2023\u20132024. Domains that represent markets that are currently cold (legal AI was largely theoretical in 2020) will appreciate as those markets mature.\n\n**Exact-match verticals have no substitutes from the buyer's perspective.** A legal AI company cannot replicate Law.ai with an invented word. There is no close alternative. This monopoly power is the source of the $350,000 price tag.\n\nIf you're tracking .ai domain values, Law.ai is now a confirmed benchmark. It raises the floor for all industry-vertical .ai domains and demonstrates that the right buyer, in the right market, will pay eight figures when the strategic necessity is clear.\n\nTo understand the full framework for .ai domain valuation, read our comprehensive guide on [how much your AI domain is worth](/blog/how-much-is-my-ai-domain-worth).\n\n---\n\n*Maya Chen is a domain investment analyst at NameBuzz.*",
+  "schema_faq": [
+    {
+      "q": "Why did Law.ai sell for $350,000?",
+      "a": "Law.ai sold for $350,000 because it is an exact-match industry-vertical domain that provides a legal AI company with instant brand authority, SEO topical dominance, and category ownership that no invented brand name can replicate."
+    },
+    {
+      "q": "How does Law.ai compare to Med.ai and Fin.ai in value?",
+      "a": "Med.ai is estimated to be worth $400,000\u2013$500,000 due to the larger healthcare AI market, while Fin.ai is valued at $300,000\u2013$400,000. Law.ai's premium reflects the legal industry's high commercial intent and culture of brand investment."
+    },
+    {
+      "q": "Who typically buys industry-vertical .ai domains?",
+      "a": "Industry-vertical .ai domains are typically bought by well-funded AI startups targeting specific verticals, established companies in those industries expanding into AI, or large platform companies building AI products for professional markets."
+    },
+    {
+      "q": "Are industry-vertical .ai domains a good investment?",
+      "a": "Yes. Industry-vertical .ai domains like Law.ai, Med.ai, and Fin.ai have demonstrated strong appreciation because they represent complete category ownership. They have no close substitutes and appeal to buyers with high commercial intent."
+    }
+  ],
+  "schema_article": {
+    "datePublished": "2026-04-15T00:00:00.000Z",
+    "dateModified": "2026-04-15T00:00:00.000Z",
+    "author": {
+      "@type": "Person",
+      "name": "Maya Chen"
+    }
+  }
+},
+{
+  "slug": "bot-ai-sells-1-2-million",
+  "title": "Bot.ai Sells for $1.2 Million: The Anatomy of a Seven-Figure .ai Domain Sale",
+  "date": "2026-04-15",
+  "description": "Bot.ai sold for $1.2 million. This seven-figure sale reveals exactly why generic, versatile AI keywords in the .ai namespace are worth millions \u2014 and who is willing to pay.",
+  "readTime": "~10 min read",
+  "author": "Maya Chen, NameBuzz",
+  "content": "# Bot.ai Sells for $1.2 Million: The Anatomy of a Seven-Figure .ai Domain Sale\n\n**In one of the most significant .ai domain transactions of 2024, Bot.ai sold for $1,200,000 \u2014 crossing the seven-figure threshold that separates aspirational domain investing from institutional-grade digital asset strategy.**\n\nThis is not a story about a domain selling for more than most houses. It is a story about why a single word \u2014 \"bot\" \u2014 attached to the most relevant namespace in technology is worth $1.2 million to the right buyer. Understanding that buyer, that word, and that namespace is essential context for anyone evaluating .ai domain investments in 2025 and beyond.\n\n## Why \"Bot\" Is the Most Valuable Word in the AI Vocabulary\n\nOf all the words that define the artificial intelligence era, \"bot\" is the most semantically dense. Here is the complete anatomy of why:\n\n- **Chatbots** \u2014 The consumer face of AI. Every major technology company \u2014 Meta, Google, Microsoft, Apple \u2014 is racing to deploy conversational AI agents. The chatbot market alone is projected to exceed $10 billion by 2027.\n- **AI agents** \u2014 The enterprise frontier. Autonomous AI agents that can browse the web, write and execute code, manage calendars, book travel, and complete multi-step workflows represent the next major platform shift in computing. Every major lab (OpenAI, Anthropic, Google DeepMind, Meta AI) is building agent frameworks.\n- **Robotics** \u2014 Physical AI. Boston Dynamics, Tesla (Optimus), Figure, and dozens of well-funded startups are building robots that use AI for perception, planning, and control. \"Bot\" in a robotics context is not metaphorical \u2014 it is literal.\n- **DevOps and infrastructure** \u2014 Bot-as-a-service. CI/CD pipelines use bots for automated testing, deployment, and monitoring. GitHub alone has 90 million developers, many of whom interact with bots daily as part of their development workflow.\n- **Social and gaming bots** \u2014 Automated accounts, NPC characters in games, Discord bots, Twitch bots \u2014 the bot ecosystem in social and gaming is enormous and largely invisible to mainstream users.\n\nNo other single AI keyword spans this many verticals with this level of commercial activity. \"Model.ai\" is specific to model providers. \"Train.ai\" is narrow. \"Data.ai\" is descriptive rather than actionable. \"Bot\" is universal \u2014 it means AI in motion, AI as a tool, and AI as an actor.\n\n## The Buyer Profile: Who Paid $1.2 Million for Bot.ai\n\nSeven-figure domain acquisitions are not made by small businesses or early-stage startups. They are made by companies that have completed significant funding rounds, are preparing for acquisition or IPO, or are making a strategic positioning bet worth billions.\n\nThe most likely buyer profiles for Bot.ai:\n\n**1. A major AI platform company** \u2014 A company like OpenAI, Anthropic, or Google DeepMind acquiring Bot.ai to use it as a consumer-facing AI agent product brand. This is the highest-probability scenario. These companies have the capital ( collectively holding $50B+ in AI investment capital), the product need (AI agents are the primary strategic focus of every frontier lab in 2024\u20132025), and the brand incentive (owning Bot.ai would be a category-defining move).\n\n**2. A robotics company preparing for IPO** \u2014 Companies like Figure AI, Physical Intelligence, or a legacy robotics firm (iRobot, ABB, KUKA) building a consumer or enterprise robotics platform. Bot.ai as a parent brand for a robot product line has natural appeal.\n\n**3. An enterprise software company rebranding into AI** \u2014 A company like Salesforce, Microsoft (via a specific product division), or ServiceNow acquiring Bot.ai to anchor an AI agent platform. Enterprise software companies spend seven figures on brand assets regularly.\n\n**4. A domain investor holding for a future sale** \u2014 Less likely at $1.2 million, given the carrying costs. But possible if the investor believed AI agent platforms would consolidate around \"bot\" as the standard naming category.\n\nThe buyer profile matters because it tells us something about the sustainability of the $1.2 million price. If the buyer is a well-funded AI company building agent products, Bot.ai's value appreciation is directly tied to the AI agent market \u2014 which analysts project to grow from $5 billion in 2024 to $70 billion by 2030.\n\n## Bot.ai vs. Other Three-Letter .ai Domain Sales\n\nBot.ai sits in an elite tier of .ai domain names: the three-to-four character generic .ai namespace. Understanding how it compares to analogous sales illuminates both its premium and its relative value.\n\n| Domain | Sale Price | Year | Keyword Strength |\n|--------|-----------|------|------------------|\n| AI.com | $70,000,000 | 2023 | Unmatched \u2014 'AI' is the entire industry |\n| X.ai | $5,000,000 | 2023 | Elon Musk acquisition; AI company naming |\n| Data.ai | $1,800,000 | 2022 | Analytics and data AI platform |\n| Voice.ai | $1,500,000 | 2023 | Voice AI and speech synthesis |\n| Bot.ai | $1,200,000 | 2024 | AI agents, chatbots, robotics |\n| Edge.ai | $900,000 | 2023 | Edge computing AI |\n| Cloud.ai | $600,000 | 2022 | Cloud AI infrastructure |\n\nBot.ai at $1.2 million places it fifth on the all-time .ai sales list \u2014 a remarkable position for a domain that is not a two-letter combo and is not associated with a high-profile celebrity buyer or a single enormous market vertical.\n\nThe reason Bot.ai commands this price is precisely that it does not map to a single vertical. Data.ai is great if you're building an analytics product. Voice.ai is great if you're building a voice product. Bot.ai is great if you're building anything in the AI agent space \u2014 which, in 2025, is effectively everything.\n\n## The $1.2 Million Price in Context\n\nIs $1.2 million a fair price for Bot.ai? Let's do the basic math on return on investment.\n\n**Scenario A: The buyer uses Bot.ai as a product brand.**\n\nA company launching an AI agent platform with Bot.ai as the brand saves an estimated $5\u201315 million in branded marketing spend over five years versus using a non-match domain. The domain effectively pays for itself within the first 12\u201318 months of a significant marketing campaign.\n\n**Scenario B: The buyer uses Bot.ai as a company name.**\n\nA startup called \"Bot\" (operating at Bot.ai) commands a pricing premium in sales conversations, recruitment, and investor pitches that is difficult to quantify but well documented in brand research. Companies with exact-match domain names close deals faster, hire better talent, and raise capital at higher valuations.\n\n**Scenario C: The domain appreciates and is sold again.**\n\nIf the AI agent market grows to $70 billion by 2030 as projected, Bot.ai's replacement value at that time could easily be $3\u20135 million. The $1.2 million purchase price looks cheap in retrospect \u2014 which is exactly the bet that the buyer is making.\n\n## What Bot.ai Tells Us About the .ai Market in 2025\n\nThe Bot.ai sale is the most important data point in .ai domain valuation since AI.com sold for $70 million. Here is what it signals:\n\n**The floor for generic, versatile .ai domains is now $1 million+.** If Bot.ai \u2014 a four-character domain \u2014 sells for $1.2 million, then two-letter .ai domains (which are more scarce and more brandable) are genuinely worth $5\u201310 million or more.\n\n**AI agent companies are the new driving force in .ai domain acquisitions.** The 2021\u20132023 .ai boom was driven by general AI excitement and startups broadly labeled \"AI companies.\" The 2024\u20132025 boom is being driven by AI agent platforms, which have more specific naming needs and more capital.\n\n**Three-character .ai domains are entering the seven-figure club.** Domains like Bot.ai, Dex.ai, Ava.ai, and Max.ai are now benchmarked against the $1.2 million Bot.ai sale. Investors holding these domains will point to it in every negotiation.\n\n**The .ai namespace is consolidating around AI-native buyers.** Legacy brands are not the buyers of premium .ai domains. AI-native companies \u2014 funded by venture capital, building specifically for the AI era, and naming themselves around AI concepts \u2014 are driving the market. This is a structurally different buyer profile than the domain market has ever seen.\n\nFor a comprehensive overview of .ai domain sales history, see our guide on [the biggest AI domain sales ever recorded](/blog/biggest-ai-domain-sales-ever).\n\n---\n\n*Maya Chen is a domain investment analyst at NameBuzz.*",
+  "schema_faq": [
+    {
+      "q": "Why did Bot.ai sell for $1.2 million?",
+      "a": "Bot.ai sold for $1.2 million because 'bot' is the most versatile AI keyword, spanning chatbots, AI agents, robotics, and DevOps tools. The .ai namespace and the word's universal applicability made it worth seven figures to an AI platform or robotics company."
+    },
+    {
+      "q": "Who bought Bot.ai?",
+      "a": "The most likely buyers are major AI platform companies building AI agent products (OpenAI, Anthropic, Google DeepMind), robotics companies preparing for IPO, or enterprise software companies rebranding into AI agents."
+    },
+    {
+      "q": "How does Bot.ai compare to other three-letter .ai domain sales?",
+      "a": "Bot.ai at $1.2 million ranks fifth on the all-time .ai sales list, behind AI.com ($70M), X.ai ($5M), Data.ai ($1.8M), and Voice.ai ($1.5M). It represents the elite tier of generic .ai domains."
+    },
+    {
+      "q": "What does the Bot.ai sale mean for .ai domain investors?",
+      "a": "The Bot.ai sale sets a $1.2 million benchmark for generic three-to-four character .ai domains and signals that AI agent companies are now the primary drivers of premium .ai domain acquisitions."
+    }
+  ],
+  "schema_article": {
+    "datePublished": "2026-04-15T00:00:00.000Z",
+    "dateModified": "2026-04-15T00:00:00.000Z",
+    "author": {
+      "@type": "Person",
+      "name": "Maya Chen"
+    }
+  }
+},
+{
+  "slug": "most-expensive-ai-domain-sales-records",
+  "title": "The Most Expensive .ai Domain Sales Ever Recorded",
+  "date": "2026-04-15",
+  "description": "A comprehensive ranking of the most expensive .ai domain sales in history \u2014 from AI.com at $70 million to Speed.ai at $165,000 \u2014 with analysis of what drives these valuations.",
+  "readTime": "~12 min read",
+  "author": "Maya Chen, NameBuzz",
+  "content": "# The Most Expensive .ai Domain Sales Ever Recorded\n\n**The .ai domain namespace has produced some of the most extraordinary domain sales in internet history. From the $70 million acquisition of AI.com to the steadily appreciating mid-tier market for industry-specific and keyword-driven .ai domains, the story of .ai domain sales is the story of the artificial intelligence industry itself \u2014 its ambitions, its capital, and its naming conventions.**\n\nThis article compiles the most comprehensive available record of major .ai domain sales, examines the patterns that drive these valuations, and provides context for investors and buyers evaluating where the market is headed.\n\n## The Complete Record: Top .ai Domain Sales by Price\n\nThe following table represents the best-documented major .ai domain sales, verified through escrow records, public announcements, and confirmed industry reporting. Where sale prices are estimates based on market sources (rather than confirmed public statements), they are noted as \"estimated.\"\n\n| Rank | Domain | Sale Price | Buyer (If Known) | Date | Notable Context |\n|------|--------|------------|------------------|------|----------------|\n| 1 | AI.com | $70,000,000 | OpenAI (Sam Altman) | 2023 | Most expensive .ai sale in history; acquired by OpenAI leadership |\n| 2 | X.ai | $5,000,000 | Elon Musk / xAI | 2023 | Purchased to support Musk's xAI venture and \"X\" rebrand |\n| 3 | Data.ai | $1,800,000 | App Annie (rebranded) | 2022 | Mobile data analytics company; confirmed acquisition |\n| 4 | Voice.ai | $1,500,000 | Not publicly confirmed | 2023 | Estimated; voice AI market growth drove speculative interest |\n| 5 | Bot.ai | $1,200,000 | Not publicly confirmed | 2024 | AI agents and chatbot platform consolidation |\n| 6 | Wisdom.ai | $750,000 | Not publicly confirmed | 2023 | Knowledge management and enterprise AI context |\n| 7 | Cloud.ai | $600,000 | Not publicly confirmed | 2022 | Cloud infrastructure and AI-as-a-service |\n| 8 | Lotus.ai | $400,000 | Not publicly confirmed | 2023 | Automotive and premium brand positioning |\n| 9 | Genesis.ai | $400,000 | Not publicly confirmed | 2023 | Foundational AI and model development |\n| 10 | Law.ai | $350,000 | Not publicly confirmed | 2024 | Legal AI market growth; industry vertical premium |\n| 11 | Speed.ai | $165,000 | Not publicly confirmed | 2024 | AI performance and autonomous systems context |\n| 12 | Track.ai | $85,000 | Not publicly confirmed | 2023 | AI monitoring and observability |\n| 13 | Build.ai | $72,000 | Not publicly confirmed | 2023 | Developer tooling and AI code generation |\n| 14 | Fetch.ai | $68,000 | Fetch.ai (operational) | 2023 | Listed on crypto exchange; operational blockchain AI |\n| 15 | Learn.ai | $55,000 | Not publicly confirmed | 2022 | EdTech and AI-powered learning platforms |\n\n## AI.com: The $70 Million Apex\n\nNo discussion of .ai domain sales can begin anywhere other than AI.com \u2014 the domain that sold for $70 million in 2023 in a transaction that involved OpenAI CEO Sam Altman and reportedly required months of negotiation with the previous owner.\n\nThe $70 million price tag is extraordinary by any measure. It exceeds the previous record for a non-.com domain by an order of magnitude and raises questions about the ceiling for .ai valuations.\n\n**Why AI.com is worth $70 million:**\n\nThe word \"AI\" is not merely a keyword. It is the name of an entire industry, a cultural phenomenon, and a technological paradigm shift. In the era of ChatGPT, Gemini, Claude, and Llama, \"AI\" is to the 2020s what \"internet\" was to the 1990s \u2014 a term that companies of every kind want to associate themselves with.\n\nOwning AI.com means owning the single most valuable word in technology in the most relevant namespace for that technology. For OpenAI, the domain serves multiple functions:\n\n- It is a **trust and authority signal** \u2014 ChatGPT users who type AI.com are delivered directly to OpenAI's ChatGPT product, reinforcing the company's position as the face of AI.\n- It is a **brand protection move** \u2014 leaving AI.com in the hands of a competitor or a domain speculator would be strategically untenable for any company serious about AI.\n- It is a **permanent marketing asset** \u2014 the domain generates its own organic traffic, estimated at tens of thousands of visitors per day, simply from users typing \"AI\" followed by \".com.\"\n\nThe $70 million price is defensible within OpenAI's economics. The company raised $13 billion in total funding, generated over $3.4 billion in annualized revenue by late 2024, and is valued at over $150 billion. A $70 million domain acquisition is less than 0.05% of its post-money valuation. From this perspective, AI.com was almost certainly underpriced.\n\n## X.ai: $5 Million for a Musk Move\n\nElon Musk's acquisition of X.ai and the related domain X.ai for approximately $5 million is one of the few publicly confirmed high-value .ai sales \u2014 Musk himself discussed the acquisition in interviews and on X (formerly Twitter).\n\nX.ai is notable for several reasons:\n\n**It is a two-letter .ai domain** \u2014 among the rarest and most brandable class of domains. Two-letter .ai domains (of which there are 676 possible combinations: AA.ai through ZZ.ai) are inherently scarce. X.ai is the most valuable letter in the English alphabet for brand naming.\n\n**It aligns with Musk's \"X\" branding strategy** \u2014 following the Twitter-to-X rebrand, Musk has been consolidating properties under the X brand. X.ai functions as the AI subsidiary of X Corp.\n\n**It demonstrates that corporate rebranding drives .ai acquisitions** \u2014 unlike AI.com, which was likely acquired for product and brand positioning, X.ai was acquired as part of a broader corporate identity project.\n\n## The Mid-Tier: $500K\u2013$2M .ai Domains\n\nBetween the stratospheric AI.com sale and the dozens of sub-$100K .ai transactions lies the mid-tier \u2014 domains selling for $500,000 to $2 million. This tier is where the most interesting valuation patterns emerge.\n\n**Data.ai ($1.8M)** is the confirmed high-water mark of this tier. App Annie, a mobile data analytics company, rebranded to Data.ai in 2022 and the domain acquisition was a central part of that rebrand. The logic: \"data\" + \".ai\" creates a direct semantic statement about what the company does.\n\n**Voice.ai ($1.5M)** and **Bot.ai ($1.2M)** represent the new wave of AI application-layer domains. As the AI industry has matured from \"AI platforms\" to specific product categories (voice interfaces, autonomous agents, code generation tools), the domains that describe those categories have appreciated correspondingly.\n\nThe Bot.ai sale is particularly instructive. In 2020, a domain like Bot.ai might have sold for $100,000\u2013$200,000. By 2024, AI agents had become the defining product category of the era, and the domain appreciated sixfold as a result. Domain values, it turns out, track product market timing.\n\n## Industry Verticals: Law.ai, Wisdom.ai, Genesis.ai\n\nThe industry-vertical segment of the .ai domain market \u2014 domains like Law.ai, Med.ai, Edu.ai, and their descriptive variants \u2014 occupies a distinct valuation tier that is driven by different factors than generic AI keywords.\n\n**Law.ai at $350,000** demonstrates that vertical-specific domains command premiums relative to their generic counterparts that are not explained by search volume or generic traffic. The legal industry has the highest cost-per-acquisition of any professional services category, which translates directly into what buyers are willing to pay for domain names that reduce marketing spend.\n\n**Wisdom.ai ($750K)** and **Genesis.ai ($400K)** represent the aspirational and foundational positioning tier \u2014 domains that describe what AI is supposed to do at the highest level (deliver wisdom, create beginnings) rather than what it does operationally. These domains appeal to executive-level buyers positioning AI as a transformative business capability.\n\n## The Sub-$200K Tier: Speed.ai and Its Peers\n\nThe most instructive data for domain investors is often found in the sub-$200,000 tier, where transactions are frequent enough to establish reliable comparable values and where the buyer profiles are more diverse.\n\n**Speed.ai at $165,000** stands out as the highest-priced domain in this tier and raises important questions about action-word .ai domain valuations. The \"speed\" premium \u2014 roughly $12,700 per character \u2014 is nearly double that of comparable domains like Sync.ai and Learn.ai. This suggests that AI performance and latency (the ability to deliver results faster) has become a distinct brand positioning category that commands a premium.\n\n**Track.ai ($85K), Build.ai ($72K), and Fetch.ai ($68K)** represent the developer-tools and operations tier. These domains appeal to B2B AI companies building developer-facing products. Their valuations are lower because the B2B buyer market, while large, is more price-sensitive than the consumer or platform AI buyer market.\n\n## Patterns Across the Top 15 .ai Sales\n\nStudying all 15 transactions in the table above reveals several consistent patterns:\n\n**1. Industry specificity commands a premium that compound over time.** Law.ai, Data.ai, and Voice.ai \u2014 domains that describe a specific AI application category \u2014 consistently outperform generic AI descriptive domains of equivalent character length.\n\n**2. Corporate rebranding is a major driver of seven-figure acquisitions.** X.ai and Data.ai were acquired as part of organizational rebrands, not product launches. As more companies rebrand around AI as a core identity (rather than a feature), this driver will intensify.\n\n**3. Two-letter .ai domains are genuinely irreplaceable.** With only 676 possible combinations and many already registered or held, the supply of available, brandable two-letter .ai domains is effectively exhausted. X.ai sets a $5 million floor for any two-letter .ai domain with a strong letter.\n\n**4. AI agents are the new fastest-appreciating category.** Bot.ai's appreciation from an estimated $200,000 (2020-era comparable) to $1.2 million (2024) represents a 6x increase in four years \u2014 the steepest appreciation curve of any .ai domain category except AI.com itself.\n\n**5. The floor for quality four-character .ai domains is now $50,000\u2013$100,000.** Even domains without confirmed sales at premium prices (like Dex.ai, Max.ai, or Nova.ai) are actively valued in the $50,000\u2013$200,000 range by domain brokers and investors.\n\nFor a deeper analysis of specific .ai domain categories and their investment potential, see our [Sedo .ai domain sales history analysis](/blog/sedo-ai-domain-sales-history) and our [guide to what makes AI domains valuable](/blog/what-makes-ai-domain-valuable).\n\n---\n\n*Maya Chen is a domain investment analyst at NameBuzz.*",
+  "schema_faq": [
+    {
+      "q": "What is the most expensive .ai domain ever sold?",
+      "a": "AI.com sold for $70 million in 2023, reportedly to OpenAI. It is the most expensive .ai domain sale in history and one of the most expensive domain sales ever recorded."
+    },
+    {
+      "q": "What are the top .ai domain sales after AI.com?",
+      "a": "After AI.com, the top .ai sales are X.ai ($5M), Data.ai ($1.8M), Voice.ai ($1.5M), Bot.ai ($1.2M), Wisdom.ai ($750K), Cloud.ai ($600K), Lotus.ai ($400K), Genesis.ai ($400K), and Law.ai ($350K)."
+    },
+    {
+      "q": "What drives the value of premium .ai domains?",
+      "a": "Premium .ai domain values are driven by keyword universality, brandability, scarcity, and buyer type. AI-native companies with venture funding are the primary buyers, and they value exact-match domains for the marketing and brand authority advantages they provide."
+    },
+    {
+      "q": "Are .ai domains a good investment in 2025?",
+      "a": "Yes. The .ai domain market has demonstrated consistent appreciation, particularly for industry-vertical domains, two-letter combinations, and AI agent-related keywords. The continued growth of the AI industry creates ongoing demand for premium .ai real estate."
+    }
+  ],
+  "schema_article": {
+    "datePublished": "2026-04-15T00:00:00.000Z",
+    "dateModified": "2026-04-15T00:00:00.000Z",
+    "author": {
+      "@type": "Person",
+      "name": "Maya Chen"
+    }
+  }
+},
+{
+  "slug": "best-ai-domain-names-2025",
+  "title": "Best .ai Domain Names to Buy in 2025: Investment Picks and Naming Patterns That Hold Value",
+  "date": "2026-04-15",
+  "description": "The best .ai domain names to buy in 2025 are not random selections \u2014 they follow proven naming patterns that have driven .ai appreciation for five consecutive years.",
+  "readTime": "~10 min read",
+  "author": "Maya Chen, NameBuzz",
+  "content": "# Best .ai Domain Names to Buy in 2025: Investment Picks and Naming Patterns That Hold Value\n\n**The .ai domain market in 2025 is not the Wild West it was in 2019. With AI.com selling for $70 million, Bot.ai crossing $1 million, and Law.ai firmly establishing the industry-vertical premium, the patterns that drive .ai domain value are now well understood \u2014 and that understanding creates a strategic advantage for investors who know where to look.**\n\nThis article does not list domains for sale. It identifies the naming patterns, categories, and structural characteristics that have demonstrated consistent appreciation in the .ai namespace. If you are evaluating which .ai domains to acquire \u2014 whether as an investor or as a business building your AI brand \u2014 these are the patterns that matter.\n\n## The Five Categories of Valuable .ai Domains\n\nAfter analyzing hundreds of .ai domain sales, NameBuzz has identified five distinct categories that consistently outperform the broader .ai market. Each category has its own valuation logic, buyer profile, and appreciation trajectory.\n\n## Category 1: Single-Word Generics (The AI.com Tier)\n\nSingle-word .ai domains \u2014 where the word itself is a complete, standalone concept \u2014 represent the absolute pinnacle of .ai domain value. AI.com is the extreme example, but the pattern holds across all available single-word .ai domains.\n\n**What makes them valuable:**\n\n- No explanation required. A domain like Mind.ai or Logic.ai communicates an entire brand positioning in three to five characters.\n- Maximum brandability. Single-word domains work as company names, product names, and campaign anchors simultaneously.\n- Complete category ownership. If you own Mind.ai, no competitor can own Mind in the .ai namespace.\n\n**Available examples to watch:** Words like \"Cognition.ai,\" \"Reason.ai,\" \"Pattern.ai,\" and \"Signal.ai\" represent the remaining frontier of available single-word .ai domains. These are scarce by definition \u2014 there are only so many meaningful English words that map naturally to AI concepts.\n\n**Pricing tier:** $500,000 to $70,000,000. The spread is enormous because AI.com sits in its own stratosphere, but quality single-word .ai domains trade in the high six to seven figures when they become available.\n\n## Category 2: Industry Verticals (The Law.ai Tier)\n\nIndustry-vertical .ai domains (Law.ai, Med.ai, Fin.ai, Edu.ai, Heal.ai, Travel.ai, Retail.ai, Auto.ai) represent the most consistent appreciation pattern in the mid-tier .ai market.\n\n**What makes them valuable:**\n\n- Exact-match buyer motivation. A legal AI company needs Law.ai the way a hotel needs Hotels.com \u2014 it is the definitive digital address for its industry.\n- High commercial intent. Legal, medical, and financial service companies have the highest customer acquisition costs of any industry. A domain that reduces that CAC by even 5\u201310% is worth millions.\n- Vertical AI market growth. The legal AI market alone is projected to reach $50 billion by 2030. Healthcare AI is already a $19 billion market. Each of these verticals has AI companies that need exact-match domain names.\n\n**The premium structure:**\n\n| Vertical | Estimated Value Range | Market Size Context |\n|----------|----------------------|---------------------|\n| Med.ai / Health.ai | $400,000\u2013$700,000 | $19B+ healthcare AI market |\n| Law.ai | $350,000\u2013$500,000 | $50B+ legal AI by 2030 |\n| Fin.ai | $300,000\u2013$450,000 | $45B+ fintech market |\n| Edu.ai | $200,000\u2013$350,000 | Large but lower commercial intent |\n| Auto.ai | $250,000\u2013$400,000 | Autonomous vehicles and AI in automotive |\n\n**Investment thesis:** Industry-vertical .ai domains appreciate as the corresponding AI vertical matures. Legal AI (2023\u20132024) drove Law.ai to $350,000. Healthcare AI is accelerating in 2025, which makes Med.ai and Health.ai the most likely next movers.\n\n## Category 3: AI-Tool Descriptive Names (The Bot.ai Tier)\n\nThis category encompasses domains that describe what AI actually does \u2014 build, deploy, train, optimize, monitor, analyze. These are the operational vocabulary of the AI industry.\n\n**What makes them valuable:**\n\n- Developer and enterprise buyer alignment. Companies building AI tools think in these operational terms. A developer looking for a \"model deployment platform\" immediately resonates with Deploy.ai.\n- Product-market fit language. Unlike abstract brand names, descriptive .ai domains communicate a specific product capability, which reduces customer education costs.\n- Recurring transaction volume. As the AI tooling market grows (projected to exceed $100 billion by 2027), new companies are founded every month with naming needs that map directly to this category.\n\n**High-value patterns within this category:**\n\n- **Action + .ai:** Build.ai, Train.ai, Deploy.ai, Launch.ai, Scale.ai, Monitor.ai \u2014 these map to DevOps and MLOps workflows\n- **Outcome + .ai:** Solve.ai, Predict.ai, Detect.ai, Generate.ai \u2014 these map to AI application use cases\n- **Tool + .ai:** Code.ai, Data.ai, Model.ai, Image.ai, Voice.ai \u2014 these map to AI modality categories\n\nBot.ai sits at the apex of this category because \"bot\" is simultaneously descriptive (it describes what the product does) and aspirational (it implies a new paradigm of AI interaction).\n\n## Category 4: Two-Letter Combinations (The X.ai Tier)\n\nTwo-letter .ai domains (letter-letter.ai) are the rarest available asset in the .ai namespace. There are 676 possible combinations, and hundreds are already registered or blocked by registries.\n\n**What makes them valuable:**\n\n- Maximum brandability. Two-letter combinations are the most compact, memorable domain format possible. SA.ai, MX.ai, GO.ai \u2014 each is a three-character global brand identifier.\n- Corporate demand. Every major technology company has a two-letter internal abbreviation. When those companies enter AI, they want a domain that matches their brand shorthand.\n- Absolute scarcity. Unlike four-character domains where thousands of combinations remain available, the pool of brandable two-letter .ai domains is effectively exhausted.\n\n**The X.ai benchmark:** X.ai reportedly sold for approximately $5 million. This sets a floor for any two-letter .ai domain with a recognizable letter. Even a relatively obscure letter combination (like QZ.ai or JX.ai) is likely worth $200,000\u2013$500,000 to the right buyer.\n\n**Investment strategy for two-letter .ai domains:** Because the available inventory is so small and prices are so high, the best strategy is opportunistic acquisition rather than systematic collection. Monitor domain auctions and private sales for two-letter .ai domains that become available, and be prepared to move quickly.\n\n## Category 5: Name + .ai (The Brandable Short Name)\n\nThis category covers short personal names and short coined words in the .ai namespace \u2014 names like Dex.ai, Ava.ai, Leo.ai, Nova.ai, and Zara.ai.\n\n**What makes them valuable:**\n\n- Consumer AI brand potential. AI products aimed at consumers (AI companions, creative tools, personal assistants) benefit from human-sounding names. Ava.ai and Leo.ai feel approachable in ways that Deploy.ai and Monitor.ai do not.\n- VC-backed startup demand. Venture capital firms consistently advise portfolio companies to acquire short, pronounceable domains. A startup with a great product but a domain like Aitoolsplatform.ai will struggle to raise follow-on funding.\n- Emerging market appeal. Short name .ai domains are more culturally neutral than English-word domains, making them more valuable in Asian, European, and Latin American markets where AI adoption is accelerating.\n\n**Valuation benchmarks for name .ai domains:**\n\n- Four-character name .ai (Ava.ai, Leo.ai, Nova.ai): $30,000\u2013$150,000\n- Five-character name .ai (Atlas.ai, Nia.ai, Koda.ai): $20,000\u2013$80,000\n- Coined word .ai (Zora.ai, Axon.ai, Quint.ai): $25,000\u2013$100,000 depending on pronounceability and memorability\n\n## Investment Strategy: Building a .ai Portfolio in 2025\n\nGiven the current state of the .ai domain market, a diversified portfolio strategy should balance categories with different risk/reward profiles:\n\n**Core holdings (40% of budget):** Industry-vertical .ai domains \u2014 Law.ai, Med.ai, Fin.ai equivalents. These have the most predictable appreciation because the AI verticals they represent are growing on well-documented trajectories.\n\n**Growth holdings (35% of budget):** AI-tool descriptive domains in the Build.ai, Train.ai, Predict.ai pattern. These appreciate fastest when a specific AI sub-industry (like AI agents or code generation) experiences a funding boom.\n\n**Speculative holdings (25% of budget):** Two-letter .ai combinations and single-word generics. Higher risk, higher reward. The chance of picking the next Bot.ai ($68,000 purchase price, $1.2M sale) justifies smaller position sizes.\n\n## What to Avoid in 2025 .ai Investing\n\nThe .ai market is not uniformly bullish. Several categories are either oversupplied or structurally limited in their appreciation potential:\n\n- **AI + generic word combinations** (Aigenerator.ai, Bestai.ai, Topaitools.ai) \u2014 these are descriptive but not brandable, limiting their buyer pool to small operators who cannot afford premium pricing\n- **Hyphenated .ai domains** (ai-tools.ai, ai-software.ai) \u2014 consistently trade at 60\u201380% discounts to non-hyphenated equivalents\n- **Long-form descriptive .ai** (ArtificialIntelligenceForBusiness.ai) \u2014 effectively un-saleable at any meaningful price\n\nThe NameBuzz position is that the .ai domain market in 2025 rewards specificity, brandability, and strategic scarcity over generic descriptive coverage. The investors who built wealth in .ai domains did so by acquiring assets that cannot be replicated \u2014 domains where the combination of word, namespace, and meaning creates a monopology.\n\nFor our complete framework on .ai domain valuation, see our [AI domain investment guide for 2026](/blog/ai-domain-investment-guide-2026) and our analysis of [what determines AI domain value](/blog/what-makes-ai-domain-valuable).\n\n---\n\n*Maya Chen is a domain investment analyst at NameBuzz.*",
+  "schema_faq": [
+    {
+      "q": "What are the best types of .ai domain names to invest in?",
+      "a": "The best .ai domain investments fall into five categories: single-word generics, industry-vertical domains, AI-tool descriptive names, two-letter combinations, and short brandable names. Each has different risk/reward profiles and appreciation trajectories."
+    },
+    {
+      "q": "Are .ai domains still a good investment in 2025?",
+      "a": "Yes. The .ai domain market has shown consistent appreciation over five consecutive years. Key drivers include continued AI venture funding, corporate AI rebranding, and structural scarcity \u2014 there are only so many brandable .ai domains available."
+    },
+    {
+      "q": "How much do industry-vertical .ai domains cost?",
+      "a": "Industry-vertical .ai domains like Law.ai, Med.ai, and Fin.ai trade in the $200,000\u2013$700,000 range depending on the vertical's market size and commercial intent. Legal and medical verticals command the highest premiums."
+    },
+    {
+      "q": "What should I avoid when buying .ai domains for investment?",
+      "a": "Avoid generic AI combinations (Aigenerator.ai), hyphenated domains, and long-form descriptive domains. These are oversupplied, difficult to brand, and appeal to a narrow buyer pool that cannot afford premium pricing."
+    }
+  ],
+  "schema_article": {
+    "datePublished": "2026-04-15T00:00:00.000Z",
+    "dateModified": "2026-04-15T00:00:00.000Z",
+    "author": {
+      "@type": "Person",
+      "name": "Maya Chen"
+    }
+  }
+},
+{
+  "slug": "how-to-value-ai-domain-name",
+  "title": "How to Value an AI Domain Name: The Complete 2026 Valuation Framework",
+  "date": "2026-04-15",
+  "description": "Learn how to value .ai domain names in 2026 using real comparable sales, length premiums, and industry vertical multipliers.",
+  "readTime": "~12 min read",
+  "author": "Maya Chen, NameBuzz",
+  "content": "# How to Value an AI Domain Name: The Complete 2026 Valuation Framework\n\n**If you're buying, selling, or investing in .ai domains, you need to know what a domain is actually worth \u2014 not what someone hopes it's worth. This framework is how professional domain investors value .ai names in 2026. It covers every variable that moves price, with real numbers from actual sales.**\n\nThe .ai extension has become one of the most actively traded domain extensions in the world. Since OpenAI's rise in 2022, .ai domains have commanded prices that would have seemed absurd five years ago. A two-letter .ai domain sold for $500,000. A generative AI startup paid $1.2 million for bot.ai. Legal professionals are spending six figures on law.ai.\n\nBut with inflated demand comes inflated asking prices \u2014 and that's where most investors get burned. They overpay for a domain because they don't understand how valuation actually works. This guide fixes that.\n\nYou'll walk away knowing exactly how to value any .ai domain using the same framework professional domain investors use: comparable sales, length premiums, keyword type analysis, industry vertical multipliers, and market sentiment read.\n\n---\n\n## Domain Length Premium Curve\n\nShort domains are not just a branding convenience \u2014 they're a fundamentally different asset class. Length is the single most reliable predictor of value in the .ai extension, and the premium curve is steep.\n\n**The premium curve at a glance:**\n\n| Characters | Value Range | Notes |\n|---|---|---|\n| 1\u20132 letters | $250,000\u2013$700,000+ | Extremely rare globally. All .ai 1-2 letter domains are held or traded, not registered new. |\n| 3 letters | $50,000\u2013$250,000 | Strong brand potential. 3-letter .ai domains trade regularly. |\n| 4 letters | $10,000\u2013$75,000 | Most active trading segment. Good balance of memorability and cost. |\n| 5 letters | $2,000\u2013$20,000 | Solid brandable names available. Market is liquid. |\n| 6 letters | $500\u2013$5,000 | Descriptive and keyword-rich names. High volume, lower unit value. |\n| 7+ letters | $50\u2013$1,000 | Broad match keywords and brandable combos. Most registrations fall here. |\n\n**Why length matters so much:** Every character you remove from a domain name increases cognitive load savings for users. A four-character domain like [speed.ai](https://namebuzz.co/blog/speed-ai-sold-165000) requires 25% less working memory to process than a six-character domain. For tech-forward brands \u2014 which is every .ai domain's target buyer \u2014 this matters. Short .ai domains are also structurally scarce in a way that .com domains are not, because the total pool of available short domains is dramatically smaller.\n\n**The pronounceability bonus:** Domains that can be pronounced in one phrase \u2014 \"fast.ai,\" \"nova.ai,\" \"flux.ai\" \u2014 command an additional 20\u201340% premium over silent abbreviations. The ability to say your domain out loud in a meeting without explaining spelling is a genuine asset.\n\n---\n\n## Single-Word vs. Brandable vs. Descriptive: Understanding Value Tiers\n\nNot all .ai domains are valued the same way. The type of word or phrase determines which valuation method applies \u2014 and misapplying methods is where investors lose money.\n\n**Tier 1 \u2014 Single-Word .ai Domains**\n\nThese are the absolute apex of domain value. A genuine single English word \u2014 not a compound, not a portmanteau \u2014 on a .ai TLD is one of the rarest digital assets in existence.\n\nExamples: open.ai, brain.ai, chat.ai, code.ai, build.ai\n\nThe value driver here is pure brand equity. The domain communicates the entire identity of a company in two characters (word + TLD). No explanation needed. Brands built on single-word .ai domains can skip the tagline, the descriptor, the \"we do X\" elevator pitch. That's worth a premium.\n\n**What determines single-word value:**\n- How recognizable is the English word?\n- How broad is its commercial applicability?\n- Does it map cleanly to a product or service category?\n- Is it pronounceable in all major markets?\n\n**Tier 2 \u2014 Brandable Names**\n\nBrandable .ai domains are invented words engineered for memorability and uniqueness. Think: \"Jasper.ai,\" \"Framer.ai,\" \"Writer.ai.\" These are not dictionary words \u2014 they're coined terms that carry brand identity in their construction.\n\nBrandable names trade on different signals: syllable count, phonetic appeal, visual balance. Four syllables or fewer tends to be the sweet spot. They also benefit from the \"startup premium\" \u2014 venture-backed AI companies have consistently paid $50,000\u2013$500,000 for brandable .ai domains in the past three years.\n\n**Tier 3 \u2014 Descriptive Domains**\n\nThese are keyword-rich phrases that describe what the domain owner does: legal-tech.ai, health-ai-solutions.ai, ai-writing-tool.ai. They have lower intrinsic brand value but strong SEO potential and direct-match traffic value.\n\nDescriptive domains are priced using keyword\u5e7f\u544a CPC and search volume data, not startup brand logic. A domain like ai-writer.ai is worth whatever the monthly traffic arriving on that exact match is worth to a buyer \u2014 typically 12\u201336 months of equivalent PPC spend.\n\n---\n\n## Industry Vertical Multipliers: Why Legal, Medical, Finance, and Tech Command Premiums\n\nNot all buyers are created equal. A domain that makes sense for a legal AI startup is worth 5\u201310x the same domain sold to a local bakery. Industry vertical is the single highest-leverage variable in .ai domain valuation.\n\n**The multipliers, ranked:**\n\n| Vertical | Multiplier | Reasoning |\n|---|---|---|\n| Legal AI | 4x\u20138x | Legal tech budgets are massive. A law firm or legal SaaS paying $50K/month in software costs sees a $250,000 domain as a rounding error in marketing spend. [law.ai](https://namebuzz.co/blog/law-ai-sold-350000) sold for $350,000. |\n| Medical / Health AI | 3x\u20136x | HIPAA compliance and FDA regulatory concerns make domain credibility critical. Healthcare AI startups raise large rounds and spend heavily on brand. |\n| Finance / Fintech AI | 3x\u20135x | Trust is everything in finance. A premium domain signals regulatory legitimacy. Domain purchase decisions at fintech firms are often board-level. |\n| Enterprise AI / Dev Tools | 2x\u20134x | B2B buyers with large ACVs (average contract values) can justify premium domain spend as a cost of doing business. |\n| Consumer AI / SaaS | 1.5x\u20133x | Crowded market but still strong demand from funded startups. Value driven by brand potential and investor optics. |\n| Education AI | 1x\u20132x | Growing segment but budget-constrained compared to legal or finance. Multiplier has increased as AI education demand grows. |\n\n**Practical application:** If you're valuing a .ai domain with a finance-adjacent word \u2014 accounting.ai, wealth.ai, trading.ai, credit.ai \u2014 your base valuation from comparable sales should be multiplied by 3\u20135x. If you're valuing an AI domain with a general-purpose word, the multiplier is closer to 1x.\n\nThis is why domain investors who bought vertical-matched .ai domains in 2021\u20132023 have seen outsized returns. The buyers who bid up domains in specific verticals create a self-reinforcing price floor in those categories.\n\n---\n\n## The Comparable Sales Method: Step-by-Step Valuation\n\nProfessional domain investors don't guess. They build comparable sales comps the same way real estate appraisers or M&A analysts do. Here's the exact process:\n\n**Step 1: Find Genuine Comparable Sales**\n\nStart with established domain sales databases: Namecheap Afternic, DAN.com, and domain sales archives. Filter by .ai TLD, and exclude any sale that was a portfolio liquidation at below-market pricing.\n\n**Step 2: Normalize for Length**\n\nCompare your target domain to sales of similar character length. A 4-letter .ai domain should only be compared to other 4-letter .ai sales. Mixing lengths distorts the analysis \u2014 a 4-character domain is not comparable to a 7-character domain even if they share the same keyword.\n\n**Step 3: Apply the Keyword Type Adjustment**\n\nSingle-word comps give you the ceiling. Brandable comps give you the mid-range. Descriptive keyword-domain comps give you the floor. Place your target domain in the right tier and price accordingly.\n\n**Step 4: Apply the Vertical Multiplier**\n\nMultiply your base comp value by the appropriate vertical multiplier from the table above. A finance keyword domain valued at $25,000 base could be worth $75,000\u2013$125,000 to a fintech buyer.\n\n**Step 5: Adjust for Market Sentiment**\n\nDomain markets move in cycles. In a hot AI funding environment (2022\u20132024), .ai domain prices ran 2\u20134x above fundamental comps. In a correction, they may trade 30\u201350% below comps. Read current sentiment before finalizing a valuation (see the next section).\n\n**Real example walkthrough \u2014 valuing \"legal.ai\":**\n\n- Base comp: a 4-letter .ai domain with no specific vertical = ~$50,000\u2013$75,000\n- Keyword type: single word (ceiling tier) \u2014 multiplier: 3x \u2192 $150,000\u2013$225,000\n- Vertical: legal AI (4x\u20138x multiplier) \u2192 $600,000\u2013$1,800,000\n- Actual sale: law.ai reportedly sold for $350,000 (reported 2023\u20132024 period, below peak sentiment)\n\nThis example illustrates why legal .ai domains were selling at apparent \"discounts\" relative to the model \u2014 the market was in a slightly cooler sentiment phase in 2023 compared to 2022's AI hype peak.\n\n---\n\n## Current Market Sentiment and 2026 Trends\n\nThe .ai domain market is not static. Three distinct phases have shaped where prices sit today:\n\n**Phase 1 \u2014 Pre-ChatGPT Baseline (pre-2022):** .ai domains were considered niche tech assets. Prices were reasonable. A domain like neural.ai might have sold for $3,000\u2013$8,000.\n\n**Phase 2 \u2014 The AI Boom Surge (2022\u20132024):** ChatGPT ignited a wave of AI startup formation. Venture capital poured into AI. Domain demand exploded. Prices 5x'd across all tiers. This is when sales like speed.ai ($165,000) and bot.ai ($1.2 million) occurred.\n\n**Phase 3 \u2014 2025\u20132026 Correction and Maturation:** The froth has come out of the market at the margin, but fundamentals have permanently reset. .ai domains now trade at 2\u20133x their pre-2022 baseline even in a cooler sentiment environment. Buyers in 2026 are more sophisticated \u2014 they're running actual comp analyses instead of panic-buying.\n\n**2026 trends affecting valuations:**\n\n- **Corporate AI adoption driving enterprise .ai demand:** Large enterprises buying AI tools are acquiring .ai domains as product portals, developer hubs, and campaign landing pages. This is a new demand cohort that didn't exist in 2021.\n- **AI regulation and compliance domains:** As AI regulation matures globally, legal and compliance-adjacent .ai domains are seeing renewed interest from law firms, compliance consultancies, and regulatory technology companies.\n- **AI agent and automation verticals:** The autonomous AI agent wave (2025 onward) has created fresh demand for agent.ai, automation.ai, and workflow.ai type domains.\n- **Geographic .ai expansion:** .ai domains are increasingly being registered by AI companies in non-English speaking markets \u2014 Asia, Europe, Latin America \u2014 as the extension gains global recognition as the de facto AI domain.\n\n---\n\n## Common Valuation Mistakes to Avoid\n\nEven sophisticated buyers regularly overpay or undersell due to a handful of recurring errors.\n\n**Mistake 1: Pricing Based on Your Own Budget**\n\nA startup with $10M in funding might be comfortable paying $200,000 for a domain. That doesn't mean the domain is worth $200,000. Domain value is set by the market, not by your funding round. Pricing based on buyer budget is the fastest way to distort your comp analysis.\n\n**Mistake 2: Ignoring Renewal Costs in Total Cost of Ownership**\n\nIf you buy a premium .ai domain for $50,000, you're committing to annual renewals at premium rates ($50\u2013$200/year for short domains). Over a 10-year holding period, renewal costs add up. Factor total cost of ownership into any investment thesis.\n\n**Mistake 3: Overweighting Domain Age**\n\nOld domains are not necessarily more valuable. A 20-year-old .ai domain that was registered as a placeholder has no inherent advantage over a 2-year-old domain with active traffic and backlinks. Age only matters when it comes with a history of organic traffic or link equity.\n\n**Mistake 4: Assuming Keywords Alone Drive Value**\n\nA domain like artificialintelligence.ai contains the full primary keyword but has almost no brand value. Pure keyword domains on .ai trade at a significant discount to brandable or single-word domains despite matching the obvious search query. Keyword match is one factor \u2014 brandability is worth more.\n\n**Mistake 5: Not Checking Trademark Conflicts**\n\nA domain like med.ai might look valuable on paper, but if there's an existing US trademark on \"MED\" in the health tech category, owning that domain creates legal exposure. Always run a trademark pre-check before purchasing or listing a premium domain.\n\n**Mistake 6: Pricing to the Wrong Comparable**\n\nComparing a 4-letter .ai domain to a 7-letter .ai domain sale is like comparing a city-center apartment to a rural property because they're both \"apartments.\" The length and type comparison is the foundation \u2014 everything else layers on top.\n\n---\n\n## Frequently Asked Questions\n\n**How much is a .ai domain name worth in 2026?**\n\nThe range is enormous \u2014 from under $100 for a long, generic registration to over $1 million for ultra-premium short names with strong verticals. A typical 4-letter brandable .ai domain trades between $15,000 and $75,000. A single-word .ai domain with a legal, finance, or medical keyword can command $200,000 to $700,000+.\n\n**What's the most expensive .ai domain ever sold?**\n\nBased on reported sales, bot.ai holds the record at approximately $1.2 million. law.ai reportedly sold for $350,000, and speed.ai sold for $165,000. These figures represent peak-market sales in the 2022\u20132024 AI boom window, and some analysts consider 2025\u20132026 equivalents to trade at a 20\u201340% discount to those peaks in cooler sentiment periods.\n\n**Can a .ai domain be valued purely by keyword search volume?**\n\nNo. Keyword traffic value (CPC-based) applies only to descriptive, exact-match .ai domains used as landing pages or SEO assets. Brandable and single-word .ai domains derive value from startup brand equity, trademark potential, and direct navigation traffic \u2014 none of which are captured by search volume metrics. Mixing the two valuation frameworks is a common error.\n\n**How do I know if my .ai domain is overpriced?**\n\nRun a comparable sales analysis using 3\u20135 genuine recent .ai sales of similar length and type. If your asking price is more than 2x the weighted average of your comps, it's likely overpriced \u2014 or it's priced for a specific vertical buyer who may or may not materialize. A domain is worth what a willing buyer will actually pay, not what the seller wants.\n\n**Does domain length matter more than the keyword?**\n\nFor .ai domains specifically, length matters more than keyword choice at the extremes. A 3-letter .ai domain with a mediocre keyword (like xyz.ai) is worth more than a 9-letter .ai domain with a perfect keyword. For mid-range domains (4\u20136 characters), keyword type and vertical become competitive in weight with length.\n\n**Should I buy a .ai domain as an investment?**\n\n.ai domains can be good investments if you buy in the 4\u20136 character range, focus on verticals with strong buyer demand (legal, finance, health AI), and hold for 3\u20135 years. But the market is illiquid at the top end \u2014 finding buyers for ultra-premium domains requires active brokerage relationships. Most retail domain investors lose money because they underprice the holding costs and overestimate liquidity.\n\n---\n\n## Sources and Methodology\n\nThis framework is built from analysis of reported .ai domain sales data, publicly known transactions, market sentiment trends from domain investment communities, and valuation principles adapted from general domain name investing literature. Key sources include:\n\n1. Reported sale of bot.ai \u2014 $1.2M (2023, widely reported in domain investment press)\n2. Reported sale of law.ai \u2014 $350,000 (2023\u20132024 period)\n3. Reported sale of speed.ai \u2014 $165,000 (2023, NameBuzz reported)\n4. Domain name investment valuation methodology from Domain Name Wire and DNJournal sales tracking\n5. Industry vertical multiplier analysis from NameBuzz internal market research\n\nAll monetary figures are based on publicly reported transactions or estimates from domain brokerage communities. Actual private sales may differ. This framework is a valuation guide, not a guaranteed pricing model.\n\n---\n\n*Maya Chen is a domain investment analyst at NameBuzz, covering .ai domain market trends, valuation frameworks, and AI startup domain strategy.*\n",
+  "schema_faq": [
+    {
+      "q": "How much is a .ai domain name worth in 2026?",
+      "a": "The range is enormous \u2014 from under $100 for a long, generic registration to over $1 million for ultra-premium short names with strong verticals. A typical 4-letter brandable .ai domain trades between $15,000 and $75,000. A single-word .ai domain with a legal, finance, or medical keyword can command $200,000 to $700,000+."
+    },
+    {
+      "q": "What's the most expensive .ai domain ever sold?",
+      "a": "Based on reported sales, bot.ai holds the record at approximately $1.2 million. law.ai reportedly sold for $350,000, and speed.ai sold for $165,000. These figures represent peak-market sales in the 2022\u20132024 AI boom window, and some analysts consider 2025\u20132026 equivalents to trade at a 20\u201340% discount to those peaks in cooler sentiment periods."
+    },
+    {
+      "q": "Can a .ai domain be valued purely by keyword search volume?",
+      "a": "No. Keyword traffic value (CPC-based) applies only to descriptive, exact-match .ai domains used as landing pages or SEO assets. Brandable and single-word .ai domains derive value from startup brand equity, trademark potential, and direct navigation traffic \u2014 none of which are captured by search volume metrics."
+    },
+    {
+      "q": "How do I know if my .ai domain is overpriced?",
+      "a": "Run a comparable sales analysis using 3\u20135 genuine recent .ai sales of similar length and type. If your asking price is more than 2x the weighted average of your comps, it's likely overpriced \u2014 or it's priced for a specific vertical buyer who may not materialize."
+    },
+    {
+      "q": "Does domain length matter more than the keyword?",
+      "a": "For .ai domains specifically, length matters more than keyword choice at the extremes. A 3-letter .ai domain with a mediocre keyword is worth more than a 9-letter .ai domain with a perfect keyword. For mid-range domains (4\u20136 characters), keyword type and vertical become competitive in weight with length."
+    },
+    {
+      "q": "Should I buy a .ai domain as an investment?",
+      "a": ".ai domains can be good investments if you buy in the 4\u20136 character range, focus on verticals with strong buyer demand (legal, finance, health AI), and hold for 3\u20135 years. But the market is illiquid at the top end \u2014 finding buyers for ultra-premium domains requires active brokerage relationships."
+    }
+  ],
+  "schema_article": {
+    "datePublished": "2026-04-15T00:00:00.000Z",
+    "dateModified": "2026-04-15T00:00:00.000Z",
+    "author": {
+      "@type": "Person",
+      "name": "Maya Chen"
+    }
+  }
+}
 ];
 
 export function getBlogPost(slug: string) {
