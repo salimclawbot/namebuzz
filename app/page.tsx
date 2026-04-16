@@ -41,16 +41,6 @@ export default function Home() {
     <div className="min-h-screen pb-16">
       <Navbar />
 
-      {/* Sticky newsletter bar — visible as users scroll */}
-      <div className="border-b border-[#00FF88]/20 bg-[#111]">
-        <div className="mx-auto flex max-w-6xl flex-col items-center gap-3 px-4 py-3 sm:flex-row sm:justify-between">
-          <p className="text-sm font-semibold text-[#F0F0F0] whitespace-nowrap">
-            Get weekly .ai domain sales alerts →
-          </p>
-          <InlineEmailForm />
-        </div>
-      </div>
-
       {/* Header */}
       <header className="border-b border-[#1F1F1F] px-4 py-8 text-center">
         <h1 className="text-2xl font-bold sm:text-3xl md:text-4xl">
