@@ -3956,4 +3956,10 @@ export const seedSales: Sale[] = [
   sale("rethinking.ai", 1000, "NamePros Forum", "2023-12-04", "Dynadot", "Undisclosed", "Undisclosed", "https://www.namepros.com/threads/engage-ai-sold-for-86-889-prediction-ai-for-31-500.1316246/"),
   sale("eighteen.ai", 1000, "NamePros Forum", "2023-10-02", "Whois.ai", "Undisclosed", "Undisclosed", "https://www.namepros.com/threads/ca-ai-sold-for-25-500-trip-org-for-15-227.1312168/"),
   sale("getaway.ai", 1000, "NamePros Forum", "2023-07-03", "Whois.ai", "Undisclosed", "Undisclosed", "https://www.namepros.com/threads/threat-ai-sold-for-22-460-unison-ai-for-17-650.1305603/"),
+  sale("eagle.ai", 5040, "Whois.ai", "2022-01-04", "NamePros", "Undisclosed", "Undisclosed", "https://www.namepros.com/threads/leverage-co-sold-for-10-000-eagle-ai-for-5-040.1262712/"),
+  sale("racing.ai", 2699, "Whois.ai", "2022-01-04", "NamePros", "Undisclosed", "Undisclosed", "https://www.namepros.com/threads/leverage-co-sold-for-10-000-eagle-ai-for-5-040.1262712/"),
+  sale("john.ai", 2003, "Whois.ai", "2022-01-04", "NamePros", "Undisclosed", "Undisclosed", "https://www.namepros.com/threads/leverage-co-sold-for-10-000-eagle-ai-for-5-040.1262712/"),
+  sale("demo.ai", 1504, "Whois.ai", "2022-01-04", "NamePros", "Undisclosed", "Undisclosed", "https://www.namepros.com/threads/leverage-co-sold-for-10-000-eagle-ai-for-5-040.1262712/"),
+  sale("fossil.ai", 1430, "Whois.ai", "2022-01-04", "NamePros", "Undisclosed", "Undisclosed", "https://www.namepros.com/threads/leverage-co-sold-for-10-000-eagle-ai-for-5-040.1262712/"),
+  sale("magma.ai", 1020, "Whois.ai", "2022-01-04", "NamePros", "Undisclosed", "Undisclosed", "https://www.namepros.com/threads/leverage-co-sold-for-10-000-eagle-ai-for-5-040.1262712/"),
 ];
