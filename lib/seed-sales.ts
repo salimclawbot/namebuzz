@@ -3975,4 +3975,3 @@ export const seedSales: Sale[] = [
   sale("cases.ai", 8988, "Namecheap", "2026-04-13", "NamePros", "Undisclosed", "Undisclosed", "https://www.namepros.com/threads/nucleus-co-sold-for-50-000-pax-co-for-35-000.1383757/"),
   sale("cavu.ai", 1975, "Namecheap", "2026-04-13", "NamePros", "Undisclosed", "Undisclosed", "https://www.namepros.com/threads/nucleus-co-sold-for-50-000-pax-co-for-35-000.1383757/"),
 ];
-
