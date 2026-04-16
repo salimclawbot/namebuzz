@@ -58,6 +58,8 @@ const SECOND_SALE_SLUGS: Record<string, string> = {
 };
 
 function toSlug(text: string) {
+  // Convert em-dash to double-hyphen to match rehype-slug output
+  text = text.replace(/—/g, " -- ");
   return text
     .toLowerCase()
     .trim()

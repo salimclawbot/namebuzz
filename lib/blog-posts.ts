@@ -4484,69 +4484,6 @@ Where you list your domains directly impacts how fast they sell and how much you
 
 For a deeper dive into each platform's features, fees, and buyer pool, read our comprehensive [comparison of the best platforms to buy and sell .ai domains](https://namebuzz.co/blog/best-platforms-to-buy-sell-ai-domains-2026).
 
-<style>
-.product-cards { display: grid; grid-template-columns: 1fr; gap: 1.5rem; margin: 2rem 0; }
-@media(min-width:640px){ .product-cards { grid-template-columns: repeat(2, 1fr); } }
-.product-card { border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; background: #fff; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
-.product-card img { width: 100%; height: 200px; object-fit: cover; }
-.product-card-info { padding: 1rem; }
-.product-card-info h4 { font-size: 1rem; font-weight: 700; margin: 0 0 0.5rem; }
-.product-card-info p { font-size: 0.875rem; color: #475569; margin: 0.25rem 0; }
-.platform-btn { display: block; margin-top: 0.75rem; text-align: center; background: #0d9488; color: #fff; padding: 0.6rem 1rem; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 0.875rem; }
-</style>
-
-<div class="product-cards">
-<div class="product-card">
-  <img src="/images/articles/sedo-platform-ai-domains-2026.webp" alt="Sedo domain marketplace platform for selling .ai domains" width="400" height="200" loading="lazy" />
-  <div class="product-card-info">
-    <h4>Sedo</h4>
-    <p><strong>Best for:</strong> International buyer pool, auction format</p>
-    <p><strong>Commission:</strong> 15% for standard, 20% for auction</p>
-    <p><strong>Avg. Sale Speed:</strong> 2–4 months</p>
-    <a href="https://sedo.com" class="platform-btn" target="_blank" rel="noopener">List on Sedo →</a>
-  </div>
-</div>
-<div class="product-card">
-  <img src="/images/articles/dan-com-platform-ai-domains-2026.webp" alt="Dan.com domain marketplace for buying and selling .ai domains" width="400" height="200" loading="lazy" />
-  <div class="product-card-info">
-    <h4>Dan.com</h4>
-    <p><strong>Best for:</strong> Buy-it-now sales, installment plans</p>
-    <p><strong>Commission:</strong> 9% flat</p>
-    <p><strong>Avg. Sale Speed:</strong> 1–3 months</p>
-    <a href="https://dan.com" class="platform-btn" target="_blank" rel="noopener">List on Dan.com →</a>
-  </div>
-</div>
-<div class="product-card">
-  <img src="/images/articles/godaddy-auctions-ai-domains-2026.webp" alt="GoDaddy Auctions marketplace for .ai domain flipping" width="400" height="200" loading="lazy" />
-  <div class="product-card-info">
-    <h4>GoDaddy Auctions</h4>
-    <p><strong>Best for:</strong> Largest buyer pool, high traffic</p>
-    <p><strong>Commission:</strong> 20% (under $5K) / 15% (above $5K)</p>
-    <p><strong>Avg. Sale Speed:</strong> 1–6 months</p>
-    <a href="https://auctions.godaddy.com" class="platform-btn" target="_blank" rel="noopener">List on GoDaddy →</a>
-  </div>
-</div>
-<div class="product-card">
-  <img src="/images/articles/afternic-platform-ai-domains-2026.webp" alt="Afternic domain listing platform for .ai domains" width="400" height="200" loading="lazy" />
-  <div class="product-card-info">
-    <h4>Afternic</h4>
-    <p><strong>Best for:</strong> Network distribution across 100+ partners</p>
-    <p><strong>Commission:</strong> 15–20% depending on channel</p>
-    <p><strong>Avg. Sale Speed:</strong> 2–5 months</p>
-    <a href="https://www.afternic.com" class="platform-btn" target="_blank" rel="noopener">List on Afternic →</a>
-  </div>
-</div>
-<div class="product-card">
-  <img src="/images/articles/squadhelp-platform-ai-domains-2026.webp" alt="Squadhelp brandable domain marketplace for .ai names" width="400" height="200" loading="lazy" />
-  <div class="product-card-info">
-    <h4>Squadhelp</h4>
-    <p><strong>Best for:</strong> Brandable names, startup buyers</p>
-    <p><strong>Commission:</strong> 25–30% (curated marketplace)</p>
-    <p><strong>Avg. Sale Speed:</strong> 3–6 months</p>
-    <a href="https://www.squadhelp.com" class="platform-btn" target="_blank" rel="noopener">List on Squadhelp →</a>
-  </div>
-</div>
-</div>
 
 ### Multi-Platform Listing Strategy
 
