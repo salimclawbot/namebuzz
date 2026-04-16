@@ -46,22 +46,14 @@ function SourceBadge({ label, color, url }: { label: string; color: string; url:
   const style = { backgroundColor: `${color}22`, color, border: `1px solid ${color}44` };
   if (url) {
     return (
-      <a
-        href={url}
-        target="_blank"
-        rel="noopener noreferrer"
+      <a href={url} target="_blank" rel="noopener noreferrer"
         className="inline-block rounded-full px-2 py-0.5 text-xs font-medium hover:brightness-125 transition-all"
-        style={style}
-      >
+        style={style}>
         {label}
       </a>
     );
   }
-  return (
-    <span className="inline-block rounded-full px-2 py-0.5 text-xs font-medium" style={style}>
-      {label}
-    </span>
-  );
+  return <span className="inline-block rounded-full px-2 py-0.5 text-xs font-medium" style={style}>{label}</span>;
 }
 
 export default function SalesTableClient({ sales }: { sales: Sale[] }) {
@@ -79,27 +71,48 @@ export default function SalesTableClient({ sales }: { sales: Sale[] }) {
     return Array.from(set).sort().reverse();
   })();
 
+  const applyPriceFilter = (result: Sale[]) => {
+    switch (filter) {
+      case "10k+": return result.filter((s) => s.price >= 10000);
+      case "100k+": return result.filter((s) => s.price >= 100000);
+      case "1m+": return result.filter((s) => s.price >= 1000000);
+      default: return result;
+    }
+  };
+
   const filtered = (() => {
     let result = sales;
     if (search) {
       const q = search.toLowerCase();
-      result = result.filter((s) => s.domain.toLowerCase().includes(q) || s.buyer.toLowerCase().includes(q) || s.seller.toLowerCase().includes(q));
+      result = result.filter((s) =>
+        s.domain.toLowerCase().includes(q) ||
+        s.buyer.toLowerCase().includes(q) ||
+        s.seller.toLowerCase().includes(q)
+      );
     }
     if (yearFilter !== "all") result = result.filter((s) => s.date.startsWith(yearFilter));
-    switch (filter) {
-      case "10k+": result = result.filter((s) => s.price >= 10000); break;
-      case "100k+": result = result.filter((s) => s.price >= 100000); break;
-      case "1m+": result = result.filter((s) => s.price >= 1000000); break;
-    }
+    result = applyPriceFilter(result);
     if (sort === "price") result = [...result].sort((a, b) => b.price - a.price);
-    else result = [...result].sort((a, b) => { const d = b.date.localeCompare(a.date); return d !== 0 ? d : b.price - a.price; });
+    else result = [...result].sort((a, b) => {
+      const d = b.date.localeCompare(a.date);
+      return d !== 0 ? d : b.price - a.price;
+    });
     return result;
+  })();
+
+  // Recent sales — also filtered by price
+  const recentSales = (() => {
+    let result = [...sales]
+      .filter((s) => /^\d{4}-\d{2}-\d{2}$/.test(s.date))
+      .sort((a, b) => b.date.localeCompare(a.date))
+      .slice(0, 500); // keep more so filter has room to work
+    result = applyPriceFilter(result);
+    return result.slice(0, 100);
   })();
 
   useEffect(() => { setVisibleCount(PAGE_SIZE); }, [filter, sort, search, yearFilter]);
 
   const visibleFiltered = filtered.slice(0, visibleCount);
-  const recentSales = [...sales].filter((s) => /^\d{4}-\d{2}-\d{2}$/.test(s.date)).sort((a, b) => b.date.localeCompare(a.date)).slice(0, 100);
 
   const copyDomain = (domain: string) => {
     navigator.clipboard.writeText(domain);
@@ -140,10 +153,41 @@ export default function SalesTableClient({ sales }: { sales: Sale[] }) {
         </button>
       </div>
 
+      {/* Filters — shown for all table tabs */}
+      {(activeTab === "all" || activeTab === "recent") && (
+        <div className="mt-4 flex flex-wrap items-center gap-2">
+          <div className="flex gap-1.5">
+            {filterButtons.map((b) => (
+              <button
+                key={b.value}
+                onClick={() => setFilter(b.value)}
+                className={`rounded-full px-3 py-1 text-xs font-medium transition-colors ${filter === b.value ? "bg-[#00FF88] text-black" : "bg-[#111] text-[#888] border border-[#1F1F1F] hover:text-[#F0F0F0]"}`}
+              >
+                {b.label}
+              </button>
+            ))}
+          </div>
+          {activeTab === "all" && (
+            <div className="flex items-center gap-2">
+              <select value={yearFilter} onChange={(e) => setYearFilter(e.target.value)} className="rounded-lg border border-[#1F1F1F] bg-[#111] px-2 py-1 text-xs text-[#F0F0F0] outline-none">
+                <option value="all">All Years</option>
+                {years.map((y) => <option key={y} value={y}>{y}</option>)}
+              </select>
+              <select value={sort} onChange={(e) => setSort(e.target.value as SortMode)} className="rounded-lg border border-[#1F1F1F] bg-[#111] px-2 py-1 text-xs text-[#F0F0F0] outline-none">
+                <option value="price">Highest $</option>
+                <option value="recent">Newest</option>
+              </select>
+              <input type="text" placeholder="Search..." value={search} onChange={(e) => setSearch(e.target.value)}
+                className="rounded-lg border border-[#1F1F1F] bg-[#111] px-3 py-1 text-xs text-[#F0F0F0] placeholder-[#444] outline-none w-32" />
+            </div>
+          )}
+        </div>
+      )}
+
       {/* Recent Tab */}
       {activeTab === "recent" && (
-        <div className="mt-4">
-          <p className="text-xs text-[#444] mb-3">Top 100 most recent verified .ai sales.</p>
+        <div className="mt-3">
+          <p className="text-xs text-[#444] mb-3">Top 100 most recent .ai sales, filtered by price.</p>
           <div className="overflow-x-auto rounded-lg border border-[#1F1F1F]">
             <table className="w-full text-xs">
               <thead>
@@ -157,13 +201,15 @@ export default function SalesTableClient({ sales }: { sales: Sale[] }) {
               </thead>
               <tbody>
                 {recentSales.map((s, i) => (
-                  <tr key={s.domain + s.date + i} className={`border-b border-[#1A1A1A] last:border-0 hover:bg-[#111] transition-colors ${i % 2 === 0 ? "" : "bg-[#0C0C0C]"}`}>
+                  <tr key={s.domain + s.date + i}
+                    className={`border-b border-[#1A1A1A] last:border-0 hover:bg-[#111] transition-colors ${i % 2 === 0 ? "" : "bg-[#0C0C0C]"}`}>
                     <td className="px-3 py-1.5">
-                      <button type="button" onClick={() => copyDomain(s.domain)} className="font-mono text-[#F0F0F0] hover:text-[#00D4FF] transition-colors text-xs">
+                      <button type="button" onClick={() => copyDomain(s.domain)}
+                        className="font-mono text-[#F0F0F0] hover:text-[#00D4FF] transition-colors text-xs whitespace-nowrap">
                         {s.domain}{copied === s.domain && <span className="ml-1 text-[10px] text-[#00FF88]">✓</span>}
                       </button>
                     </td>
-                    <td className="px-3 py-1.5 text-right font-bold text-[#00FF88] whitespace-nowrap">{s.priceFormatted}</td>
+                    <td className="px-3 py-1.5 text-right font-bold text-[#00FF88] whitespace-nowrap">{s.priceFormatted.replace("$", "")}</td>
                     <td className="px-3 py-1.5 text-[#666] whitespace-nowrap">{s.date}</td>
                     <td className="px-3 py-1.5 hidden sm:table-cell">
                       <span className="rounded-full px-2 py-0.5 text-[10px]" style={{ backgroundColor: `${getBadgeColor(s.venue)}22`, color: getBadgeColor(s.venue), border: `1px solid ${getBadgeColor(s.venue)}44` }}>
@@ -172,7 +218,8 @@ export default function SalesTableClient({ sales }: { sales: Sale[] }) {
                     </td>
                     <td className="px-3 py-1.5 hidden md:table-cell">
                       {s.sourceUrl ? (
-                        <a href={s.sourceUrl} target="_blank" rel="noopener noreferrer" className="text-[10px] text-[#555] hover:text-[#00D4FF] transition-colors underline underline-offset-2">
+                        <a href={s.sourceUrl} target="_blank" rel="noopener noreferrer"
+                          className="text-[10px] text-[#555] hover:text-[#00D4FF] transition-colors underline underline-offset-2">
                           {s.source}
                         </a>
                       ) : (
@@ -181,6 +228,9 @@ export default function SalesTableClient({ sales }: { sales: Sale[] }) {
                     </td>
                   </tr>
                 ))}
+                {recentSales.length === 0 && (
+                  <tr><td colSpan={5} className="py-6 text-center text-xs text-[#555]">No sales match this filter.</td></tr>
+                )}
               </tbody>
             </table>
           </div>
@@ -198,35 +248,9 @@ export default function SalesTableClient({ sales }: { sales: Sale[] }) {
       {/* All Sales Tab */}
       {activeTab === "all" && (
         <>
-          {/* Filters */}
-          <div className="mt-4 flex flex-wrap items-center gap-2">
-            <div className="flex gap-1.5">
-              {filterButtons.map((b) => (
-                <button
-                  key={b.value}
-                  onClick={() => setFilter(b.value)}
-                  className={`rounded-full px-3 py-1 text-xs font-medium transition-colors ${filter === b.value ? "bg-[#00FF88] text-black" : "bg-[#111] text-[#888] border border-[#1F1F1F] hover:text-[#F0F0F0]"}`}
-                >
-                  {b.label}
-                </button>
-              ))}
-            </div>
-            <div className="flex items-center gap-2">
-              <select value={yearFilter} onChange={(e) => setYearFilter(e.target.value)} className="rounded-lg border border-[#1F1F1F] bg-[#111] px-2 py-1 text-xs text-[#F0F0F0] outline-none">
-                <option value="all">All Years</option>
-                {years.map((y) => <option key={y} value={y}>{y}</option>)}
-              </select>
-              <select value={sort} onChange={(e) => setSort(e.target.value as SortMode)} className="rounded-lg border border-[#1F1F1F] bg-[#111] px-2 py-1 text-xs text-[#F0F0F0] outline-none">
-                <option value="price">Highest $</option>
-                <option value="recent">Newest</option>
-              </select>
-              <input type="text" placeholder="Search..." value={search} onChange={(e) => setSearch(e.target.value)} className="rounded-lg border border-[#1F1F1F] bg-[#111] px-3 py-1 text-xs text-[#F0F0F0] placeholder-[#444] outline-none w-32" />
-            </div>
-          </div>
-
           <p className="mt-2 text-[10px] text-[#444]">{visibleFiltered.length} of {filtered.length} sales</p>
 
-          {/* Desktop Table — single compact row per sale */}
+          {/* Desktop Table */}
           <div className="mt-1 hidden md:block overflow-x-auto rounded-lg border border-[#1F1F1F]">
             <table className="w-full text-xs">
               <thead>
@@ -244,25 +268,24 @@ export default function SalesTableClient({ sales }: { sales: Sale[] }) {
               </thead>
               <tbody>
                 {visibleFiltered.map((sale, i) => (
-                  <tr key={sale.domain + sale.date} className="border-b border-[#1A1A1A] last:border-0 hover:bg-[#111] transition-colors">
+                  <tr key={sale.domain + sale.date}
+                    className="border-b border-[#1A1A1A] last:border-0 hover:bg-[#111] transition-colors">
                     <td className="pl-3 pr-2 py-1.5">
-                      <button type="button" onClick={() => copyDomain(sale.domain)} className="font-mono text-[#F0F0F0] hover:text-[#00D4FF] transition-colors text-xs whitespace-nowrap">
+                      <button type="button" onClick={() => copyDomain(sale.domain)}
+                        className="font-mono text-[#F0F0F0] hover:text-[#00D4FF] transition-colors text-xs whitespace-nowrap">
                         {sale.domain}{copied === sale.domain && <span className="ml-1 text-[10px] text-[#00FF88]">✓</span>}
                       </button>
                     </td>
-                    <td className="px-2 py-1.5 text-right font-bold text-[#00FF88] whitespace-nowrap">{sale.priceFormatted}</td>
+                    <td className="px-2 py-1.5 text-right font-bold text-[#00FF88] whitespace-nowrap">{sale.priceFormatted.replace("$", "")}</td>
                     <td className="px-2 py-1.5 text-[#777] text-[10px] max-w-24 truncate hidden lg:table-cell" title={sale.buyer}>{sale.buyer}</td>
-                    <td className="px-2 py-1.5">
-                      <Badge label={sale.venue} color={getBadgeColor(sale.venue)} />
-                    </td>
+                    <td className="px-2 py-1.5"><Badge label={sale.venue} color={getBadgeColor(sale.venue)} /></td>
                     <td className="px-2 py-1.5 hidden xl:table-cell">
-                      {sale.sourceUrl ? (
-                        <SourceBadge label={sale.source} color={getBadgeColor(sale.source)} url={sale.sourceUrl} />
-                      ) : null}
+                      {sale.sourceUrl ? <SourceBadge label={sale.source} color={getBadgeColor(sale.source)} url={sale.sourceUrl} /> : null}
                     </td>
                     <td className="px-2 py-1.5 text-[#555] whitespace-nowrap">{sale.date}</td>
                     <td className="pr-3 pl-2 py-1.5 text-right">
-                      <button onClick={() => setVisibleCount((c) => Math.min(c + 50, filtered.length))} className="text-[10px] text-[#333] hover:text-[#00FF88] transition-colors">
+                      <button onClick={() => setVisibleCount((c) => Math.min(c + 50, filtered.length))}
+                        className="text-[10px] text-[#333] hover:text-[#00FF88] transition-colors">
                         +{Math.min(50, filtered.length - visibleCount)}
                       </button>
                     </td>
@@ -273,32 +296,33 @@ export default function SalesTableClient({ sales }: { sales: Sale[] }) {
             {filtered.length === 0 && <p className="py-6 text-center text-xs text-[#555]">No sales match your filters.</p>}
           </div>
 
-          {/* Mobile Cards — compact single-row style */}
+          {/* Mobile Cards */}
           <div className="mt-2 flex flex-col gap-1 md:hidden">
             {visibleFiltered.map((sale, i) => (
-              <div key={sale.domain + sale.date} className="flex items-center justify-between gap-2 rounded-lg border border-[#1A1A1A] bg-[#111] px-3 py-2 hover:bg-[#111]/80 transition-colors">
+              <div key={sale.domain + sale.date}
+                className="flex items-center justify-between gap-2 rounded-lg border border-[#1A1A1A] bg-[#111] px-3 py-2 hover:bg-[#111]/80 transition-colors">
                 <div className="flex items-center gap-2 min-w-0 flex-1">
                   <span className="text-[10px] text-[#333] whitespace-nowrap">{i + 1}</span>
-                  <button type="button" onClick={() => copyDomain(sale.domain)} className="font-mono text-[#F0F0F0] hover:text-[#00D4FF] transition-colors text-xs truncate">
+                  <button type="button" onClick={() => copyDomain(sale.domain)}
+                    className="font-mono text-[#F0F0F0] hover:text-[#00D4FF] transition-colors text-xs truncate">
                     {sale.domain}
                   </button>
                   <Badge label={sale.venue} color={getBadgeColor(sale.venue)} />
                 </div>
                 <div className="flex items-center gap-2 whitespace-nowrap">
-                  <span className="font-bold text-[#00FF88] text-xs">{sale.priceFormatted}</span>
+                  <span className="font-bold text-[#00FF88] text-xs">{sale.priceFormatted.replace("$", "")}</span>
                   <span className="text-[10px] text-[#444]">{sale.date}</span>
                 </div>
               </div>
             ))}
+            {filtered.length === 0 && <p className="py-6 text-center text-xs text-[#555]">No sales match your filters.</p>}
           </div>
 
-          {/* Load More — desktop only */}
+          {/* Load More */}
           {visibleCount < filtered.length && (
             <div className="mt-4 text-center">
-              <button
-                onClick={() => setVisibleCount((c) => Math.min(c + PAGE_SIZE, filtered.length))}
-                className="rounded-xl border border-[#222] bg-[#111] px-6 py-2 text-xs text-[#666] hover:border-[#00FF88] hover:text-[#F0F0F0] transition-colors"
-              >
+              <button onClick={() => setVisibleCount((c) => Math.min(c + PAGE_SIZE, filtered.length))}
+                className="rounded-xl border border-[#222] bg-[#111] px-6 py-2 text-xs text-[#666] hover:border-[#00FF88] hover:text-[#F0F0F0] transition-colors">
                 Load {Math.min(PAGE_SIZE, filtered.length - visibleCount)} more ↓
               </button>
             </div>
