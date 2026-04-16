@@ -30,7 +30,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="text-lg font-bold">
             <span className="text-[#00FF88]">.ai</span>{" "}
-            <span className="text-[#F0F0F0]">NameBuzz</span>
+            <span className="text-[#F0F0F0]">NameBuzz.co</span>
           </Link>
 
           {/* Desktop nav */}
@@ -87,7 +87,7 @@ export default function Navbar() {
                 onClick={() => setMobileOpen(false)}
               >
                 <span className="text-[#00FF88]">.ai</span>{" "}
-                <span className="text-[#F0F0F0]">NameBuzz</span>
+                <span className="text-[#F0F0F0]">NameBuzz.co</span>
               </Link>
               <button
                 onClick={() => setMobileOpen(false)}
