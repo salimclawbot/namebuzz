@@ -41,6 +41,16 @@ export default function Home() {
     <div className="min-h-screen pb-16">
       <Navbar />
 
+      {/* Sticky newsletter bar — visible as users scroll */}
+      <div className="border-b border-[#00FF88]/20 bg-[#111]">
+        <div className="mx-auto flex max-w-6xl flex-col items-center gap-3 px-4 py-3 sm:flex-row sm:justify-between">
+          <p className="text-sm font-semibold text-[#F0F0F0] whitespace-nowrap">
+            Get weekly .ai domain sales alerts →
+          </p>
+          <InlineEmailForm />
+        </div>
+      </div>
+
       {/* Header */}
       <header className="border-b border-[#1F1F1F] px-4 py-8 text-center">
         <h1 className="text-2xl font-bold sm:text-3xl md:text-4xl">
@@ -50,26 +60,6 @@ export default function Home() {
           Comprehensive historical data &bull; {stats.total} sales tracked &bull; ${(stats.volume / 1000000).toFixed(1)}M+ total volume
         </p>
       </header>
-
-      {/* Inline hero opt-in — above stats */}
-      <section className="border-b border-[#1F1F1F] bg-[#0D0D0D]">
-        <div className="mx-auto max-w-6xl px-4 py-10">
-          <div className="grid md:grid-cols-2 gap-8 items-center">
-            <div>
-              <p className="text-xs font-medium text-[#00FF88] mb-2 tracking-wide uppercase">
-                Free Weekly Newsletter
-              </p>
-              <h2 className="text-xl md:text-2xl font-bold text-[#F0F0F0] mb-3">
-                The .ai Goldrush Is Real. Here's What's Actually Selling.
-              </h2>
-              <p className="text-sm text-[#888] leading-relaxed">
-                Get the week's biggest domain sales delivered to your inbox — plus undervalued .ai and .com domains worth watching. One email, every Tuesday.
-              </p>
-            </div>
-            <InlineEmailForm hero />
-          </div>
-        </div>
-      </section>
 
       <div className="mx-auto max-w-6xl px-4">
         {/* Stats Bar */}
@@ -129,7 +119,7 @@ export default function Home() {
   );
 }
 
-function InlineEmailForm({ hero = false }: { hero?: boolean }) {
+function InlineEmailForm() {
   "use client";
   return (
     <form
@@ -145,11 +135,11 @@ function InlineEmailForm({ hero = false }: { hero?: boolean }) {
         name="email"
         required
         placeholder="your@email.com"
-        className={`flex-1 rounded-lg border border-[#2A2A2A] bg-[#0A0A0A] text-[#F0F0F0] placeholder-[#555] focus:outline-none focus:border-[#00FF88] transition-colors ${hero ? "px-4 py-2.5 text-sm" : "px-3 py-1.5 text-xs"}`}
+        className="flex-1 rounded-lg border border-[#2A2A2A] bg-[#0A0A0A] px-3 py-1.5 text-xs text-[#F0F0F0] placeholder-[#555] focus:outline-none focus:border-[#00FF88] transition-colors"
       />
       <button
         type="submit"
-        className={`rounded-lg bg-[#00FF88] font-bold text-[#0A0A0A] hover:bg-[#00dd77] transition-colors whitespace-nowrap ${hero ? "px-5 py-2.5 text-sm" : "px-4 py-1.5 text-xs"}`}
+        className="rounded-lg bg-[#00FF88] px-4 py-1.5 text-xs font-bold text-[#0A0A0A] hover:bg-[#00dd77] transition-colors whitespace-nowrap"
       >
         Subscribe Free
       </button>
