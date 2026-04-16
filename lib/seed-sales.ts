@@ -3963,3 +3963,16 @@ export const seedSales: Sale[] = [
   sale("fossil.ai", 1430, "Whois.ai", "2022-01-04", "NamePros", "Undisclosed", "Undisclosed", "https://www.namepros.com/threads/leverage-co-sold-for-10-000-eagle-ai-for-5-040.1262712/"),
   sale("magma.ai", 1020, "Whois.ai", "2022-01-04", "NamePros", "Undisclosed", "Undisclosed", "https://www.namepros.com/threads/leverage-co-sold-for-10-000-eagle-ai-for-5-040.1262712/"),
 ];
+  sale("calculators.ai", 3013, "Namecheap", "2026-04-15", "NamePros", "Undisclosed", "Undisclosed", "https://www.namepros.com/threads/stadiaventures-com-sold-for-15-559-revolution-now-for-14-999.1384070/"),
+  sale("spacecadet.ai", 2525, "Namecheap", "2026-04-15", "NamePros", "Undisclosed", "Undisclosed", "https://www.namepros.com/threads/stadiaventures-com-sold-for-15-559-revolution-now-for-14-999.1384070/"),
+  sale("maji.ai", 2051, "Namecheap", "2026-04-15", "NamePros", "Undisclosed", "Undisclosed", "https://www.namepros.com/threads/stadiaventures-com-sold-for-15-559-revolution-now-for-14-999.1384070/"),
+  sale("freespace.ai", 1426, "Namecheap", "2026-04-15", "NamePros", "Undisclosed", "Undisclosed", "https://www.namepros.com/threads/stadiaventures-com-sold-for-15-559-revolution-now-for-14-999.1384070/"),
+  sale("evolan.ai", 2850, "Namecheap", "2026-04-14", "NamePros", "Undisclosed", "Undisclosed", "https://www.namepros.com/threads/rideone-com-sold-for-35-000-pone-com-for-16-350.1383969/"),
+  sale("taff.ai", 1826, "Namecheap", "2026-04-14", "NamePros", "Undisclosed", "Undisclosed", "https://www.namepros.com/threads/rideone-com-sold-for-35-000-pone-com-for-16-350.1383969/"),
+  sale("omnipoint.ai", 1601, "Namecheap", "2026-04-14", "NamePros", "Undisclosed", "Undisclosed", "https://www.namepros.com/threads/rideone-com-sold-for-35-000-pone-com-for-16-350.1383969/"),
+  sale("bvg.ai", 1338, "Namecheap", "2026-04-14", "NamePros", "Undisclosed", "Undisclosed", "https://www.namepros.com/threads/rideone-com-sold-for-35-000-pone-com-for-16-350.1383969/"),
+  sale("zerobyte.ai", 1226, "Namecheap", "2026-04-14", "NamePros", "Undisclosed", "Undisclosed", "https://www.namepros.com/threads/rideone-com-sold-for-35-000-pone-com-for-16-350.1383969/"),
+  sale("cases.ai", 8988, "Namecheap", "2026-04-13", "NamePros", "Undisclosed", "Undisclosed", "https://www.namepros.com/threads/nucleus-co-sold-for-50-000-pax-co-for-35-000.1383757/"),
+  sale("cavu.ai", 1975, "Namecheap", "2026-04-13", "NamePros", "Undisclosed", "Undisclosed", "https://www.namepros.com/threads/nucleus-co-sold-for-50-000-pax-co-for-35-000.1383757/"),
+];
+
