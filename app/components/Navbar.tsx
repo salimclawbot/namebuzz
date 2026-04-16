@@ -11,6 +11,7 @@ const navLinks = [
   { href: "/value", label: "Value My Domain" },
   { href: "/expired", label: "Expired" },
   { href: "/blog", label: "Blog" },
+  { href: "/newsletter", label: "Newsletter" },
 ];
 
 export default function Navbar() {
