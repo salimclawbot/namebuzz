@@ -58,13 +58,16 @@ const SECOND_SALE_SLUGS: Record<string, string> = {
 };
 
 function toSlug(text: string) {
-  // Convert em-dash to double-hyphen to match rehype-slug output
-  text = text.replace(/—/g, " -- ");
+  // Remove em-dashes entirely to prevent ---- appearing in heading IDs
+  // Step 1: strip all non-alphanumeric chars except spaces and hyphens
+  // Step 2: collapse multiple spaces/hyphens into single hyphen
   return text
+    .replace(/—/g, "")     // strip em-dashes
     .toLowerCase()
     .trim()
     .replace(/[^a-z0-9\s-]/g, "")
-    .replace(/\s+/g, "-");
+    .replace(/[-]+/g, "-")  // collapse multiple hyphens
+    .replace(/\s+/g, "-"); // spaces to hyphens
 }
 
 function getH2Toc(markdown: string) {
