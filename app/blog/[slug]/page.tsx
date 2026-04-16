@@ -57,17 +57,14 @@ const SECOND_SALE_SLUGS: Record<string, string> = {
   "lotus-ai-sold-400000": "genesis-ai",
 };
 
+// GithubSlugger-compatible: strips non-alphanumeric except spaces/hyphens, then converts spaces to hyphens
 function toSlug(text: string) {
-  // Remove em-dashes entirely to prevent ---- appearing in heading IDs
-  // Step 1: strip all non-alphanumeric chars except spaces and hyphens
-  // Step 2: collapse multiple spaces/hyphens into single hyphen
   return text
-    .replace(/—/g, "")     // strip em-dashes
     .toLowerCase()
-    .trim()
-    .replace(/[^a-z0-9\s-]/g, "")
-    .replace(/[-]+/g, "-")  // collapse multiple hyphens
-    .replace(/\s+/g, "-"); // spaces to hyphens
+    .replace(/[^a-z0-9\s-]/g, "")  // remove everything except alphanumeric, space, hyphen
+    .replace(/\s+/g, "-")           // spaces → hyphens
+    .replace(/-+/g, "-")             // collapse multiple hyphens
+    .replace(/^-|-$/g, "");          // trim leading/trailing hyphens
 }
 
 function getH2Toc(markdown: string) {
