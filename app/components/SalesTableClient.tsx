@@ -29,12 +29,12 @@ function getBadgeColor(label: string) {
 
 type PriceFilter = "all" | "10k+" | "100k+" | "1m+";
 type SortMode = "price" | "recent";
-const PAGE_SIZE = 50;
+const PAGE_SIZE = 100;
 
 function Badge({ label, color }: { label: string; color: string }) {
   return (
     <span
-      className="inline-block rounded-full px-2.5 py-0.5 text-xs font-medium"
+      className="inline-block rounded-full px-2 py-0.5 text-xs font-medium"
       style={{ backgroundColor: `${color}22`, color, border: `1px solid ${color}44` }}
     >
       {label}
@@ -50,7 +50,7 @@ function SourceBadge({ label, color, url }: { label: string; color: string; url:
         href={url}
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-block rounded-full px-2.5 py-0.5 text-xs font-medium hover:brightness-125 transition-all"
+        className="inline-block rounded-full px-2 py-0.5 text-xs font-medium hover:brightness-125 transition-all"
         style={style}
       >
         {label}
@@ -58,10 +58,7 @@ function SourceBadge({ label, color, url }: { label: string; color: string; url:
     );
   }
   return (
-    <span
-      className="inline-block rounded-full px-2.5 py-0.5 text-xs font-medium"
-      style={style}
-    >
+    <span className="inline-block rounded-full px-2 py-0.5 text-xs font-medium" style={style}>
       {label}
     </span>
   );
@@ -78,64 +75,31 @@ export default function SalesTableClient({ sales }: { sales: Sale[] }) {
 
   const years = (() => {
     const set = new Set<string>();
-    for (const s of sales) {
-      set.add(s.date.slice(0, 4));
-    }
+    for (const s of sales) { set.add(s.date.slice(0, 4)); }
     return Array.from(set).sort().reverse();
   })();
 
   const filtered = (() => {
     let result = sales;
-
     if (search) {
       const q = search.toLowerCase();
-      result = result.filter(
-        (s) =>
-          s.domain.toLowerCase().includes(q) ||
-          s.buyer.toLowerCase().includes(q) ||
-          s.seller.toLowerCase().includes(q)
-      );
+      result = result.filter((s) => s.domain.toLowerCase().includes(q) || s.buyer.toLowerCase().includes(q) || s.seller.toLowerCase().includes(q));
     }
-
-    if (yearFilter !== "all") {
-      result = result.filter((s) => s.date.startsWith(yearFilter));
-    }
-
+    if (yearFilter !== "all") result = result.filter((s) => s.date.startsWith(yearFilter));
     switch (filter) {
-      case "10k+":
-        result = result.filter((s) => s.price >= 10000);
-        break;
-      case "100k+":
-        result = result.filter((s) => s.price >= 100000);
-        break;
-      case "1m+":
-        result = result.filter((s) => s.price >= 1000000);
-        break;
+      case "10k+": result = result.filter((s) => s.price >= 10000); break;
+      case "100k+": result = result.filter((s) => s.price >= 100000); break;
+      case "1m+": result = result.filter((s) => s.price >= 1000000); break;
     }
-
-    if (sort === "price") {
-      result = [...result].sort((a, b) => b.price - a.price);
-    } else {
-      result = [...result].sort((a, b) => {
-        const d = b.date.localeCompare(a.date);
-        return d !== 0 ? d : b.price - a.price;
-      });
-    }
-
+    if (sort === "price") result = [...result].sort((a, b) => b.price - a.price);
+    else result = [...result].sort((a, b) => { const d = b.date.localeCompare(a.date); return d !== 0 ? d : b.price - a.price; });
     return result;
   })();
 
-  useEffect(() => {
-    setVisibleCount(PAGE_SIZE);
-  }, [filter, sort, search, yearFilter]);
+  useEffect(() => { setVisibleCount(PAGE_SIZE); }, [filter, sort, search, yearFilter]);
 
   const visibleFiltered = filtered.slice(0, visibleCount);
-
-  // Top 100 recent sales
-  const recentSales = [...sales]
-    .filter((s) => /^\d{4}-\d{2}-\d{2}$/.test(s.date))
-    .sort((a, b) => b.date.localeCompare(a.date))
-    .slice(0, 100);
+  const recentSales = [...sales].filter((s) => /^\d{4}-\d{2}-\d{2}$/.test(s.date)).sort((a, b) => b.date.localeCompare(a.date)).slice(0, 100);
 
   const copyDomain = (domain: string) => {
     navigator.clipboard.writeText(domain);
@@ -152,70 +116,67 @@ export default function SalesTableClient({ sales }: { sales: Sale[] }) {
 
   return (
     <>
-      {/* Recent Top Sales */}
       <RecentSales />
 
       {/* Tab Toggle */}
-      <div className="mt-6 sm:mt-8 no-scrollbar flex gap-1 sm:gap-2 overflow-x-auto border-b border-[#1F1F1F] pb-0">
+      <div className="mt-4 sm:mt-6 no-scrollbar flex gap-1 sm:gap-2 overflow-x-auto border-b border-[#1F1F1F] pb-0">
         <button
           onClick={() => setActiveTab("all")}
-          className={`px-3 sm:px-5 py-2 text-xs sm:text-sm font-semibold border-b-2 transition-colors whitespace-nowrap ${activeTab === "all" ? "border-[#00FF88] text-[#00FF88]" : "border-transparent text-[#888] hover:text-[#F0F0F0]"}`}
+          className={`px-3 sm:px-4 py-2 text-xs font-semibold border-b-2 transition-colors whitespace-nowrap ${activeTab === "all" ? "border-[#00FF88] text-[#00FF88]" : "border-transparent text-[#888] hover:text-[#F0F0F0]"}`}
         >
           All Sales ({sales.length})
         </button>
         <button
           onClick={() => setActiveTab("recent")}
-          className={`px-3 sm:px-5 py-2 text-xs sm:text-sm font-semibold border-b-2 transition-colors whitespace-nowrap ${activeTab === "recent" ? "border-[#00D4FF] text-[#00D4FF]" : "border-transparent text-[#888] hover:text-[#F0F0F0]"}`}
+          className={`px-3 sm:px-4 py-2 text-xs font-semibold border-b-2 transition-colors whitespace-nowrap ${activeTab === "recent" ? "border-[#00D4FF] text-[#00D4FF]" : "border-transparent text-[#888] hover:text-[#F0F0F0]"}`}
         >
-          🆕 Recent Sales ({recentSales.length})
+          🆕 Recent ({recentSales.length})
         </button>
         <button
           onClick={() => setActiveTab("charts")}
-          className={`px-3 sm:px-5 py-2 text-xs sm:text-sm font-semibold border-b-2 transition-colors whitespace-nowrap ${activeTab === "charts" ? "border-[#AA44FF] text-[#AA44FF]" : "border-transparent text-[#888] hover:text-[#F0F0F0]"}`}
+          className={`px-3 sm:px-4 py-2 text-xs font-semibold border-b-2 transition-colors whitespace-nowrap ${activeTab === "charts" ? "border-[#AA44FF] text-[#AA44FF]" : "border-transparent text-[#888] hover:text-[#F0F0F0]"}`}
         >
-          📊 Charts & Analytics
+          📊 Charts
         </button>
       </div>
 
       {/* Recent Tab */}
       {activeTab === "recent" && (
-        <div className="mt-6">
-          <p className="text-xs text-[#555] mb-4">Top 100 most recent verified .ai sales — sorted by sale date descending. All entries sourced from DN Journal public records.</p>
-          <div className="overflow-x-auto rounded-xl border border-[#1F1F1F]">
-            <table className="w-full text-sm">
+        <div className="mt-4">
+          <p className="text-xs text-[#444] mb-3">Top 100 most recent verified .ai sales.</p>
+          <div className="overflow-x-auto rounded-lg border border-[#1F1F1F]">
+            <table className="w-full text-xs">
               <thead>
-                <tr className="border-b border-[#1F1F1F] text-[#555] text-xs uppercase">
-                  <th className="px-4 py-3 text-left">#</th>
-                  <th className="px-4 py-3 text-left">Domain</th>
-                  <th className="px-4 py-3 text-right">Price</th>
-                  <th className="px-4 py-3 text-left">Date</th>
-                  <th className="px-4 py-3 text-left">Venue</th>
-                  <th className="px-4 py-3 text-left">Source</th>
+                <tr className="border-b border-[#1F1F1F] text-[#555] text-[10px] uppercase tracking-wide">
+                  <th className="px-3 py-2 text-left">Domain</th>
+                  <th className="px-3 py-2 text-right">Price</th>
+                  <th className="px-3 py-2 text-left">Date</th>
+                  <th className="px-3 py-2 text-left hidden sm:table-cell">Venue</th>
+                  <th className="px-3 py-2 text-left hidden md:table-cell">Source</th>
                 </tr>
               </thead>
               <tbody>
                 {recentSales.map((s, i) => (
-                  <tr key={s.domain + s.date + i} className={`border-b border-[#1F1F1F] hover:bg-[#111] transition-colors ${i % 2 === 0 ? "" : "bg-[#0A0A0A]"}`}>
-                    <td className="px-4 py-3 text-[#444] text-xs">{i + 1}</td>
-                    <td className="px-4 py-3">
-                      <button type="button" onClick={() => copyDomain(s.domain)} className="font-mono text-[#F0F0F0] hover:text-[#00D4FF] transition-colors">
-                        {s.domain}{copied === s.domain && <span className="ml-1 text-xs text-[#00FF88]">✓</span>}
+                  <tr key={s.domain + s.date + i} className={`border-b border-[#1A1A1A] last:border-0 hover:bg-[#111] transition-colors ${i % 2 === 0 ? "" : "bg-[#0C0C0C]"}`}>
+                    <td className="px-3 py-1.5">
+                      <button type="button" onClick={() => copyDomain(s.domain)} className="font-mono text-[#F0F0F0] hover:text-[#00D4FF] transition-colors text-xs">
+                        {s.domain}{copied === s.domain && <span className="ml-1 text-[10px] text-[#00FF88]">✓</span>}
                       </button>
                     </td>
-                    <td className="px-4 py-3 text-right font-bold text-[#00FF88]">{s.priceFormatted}</td>
-                    <td className="px-4 py-3 text-[#888] font-mono text-xs">{s.date}</td>
-                    <td className="px-4 py-3">
-                      <span className="inline-block rounded-full px-2 py-0.5 text-xs" style={{ backgroundColor: `${getBadgeColor(s.venue)}22`, color: getBadgeColor(s.venue), border: `1px solid ${getBadgeColor(s.venue)}44` }}>
+                    <td className="px-3 py-1.5 text-right font-bold text-[#00FF88] whitespace-nowrap">{s.priceFormatted}</td>
+                    <td className="px-3 py-1.5 text-[#666] whitespace-nowrap">{s.date}</td>
+                    <td className="px-3 py-1.5 hidden sm:table-cell">
+                      <span className="rounded-full px-2 py-0.5 text-[10px]" style={{ backgroundColor: `${getBadgeColor(s.venue)}22`, color: getBadgeColor(s.venue), border: `1px solid ${getBadgeColor(s.venue)}44` }}>
                         {s.venue || "—"}
                       </span>
                     </td>
-                    <td className="px-4 py-3">
+                    <td className="px-3 py-1.5 hidden md:table-cell">
                       {s.sourceUrl ? (
-                        <a href={s.sourceUrl} target="_blank" rel="noopener noreferrer" className="text-xs text-[#555] hover:text-[#00D4FF] transition-colors underline underline-offset-2">
+                        <a href={s.sourceUrl} target="_blank" rel="noopener noreferrer" className="text-[10px] text-[#555] hover:text-[#00D4FF] transition-colors underline underline-offset-2">
                           {s.source}
                         </a>
                       ) : (
-                        <span className="text-xs text-[#555]">{s.source}</span>
+                        <span className="text-[10px] text-[#555]">{s.source}</span>
                       )}
                     </td>
                   </tr>
@@ -228,7 +189,7 @@ export default function SalesTableClient({ sales }: { sales: Sale[] }) {
 
       {/* Charts Tab */}
       {activeTab === "charts" && (
-        <div className="mt-6 space-y-2">
+        <div className="mt-4 space-y-2">
           <MarketStats />
           <TrendChart />
         </div>
@@ -237,156 +198,108 @@ export default function SalesTableClient({ sales }: { sales: Sale[] }) {
       {/* All Sales Tab */}
       {activeTab === "all" && (
         <>
-          <div className="mt-6 sm:mt-8 flex flex-col sm:flex-row flex-wrap items-stretch sm:items-center gap-2 sm:gap-3">
-            <div className="flex flex-wrap gap-2">
+          {/* Filters */}
+          <div className="mt-4 flex flex-wrap items-center gap-2">
+            <div className="flex gap-1.5">
               {filterButtons.map((b) => (
                 <button
                   key={b.value}
                   onClick={() => setFilter(b.value)}
-                  className={`rounded-full px-4 py-1.5 text-sm font-medium transition-colors ${
-                    filter === b.value
-                      ? "bg-[#00FF88] text-black"
-                      : "bg-[#111111] text-[#888888] hover:text-[#F0F0F0] border border-[#1F1F1F]"
-                  }`}
+                  className={`rounded-full px-3 py-1 text-xs font-medium transition-colors ${filter === b.value ? "bg-[#00FF88] text-black" : "bg-[#111] text-[#888] border border-[#1F1F1F] hover:text-[#F0F0F0]"}`}
                 >
                   {b.label}
                 </button>
               ))}
             </div>
-            <div className="flex flex-wrap items-center gap-2 sm:gap-3">
-              <select
-                value={yearFilter}
-                onChange={(e) => setYearFilter(e.target.value)}
-                className="rounded-lg border border-[#1F1F1F] bg-[#111111] px-2 sm:px-3 py-1.5 text-xs sm:text-sm text-[#F0F0F0] outline-none w-full sm:w-auto"
-              >
+            <div className="flex items-center gap-2">
+              <select value={yearFilter} onChange={(e) => setYearFilter(e.target.value)} className="rounded-lg border border-[#1F1F1F] bg-[#111] px-2 py-1 text-xs text-[#F0F0F0] outline-none">
                 <option value="all">All Years</option>
-                {years.map((y) => (
-                  <option key={y} value={y}>
-                    {y}
-                  </option>
-                ))}
+                {years.map((y) => <option key={y} value={y}>{y}</option>)}
               </select>
-              <select
-                value={sort}
-                onChange={(e) => setSort(e.target.value as SortMode)}
-                className="rounded-lg border border-[#1F1F1F] bg-[#111111] px-2 sm:px-3 py-1.5 text-xs sm:text-sm text-[#F0F0F0] outline-none w-full sm:w-auto"
-              >
-                <option value="price">Highest Price</option>
-                <option value="recent">Most Recent</option>
+              <select value={sort} onChange={(e) => setSort(e.target.value as SortMode)} className="rounded-lg border border-[#1F1F1F] bg-[#111] px-2 py-1 text-xs text-[#F0F0F0] outline-none">
+                <option value="price">Highest $</option>
+                <option value="recent">Newest</option>
               </select>
-              <input
-                type="text"
-                placeholder="Search domains, buyers..."
-                value={search}
-                onChange={(e) => setSearch(e.target.value)}
-                className="rounded-lg border border-[#1F1F1F] bg-[#111111] px-3 py-1.5 text-sm text-[#F0F0F0] placeholder-[#555] outline-none w-full sm:w-48"
-              />
+              <input type="text" placeholder="Search..." value={search} onChange={(e) => setSearch(e.target.value)} className="rounded-lg border border-[#1F1F1F] bg-[#111] px-3 py-1 text-xs text-[#F0F0F0] placeholder-[#444] outline-none w-32" />
             </div>
           </div>
 
-          {/* Results count */}
-          <p className="mt-4 text-xs text-[#555]">
-            Showing {visibleFiltered.length} of {filtered.length} sales
-          </p>
+          <p className="mt-2 text-[10px] text-[#444]">{visibleFiltered.length} of {filtered.length} sales</p>
 
-          {/* Sales Table (desktop) */}
-          <div className="mt-2 hidden md:block overflow-x-auto rounded-xl border border-[#1F1F1F] bg-[#111111]">
-            <table className="w-full text-left text-sm">
+          {/* Desktop Table — single compact row per sale */}
+          <div className="mt-1 hidden md:block overflow-x-auto rounded-lg border border-[#1F1F1F]">
+            <table className="w-full text-xs">
               <thead>
-                <tr className="border-b border-[#1F1F1F] text-[#888888]">
-                  <th className="px-4 py-3 w-12">#</th>
-                  <th className="px-4 py-3">Domain</th>
-                  <th className="px-4 py-3">Sale Price</th>
-                  <th className="px-4 py-3">Buyer</th>
-                  <th className="px-4 py-3">Venue</th>
-                  <th className="px-4 py-3">Date</th>
-                  <th className="px-4 py-3">Source</th>
+                <tr className="border-b border-[#1F1F1F] text-[#555] text-[10px] uppercase tracking-wide">
+                  <th className="pl-3 pr-2 py-2 text-left">Domain</th>
+                  <th className="px-2 py-2 text-right whitespace-nowrap">Price</th>
+                  <th className="px-2 py-2 text-left hidden lg:table-cell">Buyer</th>
+                  <th className="px-2 py-2 text-left">Venue</th>
+                  <th className="px-2 py-2 text-left hidden xl:table-cell">Source</th>
+                  <th className="px-2 py-2 text-left">Date</th>
+                  <th className="pr-3 pl-2 py-2 text-right">
+                    <span className="text-[#333]">Load</span>
+                  </th>
                 </tr>
               </thead>
               <tbody>
                 {visibleFiltered.map((sale, i) => (
-                  <tr
-                    key={sale.domain + sale.date}
-                    className="border-b border-[#1F1F1F] last:border-0 hover:bg-[#1A1A1A] transition-colors"
-                  >
-                    <td className="px-4 py-3 text-[#555]">{i + 1}</td>
-                    <td className="px-4 py-3">
-                      <Link
-                        href={`/sales/${domainToSlug(sale.domain)}`}
-                        className="font-mono text-base font-semibold text-[#F0F0F0] hover:text-[#00D4FF] transition-colors"
-                      >
-                        {sale.domain}
-                      </Link>
+                  <tr key={sale.domain + sale.date} className="border-b border-[#1A1A1A] last:border-0 hover:bg-[#111] transition-colors">
+                    <td className="pl-3 pr-2 py-1.5">
+                      <button type="button" onClick={() => copyDomain(sale.domain)} className="font-mono text-[#F0F0F0] hover:text-[#00D4FF] transition-colors text-xs whitespace-nowrap">
+                        {sale.domain}{copied === sale.domain && <span className="ml-1 text-[10px] text-[#00FF88]">✓</span>}
+                      </button>
                     </td>
-                    <td className="px-4 py-3 text-lg font-bold text-[#00FF88]">
-                      {sale.priceFormatted}
-                    </td>
-                    <td className="px-4 py-3 text-[#AAAAAA] text-xs max-w-32 truncate" title={sale.buyer}>
-                      {sale.buyer}
-                    </td>
-                    <td className="px-4 py-3">
+                    <td className="px-2 py-1.5 text-right font-bold text-[#00FF88] whitespace-nowrap">{sale.priceFormatted}</td>
+                    <td className="px-2 py-1.5 text-[#777] text-[10px] max-w-24 truncate hidden lg:table-cell" title={sale.buyer}>{sale.buyer}</td>
+                    <td className="px-2 py-1.5">
                       <Badge label={sale.venue} color={getBadgeColor(sale.venue)} />
                     </td>
-                    <td className="px-4 py-3 text-[#888888]">{sale.date}</td>
-                    <td className="px-4 py-3">
+                    <td className="px-2 py-1.5 hidden xl:table-cell">
                       {sale.sourceUrl ? (
                         <SourceBadge label={sale.source} color={getBadgeColor(sale.source)} url={sale.sourceUrl} />
                       ) : null}
+                    </td>
+                    <td className="px-2 py-1.5 text-[#555] whitespace-nowrap">{sale.date}</td>
+                    <td className="pr-3 pl-2 py-1.5 text-right">
+                      <button onClick={() => setVisibleCount((c) => Math.min(c + 50, filtered.length))} className="text-[10px] text-[#333] hover:text-[#00FF88] transition-colors">
+                        +{Math.min(50, filtered.length - visibleCount)}
+                      </button>
                     </td>
                   </tr>
                 ))}
               </tbody>
             </table>
-            {filtered.length === 0 && (
-              <p className="py-8 text-center text-[#555]">No sales match your filters.</p>
-            )}
+            {filtered.length === 0 && <p className="py-6 text-center text-xs text-[#555]">No sales match your filters.</p>}
           </div>
 
-          {/* Sales Cards (mobile) */}
-          <div className="mt-2 flex flex-col gap-3 md:hidden">
+          {/* Mobile Cards — compact single-row style */}
+          <div className="mt-2 flex flex-col gap-1 md:hidden">
             {visibleFiltered.map((sale, i) => (
-              <div
-                key={sale.domain + sale.date}
-                className="rounded-xl border border-[#1F1F1F] bg-[#111111] p-4"
-              >
-                <div className="flex items-start justify-between">
-                  <div>
-                    <span className="mr-2 text-xs text-[#555]">#{i + 1}</span>
-                    <Link
-                      href={`/sales/${domainToSlug(sale.domain)}`}
-                      className="font-mono text-lg font-semibold text-[#F0F0F0] hover:text-[#00D4FF]"
-                    >
-                      {sale.domain}
-                    </Link>
-                  </div>
-                  <span className="text-xl font-bold text-[#00FF88]">
-                    {sale.priceFormatted}
-                  </span>
-                </div>
-                <div className="mt-2 flex flex-wrap items-center gap-2 text-xs">
+              <div key={sale.domain + sale.date} className="flex items-center justify-between gap-2 rounded-lg border border-[#1A1A1A] bg-[#111] px-3 py-2 hover:bg-[#111]/80 transition-colors">
+                <div className="flex items-center gap-2 min-w-0 flex-1">
+                  <span className="text-[10px] text-[#333] whitespace-nowrap">{i + 1}</span>
+                  <button type="button" onClick={() => copyDomain(sale.domain)} className="font-mono text-[#F0F0F0] hover:text-[#00D4FF] transition-colors text-xs truncate">
+                    {sale.domain}
+                  </button>
                   <Badge label={sale.venue} color={getBadgeColor(sale.venue)} />
-                  {sale.sourceUrl && <SourceBadge label={sale.source} color={getBadgeColor(sale.source)} url={sale.sourceUrl} />}
-                  <span className="text-[#555]">{sale.date}</span>
                 </div>
-                {sale.buyer !== "Undisclosed" && (
-                  <p className="mt-1 text-xs text-[#888]">Buyer: {sale.buyer}</p>
-                )}
+                <div className="flex items-center gap-2 whitespace-nowrap">
+                  <span className="font-bold text-[#00FF88] text-xs">{sale.priceFormatted}</span>
+                  <span className="text-[10px] text-[#444]">{sale.date}</span>
+                </div>
               </div>
             ))}
-            {filtered.length === 0 && (
-              <p className="py-8 text-center text-[#555]">No sales match your filters.</p>
-            )}
           </div>
 
-          {/* Load More */}
+          {/* Load More — desktop only */}
           {visibleCount < filtered.length && (
-            <div className="mt-6 text-center">
+            <div className="mt-4 text-center">
               <button
                 onClick={() => setVisibleCount((c) => Math.min(c + PAGE_SIZE, filtered.length))}
-                className="rounded-xl border border-[#333] bg-[#1A1A1A] px-6 py-2.5 text-sm font-medium text-[#888] hover:border-[#00FF88] hover:text-[#F0F0F0] transition-colors"
+                className="rounded-xl border border-[#222] bg-[#111] px-6 py-2 text-xs text-[#666] hover:border-[#00FF88] hover:text-[#F0F0F0] transition-colors"
               >
-                Load More ({Math.min(PAGE_SIZE, filtered.length - visibleCount)} more of{" "}
-                {filtered.length - visibleCount} remaining)
+                Load {Math.min(PAGE_SIZE, filtered.length - visibleCount)} more ↓
               </button>
             </div>
           )}
