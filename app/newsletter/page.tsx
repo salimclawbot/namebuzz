@@ -64,62 +64,58 @@ export default function NewsletterPage() {
             </p>
           </div>
 
-          {/* Right: Signup Form */}
+          {/* Right: Signup Form — uses FormSubmit like homepage */}
           <div className="bg-[#111] border border-[#1F1F1F] rounded-2xl p-8">
-            <NewsletterForm />
+            <div className="mb-6">
+              <h2 className="text-xl font-bold mb-2">
+                Get the Weekly Domain Sales Alert
+              </h2>
+              <p className="text-sm text-[#888]">
+                One email, every Tuesday. Unsubscribe anytime.
+              </p>
+            </div>
+
+            <form
+              action="https://formsubmit.co/ajax/dclbloggerx@gmail.com"
+              method="POST"
+              className="space-y-5"
+            >
+              <input type="hidden" name="_subject" value="New NameBuzz Newsletter Signup!" />
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_template" value="table" />
+              <input type="text" name="_honey" className="hidden" tabIndex={-1} autoComplete="off" />
+
+              <div>
+                <label
+                  htmlFor="email"
+                  className="block text-sm font-medium text-[#ccc] mb-2"
+                >
+                  Your email address
+                </label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  placeholder="you@example.com"
+                  className="w-full px-4 py-3 bg-[#0A0A0A] border border-[#2A2A2A] rounded-lg text-[#F0F0F0] placeholder-[#555] text-sm focus:outline-none focus:border-[#00FF88] transition-colors"
+                />
+              </div>
+
+              <button
+                type="submit"
+                className="w-full bg-[#00FF88] hover:bg-[#00dd77] text-[#0A0A0A] font-bold py-3 px-6 rounded-lg transition-colors text-sm tracking-wide"
+              >
+                Send Me the Weekly Alerts →
+              </button>
+
+              <p className="text-xs text-[#555] text-center">
+                No spam. Unsubscribe any time with one click.
+              </p>
+            </form>
           </div>
         </div>
       </div>
     </div>
-  );
-}
-
-function NewsletterForm() {
-  "use client";
-  return (
-    <form
-      action="/api/newsletter"
-      method="POST"
-      className="space-y-5"
-      id="newsletter-form"
-    >
-      <div>
-        <h2 className="text-xl font-bold mb-2">
-          Get the Weekly Domain Sales Alert
-        </h2>
-        <p className="text-sm text-[#888] mb-6">
-          One email, every Tuesday. Unsubscribe anytime.
-        </p>
-      </div>
-
-      <div>
-        <label
-          htmlFor="email"
-          className="block text-sm font-medium text-[#ccc] mb-2"
-        >
-          Your email address
-        </label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          required
-          placeholder="you@example.com"
-          className="w-full px-4 py-3 bg-[#0A0A0A] border border-[#2A2A2A] rounded-lg text-[#F0F0F0] placeholder-[#555] text-sm focus:outline-none focus:border-[#00FF88] transition-colors"
-        />
-      </div>
-
-      <button
-        type="submit"
-        form="newsletter-form"
-        className="w-full bg-[#00FF88] hover:bg-[#00dd77] text-[#0A0A0A] font-bold py-3 px-6 rounded-lg transition-colors text-sm tracking-wide"
-      >
-        Send Me the Weekly Alerts →
-      </button>
-
-      <p className="text-xs text-[#555] text-center">
-        No spam. Unsubscribe any time with one click.
-      </p>
-    </form>
   );
 }
