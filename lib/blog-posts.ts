@@ -2414,7 +2414,19 @@ Mid-market .ai domains (priced $5,000 to $50,000) are driven by a different buye
       "https://namebuzz.co/og-image.png"
     ]
   }
-}];
+},
+  {
+    "slug": "genesis-test",
+    "title": "Genesis Test",
+    "date": "2026-04-10",
+    "description": "Test",
+    "readTime": "2 min",
+    "author": "Team",
+    "content": "Test",
+    "schema_faq": [],
+    "schema_article": {}
+  }
+];
 
 export function getBlogPost(slug: string) {
   return blogPosts.find((post) => post.slug === slug);
