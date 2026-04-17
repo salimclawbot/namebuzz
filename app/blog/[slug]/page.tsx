@@ -60,12 +60,9 @@ const SECOND_SALE_SLUGS: Record<string, string> = {
 // GithubSlugger-compatible: strips non-alphanumeric except spaces/hyphens, then converts spaces to hyphens
 function toSlug(text: string) {
   return text
-    .replace("—", "-")  // em-dash → single hyphen (matches GithubSlugger behavior)
     .toLowerCase()
-    .replace(/[^a-z0-9\s-]/g, "")  // remove everything except alphanumeric, space, hyphen
-    .replace(/\s+/g, "-")           // spaces → hyphens
-    .replace(/-+/g, "-")             // collapse multiple hyphens
-    .replace(/^-|-$/g, "");          // trim leading/trailing hyphens
+    .replace(/[^\w\s-]/g, "")  // remove non-word chars except space and hyphen (GithubSlugger behavior)
+    .replace(/ /g, "-");         // spaces → hyphens ONLY (no collapse step — matches GithubSlugger)
 }
 
 function getH2Toc(markdown: string) {
