@@ -164,7 +164,10 @@ export default function SalesTableClient({ sales }: { sales: Sale[] }) {
       <RecentSales />
 
       {/* Tab Toggle */}
-      <div className="mt-6 sm:mt-8 no-scrollbar flex gap-1 sm:gap-2 overflow-x-auto border-b border-[#1F1F1F] pb-0">
+      <div className="mt-6 sm:mt-8">
+        <p className="mb-3 text-xs font-semibold uppercase tracking-widest text-[#555]">Browse Sales</p>
+      </div>
+      <div className="no-scrollbar flex gap-1 sm:gap-2 overflow-x-auto border-b border-[#1F1F1F] pb-0">
         <button
           onClick={() => setActiveTab("all")}
           className={`px-3 sm:px-5 py-2 text-xs sm:text-sm font-semibold border-b-2 transition-colors whitespace-nowrap ${activeTab === "all" ? "border-[#00FF88] text-[#00FF88]" : "border-transparent text-[#888] hover:text-[#F0F0F0]"}`}
