@@ -3974,4 +3974,8 @@ export const seedSales: Sale[] = [
   sale("zerobyte.ai", 1226, "Namecheap", "2026-04-14", "NamePros", "Undisclosed", "Undisclosed", "https://www.namepros.com/threads/rideone-com-sold-for-35-000-pone-com-for-16-350.1383969/"),
   sale("cases.ai", 8988, "Namecheap", "2026-04-13", "NamePros", "Undisclosed", "Undisclosed", "https://www.namepros.com/threads/nucleus-co-sold-for-50-000-pax-co-for-35-000.1383757/"),
   sale("cavu.ai", 1975, "Namecheap", "2026-04-13", "NamePros", "Undisclosed", "Undisclosed", "https://www.namepros.com/threads/nucleus-co-sold-for-50-000-pax-co-for-35-000.1383757/"),
+  sale("datacenters.ai", 29700, "Undisclosed", "", "DN Journal", "Undisclosed", "Undisclosed", "https://www.dnjournal.com/archive/domainsales/2024/0221.htm"),
+  sale("upside.ai", 8000, "Undisclosed", "", "DN Journal", "Undisclosed", "Undisclosed", "https://www.dnjournal.com/archive/domainsales/2021/20211110.htm"),
+  sale("bookkeeping.ai", 4104, "Sedo", "", "DN Journal", "Undisclosed", "Undisclosed", "https://www.dnjournal.com/archive/domainsales/2023/20230201.htm"),
+  sale("dave.ai", 3001, "Whois.ai", "2020-03-09", "NamePros Forum", "Undisclosed", "Undisclosed", "NamePros/NameBio"),
 ];
