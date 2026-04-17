@@ -8,9 +8,37 @@ export const metadata: Metadata = {
     "Browse all recent .ai domain name sales. See what AI domains are selling for across NamePros, DN Journal, Sedo, Afternic and more.",
   alternates: {
     canonical: "https://namebuzz.co/sales",
+  },  openGraph: {
+    title: ".ai Domain Sales — NameBuzz",
+    description: "Browse all recent .ai domain name sales. See what AI domains are selling for across NamePros, DN Journal, Sedo, Afternic and more.",
+    url: "https://namebuzz.co/sales",
+    siteName: "NameBuzz",
+    type: "website",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: ".ai Domain Sales — NameBuzz",
+    description: "Browse all recent .ai domain name sales. See what AI domains are selling for across NamePros, DN Journal, Sedo, Afternic and more.",
+  },
+
 };
 
+export function generateSchema() {
+  return [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      name: ".ai Domain Sales — NameBuzz",
+      description: "Browse all recent .ai domain name sales. See what AI domains are selling for across NamePros, DN Journal, Sedo, Afternic and more.",
+      url: "https://namebuzz.co/sales",
+      isPartOf: {
+        "@type": "WebSite",
+        name: "NameBuzz",
+        url: "https://namebuzz.co",
+      },
+    },
+  ];
+}
 export default function SalesPage() {
   const sales = [...seedSales].sort((a, b) => {
     const dateA = a.date ? new Date(a.date).getTime() : 0;
@@ -111,6 +139,10 @@ export default function SalesPage() {
           </Link>
         </div>
       </div>
-    </div>
+          <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(generateSchema()) }}
+      />
+</div>
   );
 }

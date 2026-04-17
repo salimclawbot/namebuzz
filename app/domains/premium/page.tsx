@@ -13,6 +13,22 @@ export const metadata: Metadata = {
   },
 };
 
+export function generateSchema() {
+  return [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      name: "Premium .ai Domain Sales ($100K+) | NameBuzz",
+      description: "Browse verified premium .ai domain sales priced at $100,000 or more. See the biggest .ai domain transactions.",
+      url: "https://namebuzz.co/domains/premium",
+      isPartOf: {
+        "@type": "WebSite",
+        name: "NameBuzz",
+        url: "https://namebuzz.co",
+      },
+    },
+  ];
+}
 export default function PremiumDomainsPage() {
   const premiumSales = seedSales
     .filter((s) => s.price >= 100000)
@@ -58,6 +74,10 @@ export default function PremiumDomainsPage() {
           </table>
         </div>
       </div>
-    </div>
+          <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(generateSchema()) }}
+      />
+</div>
   );
 }

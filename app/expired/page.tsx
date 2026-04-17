@@ -69,6 +69,22 @@ function timeAgo(iso: string): string {
   return `${hrs}h ${mins % 60}m ago`;
 }
 
+export function generateSchema() {
+  return [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      name: "Expired & Dropping .ai Domains | NameBuzz",
+      description: "Recently deleted .ai domains available for registration. Updated daily.",
+      url: "https://namebuzz.co/expired",
+      isPartOf: {
+        "@type": "WebSite",
+        name: "NameBuzz",
+        url: "https://namebuzz.co",
+      },
+    },
+  ];
+}
 export default function ExpiredPage() {
   const [activeTab, setActiveTab] = useState<TabKey>("live-available");
   const [lengthFilter, setLengthFilter] = useState<LengthFilter>("any");
@@ -832,7 +848,11 @@ function WatchMultipleSection() {
             >
               {sending ? "Sending..." : "Watch All"}
             </button>
-          </div>
+                <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(generateSchema()) }}
+      />
+</div>
         </>
       )}
     </section>

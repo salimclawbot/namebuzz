@@ -3,9 +3,40 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Get Domain Sales Alerts | NameBuzz Newsletter",
   description:
-    "Get the week's biggest domain sales delivered to your inbox. Free weekly alerts on .ai, .com and .io domain sales plus undervalued opportunities.",
+    "Get the week's biggest domain sales delivered to your inbox. Free weekly alerts on .ai, .com and .io domain sales plus undervalued opportunities.",  openGraph: {
+    title: "Get Domain Sales Alerts | NameBuzz Newsletter",
+    description: "Get the week's biggest domain sales delivered to your inbox. Free weekly alerts on .ai, .com and .io domain sales plus undervalued opportunities.",
+    url: "https://namebuzz.co/newsletter",
+    siteName: "NameBuzz",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Get Domain Sales Alerts | NameBuzz Newsletter",
+    description: "Get the week's biggest domain sales delivered to your inbox. Free weekly alerts on .ai, .com and .io domain sales plus undervalued opportunities.",
+  },
+  alternates: {
+    canonical: "https://namebuzz.co/newsletter",
+  },
+
 };
 
+export function generateSchema() {
+  return [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      name: "Get Domain Sales Alerts | NameBuzz Newsletter",
+      description: "Get the week's biggest domain sales delivered to your inbox. Free weekly alerts on .ai, .com and .io domain sales plus undervalued opportunities.",
+      url: "https://namebuzz.co/newsletter",
+      isPartOf: {
+        "@type": "WebSite",
+        name: "NameBuzz",
+        url: "https://namebuzz.co",
+      },
+    },
+  ];
+}
 export default function NewsletterPage() {
   return (
     <div className="min-h-screen bg-[#0A0A0A] text-[#F0F0F0]">
@@ -116,6 +147,10 @@ export default function NewsletterPage() {
           </div>
         </div>
       </div>
-    </div>
+          <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(generateSchema()) }}
+      />
+</div>
   );
 }

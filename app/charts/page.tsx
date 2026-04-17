@@ -9,9 +9,37 @@ export const metadata: Metadata = {
     "Visualise .ai domain sales trends over time. See average prices, sales volume, top marketplaces, and price distribution across all verified AI domain sales.",
   alternates: {
     canonical: "https://namebuzz.co/charts",
+  },  openGraph: {
+    title: ".ai Domain Sales Charts & Analytics — NameBuzz",
+    description: "Visualise .ai domain sales trends over time. See average prices, sales volume, top marketplaces, and price distribution across all verified AI domain sales.",
+    url: "https://namebuzz.co/charts",
+    siteName: "NameBuzz",
+    type: "website",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: ".ai Domain Sales Charts & Analytics — NameBuzz",
+    description: "Visualise .ai domain sales trends over time. See average prices, sales volume, top marketplaces, and price distribution across all verified AI domain sales.",
+  },
+
 };
 
+export function generateSchema() {
+  return [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      name: ".ai Domain Sales Charts & Analytics — NameBuzz",
+      description: "Visualise .ai domain sales trends over time. See average prices, sales volume, top marketplaces, and price distribution across all verified AI domain sales.",
+      url: "https://namebuzz.co/charts",
+      isPartOf: {
+        "@type": "WebSite",
+        name: "NameBuzz",
+        url: "https://namebuzz.co",
+      },
+    },
+  ];
+}
 export default function ChartsPage() {
   return (
     <div className="min-h-screen bg-[#0A0A0A] text-[#F0F0F0]">
@@ -30,6 +58,10 @@ export default function ChartsPage() {
       </div>
 
       <EmailCapture subject="NameBuzz Subscriber — charts page" variant="bottom" />
-    </div>
+          <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(generateSchema()) }}
+      />
+</div>
   );
 }

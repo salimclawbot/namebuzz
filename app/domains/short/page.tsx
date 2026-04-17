@@ -11,7 +11,32 @@ export const metadata: Metadata = {
     description:
       "Browse verified sales of short .ai domain names — 4 characters or fewer.",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Short .ai Domain Sales (4 Characters or Less) | NameBuzz",
+    description: "Browse verified sales of short .ai domain names — 4 characters or fewer. See prices, dates, and venues.",
+  },
+  alternates: {
+    canonical: "https://namebuzz.co/domains/short",
+  },
 };
+
+export function generateSchema() {
+  return [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      name: "Short .ai Domain Sales (4 Characters or Less) | NameBuzz",
+      description: "Browse verified sales of short .ai domain names — 4 characters or fewer. See prices, dates, and venues.",
+      url: "https://namebuzz.co/domains/short",
+      isPartOf: {
+        "@type": "WebSite",
+        name: "NameBuzz",
+        url: "https://namebuzz.co",
+      },
+    },
+  ];
+}
 
 export default function ShortDomainsPage() {
   const shortSales = seedSales
@@ -58,6 +83,10 @@ export default function ShortDomainsPage() {
           </table>
         </div>
       </div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(generateSchema()) }}
+      />
     </div>
   );
 }

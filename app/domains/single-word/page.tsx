@@ -10,9 +10,34 @@ export const metadata: Metadata = {
     title: "Single Word .ai Domain Sales | NameBuzz",
     description:
       "Browse verified single-word .ai domain sales. Pure dictionary-word .ai domains.",
+  twitter: {
+    card: "summary_large_image",
+    title: "Single Word .ai Domain Sales | NameBuzz",
+    description: "Browse verified single-word .ai domain sales. No hyphens, no numbers — pure dictionary-word .ai domains.",
+  },
+  alternates: {
+    canonical: "https://namebuzz.co/domains/single-word",
+  },
+
   },
 };
 
+export function generateSchema() {
+  return [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      name: "Single Word .ai Domain Sales | NameBuzz",
+      description: "Browse verified single-word .ai domain sales. No hyphens, no numbers — pure dictionary-word .ai domains.",
+      url: "https://namebuzz.co/domains/single-word",
+      isPartOf: {
+        "@type": "WebSite",
+        name: "NameBuzz",
+        url: "https://namebuzz.co",
+      },
+    },
+  ];
+}
 export default function SingleWordDomainsPage() {
   const singleWordSales = seedSales
     .filter((s) => {
@@ -61,6 +86,10 @@ export default function SingleWordDomainsPage() {
           </table>
         </div>
       </div>
-    </div>
+          <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(generateSchema()) }}
+      />
+</div>
   );
 }
