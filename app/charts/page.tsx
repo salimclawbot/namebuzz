@@ -9,7 +9,8 @@ export const metadata: Metadata = {
     "Visualise .ai domain sales trends over time. See average prices, sales volume, top marketplaces, and price distribution across all verified AI domain sales.",
   alternates: {
     canonical: "https://namebuzz.co/charts",
-  },  openGraph: {
+  },
+  openGraph: {
     title: ".ai Domain Sales Charts & Analytics — NameBuzz",
     description: "Visualise .ai domain sales trends over time. See average prices, sales volume, top marketplaces, and price distribution across all verified AI domain sales.",
     url: "https://namebuzz.co/charts",
@@ -21,7 +22,6 @@ export const metadata: Metadata = {
     title: ".ai Domain Sales Charts & Analytics — NameBuzz",
     description: "Visualise .ai domain sales trends over time. See average prices, sales volume, top marketplaces, and price distribution across all verified AI domain sales.",
   },
-
 };
 
 export function generateSchema() {
@@ -40,6 +40,7 @@ export function generateSchema() {
     },
   ];
 }
+
 export default function ChartsPage() {
   return (
     <div className="min-h-screen bg-[#0A0A0A] text-[#F0F0F0]">
@@ -58,10 +59,10 @@ export default function ChartsPage() {
       </div>
 
       <EmailCapture subject="NameBuzz Subscriber — charts page" variant="bottom" />
-          <script
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(generateSchema()) }}
       />
-</div>
+    </div>
   );
 }
