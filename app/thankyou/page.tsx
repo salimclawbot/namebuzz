@@ -18,9 +18,8 @@ const topSales = [
 export default function ThankYouPage() {
   useEffect(() => {
     if (typeof window !== "undefined" && window.gtag) {
-      window.gtag("event", "conversion", { send_to: "AW-PLACEHOLDER/PLACEHOLDER" });
-      // MATTY: Replace both PLACEHOLDER values with your conversion action tag from Google Ads
-    }
+      // Google Ads conversion — supply real tag to re-enable
+          }
   }, []);
 
   return (

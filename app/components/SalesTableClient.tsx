@@ -1,11 +1,25 @@
 "use client";
 
+import dynamic from "next/dynamic";
 import { useEffect, useState } from "react";
-import Link from "next/link";
 import { domainToSlug, type Sale } from "@/lib/seed-sales";
-import RecentSales from "./RecentSales";
-import MarketStats from "./MarketStats";
-import TrendChart from "./TrendChart";
+
+// Heavy chart components — loaded only client-side after hydration
+const RecentSales = dynamic(() => import("./RecentSales"), { ssr: false, loading: () => (
+  <div className="mt-6 rounded-xl border border-[#1F1F1F] bg-[#111111] p-4">
+    <div className="h-4 w-32 animate-pulse rounded bg-[#1F1F1F]" />
+  </div>
+)});
+
+const MarketStats = dynamic(() => import("./MarketStats"), { ssr: false, loading: () => (
+  <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
+    {[1,2,3,4].map(i => <div key={i} className="h-24 animate-pulse rounded-xl border border-[#1F1F1F] bg-[#111111]" />)}
+  </div>
+)});
+
+const TrendChart = dynamic(() => import("./TrendChart"), { ssr: false, loading: () => (
+  <div className="h-72 animate-pulse rounded-xl border border-[#1F1F1F] bg-[#111111]" />
+)});
 
 const venueBadgeColor: Record<string, string> = {
   sedo: "#0057FF",
@@ -44,30 +58,26 @@ function Badge({ label, color }: { label: string; color: string }) {
 
 function SourceBadge({ label, color, url }: { label: string; color: string; url: string }) {
   const style = { backgroundColor: `${color}22`, color, border: `1px solid ${color}44` };
-  if (url) {
-    return (
-      <a
-        href={url}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="inline-block rounded-full px-2.5 py-0.5 text-xs font-medium hover:brightness-125 transition-all"
-        style={style}
-      >
-        {label}
-      </a>
-    );
-  }
   return (
-    <span
-      className="inline-block rounded-full px-2.5 py-0.5 text-xs font-medium"
+    <a
+      href={url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-block rounded-full px-2.5 py-0.5 text-xs font-medium hover:brightness-125 transition-all"
       style={style}
     >
       {label}
-    </span>
+    </a>
   );
 }
 
-export default function SalesTableClient({ sales }: { sales: Sale[] }) {
+interface SalesTableClientProps {
+  initialSales?: Sale[];
+}
+
+export default function SalesTableClient({ initialSales }: SalesTableClientProps) {
+  const [sales, setSales] = useState<Sale[]>(initialSales ?? []);
+  const [loading, setLoading] = useState(!initialSales || initialSales.length === 0);
   const [filter, setFilter] = useState<PriceFilter>("all");
   const [sort, setSort] = useState<SortMode>("price");
   const [search, setSearch] = useState("");
@@ -75,6 +85,17 @@ export default function SalesTableClient({ sales }: { sales: Sale[] }) {
   const [copied, setCopied] = useState("");
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   const [activeTab, setActiveTab] = useState<"all" | "recent" | "charts">("all");
+
+  useEffect(() => {
+    if (sales.length > 0) return;
+    fetch("/api/sales")
+      .then((r) => r.json())
+      .then((data: Sale[]) => {
+        setSales(data);
+        setLoading(false);
+      })
+      .catch(() => setLoading(false));
+  }, [sales.length]);
 
   const years = (() => {
     const set = new Set<string>();
@@ -131,7 +152,6 @@ export default function SalesTableClient({ sales }: { sales: Sale[] }) {
 
   const visibleFiltered = filtered.slice(0, visibleCount);
 
-  // Top 100 recent sales — filtered by price like the All Sales tab
   const recentSales = [...sales]
     .filter((s) => /^\d{4}-\d{2}-\d{2}$/.test(s.date))
     .sort((a, b) => b.date.localeCompare(a.date))
@@ -158,9 +178,20 @@ export default function SalesTableClient({ sales }: { sales: Sale[] }) {
     { label: "$1M+", value: "1m+" },
   ];
 
+  if (loading) {
+    return (
+      <div className="mt-8 flex items-center justify-center py-16">
+        <div className="flex flex-col items-center gap-3">
+          <div className="h-8 w-8 animate-spin rounded-full border-2 border-[#00FF88] border-t-transparent" />
+          <p className="text-sm text-[#555]">Loading sales data...</p>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <>
-      {/* Recent Top Sales */}
+      {/* Recent Tab — loads charts via dynamic() */}
       <RecentSales />
 
       {/* Tab Toggle */}
@@ -237,7 +268,7 @@ export default function SalesTableClient({ sales }: { sales: Sale[] }) {
         </div>
       )}
 
-      {/* Charts Tab */}
+      {/* Charts Tab — loaded dynamically client-side */}
       {activeTab === "charts" && (
         <div className="mt-6 space-y-2">
           <MarketStats />
@@ -295,12 +326,11 @@ export default function SalesTableClient({ sales }: { sales: Sale[] }) {
             </div>
           </div>
 
-          {/* Results count */}
           <p className="mt-4 text-xs text-[#555]">
             Showing {visibleFiltered.length} of {filtered.length} sales
           </p>
 
-          {/* Sales Table (desktop) */}
+          {/* Desktop Table */}
           <div className="mt-2 hidden md:block overflow-x-auto rounded-xl border border-[#1F1F1F] bg-[#111111]">
             <table className="w-full text-left text-sm">
               <thead>
@@ -322,12 +352,12 @@ export default function SalesTableClient({ sales }: { sales: Sale[] }) {
                   >
                     <td className="px-4 py-3 text-[#555]">{i + 1}</td>
                     <td className="px-4 py-3">
-                      <Link
+                      <a
                         href={`/sales/${domainToSlug(sale.domain)}`}
                         className="font-mono text-base font-semibold text-[#F0F0F0] hover:text-[#00D4FF] transition-colors"
                       >
                         {sale.domain}
-                      </Link>
+                      </a>
                     </td>
                     <td className="px-4 py-3 text-lg font-bold text-[#00FF88]">
                       {sale.priceFormatted}
@@ -353,7 +383,7 @@ export default function SalesTableClient({ sales }: { sales: Sale[] }) {
             )}
           </div>
 
-          {/* Sales Cards (mobile) */}
+          {/* Mobile Cards */}
           <div className="mt-2 flex flex-col gap-3 md:hidden">
             {visibleFiltered.map((sale, i) => (
               <div
@@ -363,12 +393,12 @@ export default function SalesTableClient({ sales }: { sales: Sale[] }) {
                 <div className="flex items-start justify-between">
                   <div>
                     <span className="mr-2 text-xs text-[#555]">#{i + 1}</span>
-                    <Link
+                    <a
                       href={`/sales/${domainToSlug(sale.domain)}`}
                       className="font-mono text-lg font-semibold text-[#F0F0F0] hover:text-[#00D4FF]"
                     >
                       {sale.domain}
-                    </Link>
+                    </a>
                   </div>
                   <span className="text-xl font-bold text-[#00FF88]">
                     {sale.priceFormatted}
@@ -389,7 +419,6 @@ export default function SalesTableClient({ sales }: { sales: Sale[] }) {
             )}
           </div>
 
-          {/* Load More */}
           {visibleCount < filtered.length && (
             <div className="mt-6 text-center">
               <button

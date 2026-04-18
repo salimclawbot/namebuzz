@@ -60,29 +60,6 @@ export default function RootLayout({
           gtag('config', 'G-4KFFC0KMMX');
         `}
       </Script>
-      {/* MATTY: Google Ads Global Site Tag — Replace AW-PLACEHOLDER with your Google Ads Conversion ID */}
-      {/* Get it from: Google Ads > Tools & Settings > Conversions > create conversion > install tag */}
-      <Script src="https://www.googletagmanager.com/gtag/js?id=AW-PLACEHOLDER" strategy="afterInteractive" />
-      <Script id="google-ads-init" strategy="afterInteractive">{`
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag("js", new Date());
-        gtag("config", "AW-PLACEHOLDER");
-      `}</Script>
-      {/* MATTY: OneSignal Web Push — Replace ONESIGNAL-APP-ID-PLACEHOLDER with your App ID */}
-      {/* Free account: onesignal.com > Create App > Web Push > get App ID */}
-      <Script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer />
-      <Script id="onesignal-init" strategy="afterInteractive">{`
-        window.OneSignalDeferred = window.OneSignalDeferred || [];
-        OneSignalDeferred.push(async function(OneSignal) {
-          await OneSignal.init({
-            appId: "ONESIGNAL-APP-ID-PLACEHOLDER",
-            notifyButton: { enable: false },
-          });
-          // Show prompt after 30 seconds
-          setTimeout(() => { OneSignal.Slidedown.promptPush(); }, 30000);
-        });
-      `}</Script>
       </body>
     </html>
   );

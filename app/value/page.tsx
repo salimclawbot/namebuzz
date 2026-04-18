@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { seedSales, type Sale } from "@/lib/seed-sales";
 import Navbar from "../components/Navbar";
 import EmailCapture from "../components/EmailCapture";
 
@@ -24,10 +23,71 @@ interface ValuationResult {
   high: number;
   confidence: "High" | "Medium" | "Low";
   factors: string[];
-  comparables: Sale[];
+  comparables: Array<{
+    domain: string;
+    priceFormatted: string;
+    date: string;
+    venue: string;
+    price: number;
+  }>;
 }
 
-function estimateValue(domain: string): ValuationResult {
+const faqData = [
+  {
+    "@type": "Question",
+    name: "How much is my .ai domain worth?",
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: "Most .ai domains are worth between $500 and $50,000, depending on length, keyword value, and comparable sales. Premium short domains like Agent.ai have sold for over $100,000. Use NameBuzz's free valuation tool to get an instant estimate based on 500+ real sales.",
+    },
+  },
+  {
+    "@type": "Question",
+    name: "What makes an .ai domain valuable?",
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: "Key factors: length (shorter = more valuable), high-value keywords (e.g. pay.ai, data.ai), lack of hyphens, and whether notable brands have paid similar prices for comparable domains. Sales history of similar domains is the best indicator of value.",
+    },
+  },
+  {
+    "@type": "Question",
+    name: "Where can I sell my .ai domain?",
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: "Top marketplaces for .ai domains include Afternic, Sedo, DAN.com, and GoDaddy Auctions. For high-value domains ($50K+), consider hiring a domain broker who can connect you with end buyers directly.",
+    },
+  },
+  {
+    "@type": "Question",
+    name: "Are .ai domains a good investment?",
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: ".ai domains have outperformed most other new TLDs since 2020, driven by AI industry growth. However, like all domain investing, returns are uncertain. Short, brandable .ai domains with keyword value tend to hold and increase in value best.",
+    },
+  },
+  {
+    "@type": "Question",
+    name: "How accurate is the NameBuzz valuation estimate?",
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: "The estimate is based on real comparable sales from DN Journal, NameBio, Sedo, and Afternic. Confidence is High when 5+ similar sales are found, Medium for 2-4, and Low for fewer. Remember: reported sales skew high — actual market prices may be 50-85% lower.",
+    },
+  },
+];
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": ["WebApplication", "FAQPage"],
+  name: "NameBuzz .ai Domain Valuation Tool",
+  url: "https://namebuzz.co/value",
+  description: "Get an instant estimate for your .ai domain based on 500+ verified sales.",
+  applicationCategory: "BusinessApplication",
+  operatingSystem: "Any",
+  offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+  mainEntity: faqData,
+};
+
+function estimateValue(domain: string, comparables: Array<{domain: string; price: number; priceFormatted: string; date: string; venue: string}>): ValuationResult {
   const cleaned = domain.replace(/\.ai$/i, "").toLowerCase().trim();
   const length = cleaned.length;
 
@@ -42,39 +102,18 @@ function estimateValue(domain: string): ValuationResult {
   const hasHyphen = cleaned.includes("-");
   const isNumeric = /^\d+$/.test(cleaned);
 
-  // Find comparables
-  const comparables = seedSales
-    .filter((s) => {
-      const sName = s.domain.replace(/\.ai$/i, "").toLowerCase();
-      const lenDiff = Math.abs(sName.length - length);
-      if (lenDiff <= 2) return true;
-      if (isHighValue && HIGH_VALUE_WORDS.includes(sName)) return true;
-      return false;
-    })
-    .sort((a, b) => b.price - a.price)
-    .slice(0, 8);
-
-  // Calculate estimate
-  let base: number;
+  let base = 5000;
   if (comparables.length > 0) {
     const prices = comparables.map((c) => c.price).sort((a, b) => a - b);
     const mid = Math.floor(prices.length / 2);
     base = prices.length % 2 === 0 ? (prices[mid - 1] + prices[mid]) / 2 : prices[mid];
-  } else {
-    base = 5000;
   }
 
   let adjusted = base * (lengthScore / 50);
   if (isHighValue) adjusted *= 1.2;
   if (hasHyphen) adjusted *= 0.5;
   if (isNumeric) adjusted *= 0.7;
-
-  // Market bias correction: our dataset only contains reported/notable sales
-  // which represent the top ~10% of actual market transactions.
-  // Apply a realistic market discount to reflect true median buyer prices.
-  adjusted *= 0.15;
-
-  // Floor at $500, realistic minimums
+  adjusted *= 0.15; // market discount
   adjusted = Math.max(adjusted, 500);
 
   const low = Math.round(adjusted * 0.4);
@@ -87,53 +126,57 @@ function estimateValue(domain: string): ValuationResult {
   if (length <= 3) factors.push(`Short domain (${length} chars) — premium pricing tier`);
   else if (length <= 5) factors.push(`Short-medium domain (${length} chars) — strong pricing tier`);
   else factors.push(`Domain length: ${length} chars`);
-
   if (isHighValue) factors.push("High-value keyword match");
   if (!hasHyphen) factors.push("No hyphens — clean brandable name");
   if (hasHyphen) factors.push("Contains hyphen — reduces brandability");
   if (isNumeric) factors.push("Numeric domain — niche market");
   factors.push(`${comparables.length} comparable sales found`);
-
   factors.push("Note: reported sales skew high — real market median is significantly lower");
-  return { low, high, confidence, factors, comparables };
+
+  return { low, high, confidence, factors, comparables: comparables.slice(0, 8) };
 }
 
 const fmtPrice = (v: number) =>
-  v >= 1_000_000
-    ? `$${(v / 1_000_000).toFixed(1)}M`
-    : `$${v.toLocaleString()}`;
+  v >= 1_000_000 ? `$${(v / 1_000_000).toFixed(1)}M` : `$${v.toLocaleString()}`;
 
 const confidenceColor = { High: "#00FF88", Medium: "#FFB800", Low: "#FF4444" };
 
+// Client-side only - no seedSales import
 export default function ValuePage() {
   const [inputDomain, setInputDomain] = useState("");
   const [result, setResult] = useState<ValuationResult | null>(null);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!inputDomain.trim()) return;
     const domain = inputDomain.trim().toLowerCase();
-    setResult(estimateValue(domain));
+    
+    // Fetch sales data from API
+    const res = await fetch("/api/sales");
+    const sales = await res.json();
+    
+    const cleaned = domain.replace(/\.ai$/i, "").toLowerCase().trim();
+    const length = cleaned.length;
+    
+    const comparables = sales
+      .filter((s: any) => {
+        const sName = s.domain.replace(/\.ai$/i, "").toLowerCase();
+        const lenDiff = Math.abs(sName.length - length);
+        if (lenDiff <= 2) return true;
+        if (HIGH_VALUE_WORDS.includes(sName)) return true;
+        return false;
+      })
+      .sort((a: any, b: any) => b.price - a.price)
+      .slice(0, 8);
+    
+    setResult(estimateValue(domain, comparables));
   };
 
   return (
     <div className="min-h-screen">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "WebApplication",
-          "name": "NameBuzz .ai Domain Valuation Tool",
-          "url": "https://namebuzz.co/value",
-          "description": "Get an instant estimate for your .ai domain based on 500+ verified sales.",
-          "applicationCategory": "BusinessApplication",
-          "operatingSystem": "Any",
-          "offers": {
-            "@type": "Offer",
-            "price": "0",
-            "priceCurrency": "USD"
-          }
-        }) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <Navbar />
       <EmailCapture subject="NameBuzz Subscriber — /value" variant="sticky" />
@@ -233,20 +276,11 @@ export default function ValuePage() {
                 </div>
               </div>
             )}
-
-            {/* Disclaimer */}
-            <p className="text-center text-xs text-[#444]">
-              This is a rough estimate based on historical sales data and heuristic scoring.
-              Actual domain values may vary significantly based on market conditions, buyer intent, and other factors.
-            </p>
           </div>
         )}
 
         <div className="mt-12 text-center">
-          <Link
-            href="/"
-            className="text-sm text-[#00D4FF] hover:underline"
-          >
+          <Link href="/" className="text-sm text-[#00D4FF] hover:underline">
             ← Back to Sales Tracker
           </Link>
         </div>
