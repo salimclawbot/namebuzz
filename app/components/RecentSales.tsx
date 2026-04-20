@@ -57,6 +57,7 @@ export default function RecentSales() {
   const [days, setDays] = useState<RecentRange>(30);
   const [sales, setSales] = useState<Sale[]>([]);
   const [loading, setLoading] = useState(true);
+  const [copied, setCopied] = useState("");
 
   useEffect(() => {
     fetch("/api/sales")
@@ -68,33 +69,43 @@ export default function RecentSales() {
       .catch(() => setLoading(false));
   }, []);
 
-  const topSales = getTopSalesForRange(sales, days);
+  const filtered = getTopSalesForRange(sales, days);
+
+  const copyDomain = (domain: string) => {
+    navigator.clipboard.writeText(domain);
+    setCopied(domain);
+    setTimeout(() => setCopied(""), 1500);
+  };
 
   if (loading) {
     return (
-      <div className="mt-6 rounded-xl border border-[#1F1F1F] bg-[#111111] p-4">
-        <div className="h-4 w-32 animate-pulse rounded bg-[#1F1F1F]" />
+      <div className="mt-8">
+        <div className="h-6 w-40 animate-pulse rounded bg-[#1F1F1F]" />
+        <div className="mt-4 flex gap-3">
+          {[1, 2, 3].map((i) => (
+            <div key={i} className="h-24 w-[180px] animate-pulse rounded-xl bg-[#1F1F1F]" />
+          ))}
+        </div>
       </div>
     );
   }
 
-  const hottest = topSales[0];
-
   return (
-    <div className="mt-6 sm:mt-8">
-      <div className="flex items-center justify-between">
-        <p className="text-xs font-semibold uppercase tracking-widest text-[#555]">
-          🔥 Hottest Sales
-        </p>
-        <div className="flex gap-1 sm:gap-2">
+    <div className="mt-8">
+      <div className="flex flex-wrap items-center gap-3">
+        <h2 className="text-base sm:text-xl font-bold text-[#F0F0F0]">
+          🔥 Recent Top Sales
+        </h2>
+        <div className="flex flex-wrap gap-2">
           {buttons.map((b) => (
             <button
               key={b.value}
+              type="button"
               onClick={() => setDays(b.value)}
-              className={`rounded-full px-2 sm:px-3 py-1 text-xs font-medium transition-colors ${
+              className={`rounded-full px-3 py-1 text-xs font-medium transition-colors ${
                 days === b.value
-                  ? "bg-[#00FF88] text-black"
-                  : "bg-[#111111] text-[#888888] border border-[#1F1F1F]"
+                  ? "bg-[#00D4FF] text-black"
+                  : "bg-[#111111] text-[#888888] hover:text-[#F0F0F0] border border-[#1F1F1F]"
               }`}
             >
               {b.label}
@@ -102,76 +113,65 @@ export default function RecentSales() {
           ))}
         </div>
       </div>
-
-      {hottest ? (
-        <div className="mt-3 rounded-xl border border-[#00FF88]/30 bg-[#111111] p-4">
-          <p className="text-xs text-[#555]">Top sale this period</p>
-          <div className="mt-1 flex items-baseline gap-3">
-            <span className="font-mono text-xl font-bold text-[#00FF88]">
-              {hottest.domain}
-            </span>
-            <span className="text-xl font-bold text-[#00FF88]">
-              {hottest.priceFormatted}
-            </span>
-          </div>
-          <div className="mt-2 flex items-center gap-2">
-            <span
-              className="inline-block rounded-full px-2 py-0.5 text-xs"
-              style={{
-                backgroundColor: `${getBadgeColor(hottest.venue)}22`,
-                color: getBadgeColor(hottest.venue),
-                border: `1px solid ${getBadgeColor(hottest.venue)}44`,
-              }}
-            >
-              {hottest.venue}
-            </span>
-            <span className="text-xs text-[#888]">{hottest.date}</span>
-          </div>
-        </div>
+      {filtered.length === 0 ? (
+        <p className="mt-4 text-sm text-[#555]">No verified sales in this period — try &quot;Last 30 Days&quot; or browse the full table below.</p>
       ) : (
-        <div className="mt-3 rounded-xl border border-[#1F1F1F] bg-[#111111] p-4 text-sm text-[#555]">
-          No sales found in this period.
-        </div>
-      )}
-
-      {topSales.length > 1 && (
-        <div className="mt-3 overflow-x-auto rounded-xl border border-[#1F1F1F]">
-          <table className="w-full text-left text-xs">
-            <thead>
-              <tr className="border-b border-[#1F1F1F] text-[#555] uppercase">
-                <th className="px-3 py-2 font-medium">#</th>
-                <th className="px-3 py-2 font-medium">Domain</th>
-                <th className="px-3 py-2 text-right font-medium">Price</th>
-                <th className="px-3 py-2 font-medium">Venue</th>
-              </tr>
-            </thead>
-            <tbody>
-              {topSales.slice(1).map((s, i) => (
-                <tr
-                  key={s.domain + s.date + i}
-                  className="border-b border-[#1F1F1F] last:border-0 hover:bg-[#1A1A1A]"
-                >
-                  <td className="px-3 py-2 text-[#444]">{i + 2}</td>
-                  <td className="px-3 py-2 font-mono text-[#F0F0F0]">{s.domain}</td>
-                  <td className="px-3 py-2 text-right font-bold text-[#00FF88]">
-                    {s.priceFormatted}
-                  </td>
-                  <td className="px-3 py-2">
-                    <span
-                      className="inline-block rounded-full px-2 py-0.5"
-                      style={{
-                        backgroundColor: `${getBadgeColor(s.venue)}22`,
-                        color: getBadgeColor(s.venue),
-                        border: `1px solid ${getBadgeColor(s.venue)}44`,
-                      }}
-                    >
-                      {s.venue}
-                    </span>
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+        <div className="no-scrollbar mt-4 flex flex-row gap-3 overflow-x-auto pt-3 pr-3 pb-2">
+          {filtered.map((sale, i) => (
+            <div
+              key={sale.domain + sale.date}
+              className="relative w-[180px] min-w-[180px] sm:w-[220px] sm:min-w-[220px] overflow-visible rounded-xl border border-[#1F1F1F] bg-[#111111] p-3 hover:border-[#00FF88]/40 transition-colors"
+            >
+              {i < 3 && (
+                <span className="absolute -top-2 -right-2 z-10 flex h-5 w-5 items-center justify-center rounded-full bg-[#00FF88] text-[10px] font-bold text-black">
+                  {i + 1}
+                </span>
+              )}
+              <button
+                type="button"
+                onClick={() => copyDomain(sale.domain)}
+                className="font-mono text-xs sm:text-sm font-semibold text-[#F0F0F0] hover:text-[#00D4FF] transition-colors cursor-pointer truncate block w-full text-left"
+                title="Click to copy"
+              >
+                {sale.domain}
+                {copied === sale.domain && (
+                  <span className="ml-1 text-xs text-[#00FF88]">✓</span>
+                )}
+              </button>
+              <p className="mt-0.5 text-sm sm:text-base font-bold text-[#00FF88]">
+                {sale.priceFormatted}
+              </p>
+              <div className="mt-1 flex items-center gap-2">
+                {sale.sourceUrl ? (
+                  <a
+                    href={sale.sourceUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block rounded-full px-2.5 py-0.5 text-xs font-medium hover:brightness-125 transition-all"
+                    style={{
+                      backgroundColor: `${getBadgeColor(sale.venue)}22`,
+                      color: getBadgeColor(sale.venue),
+                      border: `1px solid ${getBadgeColor(sale.venue)}44`,
+                    }}
+                  >
+                    {sale.venue}
+                  </a>
+                ) : (
+                  <span
+                    className="inline-block rounded-full px-2.5 py-0.5 text-xs font-medium"
+                    style={{
+                      backgroundColor: `${getBadgeColor(sale.venue)}22`,
+                      color: getBadgeColor(sale.venue),
+                      border: `1px solid ${getBadgeColor(sale.venue)}44`,
+                    }}
+                  >
+                    {sale.venue}
+                  </span>
+                )}
+                <span className="text-xs text-[#555]">{sale.date}</span>
+              </div>
+            </div>
+          ))}
         </div>
       )}
     </div>
