@@ -9,10 +9,10 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://namebuzz.co"),
   title: ".ai Domain Sales Tracker | NameBuzz",
   description:
-    "Track 500+ verified .ai domain sales. Bot.ai $1.2M • Lotus.ai $400K • Speed.ai $165K. Real data from DN Journal, Sedo, Afternic.",
+    "Track 3,900+ verified .ai domain sales. AI.com $70M • X.ai $5M • Data.ai $1.8M. Real data from NameBio, DN Journal, Sedo, Afternic.",
   openGraph: {
     title: ".ai Domain Sales Tracker | NameBuzz",
-    description: "500+ verified .ai domain sales. Bot.ai $1.2M • Lotus.ai $400K • Speed.ai $165K. Real data, updated regularly.",
+    description: "3,900+ verified .ai domain sales. AI.com $70M • X.ai $5M • Data.ai $1.8M. Real data, updated weekly.",
     url: "https://namebuzz.co",
     siteName: "NameBuzz",
     type: "website",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: ".ai Domain Sales Tracker | NameBuzz",
-    description: "500+ verified .ai domain sales. Bot.ai $1.2M • Lotus.ai $400K and more.",
+    description: "3,900+ verified .ai domain sales. AI.com $70M • X.ai $5M and more.",
     images: ["/og-image.png"],
   },
   verification: {
