@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import EmailCapture from "./components/EmailCapture";
 import SalesTableClient from "./components/SalesTableClient";
 import InlineEmailForm from "./components/InlineEmailForm";
+import { seedSales } from "@/lib/seed-sales";
 
 function StatCard({
   label,
@@ -25,13 +26,21 @@ function StatCard({
   );
 }
 
-// Real stats from seedSales — computed statically so no RSC payload bloat
-const PLACEHOLDER_STATS = {
-  total: "500+",
-  highest: "$1,200,000",
-  avg: "$50,000",
-  volume: "$25M+",
-  highestDomain: "Bot.ai",
+// Compute real stats from seedSales at build time
+const allSales = Array.from(seedSales);
+const byPrice = [...allSales].sort((a, b) => b.price - a.price);
+const highest = byPrice[0];
+const totalVolume = allSales.reduce((sum, s) => sum + s.price, 0);
+const avgPrice = Math.round(totalVolume / allSales.length);
+const fmt = (n: number) =>
+  n >= 1_000_000 ? `$${(n / 1_000_000).toFixed(1)}M` : n >= 1_000 ? `$${(n / 1_000).toFixed(0)}K` : `$${n}`;
+
+const STATS = {
+  total: allSales.length.toLocaleString(),
+  highest: fmt(highest.price),
+  avg: fmt(avgPrice),
+  volume: fmt(totalVolume),
+  highestDomain: highest.domain,
 };
 
 export default function Home() {
@@ -55,22 +64,22 @@ export default function Home() {
           <span className="text-[#00FF88]">.ai</span> Domain Sales Tracker
         </h1>
         <p className="mt-2 text-xs sm:text-sm text-[#888888]">
-          Comprehensive historical data &bull; 500+ sales tracked &bull; $25M+ total volume
+          Comprehensive historical data &bull; {STATS.total} sales tracked &bull; {STATS.volume} total volume
         </p>
       </header>
 
       <div className="mx-auto max-w-6xl px-4">
-        {/* Stats Bar - shows loading until client hydrates */}
+        {/* Stats Bar */}
         <div className="mt-6 sm:mt-8 grid grid-cols-2 gap-2 sm:gap-3 md:grid-cols-4">
-          <StatCard label="Total Sales Tracked" value={PLACEHOLDER_STATS.total} />
+          <StatCard label="Total Sales Tracked" value={STATS.total} />
           <StatCard
             label="Highest Sale"
-            value={PLACEHOLDER_STATS.highest}
-            sub={PLACEHOLDER_STATS.highestDomain}
+            value={STATS.highest}
+            sub={STATS.highestDomain}
             accent
           />
-          <StatCard label="Avg Sale Price" value={PLACEHOLDER_STATS.avg} />
-          <StatCard label="Total Volume" value={PLACEHOLDER_STATS.volume} />
+          <StatCard label="Avg Sale Price" value={STATS.avg} />
+          <StatCard label="Total Volume" value={STATS.volume} />
         </div>
 
         {/* Sales table - loads data client-side from /api/sales */}
