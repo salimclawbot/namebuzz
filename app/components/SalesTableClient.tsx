@@ -88,7 +88,7 @@ export default function SalesTableClient({ initialSales }: SalesTableClientProps
 
   useEffect(() => {
     if (sales.length > 0) return;
-    fetch("/api/sales")
+    fetch(`/api/sales?v=${Date.now()}`)
       .then((r) => r.json())
       .then((data: Sale[]) => {
         setSales(data);

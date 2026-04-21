@@ -43,7 +43,7 @@ export default function TrendChart() {
   const [tab, setTab] = useState<Tab>("yearly");
 
   useEffect(() => {
-    fetch("/api/sales")
+    fetch(`/api/sales?v=${Date.now()}`)
       .then((r) => r.json())
       .then((data: Sale[]) => {
         setSales(data);

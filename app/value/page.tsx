@@ -152,7 +152,7 @@ export default function ValuePage() {
     const domain = inputDomain.trim().toLowerCase();
     
     // Fetch sales data from API
-    const res = await fetch("/api/sales");
+    const res = await fetch(`/api/sales?v=${Date.now()}`);
     const sales = await res.json();
     
     const cleaned = domain.replace(/\.ai$/i, "").toLowerCase().trim();

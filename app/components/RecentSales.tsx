@@ -60,7 +60,7 @@ export default function RecentSales() {
   const [copied, setCopied] = useState("");
 
   useEffect(() => {
-    fetch("/api/sales")
+    fetch(`/api/sales?v=${Date.now()}`)
       .then((r) => r.json())
       .then((data: Sale[]) => {
         setSales(data);
